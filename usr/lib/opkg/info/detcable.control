@@ -1,0 +1,8 @@
+Package: detcable
+Version: 1
+Depends: libc, datalib
+Source: package/dni/detcable
+Section: utils
+Architecture: ipq806x
+Installed-Size: 5873
+Description:  Update utility for wan cable link detect

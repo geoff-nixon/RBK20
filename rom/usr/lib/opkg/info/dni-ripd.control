@@ -1,0 +1,8 @@
+Package: dni-ripd
+Version: 0.01-1
+Depends: libc, datalib
+Source: package/dni/dni-ripd
+Section: dni
+Architecture: ipq806x
+Installed-Size: 10259
+Description:  ripd

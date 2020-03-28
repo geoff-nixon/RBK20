@@ -1,0 +1,8 @@
+Package: ez-ipupdate
+Version: 3.0.10-1
+Depends: libc
+Source: package/dni/ez-ipupdate
+Section: net
+Architecture: ipq806x
+Installed-Size: 17285
+Description:  Dynamic DNS application

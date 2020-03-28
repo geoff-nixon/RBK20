@@ -1,0 +1,2 @@
+ADDR               AID CHAN TXRATE RXRATE RSSI MINRSSI MAXRSSI IDLE  TXSEQ  RXSEQ  CAPS        ACAPS     ERP    STATE MAXRATE(DOT11) HTCAPS ASSOCTIME    IEs   MODE                   PSMODE
+44:00:10:d2:66:a6    1   48 650M    585M   40      25      44    0      0   65535    EP         0          b              0            AWPS 00:02:14     RSN WME IEEE80211_MODE_11AC_VHT80   1 

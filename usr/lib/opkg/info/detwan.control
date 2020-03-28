@@ -1,0 +1,8 @@
+Package: detwan
+Version: 1.0-1
+Depends: libc, datalib
+Source: package/dni/detwan
+Section: utils
+Architecture: ipq806x
+Installed-Size: 15326
+Description:  Detection of Internet Connection Type

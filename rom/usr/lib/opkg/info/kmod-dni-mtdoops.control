@@ -1,0 +1,8 @@
+Package: kmod-dni-mtdoops
+Version: 3.14.77+-ipq806x-
+Depends: kernel (=3.14.77-1-f42378b3f0fe1f8d209ccc333cd46d53), libgcc, libc
+Source: package/dni/dni-mtdoops
+Section: kernel
+Architecture: ipq806x
+Installed-Size: 15208
+Description:  MTD Oops/Panic console logger/driver

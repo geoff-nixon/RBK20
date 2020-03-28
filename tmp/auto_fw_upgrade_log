@@ -1,0 +1,31 @@
+[FW UPGRADE][2020-03-12 05:47:07]:start download fileinfo!!!!!!!!
+[FW UPGRADE][2020-03-12 05:47:07]:Trying to get upgrade folder from cloud 1 time...
+[FW UPGRADE][2020-03-12 05:47:07]:Mode is CHECK_ON_DEMAND_GUI, Beta Acceptance is false.
+[FW UPGRADE][2020-03-12 05:47:08]:Error: Cannot Connect to Server
+
+[FW UPGRADE][2020-03-12 05:47:11]:Trying to get upgrade folder from cloud 2 time...
+[FW UPGRADE][2020-03-12 05:47:11]:Mode is CHECK_ON_DEMAND_GUI, Beta Acceptance is false.
+[FW UPGRADE][2020-03-12 05:47:11]:Error: Cannot Connect to Server
+
+[FW UPGRADE][2020-03-12 05:47:11]:Get upgrade folder from cloud failed twice, cancel firmware upgrade!!!!!!
+[FW UPGRADE][2020-03-27 15:52:01]:start download fileinfo!!!!!!!!
+[FW UPGRADE][2020-03-27 15:52:01]:Trying to get upgrade folder from cloud 1 time...
+[FW UPGRADE][2020-03-27 15:52:01]:Mode is CHECK_ON_DEMAND_GUI, Beta Acceptance is false.
+[FW UPGRADE][2020-03-27 15:52:02]:Successfully receive url: "https://http.fw.updates1.netgear.com/rbr20/default"
+[FW UPGRADE][2020-03-27 15:52:02]:url=https://http.fw.updates1.netgear.com/rbr20/default/us/fileinfo.txt,file=/tmp/fileinfo.txt
+
+[FW UPGRADE][2020-03-27 15:52:05]:url=https://http.fw.updates1.netgear.com/rbr20/default/us/fileinfo.txt,file=/tmp/fileinfo.txt
+
+[FW UPGRADE][2020-03-27 15:52:08]:url=https://http.fw.updates1.netgear.com/rbr20/default/ww/fileinfo.txt,file=/tmp/fileinfo.txt
+
+[FW UPGRADE][2020-03-27 15:52:09]:Download fileinfo.txt successfully!!!
+
+[FW UPGRADE][2020-03-27 15:52:09]:---------------------------------------------
+      firmware:
+      ver =V2.3.5.30
+      file=/rbr20/ww/RBR20-V2.3.5.30.img
+      md5 =D42DB94C84CE22F432056AEFBADFCFDD
+      size=33163393
+---------------------------------------------
+
+[FW UPGRADE][2020-03-27 22:52:09]:send signal to satellites to check fw trigger by GUI...

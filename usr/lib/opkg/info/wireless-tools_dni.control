@@ -1,0 +1,8 @@
+Package: wireless-tools_dni
+Version: 29-5
+Depends: libc
+Source: package/others/wireless-tools_dni
+Section: net
+Architecture: ipq806x
+Installed-Size: 28177
+Description:  Tools for manipulating Linux Wireless Extensions

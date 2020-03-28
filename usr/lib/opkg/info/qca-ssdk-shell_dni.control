@@ -1,0 +1,8 @@
+Package: qca-ssdk-shell_dni
+Version: 1
+Depends: libc
+Source: package/qca/qca-ssdk-shell_dni
+Section: QCA
+Architecture: ipq806x
+Installed-Size: 197777
+Description:  Shell application for QCA SSDK

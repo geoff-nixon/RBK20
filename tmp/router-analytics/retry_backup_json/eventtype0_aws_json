@@ -1,0 +1,27 @@
+    "routerHardware": {
+        "productFamily": "wifiSystem",
+        "modelName": "rbr20",
+        "hwRevision": "H1",
+        "stage": "prod",
+        "deviceInfo": {
+            "macAddress": "288088D795DF",
+            "serialNumber": "5EH68C5806F6F"
+        },
+        "eventType": 0,
+        "timeStamp": {
+            "date": [2020,3,27],
+            "time": [9,56,45]
+        },
+        "firmware": {
+            "fwVersion": "V2.3.5.30",
+            "fwLastUpdate": "",
+            "fwLastChecked": "2020_3.11_21:47:7"
+        },
+        "tncVersion": "V2.0",
+        "autoUpdateOption": 1,
+        "routerAnalyticsOption": 1
+    },
+    "kernelReboot": {
+        "lastRebootTimestamp": "2020/3/27 9:56:45",
+        "lastRebootReason": 3
+    }

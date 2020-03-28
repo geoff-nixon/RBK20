@@ -1,0 +1,8 @@
+Package: base-files_dni
+Version: 157.2-r6043
+Depends: libc, base-files
+Source: package/dni/base-files_dni
+Section: base
+Architecture: ipq806x
+Installed-Size: 238867
+Description:  This package contains a base filesystem and system scripts for OpenWrt.

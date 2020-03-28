@@ -1,0 +1,3 @@
+/lib/modules/3.14.77/essedma.ko
+/etc/modules.d/45-qca-edma_dni
+/etc/init.d/qca-edma

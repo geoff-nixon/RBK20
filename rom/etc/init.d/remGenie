@@ -1,0 +1,15 @@
+#!/bin/sh /etc/rc.common
+START=99
+
+start() {
+    d2 -c XagentCfg.x_handler_1003 "/usr/bin/genie_handler"
+}
+
+stop() {
+    d2 -c XagentCfg.x_handler_1003 "" 
+}
+
+boot() {
+    start
+}
+

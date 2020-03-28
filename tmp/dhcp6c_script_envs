@@ -1,0 +1,5 @@
+new_domain_name_p=""
+new_sip_name_p=""
+new_domain_name_servers_p="2001:558:feed::1 2001:558:feed::2 "
+new_ntp_servers_p=""
+new_sip_servers_p=""

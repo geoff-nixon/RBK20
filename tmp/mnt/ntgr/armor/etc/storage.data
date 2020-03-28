@@ -1,0 +1,15 @@
+/tmp/hash=s|774144a58151ddfd270acfbd5a3e9201975eb0b7988ce0fbaea2226372b19fec
+/karma/fipr=s|02732c8d1223d805d7960c887dbe32bbeef62d4e3d4ad36833a77b94483884fe
+/daemons/bdvad/va_schedule_interval=s|604800
+/daemons/bdvad/first_wait=s|3600
+/daemons/bdvad/enable_periodic_va_network_scan=s|1
+/daemons/bdcloudd/app_id=s|com.netgear.boxse
+/daemons/bdcloudd/partner_id=s|com.netgear
+/global/protection/enabled=s|0
+/karma/box_agent_status/deployed=s|1
+/network/interfaces/list/brwan=s|wan
+/network/interfaces/list/br0=s|lan
+/daemons/bdgusterupdd/env_vars/LD_LIBRARY_PATH=s|/opt/bitdefender/lib/osdeps
+/daemons/bdgusterupdd/env_vars/LD_PRELOAD=s|/opt/bitdefender/lib/libjemalloc.so
+/daemons/bdcloudd/registration/box_name=s|Netgear
+/daemons/bdcloudd/registration/device_model=s|Orbi

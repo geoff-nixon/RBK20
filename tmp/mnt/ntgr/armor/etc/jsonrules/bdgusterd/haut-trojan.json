@@ -1,0 +1,21 @@
+{
+    "name": "haut-trojan",
+    "min_subscription_level": "pro",
+    "config_rules": [
+        {
+            "name": "haut.Trojan.*",
+            "action": ["block_flow", "block_dst_ip"],
+            "block_lifetime": "block_lifetime()",
+            "notify_count": "notify_count()",
+            "notify_interval": "notify_interval()",
+            "notify_matches": ["dst_ip"],
+            "src_netif": "@lan()"
+        },
+        {
+            "name": "haut.Trojan.*",
+            "action": [],
+            "notify_count": 0,
+            "src_netif": "@wan()"
+        }
+    ]
+}

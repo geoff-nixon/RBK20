@@ -1,0 +1,8 @@
+Package: dni-libmtd
+Version: 1-1
+Depends: libc
+Source: package/dni/dni-libmtd
+Section: utils
+Architecture: ipq806x
+Installed-Size: 15476
+Description:  This package contains an utility for configuring Home Router.

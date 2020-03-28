@@ -1,0 +1,6 @@
+/usr/sbin/aclctl
+/usr/sbin/acl_group
+/usr/sbin/aclhijackdns
+/usr/sbin/acl_update_name
+/usr/sbin/acld
+/etc/init.d/acl

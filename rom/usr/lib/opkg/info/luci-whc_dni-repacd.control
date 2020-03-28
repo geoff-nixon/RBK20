@@ -1,0 +1,9 @@
+Package: luci-whc_dni-repacd
+Version: 3.0.1500.042-1
+Depends: libc, luci-whc_dni
+Source: package/qca/whc/qca-whc-luci_dni
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 2333
+Description:  Luci WebUI for Whole Home Coverage RE Placement and Auto-Configuration Daemon

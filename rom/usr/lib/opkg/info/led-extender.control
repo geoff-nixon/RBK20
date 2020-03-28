@@ -1,0 +1,8 @@
+Package: led-extender
+Version: 1
+Depends: libc, datalib
+Source: package/dni/led-extender
+Section: utils
+Architecture: ipq806x
+Installed-Size: 9181
+Description:  Update utility for LED control

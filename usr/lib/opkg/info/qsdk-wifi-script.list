@@ -1,0 +1,15 @@
+/lib/wifi/wireless_event
+/lib/wifi/wpa_supplicant.sh
+/usr/lib/stainfo.awk
+/lib/wifi/mac80211.sh
+/lib/wifi/hostapd.sh
+/etc/hotplug.d/button/51-wps-reset
+/etc/hotplug.d/button/52-wps-supplicant
+/usr/lib/stainfo_11ad.awk
+/etc/hotplug.d/button/50-wps
+/lib/wifi/wifi_led_onoff.sh
+/etc/list-network-id.awk
+/etc/hotplug.d/button/54-wps-extender
+/lib/wifi/wps-supplicant-update-uci
+/lib/wifi/wps-hostapd-update-uci
+/lib/wifi/qcawifi.sh

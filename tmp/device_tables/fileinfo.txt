@@ -1,0 +1,11 @@
+file=UA_String_Match_Table-V1.0.0.0.txt
+md5=49BDE7B128473F39A2A0513A83F32EDF
+size=12519
+
+file=Device_Type_Index_Table-V1.0.0.0.tar.gz 
+md5=F5A0F9039CB9A34F5D0E1569100A8DA8
+size=44133
+
+file=Vender_MAC_Match_Table-V1.0.0.0.tar.bz2
+md5=ABA141BA25ECD2A7654DF583CDCD85DD
+size=211760

@@ -1,0 +1,9 @@
+Package: dnibusybox
+Version: 1.24.1-2
+Depends: libc
+Source: package/dni/dnibusybox
+Section: base
+Architecture: ipq806x
+Installed-Size: 322177
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.

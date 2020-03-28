@@ -1,0 +1,3 @@
+/lib/modules/3.14.77/qcedev.ko
+/etc/modules.d/09-crypto-qcrypto
+/lib/modules/3.14.77/qcrypto.ko

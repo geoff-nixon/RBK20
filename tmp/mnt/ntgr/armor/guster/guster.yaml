@@ -1,0 +1,66 @@
+include: gusterupd.conf
+
+# guster logs verbosity (error,warning,info,debug)
+log_level: warning
+
+# if log messages should also be sent to stdout
+log_console: true
+
+log_rotate_size: 1M
+log_rotate_count: 3
+log_restart_policy: append
+#log_format: "[{datetime}] [{level}] [{file:20}] {msg}"
+var_path: var
+stats_interval: 60.0
+rss_hard_limit: 300M
+karma_dns_resolve_enabled: true
+
+# -- pcap --
+pcap_buffer_size: 8M
+
+# -- netparser --
+#dump_traffic: false
+tcp_max_connection_threshold_percentage: 70
+tcp_max_connection_limit: 6000
+tcp_max_connection_policy: whitelist
+udp_max_scanners_limit: 1000
+udp_max_scanners_policy: whitelist
+
+# file containing the block page to return
+# block_page: default_block_page
+
+# -- nfqueue --
+
+# netfilter queues to register to
+#queues: [0, 1, 2, 3]
+
+# netfilter queue length
+#queue_maxlen: 10k
+
+# interval for sending batched nfqueue packet verdicts
+verdict_timer: 0.001
+
+# -- bdnc --
+bdnc_timeout: 5
+#urlstatus_cache_timeout: 100
+urlstatus_enable: true
+tlsbl_enable: true
+ask_cloud_betasig: true
+ask_cloud_rtvr: true
+
+# -- craw --
+
+# -- ecnet --
+ecnet_log_events: false
+ecnet_scan_timer: 10
+
+# -- sav --
+sav_reduce_memory: true
+sav_use_ecnet: true
+sav_use_cloud: false
+sav_skip_unknown_after: 1024
+ssl_scan : "handshake"
+sav_smb_buffering_max_size: 0
+#sav_include_plugins: []
+#sav_latitude: 46773
+#sav_longitude: 23592

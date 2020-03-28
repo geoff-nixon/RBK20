@@ -1,0 +1,52 @@
+{
+    "name": "anomaly-ports-outgoing-or-ipv4",
+    "min_subscription_level": "pro",
+    "config_rules": [
+        {
+            "name": "anomaly.Anomaly.Ports.Outgoing",
+            "action": ["block_flow", "block_dst_ip"],
+            "block_lifetime": "block_lifetime()",
+            "notify_count": "notify_count()",
+            "notify_interval": "notify_interval()",
+            "notify_matches": ["dst_ip"],
+            "src_netif": "@lan()"
+        },
+        {
+            "name": "anomaly.Anomaly.Ports.Outgoing",
+            "action": [],
+            "notify_count": 0,
+            "src_netif": "@wan()"
+        },
+        {
+            "name": "anomaly.Anomaly.Ports.Outgoing",
+            "action": [],
+            "notify_count": 0,
+            "device_info": {
+                "is_iot": false
+            }
+        },
+        {
+            "name": "anomaly.Anomaly.IPv4",
+            "action": ["block_flow", "block_dst_ip"],
+            "block_lifetime": "block_lifetime()",
+            "notify_count": "notify_count()",
+            "notify_interval": "notify_interval()",
+            "notify_matches": ["dst_ip"],
+            "src_netif": "@lan()"
+        },
+        {
+            "name": "anomaly.Anomaly.IPv4",
+            "action": [],
+            "notify_count": 0,
+            "src_netif": "@wan()"
+        },
+        {
+            "name": "anomaly.Anomaly.IPv4",
+            "action": [],
+            "notify_count": 0,
+            "device_info": {
+                "is_iot": false
+            }
+        }
+    ]
+}

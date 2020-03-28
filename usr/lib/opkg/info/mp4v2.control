@@ -1,0 +1,9 @@
+Package: mp4v2
+Version: 1.9.1
+Depends: libc, libstdcpp
+Source: package/dni/arlo/mp4v2
+License: MPLv1.1
+Section: utils
+Architecture: ipq806x
+Installed-Size: 844543
+Description:  This library provides functions to read, create, and modify mp4 file

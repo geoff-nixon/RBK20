@@ -1,0 +1,8 @@
+Package: noip2
+Version: 1
+Depends: libc, datalib
+Source: package/dni/noip2
+Section: utils
+Architecture: ipq806x
+Installed-Size: 16990
+Description:  no-ip DDNS utility.

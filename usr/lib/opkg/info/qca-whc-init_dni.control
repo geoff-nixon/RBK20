@@ -1,0 +1,9 @@
+Package: qca-whc-init_dni
+Version: 3.0.1500.042-1
+Depends: libc
+Source: package/qca/whc/qca-whc-init_dni
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 1524
+Description:  This Package contains the script helper files for the Whole Home Coverage init scripts

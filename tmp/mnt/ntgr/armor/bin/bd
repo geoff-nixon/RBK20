@@ -1,0 +1,63 @@
+#!/bin/sh
+
+DIR="/opt/bitdefender"
+BIN_DIR="$DIR/bin"
+LIB_DIR="$DIR/lib"
+ETC_DIR="$DIR/etc"
+VAR_DIR="$DIR/var"
+SCRIPTS_DIR="$DIR/share/scripts"
+
+export PATH="$BIN_DIR:$PATH"
+
+run() {
+    LD_LIBRARY_PATH="$LIB_DIR:$LD_LIBRARY_PATH" $@
+}
+
+start_services() {
+    sh $SCRIPTS_DIR/bd_init_fw.sh start
+
+    ulimit -s 128
+    run $BIN_DIR/bdcrashd -start
+    run $BIN_DIR/bdsetter -start
+    run $BIN_DIR/bdexchanged -start
+    run $BIN_DIR/bdcloudd -start
+    run $BIN_DIR/bdboxsettings -start
+    run $BIN_DIR/bddevicediscovery -start
+    run $BIN_DIR/bdbrokerd -start
+    run $BIN_DIR/bdvad -start
+    run $BIN_DIR/bdgusterupdd -start
+    run $BIN_DIR/bdgusterd -start
+    run $BIN_DIR/bdheartbeatd -start
+}
+
+stop_services() {
+   sh $SCRIPTS_DIR/bd_init_fw.sh stop
+
+   run $BIN_DIR/bdheartbeatd -stop
+   run $BIN_DIR/bdgusterd -stop
+   run $BIN_DIR/bdgusterupdd -stop
+   run $BIN_DIR/bdvad -stop
+   run $BIN_DIR/bdbrokerd -stop
+   run $BIN_DIR/bddevicediscovery -stop
+   run $BIN_DIR/bdboxsettings -stop
+   run $BIN_DIR/bdcloudd -stop
+   run $BIN_DIR/bdexchanged -stop
+   run $BIN_DIR/bdsetter -stop
+   run $BIN_DIR/bdcrashd -stop
+}
+
+case "$1" in
+    start)
+        start_services 2> /dev/null
+    ;;
+    stop)
+        stop_services 2> /dev/null
+    ;;
+    *)
+        echo "Usage: $0 <start|stop>"
+        exit 1
+    ;;
+esac
+
+exit 0
+

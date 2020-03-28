@@ -1,0 +1,10 @@
+eth1 wired 1
+ath0 2G 0
+ath01 satellite 0
+ath2 5G 0
+ath11 satellite 0
+ath02 2G-GUEST 0
+ath21 5G-GUEST 0
+eth0 wired 2
+ath1 5G 0
+ath12 5G-GUEST 0

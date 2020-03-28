@@ -1,0 +1,1 @@
+{"genie_remote_certificate":"/usr/share/ntgr/certs/ca-bundle-mega.crt","genie_remote_handler_log_level":2,"genie_remote_url":"https://genieremote.netgear.com/genie-remote/claimDevice","genie_soap_port":80,"lan_ifname":"br0","lan_ipaddr":"localhost"}

@@ -1,0 +1,15 @@
+/etc/hotplug.d/switch/10-lp
+/etc/config/repacd
+/lib/functions/repacd-led.sh
+/usr/sbin/repacd-detect_device_mode.sh
+/lib/functions/repacd-lp.sh
+/lib/functions/repacd-wifimon.sh
+/usr/sbin/led-control.sh
+/lib/functions/repacd-gwmon.sh
+/etc/hotplug.d/button/53-wps-repacd
+/lib/functions/whc-network.sh
+/usr/sbin/repacd-run.sh
+/etc/hotplug.d/switch/20-netdet
+/lib/functions/repacd-ethmon.sh
+/lib/functions/repacd-netdet.sh
+/etc/init.d/repacd

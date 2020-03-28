@@ -1,0 +1,8 @@
+Package: aws-iot
+Version: 1.0-1
+Depends: libc, datalib, libcurl
+Source: package/dni/aws-iot
+Section: utils
+Architecture: ipq806x
+Installed-Size: 29347
+Description:  The AWS IoT to Publish Topic

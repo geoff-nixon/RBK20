@@ -1,0 +1,30 @@
+Use `h' and `help' for help messages
+Use `dbg here' to see log messages; other dbg cmds for log level
+@ Topology Discovery Service module status:
+Mode of operation: Relaying device
+IEEE 1905.1 mode: QCA Enhanced
+Hy-Fi 1.0 compatibility: Supported
+
+-- ME:
+	QCA IEEE 1905.1 device: 28:80:88:D7:95:DF, IPv4 address: 192.168.1.1 
+	   Upstream Device: 00:00:00:00:00:00
+	   Flags: 0x13
+	   ConnectionMap: 0x3f
+
+	Local interfaces:
+
+	Interface name	 Medium Type  MAC Address	Contention	PHY Capabilities
+	ath0             WLAN2G       2E:80:88:D7:95:DF 8         	20MHz,2,HT,7,25
+	ath01            WLAN2G       32:80:88:D7:95:DF 8         	
+	ath1             WLAN5G       28:80:88:D7:95:E1 157       	80MHz,2,VHT,9,27
+	ath11            WLAN5G       2E:80:88:D7:95:E1 157       	
+	ath2             WLAN5G       28:80:88:D7:95:E2 48        	80MHz,2,VHT,9,23
+	eth1             ETHER        28:80:88:D7:95:DF 255       	
+
+	Legacy Devices:
+	Interface ath2:
+	2C:33:61:EC:CD:77
+	6C:40:08:92:E4:5E
+
+-- DB (0 entries):
+@ 

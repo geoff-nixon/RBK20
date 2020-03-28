@@ -1,0 +1,3 @@
+/etc/led_status
+/sbin/gpio
+/sbin/ledcontrol

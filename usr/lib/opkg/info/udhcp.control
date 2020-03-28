@@ -1,0 +1,8 @@
+Package: udhcp
+Version: 0.9.8-3
+Depends: libc, datalib
+Source: package/dni/udhcp
+Section: net
+Architecture: ipq806x
+Installed-Size: 28556
+Description:  This package contains udhcp Server and Client.

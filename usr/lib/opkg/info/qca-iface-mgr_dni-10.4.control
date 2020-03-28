@@ -1,0 +1,9 @@
+Package: qca-iface-mgr_dni-10.4
+Version: 1
+Depends: libc, qca-hostap_dni-10.4, datalib
+Source: package/qca/qca-iface-mgr_dni-10.4
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 25941
+Description:  User Space application to manage interfaces

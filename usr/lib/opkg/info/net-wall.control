@@ -1,0 +1,8 @@
+Package: net-wall
+Version: 2
+Depends: libc, datalib
+Source: package/dni/net-wall
+Section: utils
+Architecture: ipq806x
+Installed-Size: 41779
+Description:  Mini Firewall for Embedded Router.

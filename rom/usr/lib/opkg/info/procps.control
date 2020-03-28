@@ -1,0 +1,10 @@
+Package: procps
+Version: 3.2.8-1
+Depends: libc, libncurses
+Source: package/utils/procps
+Section: utils
+Architecture: ipq806x
+Installed-Size: 111599
+Description:  procps is the package that has a bunch of small useful utilities that give
+ information about processes using the /proc filesystem. The package
+ includes the programs ps, top, vmstat, w, kill, free, slabtop, and skill.

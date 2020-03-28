@@ -1,0 +1,8 @@
+Package: igmpproxy_dni
+Version: 1
+Depends: libc, libpcap, datalib
+Source: package/dni/igmpproxy_dni
+Section: utils
+Architecture: ipq806x
+Installed-Size: 21046
+Description:  igmp for Embedded Router.

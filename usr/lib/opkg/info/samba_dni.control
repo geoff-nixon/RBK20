@@ -1,0 +1,8 @@
+Package: samba_dni
+Version: 3.0.24-1
+Depends: libc
+Source: package/dni/samba_dni
+Section: net
+Architecture: ipq806x
+Installed-Size: 1556352
+Description:  SAMBA

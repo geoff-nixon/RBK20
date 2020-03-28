@@ -1,0 +1,8 @@
+Package: boxlogin
+Version: 4
+Depends: libc
+Source: package/dni/boxlogin
+Section: net
+Architecture: ipq806x
+Installed-Size: 4920
+Description:  boxlogin

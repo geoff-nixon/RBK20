@@ -1,0 +1,15 @@
+/__rd_debug_only/usr/bin/w
+/__rd_debug_only/usr/bin/vmstat
+/__rd_debug_only/usr/bin/pmap
+/__rd_debug_only/usr/bin/ps
+/__rd_debug_only/usr/bin/pgrep
+/__rd_debug_only/usr/bin/pkill
+/__rd_debug_only/usr/bin/free
+/__rd_debug_only/usr/bin/watch
+/__rd_debug_only/usr/bin/snice
+/__rd_debug_only/usr/bin/skill
+/__rd_debug_only/usr/bin/pwdx
+/__rd_debug_only/usr/bin/top
+/__rd_debug_only/usr/bin/tload
+/usr/lib/libproc-3.2.8.so
+/__rd_debug_only/usr/bin/slabtop

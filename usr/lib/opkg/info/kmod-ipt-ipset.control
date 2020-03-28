@@ -1,0 +1,9 @@
+Package: kmod-ipt-ipset
+Version: 3.14.77+6.24-1
+Depends: kernel (=3.14.77-1-f42378b3f0fe1f8d209ccc333cd46d53), kmod-ipt-core, kmod-nfnetlink
+Source: package/others/ipt-ipset
+Section: kernel
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ipq806x
+Installed-Size: 95991
+Description:  IPset netfilter modules

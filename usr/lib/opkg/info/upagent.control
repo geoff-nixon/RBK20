@@ -1,0 +1,8 @@
+Package: upagent
+Version: 1.0.0-1
+Depends: libc, libpthread, d2, libcrypt0, libssl, libcurl
+Source: package/dni/arlo/upagent
+Section: upagent
+Architecture: ipq806x
+Installed-Size: 23916
+Description:  UpAgent for Orbi

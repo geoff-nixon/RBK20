@@ -1,0 +1,9 @@
+Package: qca-hyd_dni
+Version: g4cbb9af-1
+Depends: libc, qca-ieee1905-init_dni, kmod-qca-hyfi-bridge_dni, qca-libhyfi-bridge_dni, libieee1905_dni, qca-hyctl_dni, libhyficommon_dni, libpthread, qca-whc-lbd_dni, jansson
+Source: package/qca/hyfi/qca-hyfi-networking/qca-hyd_dni
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 174913
+Description:  This package installs the Hy-Fi Path-Selection daemon

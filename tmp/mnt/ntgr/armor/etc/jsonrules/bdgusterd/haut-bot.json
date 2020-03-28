@@ -1,0 +1,14 @@
+{
+    "name": "haut-bot",
+    "min_subscription_level": "pro",
+    "config_rules": [
+        {
+            "name": "haut.Bot.*",
+            "action": ["block_flow", "block_dst_ip"],
+            "block_lifetime": "block_lifetime()",
+            "notify_count": "notify_count()",
+            "notify_interval": "notify_interval()",
+            "notify_matches": ["dst_ip"]
+        }
+    ]
+}

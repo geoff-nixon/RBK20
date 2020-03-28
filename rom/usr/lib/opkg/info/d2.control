@@ -1,0 +1,8 @@
+Package: d2
+Version: 0.1.0-1
+Depends: libc, libpthread, librt
+Source: package/dni/arlo/d2
+Section: d2
+Architecture: ipq806x
+Installed-Size: 39599
+Description:  Netgear Data Abstraction Layer 2

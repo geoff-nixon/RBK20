@@ -1,0 +1,8 @@
+Package: kmod-netgear-reject
+Version: 3.14.77-ipq806x-1
+Depends: kernel (=3.14.77-1-f42378b3f0fe1f8d209ccc333cd46d53)
+Source: package/dni/kmod-netgear-reject
+Section: kernel
+Architecture: ipq806x
+Installed-Size: 3519
+Description:  REJECT target module designed for Netgear

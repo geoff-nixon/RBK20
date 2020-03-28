@@ -1,0 +1,8 @@
+Package: led-control
+Version: 1
+Depends: libc, datalib
+Source: package/dni/led-control
+Section: utils
+Architecture: ipq806x
+Installed-Size: 3475
+Description:  Update utility for LED control

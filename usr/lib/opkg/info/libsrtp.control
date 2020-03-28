@@ -1,0 +1,12 @@
+Package: libsrtp
+Version: 1.5.2-0
+Depends: libc, libpcap, libopenssl
+Source: package/dni/arlo/libsrtp
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Jiri Slachta <slachta@cesnet.cz>
+Architecture: ipq806x
+Installed-Size: 24406
+Description:  Open-source implementation of the Secure Real-time Transport
+ Protocol (SRTP) originally authored by Cisco Systems, Inc.

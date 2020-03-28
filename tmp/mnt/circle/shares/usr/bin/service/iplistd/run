@@ -1,0 +1,3 @@
+#!/bin/sh
+CIRCLE_ROOT=`cat /tmp/CIRCLE_ROOT`
+exec $CIRCLE_ROOT/iplistd -i br0 -d

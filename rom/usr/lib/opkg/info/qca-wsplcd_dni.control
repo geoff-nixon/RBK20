@@ -1,0 +1,9 @@
+Package: qca-wsplcd_dni
+Version: 3.0.1500.042-1
+Depends: libc, qca-ieee1905-init_dni, libhyficommon_dni, libstorage_dni, libwpa2_dni, libieee1905_dni, libuci, libpthread
+Source: package/qca/ieee1905_security/qca-wsplcd_dni
+Section: QCA
+Maintainer: Qualcomm Atheros, Inc.
+Architecture: ipq806x
+Installed-Size: 78409
+Description:  This package installs the IEEE 1905.1 AP Auto-Configuration daemon: Wi-Fi credential cloning over backbone network (e.g. HomePlugAV, Ethernet, Wi-Fi)

@@ -1,0 +1,160 @@
+#!/bin/sh /etc/rc.common
+START=19
+
+set_if_empty() {
+    SYM="$1"
+    
+    # read value, make sure d2d is up.
+    until VAL=$(d2 -s ${SYM}); do sleep .1; done
+    if [ "${VAL}empty" == "empty" ]; 
+    then
+        d2 -c ${SYM} -- "$2"; 
+    fi
+}
+
+start() {
+      # Start d2
+
+      # We may need to chmod following in future.
+      mkdir -p /tmp/d2
+
+      # TODO:
+      # We should source a config file that defines where R/W
+      # filesystem is mounted.
+      # Hard-coded for now
+      PERSISTDIR=/tmp/arlo/d2d
+
+      mkdir -p ${PERSISTDIR}
+      
+      if [ "`/bin/config get enable_arlo_function`" = "1" -o "`/bin/config get dgc_func_have_control_firmware`" != "1"  -o "`/bin/config get dgc_func_have_armor`" = "1" ];then
+          BETA_XTRA="-d /etc/d2"
+      fi
+
+      /usr/bin/d2d ${BETA_XTRA} ${PERSISTDIR} &
+
+
+      # 
+      # generate Arlo SSID if not in DB (ODM requested)
+      #
+      set_if_empty arlocfg.ssid  ORBI_ARLO_`cat /dev/urandom | tr -cd '0-9' | head -c 10`;
+      set_if_empty arlocfg.passphrase `cat /dev/urandom | tr -cd 'a-zA-Z0-9_\-' | head -c 32`;
+
+      # ODMSTART ORBI
+        #decide whether vzdaemon should run 
+        if [ "`/bin/config get wlg_arlo_endis_arloNet`" = "1" ];then
+            d2 -c arlocfg.enabled true
+        else
+            d2 -c arlocfg.enabled false
+        fi
+
+        #not allow vzdaemon set static ARP
+        d2 -c arlocfg.doArpMgmt false
+        
+        #set some default value 
+       	model=`cat /module_name`
+       	d2 -c general.devicemodel $model
+        d2 -c general.devicename $model
+        d2 -c general.fwrevision "`cat /firmware_version`"
+        d2 -c general.fsn "`artmtd -r sn|head -1 |cut -d ':' -f 2-`"
+        d2 -c general.regionname $(artmtd -r region | grep REGION | awk '{print $2}' | tr 'A-Z' 'a-z')
+        d2 -c general.defaultmac "`ifconfig br0|head -1|awk -F ' ' '{print $5}'`"
+		d2 -c general.wan_ifname         "$(nvram get wan_ifname)"
+		d2 -c general.lan_ifname         "$(nvram get lan_ifname)"
+		#Set x_force_connection, So xAgent can reach xCloud
+		d2 -c xagentcfg.x_force_connection 1
+        
+        #set arlo SSID/KEY
+        /bin/config set wlg_arlo_ssid="`d2 -s arlocfg.ssid`"
+        /bin/config set wlg_arlo_wpa2_psk="`d2 -s arlocfg.passphrase`"
+
+        if [ "`/bin/config get allow_arlo_env_change`" != "1"  ];then
+            if [ "`/bin/config get enable_arlo_function`" = "1" ];then
+                XAGENT_CLAIMED_URL=https://registration.qa.arloxcld.com/registration/status
+                XAGENT_REGISTER_URL=https://registration.qa.arloxcld.com/registration/register
+                XAGENT_ADVISOR_URL=https://advisor.qa.arloxcld.com/advisor/direct
+                XAGENT_DISCOVERY_URL=https://presence.qa.arloxcld.com/presence/presence
+                RGENIE_REMOTE_URL=https://genieremote-qa.netgear.com/genie-remote/claimDevice
+                VZ_MCS_URL=https://mcsqa.netgear.com?r=
+                VZ_SERVER_ULR=https://arlo-device-staging.messaging.netgear.com
+                VZ_UPDATE_URL=https://updates.netgear.com/arlo/fw/rbr50/staging
+
+
+                if [ "`d2 -s xagentcfg[0].x_register_url`" != "$XAGENT_REGISTER_URL" ];then
+                    d2 -c xagentcfg[0].x_agent_claim_code ""
+                    d2 -c xagentcfg[0].x_agent_id ""
+                    d2 -c xagentcfg[0].x_agent_claimed ""
+                fi
+        
+                d2 -c arlocfg[0].vz_server_url     "${VZ_SERVER_ULR}"
+                d2 -c arlocfg[0].vz_update_url     "${VZ_UPDATE_URL}"
+                d2 -c arlocfg[0].vz_mcs_url        "${VZ_MCS_URL}"
+                d2 -c xagentcfg[0].x_register_url  "${XAGENT_REGISTER_URL}"
+                d2 -c xagentcfg[0].x_claimed_url   "${XAGENT_CLAIMED_URL}"
+                d2 -c xagentcfg[0].x_discovery_url "${XAGENT_DISCOVERY_URL}"
+                d2 -c xagentcfg[0].x_advisor_url   "${XAGENT_ADVISOR_URL}"
+                d2 -c rgeniecfg[0].genie_remote_url "${RGENIE_REMOTE_URL}"
+
+                d2 -c xagentcfg[0].x_use_discovery 1
+            else
+                XAGENT_CLAIMED_URL=https://registration.ngxcld.com/registration/status
+                XAGENT_REGISTER_URL=https://registration.ngxcld.com/registration/register
+                XAGENT_ADVISOR_URL=https://advisor.ngxcld.com/advisor/direct
+                XAGENT_DISCOVERY_URL=https://presence.ngxcld.com/presence/presence
+                RGENIE_REMOTE_URL=https://genieremote.netgear.com/genie-remote/claimDevice
+                VZ_MCS_URL=https://mcs.netgear.com?r=
+                VZ_SERVER_ULR=https://arlo-device.messaging.netgear.com
+                VZ_UPDATE_URL=https://updates.netgear.com/arlo/fw/rbr50/production
+
+                UP_BACKEND_BASE=https://devcom.up.netgear.com/UpBackend/
+                d2 -c UpCfg[0].UpBaseURL ${UP_BACKEND_BASE}
+
+                if [ "`d2 -s xagentcfg[0].x_register_url`" != "$XAGENT_REGISTER_URL" ];then
+                    d2 -c xagentcfg[0].x_agent_claim_code ""
+                    d2 -c xagentcfg[0].x_agent_id ""
+                    d2 -c xagentcfg[0].x_agent_claimed ""
+                fi
+
+                d2 -c arlocfg[0].vz_server_url     "${VZ_SERVER_ULR}"
+                d2 -c arlocfg[0].vz_update_url     "${VZ_UPDATE_URL}"
+                d2 -c arlocfg[0].vz_mcs_url        "${VZ_MCS_URL}"
+                d2 -c xagentcfg[0].x_register_url  "${XAGENT_REGISTER_URL}"
+                d2 -c xagentcfg[0].x_claimed_url   "${XAGENT_CLAIMED_URL}"
+                d2 -c xagentcfg[0].x_discovery_url "${XAGENT_DISCOVERY_URL}"
+                d2 -c xagentcfg[0].x_advisor_url   "${XAGENT_ADVISOR_URL}"
+                d2 -c rgeniecfg[0].genie_remote_url "${RGENIE_REMOTE_URL}"
+            fi
+        fi
+        
+      # ODMSTOP ORBI        
+      /etc/init.d/d2_countryname.sh &      
+}
+
+stop() {
+        killall d2d
+}
+
+boot() {
+    factory_mode_flag=`/bin/config get factory_mode`
+    if [ "x$factory_mode_flag" = "x1" ]; then
+    	exit 0
+    fi
+   
+    # ODMSTART ORBI
+    if [ "`cat /tmp/orbi_type`" = "Satellite" ];then
+        /bin/config set wlg_sta_vids=3
+        /bin/config set wla_2nd_sta_vids=3
+        /bin/config set wla_sta_vids=3
+    fi
+    /bin/config set wlg_ap_bh_vids=3
+    /bin/config set wla_2nd_ap_bh_vids=3
+    /bin/config set wla_ap_bh_vids=3
+    [ "`cat /tmp/orbi_type`" = "Satellite" ] && return
+    # ODMSTOP ORBI        
+    start
+}
+
+restart() {
+        stop
+        start
+}
+

@@ -1,0 +1,8 @@
+Package: fw-checking
+Version: 1
+Depends: libc, datalib
+Source: package/dni/fw-checking
+Section: net
+Architecture: ipq806x
+Installed-Size: 2822
+Description:  fw-checking

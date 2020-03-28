@@ -1,0 +1,11 @@
+Package: libintl
+Version: 2
+Depends: libc
+Source: package/libs/gettext
+License: FSFULLR
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ipq806x
+Installed-Size: 165
+Description:  Stub header for the GNU Internationalization library

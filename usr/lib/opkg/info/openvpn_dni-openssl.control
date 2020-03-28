@@ -1,0 +1,9 @@
+Package: openvpn_dni-openssl
+Version: 2.4.5-3
+Depends: libc, kmod-tun, liblzo, libopenssl
+Source: package/dni/openvpn_dni
+Section: net
+Maintainer: Mirko Vogt <mirko@openwrt.org>
+Architecture: ipq806x
+Installed-Size: 186515
+Description:  Open source VPN solution using OpenSSL

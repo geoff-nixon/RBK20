@@ -1,0 +1,8 @@
+Package: wlan-common
+Version: 2.5-1
+Depends: libc
+Source: package/dni/wlan-common
+Section: net
+Architecture: ipq806x
+Installed-Size: 76457
+Description:  DNI wlan common scripts

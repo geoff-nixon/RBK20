@@ -1,0 +1,11 @@
+Package: lighttpd_dni
+Version: 1.4.41-1
+Depends: libc, libopenssl, libpcre, libpthread
+Source: package/dni/lighttpd_dni
+License: BSD-3c
+LicenseFiles: COPYING
+Section: net
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: ipq806x
+Installed-Size: 95914
+Description:  A flexible and lightweight web server

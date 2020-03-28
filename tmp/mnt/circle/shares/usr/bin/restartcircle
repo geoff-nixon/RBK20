@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# wait for apid to update timezone
+sleep 3
+
+orbi=0
+R8000P=0
+if [ "$1" = "orbi" ]; then
+	orbi=1
+elif [ "$1" = "R8000P" ]; then
+	R8000P=1
+fi
+
+if [ $orbi = 1 ]; then
+    export CIRCLE_BASE=/mnt/circle/shares
+    export CIRCLE_ROOT=/mnt/circle/shares/usr/bin
+elif [ $R8000P = 1 ]; then
+    export CIRCLE_BASE=/data/circle/shares
+    export CIRCLE_ROOT=/data/circle/shares/usr/bin
+else
+    export CIRCLE_BASE=/mnt/shares
+    export CIRCLE_ROOT=/mnt/shares/usr/bin
+fi
+echo $CIRCLE_ROOT > /tmp/CIRCLE_ROOT
+echo $CIRCLE_BASE > /tmp/CIRCLE_BASE
+DIR=$CIRCLE_ROOT
+export PATH=$PATH:$DIR
+export LD_LIBRARY_PATH=$DIR
+
+$CIRCLE_ROOT/stopcircle $1
+$CIRCLE_ROOT/startcircle $1
+

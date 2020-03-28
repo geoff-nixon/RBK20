@@ -1,0 +1,32 @@
+#!/bin/sh /etc/rc.common
+#START=96
+
+start() {
+	for retry_num in `seq 1 2`
+	do
+		if [ "$(pidof bdbrokerd)" != "" ]; then
+			echo "bdbrokerd is up, call ash start" > /dev/console
+			break
+		else
+			echo "bdbrokerd is not up, delay 2s" > /dev/console
+			sleep 2
+		fi
+	done
+	d2 -c armorcfg[0].action none
+    /usr/bin/ash --log_debug --log_file /tmp/ash.log &
+}
+
+stop() {
+    killall ash
+    kill -17 1
+    rm /tmp/ash.log
+}
+
+boot() {
+    start
+}
+
+restart() {
+    stop
+    start
+}

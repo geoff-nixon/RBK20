@@ -1,0 +1,9 @@
+#!/bin/sh
+CIRCLE_ROOT=`cat /tmp/CIRCLE_ROOT`
+check=`iptables -t nat --line-numbers -L | grep !RBR50 | sed 's/ .*//'`
+val=$?
+if [ $val = 0 ]; then
+        iptables -t nat -D PREROUTING $check
+fi
+exec $CIRCLE_ROOT/dnsmasq -k --max-ttl=1 --cache-size=500 --user=root --server=127.0.0.1#5300 -h -H $CIRCLE_ROOT/hosts -R
+

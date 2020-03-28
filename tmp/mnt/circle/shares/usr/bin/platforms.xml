@@ -1,0 +1,3577 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<config>
+  <platforms>
+    <platform id="1">
+      <name>"Always On"</name>
+      <packet>40</packet>
+      <mainCategory>1</mainCategory>
+      <ipAddresses>
+        <ipAddressRange>
+          <ipStart>0.0.0.0</ipStart>
+          <ipStop>0.255.255.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>10.0.0.0</ipStart>
+          <ipStop>10.255.255.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>100.64.0.0</ipStart>
+          <ipStop>100.127.255.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>127.0.0.0</ipStart>
+          <ipStop>127.255.255.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>127.0.53.5</ipStart>
+          <ipStop>127.0.53.5</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>169.254.0.0</ipStart>
+          <ipStop>169.254.255.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>172.16.0.0</ipStart>
+          <ipStop>172.31.255.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.0.0.0</ipStart>
+          <ipStop>192.0.0.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.0.2.0</ipStart>
+          <ipStop>192.0.2.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.168.0.0</ipStart>
+          <ipStop>192.168.255.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.18.0.0</ipStart>
+          <ipStop>198.19.255.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.51.100.0</ipStart>
+          <ipStop>198.51.100.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>203.0.113.0</ipStart>
+          <ipStop>203.0.113.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>224.0.0.1</ipStart>
+          <ipStop>239.255.255.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>240.0.0.0</ipStart>
+          <ipStop>255.255.255.254</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>255.255.255.2</ipStart>
+          <ipStop>255.255.255.2</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>17.173.254.222</ipStart>
+          <ipStop>17.173.254.223</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>17.155.127.1</ipStart>
+          <ipStop>17.155.127.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>239.255.255.250</ipStart>
+          <ipStop>239.255.255.250</ipStop>
+        </ipAddressRange>
+      </ipAddresses>
+      <isVisibleFor>None</isVisibleFor>
+    </platform>
+    <platform id="64">
+      <name>"Facebook"</name>
+      <website>www.facebook.com</website>
+      <description>A social network where users connect as \"Friends,\" share content, join common-interest groups, and more.</description>
+      <translations>
+        <de>
+	       <description>Ein soziales Netzwerk, in dem Benutzer sich als Freunde verbinden, Inhalte teilen, Interessengruppen beitreten und mehr.</description>
+        </de>
+        <es>
+	       <description>Una red social en la que los usuarios se conectan como amigos, comparten contenidos, se unen a grupos con intereses comunes, etc.</description>
+        </es>
+        <fr>
+	       <description>Réseau social où les utilisateurs se connectent en tant qu’amis, partagent du contenu, participent à des groupes de personnes partageant les mêmes centres d’intérêt et bien plus encore.</description>
+        </fr>
+      </translations>
+      <packet>100</packet>
+      <mainCategory>27</mainCategory>
+      <isVisibleFor>Teen,Adult</isVisibleFor>
+      <domains>
+        <domain path="31ec112087b0c59b" />
+        <domain path="03d9159359fe3f0c" />
+        <domain path="5f18f57668adabc6" />
+        <domain path="19aa5fd94fd32d42" />
+        <domain path="c21edf94ac407688" />
+        <domain path="b9f9912f783e4890" />
+        <domain path="7bd6c5149348ce5f" />
+        <domain path="a4291e5f82f58be2" />
+        <domain path="0c5df47142214dfb" />
+        <domain path="a2fbe8d1f09e13fd" />
+        <domain path="3605e3f5055dc40c" />
+        <domain path="75046fb9185fd33c" />
+        <domain path="fcfd66b71722d758" />
+        <domain path="6aea6405b20f6d9d" />
+        <domain path="3ece99a0d727dabb" />
+        <domain path="32a11a5c04c0dbd5" />
+      </domains>
+    </platform>
+    <platform id="65">
+      <name>"YouTube"</name>
+      <website>www.youtube.com</website>
+<description>A video streaming service with public submissions and comments.</description>
+      <translations>
+        <de>
+	       <description>Ein Videostreamingdienst mit öffentlichen Beiträgen und Kommentaren.</description>
+        </de>
+        <es>
+	       <description>Un servicio de streaming en el que los usuarios pueden subir vídeos y comentarios públicos.</description>
+        </es>
+        <fr>
+	       <description>Service de streaming vidéo offrant des possibilités de publication de contenus et de commentaires.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="5f72e8302cd25c2d" />
+        <domain path="904ea085f498152c" />
+        <domain path="0f709d0b528145fb" />
+        <domain path="1b6a42d7fdf699fb" />
+        <domain path="04857f79001cc68a" />
+        <domain path="e973d4f7c121b4c4" />
+        <domain path="9e20a286927ba060" />
+        <domain path="9f45aeb845eab89b" />
+        <domain path="da31967ee307ff5b" />
+        <domain path="1d57b5ace294fae4" />
+        <domain path="64d4f1e959bebe1a" />
+      </domains>
+      <isVisibleFor>Pre-K,Kid,Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="66">
+      <name>"Instagram"</name>
+      <website>www.instagram.com</website>
+<description>A social media app with photo and video sharing as well as direct messaging.</description>
+      <translations>
+        <de>
+	       <description>Eine Social-Media-App zum Teilen von Fotos und Videos sowie zum Senden direkter Nachrichten.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de red social en la que compartir fotos, vídeos y mensajes directos.</description>
+        </es>
+        <fr>
+	       <description>Application de média social offrant des possibilités de partage de photos et de vidéos, ainsi que de messagerie directe.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>27</mainCategory>
+      <domains>
+        <domain path="3512e3283c8a9dd4" />
+        <domain path="8e44c2a7a583f1fe" />
+        <domain path="d4b6a68486425e1c" />
+        <domain path="b3d8cd7e57d334ce" />
+        <domain path="98be1993fb1d178a" />
+        <domain path="810b8ae693ab9bbb" />
+        <domain path="d266f286998fdae0" />
+      </domains>
+      <isVisibleFor>Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="67">
+      <name>"Netflix"</name>
+      <website>www.netflix.com</website>
+<description>A film and TV streaming service with content tailored for kids, teens, and adults.</description>
+      <translations>
+        <de>
+	       <description>Ein Spielfilm- und TV-Streamingdienst mit Inhalten, die auf Kinder, Jugendliche und Erwachsene zugeschnitten sind.</description>
+        </de>
+        <es>
+	       <description>Un servicio de streaming de películas y TV con contenidos adaptados para niños, adolescentes y adultos.</description>
+        </es>
+        <fr>
+	       <description>Service de streaming de longs-métrages et de télévision comprenant des contenus pour enfants, adolescents et adultes.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="a3c593b3b31521c7" />
+        <domain path="b3391aa97e077c13" />
+        <domain path="f39c42ceb438e041" />
+        <domain path="3c4a2b73c7e46b3c" />
+        <domain path="094148edb2b4682e" />
+      </domains>
+      <ipAddresses>
+        <ipAddressRange>
+          <ipStart>216.21.170.128</ipStart>
+          <ipStop>216.21.170.143</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.173.64.0</ipStart>
+          <ipStop>192.173.127.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.48.0</ipStart>
+          <ipStop>198.45.63.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>216.21.170.96</ipStart>
+          <ipStop>216.21.170.111</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.96.0</ipStart>
+          <ipStop>198.38.127.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.119.16.224</ipStart>
+          <ipStop>192.119.16.239</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>216.21.170.144</ipStart>
+          <ipStop>216.21.170.159</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>208.75.76.0</ipStart>
+          <ipStop>208.75.79.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>63.237.196.48</ipStart>
+          <ipStop>63.237.196.63</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.32.0</ipStart>
+          <ipStop>108.175.33.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.33.0</ipStart>
+          <ipStop>108.175.34.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.34.0</ipStart>
+          <ipStop>108.175.35.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.35.0</ipStart>
+          <ipStop>108.175.36.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.38.0</ipStart>
+          <ipStop>108.175.39.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.39.0</ipStart>
+          <ipStop>108.175.40.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.40.0</ipStart>
+          <ipStop>108.175.41.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.41.0</ipStart>
+          <ipStop>108.175.42.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.42.0</ipStart>
+          <ipStop>108.175.43.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.43.0</ipStart>
+          <ipStop>108.175.44.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.44.0</ipStart>
+          <ipStop>108.175.45.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.46.0</ipStart>
+          <ipStop>108.175.47.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>108.175.47.0</ipStart>
+          <ipStop>108.175.48.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>185.2.220.0</ipStart>
+          <ipStop>185.2.221.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>185.2.221.0</ipStart>
+          <ipStop>185.2.222.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>185.2.222.0</ipStart>
+          <ipStop>185.2.223.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>185.2.223.0</ipStart>
+          <ipStop>185.2.224.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>185.9.188.0</ipStart>
+          <ipStop>185.9.189.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>185.9.189.0</ipStart>
+          <ipStop>185.9.190.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>185.9.190.0</ipStart>
+          <ipStop>185.9.192.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.173.112.0</ipStart>
+          <ipStop>192.173.128.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.173.80.0</ipStart>
+          <ipStop>192.173.96.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.173.96.0</ipStart>
+          <ipStop>192.173.112.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.100.0</ipStart>
+          <ipStop>198.38.101.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.102.0</ipStart>
+          <ipStop>198.38.104.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.108.0</ipStart>
+          <ipStop>198.38.109.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.109.0</ipStart>
+          <ipStop>198.38.110.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.110.0</ipStart>
+          <ipStop>198.38.111.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.111.0</ipStart>
+          <ipStop>198.38.112.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.112.0</ipStart>
+          <ipStop>198.38.113.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.113.0</ipStart>
+          <ipStop>198.38.114.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.114.0</ipStart>
+          <ipStop>198.38.115.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.115.0</ipStart>
+          <ipStop>198.38.116.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.116.0</ipStart>
+          <ipStop>198.38.117.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.117.0</ipStart>
+          <ipStop>198.38.118.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.118.0</ipStart>
+          <ipStop>198.38.119.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.119.0</ipStart>
+          <ipStop>198.38.120.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.120.0</ipStart>
+          <ipStop>198.38.121.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.121.0</ipStart>
+          <ipStop>198.38.122.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.122.0</ipStart>
+          <ipStop>198.38.123.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.123.0</ipStart>
+          <ipStop>198.38.124.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.124.0</ipStart>
+          <ipStop>198.38.125.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.125.0</ipStart>
+          <ipStop>198.38.126.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.97.0</ipStart>
+          <ipStop>198.38.98.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.98.0</ipStart>
+          <ipStop>198.38.99.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.38.99.0</ipStart>
+          <ipStop>198.38.100.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.49.0</ipStart>
+          <ipStop>198.45.50.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.52.0</ipStart>
+          <ipStop>198.45.53.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.53.0</ipStart>
+          <ipStop>198.45.54.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.54.0</ipStart>
+          <ipStop>198.45.55.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.55.0</ipStart>
+          <ipStop>198.45.56.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.56.0</ipStart>
+          <ipStop>198.45.57.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.57.0</ipStart>
+          <ipStop>198.45.58.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.58.0</ipStart>
+          <ipStop>198.45.59.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.61.0</ipStart>
+          <ipStop>198.45.62.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.62.0</ipStart>
+          <ipStop>198.45.63.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.45.63.0</ipStart>
+          <ipStop>198.45.64.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>208.75.77.0</ipStart>
+          <ipStop>208.75.78.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.0.0</ipStart>
+          <ipStop>23.246.64.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.10.0</ipStart>
+          <ipStop>23.246.11.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.11.0</ipStart>
+          <ipStop>23.246.12.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.12.0</ipStart>
+          <ipStop>23.246.13.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.13.0</ipStart>
+          <ipStop>23.246.14.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.14.0</ipStart>
+          <ipStop>23.246.15.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.15.0</ipStart>
+          <ipStop>23.246.16.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.16.0</ipStart>
+          <ipStop>23.246.17.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.17.0</ipStart>
+          <ipStop>23.246.18.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.18.0</ipStart>
+          <ipStop>23.246.19.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.19.0</ipStart>
+          <ipStop>23.246.20.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.2.0</ipStart>
+          <ipStop>23.246.3.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.20.0</ipStart>
+          <ipStop>23.246.21.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.22.0</ipStart>
+          <ipStop>23.246.23.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.23.0</ipStart>
+          <ipStop>23.246.24.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.24.0</ipStart>
+          <ipStop>23.246.25.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.25.0</ipStart>
+          <ipStop>23.246.26.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.26.0</ipStart>
+          <ipStop>23.246.27.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.27.0</ipStart>
+          <ipStop>23.246.28.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.28.0</ipStart>
+          <ipStop>23.246.32.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.29.0</ipStart>
+          <ipStop>23.246.30.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.3.0</ipStart>
+          <ipStop>23.246.4.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.30.0</ipStart>
+          <ipStop>23.246.31.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.36.0</ipStart>
+          <ipStop>23.246.37.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.37.0</ipStart>
+          <ipStop>23.246.38.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.38.0</ipStart>
+          <ipStop>23.246.39.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.39.0</ipStart>
+          <ipStop>23.246.40.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.4.0</ipStart>
+          <ipStop>23.246.5.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.40.0</ipStart>
+          <ipStop>23.246.41.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.41.0</ipStart>
+          <ipStop>23.246.42.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.42.0</ipStart>
+          <ipStop>23.246.43.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.44.0</ipStart>
+          <ipStop>23.246.45.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.46.0</ipStart>
+          <ipStop>23.246.47.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.47.0</ipStart>
+          <ipStop>23.246.48.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.48.0</ipStart>
+          <ipStop>23.246.49.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.49.0</ipStart>
+          <ipStop>23.246.50.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.5.0</ipStart>
+          <ipStop>23.246.6.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.50.0</ipStart>
+          <ipStop>23.246.51.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.51.0</ipStart>
+          <ipStop>23.246.52.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.56.0</ipStart>
+          <ipStop>23.246.57.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.57.0</ipStart>
+          <ipStop>23.246.58.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.58.0</ipStart>
+          <ipStop>23.246.59.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.59.0</ipStart>
+          <ipStop>23.246.60.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.6.0</ipStart>
+          <ipStop>23.246.7.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.62.0</ipStart>
+          <ipStop>23.246.63.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.7.0</ipStart>
+          <ipStop>23.246.8.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.8.0</ipStart>
+          <ipStop>23.246.9.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>23.246.9.0</ipStart>
+          <ipStop>23.246.10.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>37.77.184.0</ipStart>
+          <ipStop>37.77.185.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>37.77.185.0</ipStart>
+          <ipStop>37.77.186.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>37.77.186.0</ipStart>
+          <ipStop>37.77.187.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>37.77.187.0</ipStart>
+          <ipStop>37.77.188.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>37.77.188.0</ipStart>
+          <ipStop>37.77.189.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>37.77.189.0</ipStart>
+          <ipStop>37.77.190.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>37.77.190.0</ipStart>
+          <ipStop>37.77.191.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>37.77.191.0</ipStart>
+          <ipStop>37.77.192.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>45.57.0.0</ipStart>
+          <ipStop>45.57.128.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>64.120.128.0</ipStart>
+          <ipStop>64.121.0.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>66.197.128.0</ipStart>
+          <ipStop>66.198.0.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.224.0</ipStart>
+          <ipStop>69.53.225.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.225.0</ipStart>
+          <ipStop>69.53.226.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.226.0</ipStart>
+          <ipStop>69.53.227.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.229.0</ipStart>
+          <ipStop>69.53.230.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.231.0</ipStart>
+          <ipStop>69.53.232.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.234.0</ipStart>
+          <ipStop>69.53.235.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.236.0</ipStart>
+          <ipStop>69.53.237.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.237.0</ipStart>
+          <ipStop>69.53.238.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.238.0</ipStart>
+          <ipStop>69.53.239.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.249.0</ipStart>
+          <ipStop>69.53.250.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>69.53.255.0</ipStart>
+          <ipStop>69.54.0.0</ipStop>
+        </ipAddressRange>
+      </ipAddresses>
+      <isVisibleFor>Pre-K,Kid,Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="68">
+      <name>"Pinterest"</name>
+      <website>www.pinterest.com</website>
+<description>A social curation platform where users create \"boards\" of images and other media.</description>
+      <translations>
+        <de>
+	       <description>Eine soziale Plattform zum Sammeln, auf der Benutzer Pinnwände mit Bildern und anderen Medien erstellen.</description>
+        </de>
+        <es>
+	       <description>Una plataforma de difusión en la que los usuarios crean “tableros” con imágenes y otros contenidos.</description>
+        </es>
+        <fr>
+	       <description>Plateforme sociale de sélection de contenus où les utilisateurs peuvent créer des tableaux d’images et d’autres contenus multimédias.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>27</mainCategory>
+      <domains>
+        <domain path="c30aad2c6230e65c" />
+        <domain path="4506b3eeaee7e87c" />
+      </domains>
+      <isVisibleFor>Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="69">
+      <name>"Snapchat"</name>
+      <website>www.snapchat.com</website>
+<description>An image and video messaging app with expiring content after a short time.</description>
+      <translations>
+        <de>
+	       <description>Eine Bilder- und Video-Messaging-App mit Inhalten, die nach kurzer Zeit ablaufen.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de mensajería de imágenes y vídeo con contenidos que expiran al cabo de poco tiempo.</description>
+        </es>
+        <fr>
+	       <description>Application de messagerie par images et vidéos dont le contenu expire après un bref délai.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="f8b464e1383f8619" />
+        <domain path="6a445c496e584f0d" />
+        <domain path="ba4f252c20832023" />
+        <domain path="2f8dfdba93962f04" />
+        <domain path="f0f036c177ac5652" />
+        <domain path="a9524a2256027add" />
+      </domains>
+      <isVisibleFor>Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="70">
+      <name>"Tumblr"</name>
+      <website>www.tumblr.com</website>
+<description>A blogging and social networking site with diverse content which contains explicit sexual and self-harm material.</description>
+      <translations>
+        <de>
+	       <description>Eine Blogging- und Social-Networking-Website mit vielfältigen Inhalten, die explizit sexuelles Material und Material zur Selbstverletzung enthalten.</description>
+        </de>
+        <es>
+	       <description>Una plataforma de blogs y red social con contenido diverso que incluye material sexual explícito y de autolesiones.</description>
+        </es>
+        <fr>
+	       <description>Site de réseau social et de publication de blogs proposant une grande variété de contenus dont certains sont sexuellement explicites ou font référence à l’automutilation.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>3</mainCategory>
+      <domains>
+        <domain path="d643a39718d52fd6" />
+        <domain path="33cff808a8e00583" />
+        <domain path="68e1a6631d02b5d5" />
+      </domains>
+      <isVisibleFor>Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="71">
+      <name>"Minecraft PE"</name>
+      <website>minecraft.net</website>
+<description>A social sandbox videogame in a blocky, retro style.</description>
+      <translations>
+        <de>
+	       <description>Ein soziales Sandkasten-Videospiel im blockigen Retrostil.</description>
+        </de>
+        <es>
+	       <description>Un videojuego de mundo abierto con un estilo de bloques y retro.</description>
+        </es>
+        <fr>
+	       <description>Jeu vidéo social d’exploration libre présenté dans un style graphique rétro.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="c33bd6b1785e8e46" />
+        <domain path="aee03df528921c93" />
+        <domain path="8f1b7d590ef495e2" />
+        <domain path="e1047f61eef1a0f6" />
+      </domains>
+      <ports>
+        <portRange>
+          <portStart>25565</portStart>
+          <portStop>25565</portStop>
+          <isTcp>1</isTcp>
+          <srcPort>0</srcPort>
+          <dstPort>1</dstPort>
+        </portRange>
+        <portRange>
+          <portStart>19132</portStart>
+          <portStop>19132</portStop>
+          <isTcp>0</isTcp>
+          <srcPort>1</srcPort>
+          <dstPort>1</dstPort>
+        </portRange>
+      </ports>
+      <isVisibleFor>Kid,Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="72">
+      <name>"Nickelodeon"</name>
+      <website>www.nick.com</website>
+<description>A TV channel with full-episode streaming, video clips, and games designed for kids.</description>
+      <translations>
+        <de>
+	       <description>Ein TV-Sender, der das Streaming vollständiger Serien sowie für Kinder gedachte Videoclips und Spiele anbietet.</description>
+        </de>
+        <es>
+	       <description>Un canal de televisión con streaming de episodios completos, videoclips y juegos diseñados para niños.</description>
+        </es>
+        <fr>
+	       <description>Chaîne de télévision proposant des épisodes complets en streaming, des clips vidéo et des jeux conçus pour les enfants.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="6d3cc011a7f10ac1" />
+        <domain path="1c1c338598b5a792" />
+        <domain path="d7ba9d0bf134ae75" />
+        <domain path="d07605a13ff97465" />
+        <domain path="c9a1b764949d8192" />
+        <domain path="a556602e0ca17545" />
+      </domains>
+      <isVisibleFor>Kid</isVisibleFor>
+    </platform>
+    <platform id="73">
+      <name>"Cartoon Network"</name>
+      <website>www.cartoonnetwork.com</website>
+<description>A TV channel with full-episode streaming, video clips, and games designed for kids.</description>
+      <translations>
+        <de>
+	       <description>Ein TV-Sender, der das Streaming vollständiger Serien sowie für Kinder gedachte Videoclips und Spiele anbietet.</description>
+        </de>
+        <es>
+	       <description>Un canal de televisión con streaming de episodios completos, videoclips y juegos diseñados para niños.</description>
+        </es>
+        <fr>
+	       <description>Chaîne de télévision proposant des épisodes complets en streaming, des clips vidéo et des jeux conçus pour les enfants.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="c17eec77156699cb" />
+        <domain path="4fad6faa156d5550" />
+        <domain path="387769655b1bd353" />
+        <domain path="ec496bb43b1634db" />
+        <domain path="bc08fe0f919c4f42" />
+        <domain path="844291d2f8ff813e" />
+        <domain path="102e72cd048f0e39" />
+        <domain path="e43c790d3340803c" />
+        <domain path="551ab994e28cc144" />
+        <domain path="7f6691776cc37434" />
+        <domain path="47529596c09028da" />
+        <domain path="3f6247da240266f8" />
+        <domain path="fd95fffc90be2748" />
+        <domain path="759aaf304456a38b" />
+        <domain path="3d6aea8963711673" />
+        <domain path="dac4ec6a21970b92" />
+        <domain path="63f3a1a2a1fa35e8" />
+        <domain path="767bee15dabefe92" />
+        <domain path="1a5f3c26750e8611" />
+        <domain path="fad60dfebcf8e7be" />
+        <domain path="079e332f5faabb35" />
+        <domain path="2bfe4c113ffb3a21" />
+        <domain path="ff1272000337d6c3" />
+        <domain path="0e805e2436aa3105" />
+        <domain path="0d917111842f9f9e" />
+        <domain path="b9af28ef9f755c58" />
+        <domain path="f4202b44d84c40ac" />
+        <domain path="69e137533dc9373f" />
+        <domain path="32e84536860d7bd5" />
+        <domain path="0e257fd9d63d0b4d" />
+      </domains>
+      <isVisibleFor>Kid</isVisibleFor>
+    </platform>
+    <platform id="75">
+      <name>"Club Penguin"</name>
+      <website>www.clubpenguin.com</website>
+<description>Club Penguin is a social game designed for kids to provide a safe and fun environment to play in.</description>
+      <translations>
+        <de>
+	       <description>Club Penguin ist ein für Kinder entwickeltes soziales Spiel, das ihnen eine sichere und lustige Spielumgebung bieten möchte.</description>
+        </de>
+        <es>
+	       <description>Club Penguin es un juego social diseñado para que los niños puedan jugar en un entorno seguro y divertido.</description>
+        </es>
+        <fr>
+	       <description>Club Penguin est un jeu social conçu pour procurer aux enfants un environnement de jeu à la fois sûr et amusant.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="5b3db0c34e93d973" />
+      </domains>
+      <isVisibleFor>Kid</isVisibleFor>
+    </platform>
+    <platform id="76">
+      <name>"Disney"</name>
+      <website>www.disney.com</website>
+<description>A feature film and TV producer that also makes games, merchandise, theme parks, and more.</description>
+      <translations>
+        <de>
+	       <description>Ein Produzent von Spielfilmen und Fernsehsendungen, der auch Spiele und Handelsware herstellt sowie Freizeitparks betreibt und mehr.</description>
+        </de>
+        <es>
+	       <description>Productor de películas y de televisión y creador de juegos, productos de merchandising, parques temáticos y muchas cosas más.</description>
+        </es>
+        <fr>
+	       <description>Producteur de longs-métrages et d’émissions de télévision qui crée également des jeux, des produits dérivés, des parcs d’attraction et bien plus encore.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="2db0dde7a413fa66" />
+        <domain path="e81d362335dd78d9" />
+        <domain path="25c566eb073546ed" />
+        <domain path="36500c2fd9098138" />
+        <domain path="6cd9ae9eb82386cc" />
+        <domain path="f6e25a111d5e77ca" />
+        <domain path="1d992641462b97c0" />
+        <domain path="8637916617e0c672" />
+        <domain path="926ce7dcc0887b46" />
+        <domain path="998e5d18c11bd2d6" />
+        <domain path="1b4fe5e45369f355" />
+        <domain path="864e3f61d9a332b3" />
+        <domain path="9690c2c1847dfe69" />
+        <domain path="3923ee562014b5ff" />
+        <domain path="e0ce18110f1df564" />
+        <domain path="2281b6335630fc73" />
+        <domain path="afde35f4d681f221" />
+        <domain path="66d7e843cf3b77b1" />
+        <domain path="26ef60bbd654e885" />
+        <domain path="836b7412000de73c" />
+        <domain path="d966304a5a944e72" />
+        <domain path="d2a22a35b17c336c" />
+        <domain path="ff2404c6bfc477d7" />
+      </domains>
+      <isVisibleFor>Pre-K,Kid,Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="77">
+      <name>"PBS"</name>
+      <website>www.pbs.org</website>
+<description>A media non-profit which produces TV, radio, and online content.</description>
+      <translations>
+        <de>
+	       <description>Eine gemeinnützige Medienanstalt, die TV-, Radio- und Onlineinhalte produziert.</description>
+        </de>
+        <es>
+	       <description>Una cadena sin ánimo de lucro que produce contenidos para TV, radio e internet.</description>
+        </es>
+        <fr>
+	       <description>Média sans but lucratif qui produit des émissions de télévision, des programmes radio et du contenu en ligne.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="3990754cff592654" />
+        <domain path="964bae9c3ef14204" />
+      </domains>
+      <isVisibleFor>Pre-K,Kid</isVisibleFor>
+    </platform>
+    <platform id="78">
+      <name>"Periscope"</name>
+      <website>www.periscope.tv</website>
+<description>A live video streaming service.</description>
+      <translations>
+        <de>
+	       <description>Ein Live-Videostreamingdienst.</description>
+        </de>
+        <es>
+	       <description>Un servicio de streaming de vídeo en directo.</description>
+        </es>
+        <fr>
+	       <description>Service de streaming vidéo en direct.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="468b072569949067" />
+        <domain path="6df859becc61cff7" />
+        <domain path="fc33daab657a9ab0" />
+      </domains>
+      <isVisibleFor>Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="79">
+      <name>"Meerkat"</name>
+      <website>meerkatapp.co</website>
+<description>Meerkat is a platform that allows users either to view a live streaming video.</description>
+      <translations>
+        <de>
+	       <description>Meerkat ist eine Plattform, auf der Benutzer ein live gestreamtes Video ansehen können.</description>
+        </de>
+        <es>
+	       <description>Meerkat es una plataforma que permite a los usuarios ver vídeos en directo.</description>
+        </es>
+        <fr>
+	       <description>Meerkat est une plateforme qui permet à ses utilisateurs de regarder de la vidéo diffusée en direct.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="f6841768156916fc" />
+        <domain path="fcf78260294c84e2" />
+      </domains>
+      <isVisibleFor>None</isVisibleFor>
+    </platform>
+    <platform id="80">
+      <name>"Reddit"</name>
+      <website>www.reddit.com</website>
+<description>A social news aggregation and discussion site which includes some mature content.</description>
+      <translations>
+        <de>
+	       <description>Eine Social-News-Aggregator- und Diskussions-Website, auf der einige Erwachseneninhalte zu finden sind.</description>
+        </de>
+        <es>
+	       <description>Una plataforma social de agregación de noticias y debate que incluye contenidos para adultos.</description>
+        </es>
+        <fr>
+	       <description>Site social de discussion et d’agrégation d’informations incluant du contenu réservé aux adultes.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="897672a43bbead88" />
+        <domain path="81f9776b3efc56f3" />
+        <domain path="e9ce09ffb212d034" />
+      </domains>
+      <isVisibleFor>Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="81">
+      <name>"HBO"</name>
+      <website>www.hbogo.com</website>
+<description>A TV and feature film producer that offers video streaming.</description>
+      <translations>
+        <de>
+	       <description>Ein Produzent von Spielfilmen und Fernsehsendungen, der Videostreaming anbietet.</description>
+        </de>
+        <es>
+	       <description>Un productor de películas y de televisión que ofrece streaming de vídeo.</description>
+        </es>
+        <fr>
+	       <description>Producteur de longs-métrages et d’émissions de télévision offrant du streaming vidéo.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="6137289ef39c594c" />
+        <domain path="681f9d1b1860be7a" />
+        <domain path="04a81dd5c673eb90" />
+        <domain path="c58a4aee1485634b" />
+        <domain path="3e82f0b780a2cd38" />
+        <domain path="4bf3ced029538b5b" />
+        <domain path="f435b4e50c1fe4df" />
+        <domain path="568dd812b90a2297" />
+        <domain path="626244926964cdba" />
+        <domain path="888de1ab82cb3712" />
+        <domain path="91bd562500ac0e22" />
+        <domain path="13b4125825a0e78b" />
+        <domain path="608f2e086d710a70" />
+        <domain path="b645a0af15b5f4db" />
+        <domain path="ecf0ddf5bdfd2051" />
+        <domain path="3b60e2956972f26a" />
+        <domain path="5afdfcbd4678e571" />
+        <domain path="65c53869df450840" />
+        <domain path="e1ba510926b7526a" />
+        <domain path="9622a792ae9a6cb8" />
+        <domain path="ecb63cd63d721d39" />
+        <domain path="114a44654814a4e8" />
+        <domain path="6d6e624528eb6125" />
+        <domain path="eda78af5dcd746b9" />
+      </domains>
+      <isVisibleFor>Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="82">
+      <name>"Twitter"</name>
+      <website>www.twitter.com</website>
+<description>A social media platform characterized by short, 140-character posts as well as images and videos.</description>
+      <translations>
+        <de>
+	       <description>Eine Social-Media-Plattform, die sich durch kurze Posts mit einer Länge von 140 Zeichen sowie Bilder und Videos auszeichnet.</description>
+        </de>
+        <es>
+	       <description>Una red social que se caracteriza por los mensajes cortos de 140 caracteres y que también alberga imágenes y vídeos.</description>
+        </es>
+        <fr>
+	       <description>Plateforme de média social sur laquelle les utilisateurs s’échangent des messages de 140 caractères au maximum, ainsi que des images et des vidéos.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>27</mainCategory>
+      <domains>
+        <domain path="3d1ba4ab2133120c" />
+        <domain path="3f1f760c87fefb6a" />
+      </domains>
+      <isVisibleFor>Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="83">
+      <name>"Amazon"</name>
+      <website>www.amazon.com</website>
+<description>An ecommerce retailer which also produces streaming and content services.</description>
+      <translations>
+        <de>
+	       <description>Ein E-Commerce-Händler, der auch Streaming- und Inhaltsdienste produziert.</description>
+        </de>
+        <es>
+	       <description>Un minorista de comercio electrónico que también produce servicios de streaming y contenido.</description>
+        </es>
+        <fr>
+	       <description>Détaillant en ligne qui produit également des services de streaming et de contenu.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>23</mainCategory>
+      <domains>
+        <domain path="90db1ba13857f588" />
+        <domain path="a9ade2daac03eea9" />
+        <domain path="afdfcabc64e8766a" />
+        <domain path="df1749a6cc8b960d" />
+        <domain path="b7f591d330ef7a4c" />
+        <domain path="b871684861d2b2d8" />
+        <domain path="64f570c85a07ecb4" />
+        <domain path="b1ac89d3ce2aff03" />
+        <domain path="b56652c270c26b8f" />
+        <domain path="6021daeae9d59708" />
+        <domain path="48a44b4ed1ed810d" />
+        <domain path="3eb3608a1d8dd8a2" />
+        <domain path="17d3300d9a218853" />
+        <domain path="52e8afab325e8c03" />
+        <domain path="ef3be76035003fea" />
+        <domain path="faef9e4fbcd8fd1f" />
+        <domain path="f6f2431ad394aac0" />
+        <domain path="ddf12204d7023415" />
+        <domain path="3bb13b875dda0434" />
+        <domain path="2087aeae07359a0c" />
+        <domain path="8b5add1b4a3810f0" />
+        <domain path="255d9f2b1b6aaa05" />
+        <domain path="2e147c0ae3ce215e" />
+      </domains>
+      <isVisibleFor>Pre-K,Kid,Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="84">
+      <name>"Hulu"</name>
+      <website>www.hulu.com</website>
+<description>A film and TV streaming service with content tailored for kids, teens, and adults.</description>
+      <translations>
+        <de>
+	       <description>Ein Spielfilm- und TV-Streamingdienst mit Inhalten, die auf Kinder, Jugendliche und Erwachsene zugeschnitten sind.</description>
+        </de>
+        <es>
+	       <description>Un servicio de streaming de películas y TV con contenidos adaptados para niños, adolescentes y adultos.</description>
+        </es>
+        <fr>
+	       <description>Service de streaming de longs-métrages et de télévision comprenant des contenus pour enfants, adolescents et adultes.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="f6543d5477483b0d" />
+        <domain path="d4d469d7f743850e" />
+        <domain path="95088c35472b0496" />
+        <domain path="779c80a1286c779e" />
+        <domain path="504075454c44727f" />
+      </domains>
+      <isVisibleFor>Kid,Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="85">
+      <name>"FaceTime"</name>
+<description>A video calling and messaging app.</description>
+      <translations>
+        <de>
+	       <description>Eine App für Videoanrufe und Messaging.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de videollamadas y mensajes.</description>
+        </es>
+        <fr>
+	       <description>Application de messagerie et d’appels vidéo.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>5</mainCategory>
+      <domains></domains>
+      <ports>
+        <portRange>
+          <portStart>16393</portStart>
+          <portStop>16402</portStop>
+          <isTcp>0</isTcp>
+          <srcPort>1</srcPort>
+          <dstPort>1</dstPort>
+        </portRange>
+      </ports>
+      <isVisibleFor>Kid,Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="86">
+      <name>"Musical.ly"</name>
+      <website>musical.ly</website>
+      <description>A social networking app for video creation, messaging, and live broadcasting.</description>
+      <translations>
+        <de>
+	       <description>Eine Social-Networking-App zur Videoerstellung, für Nachrichten und für Liveübertragungen.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de red social para la creación de vídeos, el envío de mensajes y la emisión en directo.</description>
+        </es>
+        <fr>
+	       <description>Application de réseau social destinée à la création vidéo, à la messagerie et à la diffusion en direct.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="f6f6f1a63267bc88" />
+        <domain path="144a2accc857ad70" />
+        <domain path="911346649881f424" />
+      </domains>
+      <isVisibleFor>Kid,Teen,Adult</isVisibleFor>
+    </platform>
+    <platform id="87">
+      <name>"EA Sports"</name>
+      <website>www.easports.com</website>
+<description>A sports video games producer.</description>
+      <translations>
+        <de>
+	       <description>Ein Produzent von Sport-Videospielen.</description>
+        </de>
+        <es>
+	       <description>Un productor de videojuegos deportivos.</description>
+        </es>
+        <fr>
+	       <description>Producteur de jeux vidéo de sport.</description>
+        </fr>
+      </translations>
+      <packet>5</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="0a5b5ea88b5a9286" />
+      </domains>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="88">
+      <name>"League Of Legends"</name>
+      <website>leagueoflegends.com</website>
+      <packet>40</packet>
+      <description>A free-to-play multiplayer battle arena video game.</description>
+      <translations>
+        <de>
+	       <description>Ein kostenlos spielbares Mehrspieler-Online-Kampfarena-Videospiel.</description>
+        </de>
+        <es>
+	       <description>Un videojuego multijugador gratuito para jugar en el campo de batalla.</description>
+        </es>
+        <fr>
+	       <description>Jeu vidéo multijoueur d’utilisation gratuite qui se déroule dans une arène de bataille.</description>
+        </fr>
+      </translations>
+      <domains>
+        <domain path="655cb998c185a87b" />
+      </domains>
+      <ipAddresses>
+        <ipAddressRange>
+          <ipStart>103.240.226.0</ipStart>
+          <ipStop>103.240.228.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.128.0</ipStart>
+          <ipStop>104.160.160.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.128.0</ipStart>
+          <ipStop>104.160.144.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.136.0</ipStart>
+          <ipStop>104.160.137.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.141.0</ipStart>
+          <ipStop>104.160.142.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.142.0</ipStart>
+          <ipStop>104.160.143.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.143.0</ipStart>
+          <ipStop>104.160.144.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.144.0</ipStart>
+          <ipStop>104.160.145.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.145.0</ipStart>
+          <ipStop>104.160.146.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.146.0</ipStart>
+          <ipStop>104.160.147.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.147.0</ipStart>
+          <ipStop>104.160.148.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.148.0</ipStart>
+          <ipStop>104.160.149.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.154.0</ipStart>
+          <ipStop>104.160.155.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.160.156.0</ipStart>
+          <ipStop>104.160.157.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>117.52.101.0</ipStart>
+          <ipStop>117.52.102.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>138.0.12.0</ipStart>
+          <ipStop>138.0.16.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>138.0.12.0</ipStart>
+          <ipStop>138.0.13.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>138.0.13.0</ipStart>
+          <ipStop>138.0.14.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>138.0.14.0</ipStart>
+          <ipStop>138.0.15.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>138.0.15.0</ipStart>
+          <ipStop>138.0.16.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>162.249.72.0</ipStart>
+          <ipStop>162.249.76.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>162.249.76.0</ipStart>
+          <ipStop>162.249.80.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>162.249.79.0</ipStart>
+          <ipStop>162.249.80.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>182.162.120.0</ipStart>
+          <ipStop>182.162.128.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>185.40.64.0</ipStart>
+          <ipStop>185.40.68.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.64.168.0</ipStart>
+          <ipStop>192.64.169.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.64.169.0</ipStart>
+          <ipStop>192.64.170.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.64.170.0</ipStart>
+          <ipStop>192.64.171.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.64.171.0</ipStart>
+          <ipStop>192.64.172.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.64.172.0</ipStart>
+          <ipStop>192.64.173.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.64.173.0</ipStart>
+          <ipStop>192.64.174.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.64.174.0</ipStart>
+          <ipStop>192.64.175.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.64.175.0</ipStart>
+          <ipStop>192.64.176.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>43.229.64.0</ipStart>
+          <ipStop>43.229.68.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>43.229.64.0</ipStart>
+          <ipStop>43.229.65.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>43.229.65.0</ipStart>
+          <ipStop>43.229.66.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>43.229.66.0</ipStart>
+          <ipStop>43.229.67.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>43.229.67.0</ipStart>
+          <ipStop>43.229.68.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>8.23.24.0</ipStart>
+          <ipStop>8.23.26.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>95.172.65.0</ipStart>
+          <ipStop>95.172.66.0</ipStop>
+        </ipAddressRange>
+      </ipAddresses>
+      <mainCategory>13</mainCategory>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="89">
+      <name>"Guild Wars"</name>
+      <website>www.guildwars2.com</website>
+      <packet>40</packet>
+<description>A massively multiplayer online role-playing video game.</description>
+      <translations>
+        <de>
+	       <description>Ein Massen-Mehrspieler-Online-Rollenspiel (MMORPG).</description>
+        </de>
+        <es>
+	       <description>Un videojuego de rol multijugador masivo en línea.</description>
+        </es>
+        <fr>
+	       <description>Jeu de rôle vidéo en ligne massivement multijoueur.</description>
+        </fr>
+      </translations>
+      <mainCategory>13</mainCategory>
+      <ipAddresses>
+        <ipAddressRange>
+          <ipStart>64.25.32.0</ipStart>
+          <ipStop>64.25.40.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>64.25.40.0</ipStart>
+          <ipStop>64.25.44.0</ipStop>
+        </ipAddressRange>
+      </ipAddresses>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="90">
+      <name>"Puffin Proxy"</name>
+      <packet>40</packet>
+<description>A proxy service and web browser.</description>
+      <translations>
+        <de>
+	       <description>Ein Proxydienst und Webbrowser.</description>
+        </de>
+        <es>
+	       <description>Un servicio de proxy y navegador web.</description>
+        </es>
+        <fr>
+	       <description>Service proxy et navigateur Web.</description>
+        </fr>
+      </translations>
+      <mainCategory>31</mainCategory>
+      <ipAddresses>
+        <ipAddressRange>
+          <ipStart>107.178.32.0</ipStart>
+          <ipStop>107.178.34.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>107.178.34.0</ipStart>
+          <ipStop>107.178.36.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>107.178.36.0</ipStart>
+          <ipStop>107.178.40.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>107.178.40.0</ipStart>
+          <ipStop>107.178.44.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>107.178.44.0</ipStart>
+          <ipStop>107.178.48.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>45.33.128.0</ipStart>
+          <ipStop>45.33.132.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>45.33.132.0</ipStart>
+          <ipStop>45.33.136.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>45.33.136.0</ipStart>
+          <ipStop>45.33.144.0</ipStop>
+        </ipAddressRange>
+      </ipAddresses>
+      <isVisibleFor>None</isVisibleFor>
+    </platform>
+    <platform id="91">
+      <name>"Supernet Proxy"</name>
+      <packet>40</packet>
+<description>A VPN service.</description>
+      <translations>
+        <de>
+	       <description>Ein VPN-Dienst.</description>
+        </de>
+        <es>
+	       <description>Un servicio de VPN.</description>
+        </es>
+        <fr>
+	       <description>Service VPN.</description>
+        </fr>
+      </translations>
+      <mainCategory>31</mainCategory>
+      <ipAddresses>
+        <ipAddressRange>
+          <ipStart>188.165.195.67</ipStart>
+          <ipStop>188.165.195.67</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>212.38.166.41</ipStart>
+          <ipStop>212.38.166.41</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>192.240.97.149</ipStart>
+          <ipStop>192.240.97.149</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.16.89.14</ipStart>
+          <ipStop>198.16.89.14</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>94.242.206.152</ipStart>
+          <ipStop>94.242.206.152</ipStop>
+        </ipAddressRange>
+      </ipAddresses>
+      <isVisibleFor>None</isVisibleFor>
+    </platform>
+    <platform id="92">
+      <name>"Pandora"</name>
+      <website>www.pandora.com</website>
+<description>A personalized internet radio service with both free and subscription options.</description>
+      <translations>
+        <de>
+	       <description>Ein personalisierter Internetradiodienst, der kostenlos und mit Abonnement genutzt werden kann.</description>
+        </de>
+        <es>
+	       <description>Un servicio personalizado de radio por Internet con opciones tanto gratuitas como mediante suscripción.</description>
+        </es>
+        <fr>
+	       <description>Service de radio Internet personnalisé proposant des formules gratuites ou par abonnement.</description>
+        </fr>
+      </translations>
+      <packet>100</packet>
+      <mainCategory>21</mainCategory>
+      <domains>
+        <domain path="2e6fb89b5a74cf5b" />
+        <domain path="fe07872a3341d58b" />
+      </domains>
+      <readingTime>5</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="93">
+      <name>"Spotify"</name>
+      <website>www.spotify.com</website>
+<description>A music streaming service with access to millions of songs.</description>
+      <translations>
+        <de>
+	       <description>Ein Musikstreamingdienst mit Zugriff auf Millionen Songs.</description>
+        </de>
+        <es>
+	       <description>Un servicio de streaming de música con acceso a millones de canciones.</description>
+        </es>
+        <fr>
+	       <description>Service de streaming de musique donnant accès à des millions de chansons.</description>
+        </fr>
+      </translations>
+      <packet>5</packet>
+      <mainCategory>21</mainCategory>
+      <domains>
+        <domain path="826903f20e0efddd" />
+        <domain path="92c8299365a21b22" />
+        <domain path="2f45817da3a3d616" />
+      </domains>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="94">
+      <name>"Kik"</name>
+      <website>www.kik.com</website>
+<description>An instant messaging app where users can send messages, images, videos, and other content.</description>
+      <translations>
+        <de>
+	       <description>Eine Instant-Messaging-App, mit der Benutzer Nachrichten, Bilder, Videos und andere Inhalte senden können.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de mensajería instantánea en la que los usuarios pueden enviar mensajes, imágenes, vídeos y otros contenidos.</description>
+        </es>
+        <fr>
+	       <description>Application de messagerie instantanée permettant à ses utilisateurs d’envoyer des messages, des images, des vidéos et d’autres contenus.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <domains>
+        <domain path="ce142e33cf0b62b5" />
+        <domain path="e9dadd14817f562e" />
+      </domains>
+      <mainCategory>5</mainCategory>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="95">
+      <name>"Clash Of Clans"</name>
+      <website>clashofclans.com</website>
+      <description>A free-to-play massively multiplayer online videogame featuring large-scale battles.</description>
+      <translations>
+        <de>
+	       <description>Ein kostenlos spielbares Massen-Mehrspieler-Online-Gemeinschaftsspiel (MMOG) mit großen Schlachten.</description>
+        </de>
+        <es>
+	       <description>Un videojuego en línea multijugador masivo y gratuito que ofrece batallas a gran escala.</description>
+        </es>
+        <fr>
+	       <description>Jeu vidéo en ligne massivement multijoueur d’utilisation gratuite proposant des batailles à grande échelle.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="72939e185c4d7a30" />
+      </domains>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="96">
+      <name>"Steam"</name>
+      <website>store.steampowered.com</website>
+<description>An online gaming, digital distribution, and social media platform.</description>
+      <translations>
+        <de>
+	       <description>Eine Onlinespiel-, Digitalvertriebs- und Social-Media-Plattform.</description>
+        </de>
+        <es>
+	       <description>Una plataforma de juegos, distribución digital y red social en línea.</description>
+        </es>
+        <fr>
+	       <description>Plateforme de jeux en ligne, de distribution numérique et de média social.</description>
+        </fr>
+      </translations>
+      <packet>250</packet>
+      <mainCategory>13</mainCategory>
+      <ports>
+        <portRange>
+          <portStart>27000</portStart>
+          <portStop>27036</portStop>
+          <isTcp>0</isTcp>
+          <srcPort>0</srcPort>
+          <dstPort>1</dstPort>
+        </portRange>
+      </ports>
+      <domains>
+        <domain path="f628ec0c5343c08a" />
+        <domain path="5a71d132c29e4089" />
+        <domain path="570e6ff1be9b4296" />
+        <domain path="750719871d249721" />
+      </domains>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="97">
+      <name>"Bungie"</name>
+      <website>www.bungie.net</website>
+      <packet>40</packet>
+<description>A video game developer of popular multiplayer console games.</description>
+      <translations>
+        <de>
+	       <description>Ein Videospielentwickler beliebter Mehrspieler-Konsolenspiele.</description>
+        </de>
+        <es>
+	       <description>Un desarrollador de populares videojuegos para consolas.</description>
+        </es>
+        <fr>
+	       <description>Développeur de jeux vidéo à l’origine de jeux multijoueurs sur console très populaires.</description>
+        </fr>
+      </translations>
+      <mainCategory>13</mainCategory>
+      <ipAddresses>
+        <ipAddressRange>
+          <ipStart>172.97.56.0</ipStart>
+          <ipStop>172.97.60.0</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>205.234.118.0</ipStart>
+          <ipStop>205.234.120.0</ipStop>
+        </ipAddressRange>
+      </ipAddresses>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="98">
+      <name>"Ultrasurf Proxy"</name>
+      <website>www.ultrasurf.us</website>
+<description>A proxy service.</description>
+      <translations>
+        <de>
+	       <description>Ein Proxydienst.</description>
+        </de>
+        <es>
+	       <description>Un servicio de proxy.</description>
+        </es>
+        <fr>
+	       <description>Service proxy.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>31</mainCategory>
+      <domains>
+        <domain path="d19262fb75868c10" />
+        <domain path="151471ce3e00c5ff" />
+        <domain path="c16fba2714e4b3e2" />
+        <domain path="0be508b59bf68833" />
+        <domain path="5bcedede447737fc" />
+        <domain path="21b5ef275c8b3fdb" />
+        <domain path="44bf2d3aad8966ac" />
+        <domain path="ab2586e4b7600da4" />
+        <domain path="fddfcee10926f5bb" />
+        <domain path="484d316768fde4c7" />
+        <domain path="346e861ac28d61d3" />
+        <domain path="4ad6c69642c2cc05" />
+        <domain path="3adc2ca3270ee689" />
+        <domain path="dbdb52bab0da2a1b" />
+        <domain path="3269769c446d46f9" />
+        <domain path="2173e49781f1f5d3" />
+        <domain path="54b000088e4940e2" />
+        <domain path="d13e7ab6f68702fe" />
+        <domain path="ae212b067190eb84" />
+        <domain path="33c2c86313eacec1" />
+        <domain path="572c208bf118ab33" />
+        <domain path="9e10e66255e16780" />
+        <domain path="d6c0885a12cfd754" />
+        <domain path="9123ea3ae1ad1d54" />
+        <domain path="3eb04971d5193da9" />
+        <domain path="9169343232ca5223" />
+        <domain path="ca3401f388d2c842" />
+        <domain path="1a0809bd7c373616" />
+        <domain path="ea8f3db01e6a045e" />
+        <domain path="6133094b92753d96" />
+        <domain path="b82f2a3264cc1707" />
+        <domain path="f41c65ce5716d7cd" />
+        <domain path="618e5d9260dbce8e" />
+        <domain path="0d87f27c4faa6378" />
+        <domain path="9b5098a618f8bdad" />
+        <domain path="e3c5c09a3864bf7b" />
+        <domain path="774747f3c6c0b7ff" />
+        <domain path="b02d3871d59e9a98" />
+        <domain path="a9b068f712373891" />
+        <domain path="0f91e54f3f38ec9e" />
+        <domain path="ee0cb5a0e169b38e" />
+        <domain path="6d552063266a9bb1" />
+        <domain path="29034b447ca7e471" />
+        <domain path="be4d1b13120956b1" />
+        <domain path="9d360e32debf25c6" />
+        <domain path="22723a1be0734b09" />
+        <domain path="a4c1a245836f5449" />
+        <domain path="491b79999a07467d" />
+        <domain path="2f74aa0587c5cb83" />
+        <domain path="d0a05b8ccbde73e4" />
+        <domain path="a57ac75d3a05231b" />
+        <domain path="39dd9ca8afb8da4b" />
+        <domain path="dd37846a952a460b" />
+        <domain path="f480ba8d9a53c917" />
+        <domain path="4f22ad0426295205" />
+        <domain path="0d4d5ae24a9e4a6e" />
+        <domain path="3776c414f84afbfa" />
+        <domain path="58afb435760dd474" />
+        <domain path="b6975f6e5971b7b3" />
+        <domain path="593c433dcbcadc9a" />
+        <domain path="643e404e9bc97a61" />
+        <domain path="4e6ac5b143622d1a" />
+        <domain path="144825d314509196" />
+        <domain path="0cfd35f00fa4e2cb" />
+        <domain path="c2fae7df77085ff0" />
+        <domain path="dc5ae838d059092b" />
+        <domain path="3e82b4d17a755c50" />
+        <domain path="f08e1c5240d2a818" />
+        <domain path="6c345ac551981cfb" />
+        <domain path="5087e0db558059ad" />
+        <domain path="1eec638269195676" />
+        <domain path="fa1ced8f06dc43c6" />
+        <domain path="bbe0028c21bccac7" />
+        <domain path="962af4233d707402" />
+        <domain path="17c9a70601953605" />
+        <domain path="917c2ed0a561b533" />
+        <domain path="44e82c6f54cd722e" />
+        <domain path="eea5667d896a64f6" />
+        <domain path="cc6ba665442ebaf0" />
+        <domain path="73c67ce4dd1969d5" />
+        <domain path="a59683dc406d4e68" />
+        <domain path="3bfb8efe14404cd4" />
+        <domain path="86a9e9a57a49a07d" />
+        <domain path="74c64ded9f9da0bf" />
+        <domain path="f9a40920bf39d1bb" />
+        <domain path="6a37822374acae96" />
+        <domain path="aac7c7be20fb0da4" />
+        <domain path="0a7cbbca6b4975fb" />
+        <domain path="e9c75405825d5b5c" />
+        <domain path="bd7784a2b4034a13" />
+        <domain path="02bcb5c6879b209d" />
+        <domain path="0f20ff0bf23a12a6" />
+        <domain path="6f3aeee3ace589e2" />
+        <domain path="58e0c677c8fb07b4" />
+        <domain path="550df2707e8d08af" />
+        <domain path="489d061aa7901a41" />
+        <domain path="0489b2387acc08e5" />
+        <domain path="1844bbf79ac1ba86" />
+        <domain path="8cde358491c4645b" />
+        <domain path="cef1096cc18373da" />
+        <domain path="08ff97249c0f355b" />
+        <domain path="085c483104b6327e" />
+        <domain path="0b5f20e45c4b5d3c" />
+        <domain path="a8ce041ef8975203" />
+        <domain path="01803c853b5bf36d" />
+        <domain path="b73993c11183b133" />
+        <domain path="20bc2f1253b0cdd1" />
+        <domain path="5cbf24be5957212b" />
+        <domain path="e621bafb21176b58" />
+        <domain path="8e79e21c326662e0" />
+        <domain path="878551f47679abed" />
+        <domain path="e0b9e1d737b9a51b" />
+        <domain path="8f35462ccf1ae9ac" />
+        <domain path="7ede417761b1e9dc" />
+        <domain path="242e5b76a0e8c7f7" />
+        <domain path="5a808fbc2dd8b4fa" />
+        <domain path="d99b0368e914ca82" />
+        <domain path="8d95da292aef1962" />
+        <domain path="bb25beee8cacf044" />
+        <domain path="48a81fc9f117a817" />
+        <domain path="bbe9c848ce86bdc9" />
+        <domain path="ff8d6b149afb255f" />
+        <domain path="ba37393f5136b28f" />
+        <domain path="149a96a714c3c1d4" />
+        <domain path="d1ad9c422379569e" />
+        <domain path="9a7b6628873b2110" />
+        <domain path="c68be6666e2f6d0d" />
+        <domain path="a7667fefef854352" />
+        <domain path="e538c98878eafda2" />
+        <domain path="89a488b5e52c396e" />
+        <domain path="ec96e4dfd1dc1a33" />
+        <domain path="90e67587a463f7d1" />
+        <domain path="3f92f2645accced9" />
+        <domain path="e39958de48fd2b6d" />
+        <domain path="f563ebfe2cd81295" />
+        <domain path="1f8f8deb6fd63380" />
+        <domain path="7edbff1ef0aba2da" />
+        <domain path="154d55dd51334c96" />
+        <domain path="2e09d2c0b39b1f1c" />
+        <domain path="f50a2cfba79145ce" />
+        <domain path="984d169c0f026c34" />
+        <domain path="7bc9a48d06e6e151" />
+        <domain path="26e2d9499ec914fe" />
+        <domain path="4a54a5619b5f0abd" />
+        <domain path="fe22a9cfcc51850e" />
+        <domain path="5be88d0d383a1c1d" />
+        <domain path="6ba7443298cadcc9" />
+        <domain path="8be854f291e9c077" />
+        <domain path="1aed1855b7d03c43" />
+        <domain path="9a58a4ba1b81c949" />
+        <domain path="fa8fd71fc9dee6b9" />
+        <domain path="a8dfdfde891e34bc" />
+        <domain path="551298b170e319e6" />
+        <domain path="c43900aac0da67f5" />
+        <domain path="c99ed2886df0bf87" />
+        <domain path="1b687dc2ee4ff676" />
+        <domain path="ccd840732a602c34" />
+        <domain path="24364d5306aa1f6b" />
+        <domain path="4987c17534ead1b2" />
+        <domain path="8ce20e87fa58d8b8" />
+        <domain path="759ae28e3956d1c2" />
+        <domain path="a637d763b1c101be" />
+        <domain path="25131128071a22fd" />
+        <domain path="d6f6580ea72a4e67" />
+        <domain path="52123c74c0293dfa" />
+        <domain path="45de5b3a4bed3d0f" />
+        <domain path="5f156cf04a8e1f39" />
+        <domain path="dff5897a66e1ff0f" />
+        <domain path="d2d281b0cfb63c06" />
+        <domain path="10f71a50ad9444a4" />
+        <domain path="2a0d76e4bbdafd6c" />
+        <domain path="d5b3f735d7d853b5" />
+        <domain path="ea9a4cae3fd74506" />
+        <domain path="9d8ec5f76f169e53" />
+        <domain path="51250317105d1885" />
+        <domain path="ee3f3b9baa90b2b8" />
+        <domain path="7556218683af757b" />
+        <domain path="7bdda43907559a67" />
+        <domain path="92216611d47a7730" />
+        <domain path="66746aa3acc8685f" />
+        <domain path="57433b5c8d7029ee" />
+        <domain path="8c11cae3270f8796" />
+        <domain path="5ee2cec67d3b8fb7" />
+        <domain path="be589e72521edc5d" />
+        <domain path="d54bcb3813028035" />
+        <domain path="eff3f64541e29263" />
+        <domain path="6a3214422b13b532" />
+        <domain path="6a9e39c141101bca" />
+        <domain path="7596cdba0dabd8ca" />
+        <domain path="0cd88b38250144ce" />
+        <domain path="dafc34fe97d5c594" />
+        <domain path="d19f76bc60c6e5d4" />
+        <domain path="3a969ed5374cb195" />
+        <domain path="b7332aee1cf26989" />
+        <domain path="76d9d1e9a4882db3" />
+        <domain path="ca3e9d77c8674961" />
+        <domain path="791fa31e2e274f88" />
+        <domain path="cecd8c7c4d298f00" />
+        <domain path="e1ad39d9d4854e90" />
+        <domain path="54e0432100c07c81" />
+        <domain path="4861fa787d3ff5bb" />
+        <domain path="c25a7bcc0ff9546b" />
+      </domains>
+      <ipAddresses>
+        <ipAddressRange>
+          <ipStart>52.85.77.0</ipStart>
+          <ipStop>52.85.77.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>52.85.83.0</ipStart>
+          <ipStop>52.85.83.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.0.146</ipStart>
+          <ipStop>104.16.0.146</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.52.179</ipStart>
+          <ipStop>104.16.52.179</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.71.183</ipStart>
+          <ipStop>104.16.71.183</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.95.174</ipStart>
+          <ipStop>104.16.95.174</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.103.209</ipStart>
+          <ipStop>104.16.103.209</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.113.4</ipStart>
+          <ipStop>104.16.113.4</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.125.137</ipStart>
+          <ipStop>104.16.125.137</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.196.150</ipStart>
+          <ipStop>104.16.196.150</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.36.154</ipStart>
+          <ipStop>104.16.36.154</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.38.180</ipStart>
+          <ipStop>104.16.38.180</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.39.202</ipStart>
+          <ipStop>104.16.39.202</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.16.46.36</ipStart>
+          <ipStop>104.16.46.36</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.12.109</ipStart>
+          <ipStop>104.20.12.109</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.13.109</ipStart>
+          <ipStop>104.20.13.109</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.20.43</ipStart>
+          <ipStop>104.20.20.43</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.21.43</ipStart>
+          <ipStop>104.20.21.43</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.36.89</ipStart>
+          <ipStop>104.20.36.89</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.46.157</ipStart>
+          <ipStop>104.20.46.157</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.47.157</ipStart>
+          <ipStop>104.20.47.157</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.59.72</ipStart>
+          <ipStop>104.20.59.72</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.60.72</ipStart>
+          <ipStop>104.20.60.72</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.61.135</ipStart>
+          <ipStop>104.20.61.135</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.62.135</ipStart>
+          <ipStop>104.20.62.135</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.75.124</ipStart>
+          <ipStop>104.20.75.124</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>104.20.76.124</ipStart>
+          <ipStop>104.20.76.124</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>141.101.115.83</ipStart>
+          <ipStop>141.101.115.83</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>151.101.1.57</ipStart>
+          <ipStop>151.101.1.57</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>151.101.129.57</ipStart>
+          <ipStop>151.101.129.57</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>151.101.193.57</ipStart>
+          <ipStop>151.101.193.57</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>151.101.24.129</ipStart>
+          <ipStop>151.101.24.129</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>151.101.24.249</ipStart>
+          <ipStop>151.101.24.249</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>151.101.65.57</ipStart>
+          <ipStop>151.101.65.57</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>190.93.245.171</ipStart>
+          <ipStop>190.93.245.171</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>198.41.215.162</ipStart>
+          <ipStop>198.41.215.162</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>216.137.45.107</ipStart>
+          <ipStop>216.137.45.107</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>54.192.86.17</ipStart>
+          <ipStop>54.192.86.17</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>54.230.139.7</ipStart>
+          <ipStop>54.230.139.7</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>64.62.175.0</ipStart>
+          <ipStop>64.62.175.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>64.62.197.0</ipStart>
+          <ipStop>64.62.197.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>64.62.232.0</ipStart>
+          <ipStop>64.62.232.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>64.71.171.0</ipStart>
+          <ipStop>64.71.171.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>64.71.174.0</ipStart>
+          <ipStop>64.71.174.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>65.49.126.0</ipStart>
+          <ipStop>65.49.126.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>66.160.178.0</ipStart>
+          <ipStop>66.160.178.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>66.160.188.0</ipStart>
+          <ipStop>66.160.188.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>66.160.199.0</ipStart>
+          <ipStop>66.160.199.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>66.160.201.0</ipStart>
+          <ipStop>66.160.201.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>72.21.81.200</ipStart>
+          <ipStop>72.21.81.200</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>72.52.112.0</ipStart>
+          <ipStop>72.52.112.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>72.52.125.0</ipStart>
+          <ipStop>72.52.125.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>72.52.87.0</ipStart>
+          <ipStop>72.52.87.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>74.82.17.0</ipStart>
+          <ipStop>74.82.17.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>74.82.35.0</ipStart>
+          <ipStop>74.82.35.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>74.82.4.0</ipStart>
+          <ipStop>74.82.4.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>74.82.60.0</ipStart>
+          <ipStop>74.82.60.255</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>93.184.215.200</ipStart>
+          <ipStop>93.184.215.200</ipStop>
+        </ipAddressRange>
+        <ipAddressRange>
+          <ipStart>93.184.215.240</ipStart>
+          <ipStop>93.184.215.240</ipStop>
+        </ipAddressRange>
+      </ipAddresses>
+      <isVisibleFor>None</isVisibleFor>
+    </platform>
+    <platform id="100">
+      <name>"Khan Academy"</name>
+      <website>www.khanacademy.org</website>
+      <description>An educational content producer with tools students and educators.</description>
+      <translations>
+        <de>
+	       <description>Ein Produzent von Bildungsinhalten mit Tools für Lernende und Dozenten.</description>
+        </de>
+        <es>
+	       <description>Un productor de contenidos educativos con herramientas para estudiantes y educadores.</description>
+        </es>
+        <fr>
+	       <description>Producteur de contenus éducatifs proposant des outils pour les étudiants et les éducateurs.</description>
+        </fr>
+      </translations>
+      <packet>5</packet>
+      <mainCategory>8</mainCategory>
+      <domains>
+        <domain path="2c3c51666025bf92" />
+        <domain path="f26ac2c89f06c736" />
+      </domains>
+      <readingTime>3</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="101">
+      <name>"Toca TV"</name>
+      <website>tocaboca.com/app/toca-tv</website>
+<description>A kids&apos; video streaming service with a monthly subscription.</description>
+      <translations>
+        <de>
+	       <description>Ein Videostreamingdienst für Kinder, für den ein monatliches Abonnement erforderlich ist.</description>
+        </de>
+        <es>
+	       <description>Un servicio de streaming de vídeo para niños, con suscripción mensual.</description>
+        </es>
+        <fr>
+	       <description>Service de streaming vidéo pour les enfants, accessible par abonnement mensuel.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="28eb9e8bd3270c87" />
+        <domain path="94d53ab0edd066a0" />
+        <domain path="7715e3925310cb41" />
+      </domains>
+      <readingTime>4</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="102">
+      <name>"Vimeo"</name>
+      <website>vimeo.com</website>
+      <description>A video streaming service with public submissions and content that ranges from kid-friendly to mature.</description>
+      <translations>
+        <de>
+	       <description>Ein Videostreamingdienst mit öffentlichen Beiträgen und Inhalten, die von kindgerecht bis zu für Erwachsene gedacht reichen.</description>
+        </de>
+        <es>
+	       <description>Un servicio de streaming en el que los usuarios pueden publicar vídeos y que contiene material para niños pero también para adultos.</description>
+        </es>
+        <fr>
+	       <description>Service de streaming vidéo offrant des possibilités de publication et du contenu pour enfants ou pour adultes.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>20</mainCategory>
+      <domains>
+        <domain path="caaf211734936385" />
+        <domain path="84c2a27c37b0de82" />
+        <domain path="de92daa1e00804a4" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="103">
+      <name>"Roblox"</name>
+      <website>www.roblox.com</website>
+<description>A massively multiplayer online video game for kids.</description>
+      <translations>
+        <de>
+	       <description>Ein für Kinder angepasstes Massen-Mehrspieler-Online-Gemeinschaftsspiel.</description>
+        </de>
+        <es>
+	       <description>Un videojuego en línea multijugador masivo para niños.</description>
+        </es>
+        <fr>
+	       <description>Jeu vidéo en ligne massivement multijoueur pour les enfants.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="57471351562515eb" />
+        <domain path="116564025519cbf2" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="104">
+      <name>"Shazam"</name>
+      <website>shazam.com</website>
+<description>A music identification service that can also identify other forms of media with a device&apos;s microphone.</description>
+      <translations>
+        <de>
+	       <description>Ein Musikerkennungsdienst, der auch andere Medienformen mit dem Gerätemikrofon erkennen kann.</description>
+        </de>
+        <es>
+	       <description>Un servicio de identificación de música que también puede identificar otras formas de contenido con el micrófono de un dispositivo.</description>
+        </es>
+        <fr>
+	       <description>Service d’identification de musique capable également d’identifier d’autres formes de médias avec le micro d’un appareil.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>21</mainCategory>
+      <domains>
+        <domain path="b9ca9aa17bbe2db9" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="105">
+      <name>"Younow"</name>
+      <website>www.younow.com</website>
+<description>A live broadcasting platform where kids watch and stream real-time videos.</description>
+      <translations>
+        <de>
+	       <description>Eine Plattform für Liveübertragungen, auf der Kinder Echtzeitvideos ansehen und streamen können.</description>
+        </de>
+        <es>
+	       <description>Una plataforma en la que los niños pueden ver y difundir vídeos en tiempo real.</description>
+        </es>
+        <fr>
+	       <description>Plateforme de diffusion en direct sur laquelle les enfants peuvent regarder et diffuser des vidéos en temps réel.</description>
+        </fr>
+      </translations>
+      <packet>40</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="31155d0dc4513513" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="106">
+      <name>"HouseParty"</name>
+      <website>joinhouse.party</website>
+      <description>A group video chat app that allows up to eight people to live stream video together.</description>
+      <translations>
+        <de>
+	       <description>Eine Gruppen-Video-Chat-App, mit der bis zu acht Personen zusammen Video live streamen können.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de videochat en grupo que permite emitir vídeo en directo a hasta ocho personas a la vez.</description>
+        </es>
+        <fr>
+	       <description>Application de chat vidéo en groupe permettant à huit personnes au maximum de diffuser ensemble de la vidéo en direct.</description>
+        </fr>
+      </translations>
+      <packet>15</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="3b736b3ea888aad2" />
+        <domain path="2c57486abd51c178" />
+        <domain path="c39383a1a83233aa" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="107">
+      <name>"Imgur"</name>
+      <website>imgur.com</website>
+<description>An image hosting and sharing site that contains diverse content, some of which is mature.</description>
+      <translations>
+        <de>
+	       <description>Eine Website zum Hosten und Teilen von Bildern, auf der vielfältige Inhalte, teilweise auch nicht jugendfreie, vorhanden sind.</description>
+        </de>
+        <es>
+	       <description>Un sitio para guardar y compartir imágenes de contenido diverso, algunas para adultos.</description>
+        </es>
+        <fr>
+	       <description>Site d’hébergement et de partage d’images proposant une grande variété de contenus dont certains sont réservés aux adultes.</description>
+        </fr>
+      </translations>
+      <packet>250</packet>
+      <mainCategory>24</mainCategory>
+      <domains>
+        <domain path="ceaa8406b379758c" />
+      </domains>
+      <readingTime>1</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="108">
+      <name>"9gag"</name>
+      <website>9gag.com</website>
+<description>An image hosting and sharing site that contains diverse content, some of which is mature.</description>
+      <translations>
+        <de>
+	       <description>Eine Website zum Hosten und Teilen von Bildern, auf der vielfältige Inhalte, teilweise auch nicht jugendfreie, vorhanden sind.</description>
+        </de>
+        <es>
+	       <description>Un sitio para guardar y compartir imágenes de contenido diverso, algunas para adultos.</description>
+        </es>
+        <fr>
+	       <description>Site d’hébergement et de partage d’images proposant une grande variété de contenus dont certains sont réservés aux adultes.</description>
+        </fr>
+      </translations>
+      <packet>200</packet>
+      <mainCategory>24</mainCategory>
+      <domains>
+        <domain path="f42187e3cab9b64a" />
+        <domain path="20e084959e560874" />
+      </domains>
+      <readingTime>1</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="109">
+      <name>"4chan"</name>
+      <website>4chan.org</website>
+<description>An online bulletin board with some mature content.</description>
+      <translations>
+        <de>
+	       <description>Ein Online-Bulletin-Board mit einigen Erwachseneninhalten.</description>
+        </de>
+        <es>
+	       <description>Un tablón de anuncios en línea con algunos contenidos para adultos.</description>
+        </es>
+        <fr>
+	       <description>Tableau d’affichage en ligne proposant certains contenus réservés aux adultes.</description>
+        </fr>
+      </translations>
+      <packet>200</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="d98fe76d40e99a91" />
+        <domain path="ec70ba2fa9cd5a3e" />
+      </domains>
+      <readingTime>3</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="110">
+      <name>"Groupme"</name>
+      <website>groupme.com</website>
+<description>A mobile group messaging app designed for kids aged 13 and up.</description>
+      <translations>
+        <de>
+	       <description>Eine mobile Gruppen-Messaging-App, die für Jugendliche ab 13 Jahre gedacht ist.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de mensajería móvil para grupos, diseñada para niños a partir de 13 años.</description>
+        </es>
+        <fr>
+	       <description>Application de messagerie en groupe pour appareils mobiles, conçue pour les enfants âgés d’au moins 13 ans.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="0272fa0628be2098" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="111">
+      <name>"Marvel Contest of Champions"</name>
+      <website>playcontestofchampions.com</website>
+<description>A free-to-play fighting video game.</description>
+      <translations>
+        <de>
+	       <description>Ein kostenlos spielbares Kampfvideospiel.</description>
+        </de>
+        <es>
+	       <description>Un videojuego de lucha gratuito.</description>
+        </es>
+        <fr>
+	       <description>Jeu vidéo de combat d’utilisation gratuite.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="3d3a26a535fae688" />      
+        <domain path="20def98675cd6a15" />
+        <domain path="2395b6208d7262c0" />
+        <domain path="cfe666df797797e5" />
+        <domain path="119910ff2f1c835b" />
+        <domain path="c2128bc0896a0789" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="112">
+      <name>"Flickr"</name>
+      <website>www.flickr.com</website>
+<description>A social photo sharing and hosting service.</description>
+      <translations>
+        <de>
+	       <description>Ein sozialer Dienst zum Teilen und Hosten von Fotos.</description>
+        </de>
+        <es>
+	       <description>Red social para compartir fotos y servicio de alojamiento.</description>
+        </es>
+        <fr>
+	       <description>Service d’hébergement et de partage de photos sur réseau social.</description>
+        </fr>
+      </translations>
+      <packet>200</packet>
+      <mainCategory>24</mainCategory>
+      <domains>
+        <domain path="44faa928a0320dfa" />
+        <domain path="e433b5d356f41040" />
+        <domain path="e9d8f4ff1db7b090" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="113">
+      <name>"Xbox Live"</name>
+      <website>www.xbox.com</website>
+<description>A multiplayer gaming service which also includes audio and video content streaming.</description>
+      <translations>
+        <de>
+	       <description>Ein Mehrspieler-Spieledienst, der auch das Streaming von Audio- und Videoinhalten umfasst.</description>
+        </de>
+        <es>
+	       <description>Un servicio de juegos multijugador que también incluye streaming de audio y vídeo.</description>
+        </es>
+        <fr>
+	       <description>Service de jeux multijoueurs proposant aussi du streaming de contenus audio et vidéo.</description>
+        </fr>
+      </translations>
+      <packet>250</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="79c930c1a39c6074" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="114">
+      <name>"Playstation Network"</name>
+      <website>www.playstation.com</website>
+<description>A multiplayer gaming service which also includes audio and video content streaming.</description>
+      <translations>
+        <de>
+	       <description>Ein Mehrspieler-Spieledienst, der auch das Streaming von Audio- und Videoinhalten umfasst.</description>
+        </de>
+        <es>
+	       <description>Un servicio de juegos multijugador que también incluye streaming de audio y vídeo.</description>
+        </es>
+        <fr>
+	       <description>Service de jeux multijoueurs proposant aussi du streaming de contenus audio et vidéo.</description>
+        </fr>
+      </translations>
+      <packet>250</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="740c25241290f27c" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="115">
+      <name>"Tinder"</name>
+      <website>www.gotinder.com</website>
+<description>A dating app designed for users age 18 and up.</description>
+      <translations>
+        <de>
+	       <description>Eine Dating-App für Benutzer, die 18 Jahre alt oder älter sind.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de citas diseñada para mayores de 18 años.</description>
+        </es>
+        <fr>
+	       <description>Application de rencontre réservée aux utilisateurs âgés d’au moins 18 ans.</description>
+        </fr>
+      </translations>
+      <packet>200</packet>
+      <mainCategory>7</mainCategory>
+      <domains>
+        <domain path="cb8a92243ea51e2a" />
+        <domain path="03637d4abe688cd4" />
+        <domain path="9315a56988232234" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="116">
+      <name>"Viber"</name>
+      <website>viber.com</website>
+<description>An instant messaging application where users can make video calls, send text messages, and send files.</description>
+      <translations>
+        <de>
+	       <description>Eine Instant-Messaging-App, mit der Benutzer Videoanrufe tätigen sowie Textnachrichten und Dateien senden können.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de mensajería instantánea en la que los usuarios pueden realizar videollamadas y enviarse mensajes de texto y archivos.</description>
+        </es>
+        <fr>
+	       <description>Application de messagerie instantanée permettant à ses utilisateurs d’effectuer des appels vidéo et d’envoyer des messages textuels et des fichiers.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="b331a360c00baa03" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="117">
+      <name>"SoundCloud"</name>
+      <website>soundcloud.com</website>
+<description>A social audio platform where users listen, create, and share audio.</description>
+      <translations>
+        <de>
+	       <description>Eine soziale Audioplattform, auf der Benutzer Audio hören, erstellen und teilen können.</description>
+        </de>
+        <es>
+	       <description>Una plataforma social donde los usuarios escuchan, crean y comparten audio.</description>
+        </es>
+        <fr>
+	       <description>Plateforme audio sociale sur laquelle les utilisateurs peuvent écouter, créer et partager du contenu audio.</description>
+        </fr>
+      </translations>
+      <packet>50</packet>
+      <mainCategory>21</mainCategory>
+      <domains>
+        <domain path="151b1bc6de367a90" />
+        <domain path="35b25e3bdcb35779" />
+      </domains>
+      <readingTime>1</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="118" >
+      <name>"WhatsApp"</name>
+      <website>www.whatsapp.com</website>
+<description>An instant messaging application where users can make video calls, send text messages, and send files.</description>
+      <translations>
+        <de>
+	       <description>Eine Instant-Messaging-App, mit der Benutzer Videoanrufe tätigen sowie Textnachrichten und Dateien senden können.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de mensajería instantánea en la que los usuarios pueden realizar videollamadas y enviarse mensajes de texto y archivos.</description>
+        </es>
+        <fr>
+	       <description>Application de messagerie instantanée permettant à ses utilisateurs d’effectuer des appels vidéo et d’envoyer des messages textuels et des fichiers.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="646cf081c9bd1d5c" />
+        <domain path="d7ed012ce56b5c46" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="119">
+      <name>"Skout"</name>
+      <website>www.skout.com</website>
+<description>A mobile app designed for meeting new people, age 13 and up.</description>
+      <translations>
+        <de>
+	       <description>Eine mobile App, um neue Leute zu treffen. Sie ist für Benutzer gedacht, die 13 Jahre alt oder älter sind.</description>
+        </de>
+        <es>
+	       <description>Una aplicación móvil diseñada para conocer gente nueva, a partir de 13 años.</description>
+        </es>
+        <fr>
+	       <description>Application pour appareils mobiles conçue pour permettre à ses utilisateurs, âgés d’au moins 13 ans, de rencontrer d’autres personnes.</description>
+        </fr>
+      </translations>
+      <packet>100</packet>
+      <mainCategory>7</mainCategory>
+      <domains>
+        <domain path="4759dbb7327a23e8" />
+        <domain path="0b2292510e137482" />
+      </domains>
+      <readingTime>1</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="120">
+      <name>"Game of War"</name>
+      <website>www.gameofwarapp.com</website>
+<description>A free-to-play massively multiplayer online strategy video game that includes in-app purchases.</description>
+      <translations>
+        <de>
+	       <description>Ein kostenlos spielbares Massen-Mehrspieler-Online-Strategiespiel, das In-App-Käufe enthält.</description>
+        </de>
+        <es>
+	       <description>Un videojuego en línea gratuito de estrategia multijugador masivo que incluye compras integradas en la aplicación.</description>
+        </es>
+        <fr>
+	       <description>Jeu vidéo de stratégie en ligne massivement multijoueur d’utilisation gratuite incluant des possibilités d’achat dans l’application.</description>
+        </fr>
+      </translations>
+      <packet>250</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="2b524706cdfa4147" />
+        <domain path="c7aa83935c17c752" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="121">
+      <name>"Meetme"</name>
+      <website>www.meetme.com</website>
+<description>A chat application that focuses on helping users meet new people.</description>
+      <translations>
+        <de>
+	       <description>Eine Chat-App, die Benutzern helfen möchte, neue Leute zu treffen.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de chat para ayudar a los usuarios a conocer gente.</description>
+        </es>
+        <fr>
+	       <description>Application de chat destinée à aider ses utilisateurs à rencontrer de nouvelles personnes.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="b946b169017b09ca" />
+        <domain path="c3eb8421a2c5fd01" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="122">
+      <name>"Clash Royale"</name>
+      <website>clashroyale.com</website>
+<description>A free-to-play multiplayer online battle video game that includes in-app purchases</description>
+      <translations>
+        <de>
+	       <description>Ein kostenlos spielbares Mehrspieler-Online-Schlachtspiel, das In-App-Käufe enthält.</description>
+        </de>
+        <es>
+	       <description>Un videojuego en línea gratuito de batallas multijugador que incluye compras integradas en la aplicación.</description>
+        </es>
+        <fr>
+	       <description>Jeu vidéo de bataille en ligne multijoueur d’utilisation gratuite incluant des possibilités d’achat dans l’application.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="5fb4a6832158e6ee" />
+        <domain path="bf167be35ad1a4e7" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="123">
+      <name>"Mobile Strike"</name>
+      <website>www.mobilestrikeapp.com</website>
+<description>A mobile massively multiplayer online strategy video game that includes in-app purchases.</description>
+      <translations>
+        <de>
+	       <description>Ein mobiles Massen-Mehrspieler-Online-Strategiespiel, das In-App-Käufe enthält.</description>
+        </de>
+        <es>
+	       <description>Un videojuego móvil en línea de estrategia multijugador masivo que incluye compras integradas en la aplicación.</description>
+        </es>
+        <fr>
+	       <description>Jeu vidéo de stratégie en ligne massivement multijoueur pour appareils mobiles incluant des possibilités d’achat dans l’application.</description>
+        </fr>
+      </translations>
+      <packet>250</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="4977f98d15068723" />
+        <domain path="a3ec7e643f1707b2" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="124">
+      <name>"Bumble"</name>
+      <website>bumble.com</website>
+<description>A location-based social and dating app designed for users age 18 and up.</description>
+      <translations>
+        <de>
+	       <description>Eine ortsbasierte Dating-App für Benutzer, die 18 Jahre alt oder älter sind.</description>
+        </de>
+        <es>
+	       <description>Una aplicación social y de citas basada en la ubicación y diseñada para mayores de 18 años.</description>
+        </es>
+        <fr>
+	       <description>Application de réseau social et de rencontre basée sur la géolocalisation, conçue pour des utilisateurs âgés d’au moins 18 ans.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>7</mainCategory>
+      <domains>
+        <domain path="82036d0ededf00b8" />
+        <domain path="2ae84b701e18ed15" />
+      </domains>
+      <readingTime>1</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="125">
+      <name>"Badoo"</name>
+      <website>badoo.com</website>
+<description>A dating and social networking service.</description>
+      <translations>
+        <de>
+	       <description>Ein Dating- und Social-Networking-Dienst.</description>
+        </de>
+        <es>
+	       <description>Un servicio de red social y de citas.</description>
+        </es>
+        <fr>
+	       <description>Service de rencontre et de réseau social.</description>
+        </fr>
+      </translations>
+      <packet>200</packet>
+      <mainCategory>7</mainCategory>
+      <domains>
+        <domain path="9d28070bd63be240" />
+        <domain path="79b47dc4fd2dc4c7" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="126">
+      <name>"Omegle"</name>
+      <website>www.omegle.com</website>
+<description>An anonymous chatting and video chatting service. Anonymous social apps have a high frequency of cyber-bullying.</description>
+      <translations>
+        <de>
+	       <description>Ein anonymer Chat- und Videochatdienst. Anonyme soziale Apps werden sehr häufig für Cyber-Mobbing genutzt.</description>
+        </de>
+        <es>
+	       <description>Un servició de chat y videochat anónimo. Las aplicaciones sociales anónimas tienen una alta frecuencia de ciberacoso.</description>
+        </es>
+        <fr>
+	       <description>Service de chat textuel et de chat vidéo anonymes. Applications sociales anonymes caractérisées par du cyberharcèlement fréquent.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="d887ff914f163764" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="127">
+      <name>"Omlet Chat"</name>
+      <website>omlet.me</website>
+<description>An instant messaging application.</description>
+      <translations>
+        <de>
+	       <description>Eine Instant-Messaging-App.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de mensajería instantánea.</description>
+        </es>
+        <fr>
+	       <description>Application de messagerie instantanée.</description>
+        </fr>
+      </translations>
+      <packet>50</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="0888f390efed456e" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="128">
+      <name>"DeviantArt"</name>
+      <website>deviantart.com</website>
+<description>An online community where users upload original artwork and discuss one another&apos;s work. The site contains mature content.</description>
+      <translations>
+        <de>
+	       <description>Eine Onlinecommunity, in der Benutzer Originalwerke hochladen und über die Arbeiten anderer diskutieren. Auf der Website sind Erwachseneninhalte vorhanden.</description>
+        </de>
+        <es>
+	       <description>Una comunidad en línea donde los usuarios suben sus ilustraciones originales y comentan el trabajo de los demás. El sitio contiene material para adultos.</description>
+        </es>
+        <fr>
+	       <description>Communauté en ligne permettant à ses utilisateurs d’exposer des œuvres d’art originales en ligne et d’en discuter entre eux. Ce site propose du contenu réservé aux adultes.</description>
+        </fr>
+      </translations>
+      <packet>200</packet>
+      <mainCategory>6</mainCategory>
+      <domains>
+        <domain path="9263d27fc0f265dc" />
+        <domain path="5cffc90e13ae882b" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="129">
+      <name>"Distractify"</name>
+      <website>distractify.com</website>
+<description>An entertainment news site with quizzes, videos, celebrity news, food videos, recipes, DIY hacks, and more.</description>
+      <translations>
+        <de>
+	       <description>Eine Unterhaltungs-Website mit Quiz, Videos, Nachrichten über Prominente, Essensvideos, Rezepten, Heimwerkertricks und mehr.</description>
+        </de>
+        <es>
+	       <description>Un sitio de noticias de entretenimiento con cuestionarios, vídeos, noticias de famosos, vídeos de comida, recetas, trucos de bricolaje y muchas cosas más.</description>
+        </es>
+        <fr>
+	       <description>Site d’actualités consacré au monde du spectacle proposant des jeux de questions-réponses, des vidéos, des nouvelles concernant les célébrités, des vidéos culinaires, des recettes, des instructions de bricolage et bien plus encore.</description>
+        </fr>
+      </translations>
+      <packet>30</packet>
+      <mainCategory>22</mainCategory>
+      <domains>
+        <domain path="b0203a589dae3e24" />
+      </domains>
+      <readingTime>3</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="130">
+      <name>"Upworthy"</name>
+      <website>upworthy.com</website>
+<description>An entertainment news site featuring lifestyle content, dating advice, and political reporting.</description>
+      <translations>
+        <de>
+	       <description>Eine Unterhaltungs-Website mit Lifestyle-Inhalten, Dating-Ratschlägen und politischer Berichterstattung.</description>
+        </de>
+        <es>
+	       <description>Un sitio de noticias de entretenimiento con contenidos sobre estilos de vida, consejos para citas y reportajes políticos.</description>
+        </es>
+        <fr>
+	       <description>Site d’actualités consacré au monde du spectacle proposant du contenu axé sur le style de vie, des conseils de rencontre et des reportages politiques.</description>
+        </fr>
+      </translations>
+      <packet>100</packet>
+      <mainCategory>22</mainCategory>
+      <domains>
+        <domain path="4a1969b4e50401f9" />
+      </domains>
+      <readingTime>4</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="131">
+      <name>"iHeartRadio"</name>
+      <website>iheart.com</website>
+<description>A music streaming platform where users can stream thousands of radio stations and play music on-demand.</description>
+      <translations>
+        <de>
+	       <description>Eine Musikstreamingplattform, auf der Besucher Tausende Radiosender streamen und Musik auf Abruf wiedergeben können.</description>
+        </de>
+        <es>
+	       <description>Una plataforma de streaming de música en la que los usuarios pueden emitir miles de emisoras de radio y reproducir música a la carta.</description>
+        </es>
+        <fr>
+	       <description>Plateforme de streaming de musique permettant à ses utilisateurs de diffuser des milliers de stations de radio en streaming et d’écouter de la musique à la demande.</description>
+        </fr>
+      </translations>
+      <packet>75</packet>
+      <mainCategory>21</mainCategory>
+      <domains>
+        <domain path="e2c137d5b5668083" />
+        <domain path="e9fe5b3a4d591b5b" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="132">
+      <name>"Buzzfeed"</name>
+      <website>buzzfeed.com</website>
+<description>An entertainment news site with quizzes, videos, celebrity news, food videos, recipes, DIY hacks, and more.</description>
+      <translations>
+        <de>
+	       <description>Eine Unterhaltungs-Website mit Quiz, Videos, Nachrichten über Prominente, Essensvideos, Rezepten, Heimwerkertricks und mehr.</description>
+        </de>
+        <es>
+	       <description>Un sitio de noticias de entretenimiento con cuestionarios, vídeos, noticias de famosos, vídeos de comida, recetas, trucos de bricolaje y muchas cosas más.</description>
+        </es>
+        <fr>
+	       <description>Site d’actualités consacré au monde du spectacle proposant des jeux de questions-réponses, des vidéos, des nouvelles concernant les célébrités, des vidéos culinaires, des recettes, des instructions de bricolage et bien plus encore.</description>
+        </fr>
+      </translations>
+      <packet>100</packet>
+      <mainCategory>22</mainCategory>
+      <domains>
+        <domain path="f97c465a92a35d20" />
+        <domain path="49fd151c3275434f" />
+      </domains>
+      <readingTime>3</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="133">
+      <name>"Trivia Crack"</name>
+      <website>triviacrack.com</website>
+<description>A trivia competition game based on 6 knowledge categories: Entertainment, Art, Sports, History, Science and Geography.</description>
+      <translations>
+        <de>
+	       <description>Ein Spieler-gegen-Spieler-Quiz mit 6 Wissenskategorien: Unterhaltung, Kunst, Sport, Geschichte, Wissenschaft und Geografie.</description>
+        </de>
+        <es>
+	       <description>Un juego de competición de preguntas basado en 6 categorías de conocimiento: entretenimiento, arte, deportes, historia, ciencia y geografía.</description>
+        </es>
+        <fr>
+	       <description>Jeu de questions-réponses basé sur six catégories de connaissances : spectacles, art, sport, histoire, science et géographie.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="d8847222fa457a9d" />
+        <domain path="d53c6fbbba1880c4" />
+      </domains>
+      <readingTime>1</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="134">
+      <name>"Ask.fm"</name>
+      <website>ask.fm</website>
+      <description>A social network where users send each other questions anonymously.  Anonymous social apps have a high frequency of cyber-bullying.</description>
+      <translations>
+        <de>
+	       <description>Ein soziales Netzwerk, in dem sich Benutzer anonym Fragen stellen.  Anonyme soziale Apps werden sehr häufig für Cyber-Mobbing genutzt.</description>
+        </de>
+        <es>
+	       <description>Una red social en la que los usuarios se envían preguntas de manera anónima.  Las aplicaciones sociales anónimas tienen una frecuencia alta de casos de ciberacoso.</description>
+        </es>
+        <fr>
+	       <description>Réseau social permettant à ses utilisateurs de s’envoyer des questions de manière anonyme.  Applications sociales anonymes caractérisées par du cyberharcèlement fréquent.</description>
+        </fr>
+      </translations>
+      <packet>30</packet>
+      <mainCategory>5</mainCategory>
+      <domains>
+        <domain path="559ecc0ebec6144d" />
+      </domains>
+      <readingTime>2</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="135">
+      <name>"ESPN"</name>
+      <website>espn.com</website>
+<description>A sports news agency featuring sports news and statistics as well as live video streaming.</description>
+      <translations>
+        <de>
+	       <description>Eine Sportnachrichtenagentur, die Sportnachrichten und Statistiken sowie Livevideostreaming bietet.</description>
+        </de>
+        <es>
+	       <description>Una agencia de información de deportes que ofrece noticias, estadísticas y vídeos en directo.</description>
+        </es>
+        <fr>
+	       <description>Agence de presse sportive proposant des actualités et des statistiques sportives ainsi qu’un service de streaming vidéo en direct.</description>
+        </fr>
+      </translations>
+      <packet>250</packet>
+      <mainCategory>28</mainCategory>
+      <domains>
+        <domain path="91676b2548363c49" />
+        <domain path="015c85478eb36731" />
+        <domain path="8e229741398c3b43" />
+        <domain path="2f245e2716382f63" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="136">
+      <name>"LinkedIn"</name>
+      <website>linkedin.com</website>
+<description>A professional social network and resumé platform. LinkedIn features job postings, articles, employment resources, and discussion.</description>
+      <translations>
+        <de>
+	       <description>Eine Social-Network-Plattform für Berufstätige, auf der Lebensläufe eingestellt werden können. Bei LinkedIn werden Stellenanzeigen, Artikel und Beschäftigungsressourcen gezeigt sowie Diskussionen geführt.</description>
+        </de>
+        <es>
+	       <description>Una red social profesional y una plataforma para currículos. LinkedIn incluye anuncios de trabajo, artículos, recursos de empleo y herramientas de debate.</description>
+        </es>
+        <fr>
+	       <description>Plateforme de réseau social et de partage de CV dans un contexte professionnel. LinkedIn propose des offres d’emploi, des articles, des ressources en matière d’emploi et des discussions.</description>
+        </fr>
+      </translations>
+      <packet>100</packet>
+      <mainCategory>27</mainCategory>
+      <domains>
+        <domain path="9f74b82ac8c714cb" />
+        <domain path="bde86cea3c28d66b" />
+      </domains>
+      <readingTime>2</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="137">
+      <name>"Foursquare"</name>
+      <website>foursquare.com</website>
+<description>A location-based social media app. Users can leave ratings and build their profile by \"checking in\" when visiting locations.</description>
+      <translations>
+        <de>
+	       <description>Eine ortsbasierte Social-Media-App. Benutzer können Bewertungen abgeben und ihre Profile erstellen, indem sie sich beim Besuchen von Orten „einchecken“.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de red social basada en la ubicación geográfica. Los usuarios pueden dejar puntuaciones y construir su perfil registrándose en los lugares que visitan.</description>
+        </es>
+        <fr>
+	       <description>Application de média social basée sur la géolocalisation. Elle permet à ses utilisateurs de publier des évaluations et de développer leur profil en signalant les endroits qu’ils ont visités.</description>
+        </fr>
+      </translations>
+      <packet>50</packet>
+      <mainCategory>33</mainCategory>
+      <domains>
+        <domain path="26b8b313b6ccbca0" />
+        <domain path="f977b6107dcd96c6" />
+      </domains>
+      <readingTime>2</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="138">
+      <name>"Yelp"</name>
+      <website>yelp.com</website>
+      <description>A business criticism platform where users can post their own reviews of businesses and search for top-rated local stores.</description>
+      <translations>
+        <de>
+	       <description>Eine Plattform zum Bewerten von Unternehmen, auf der Benutzer ihre Rezensionen über Unternehmen posten und nach sehr gut bewerteten lokalen Geschäften suchen können.</description>
+        </de>
+        <es>
+	       <description>Una plataforma de opinión en la que los usuarios pueden publicar sus propias reseñas y encontrar las mejores tiendas de un lugar concreto.</description>
+        </es>
+        <fr>
+	       <description>Plateforme de critique d’entreprises permettant à ses utilisateurs de publier leurs propres évaluations d’entreprise et de rechercher les commerces locaux les mieux notés.</description>
+        </fr>
+      </translations>
+      <packet>100</packet>
+      <mainCategory>33</mainCategory>
+      <domains>
+        <domain path="f26f5ba9fdc75688" />
+        <domain path="4f14fc525fd5e94a" />
+        <domain path="437b4580fca9e4f2" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="139">
+      <name>"Super Mario Run"</name>
+      <website>supermariorun.com</website>
+<description>A free-to-play mobile game which features in-app purchases.</description>
+      <translations>
+        <de>
+	       <description>Ein kostenlos spielbares mobiles Spiel, in dem In-App-Käufe möglich sind.</description>
+        </de>
+        <es>
+	       <description>Un juego gratuito para móvil que incluye compras integradas desde la aplicación.</description>
+        </es>
+        <fr>
+	       <description>Jeu pour appareils mobiles d’utilisation gratuite incluant des possibilités d’achat dans l’application.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="7535570b1661a02d" />
+        <domain path="8642747032862c80" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="140">
+      <name>"Pokemon GO"</name>
+      <website>pokemongo.com</website>
+<description>A free-to-play augmented reality game which features in-app purchases.</description>
+      <translations>
+        <de>
+	       <description>Ein kostenlos spielbares Erweiterte-Realität-Spiel, in dem In-App-Käufe möglich sind.</description>
+        </de>
+        <es>
+	       <description>Un juego gratuito de realidad aumentada que incluye compras integradas desde la aplicación.</description>
+        </es>
+        <fr>
+	       <description>Jeu de réalité augmentée d’utilisation gratuite incluant des possibilités d’achat dans l’application.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>13</mainCategory>
+      <domains>
+        <domain path="379e64e50a676880" />
+        <domain path="ffdbab36152bc0a8" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="141">
+      <name>"Live.Me"</name>
+      <website>liveme.com</website>
+<description>A social platform for broadcasting and watching live streaming videos. Users can host live video and get rewards from viewers.</description>
+      <translations>
+        <de>
+	       <description>Eine soziale Plattform zum Übertragen und Ansehen von live gestreamten Videos. Benutzer können Livevideo hosten und Belohnungen von Zuschauern erhalten.</description>
+        </de>
+        <es>
+	       <description>Una plataforma social para transmitir y ver vídeos en directo en streaming. Los usuarios pueden subir vídeos en directo y obtener recompensas de los espectadores.</description>
+        </es>
+        <fr>
+	       <description>Plateforme sociale destinée à publier et à regarder des vidéos diffusées en direct. Ses utilisateurs peuvent héberger des vidéos en direct et obtenir des récompenses de la part de leurs spectateurs.</description>
+        </fr>
+      </translations>
+      <packet>250</packet>
+      <mainCategory>29</mainCategory>
+      <domains>
+        <domain path="1bc717514ea019c7" />
+        <domain path="428be1f8829ac77b" />
+        <domain path="60d0117d55e6f682" />
+        <domain path="ad0ed0d17dd2b2ec" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="142">
+      <name>"Flipp"</name>
+      <website>flipp.com</website>
+      <description>A coupon app which collects and displays fliers from local stores.</description>
+      <translations>
+        <de>
+	       <description>Eine Gutschein-App, in der Reklame von lokalen Geschäften gesammelt und angezeigt wird.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de cupones que recopila y muestra folletos de comercios locales.</description>
+        </es>
+        <fr>
+	       <description>Application de bons de réduction destinée à collecter et afficher des dépliants de commerces locaux.</description>
+        </fr>
+      </translations>
+      <packet>100</packet>
+      <mainCategory>23</mainCategory>
+      <domains>
+        <domain path="d9a57abb84336d1b" />
+        <domain path="ed050825e7a43cda" />
+        <domain path="d726a406e97a48a1" />
+        <domain path="98870b3d997f5e2e" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="143">
+      <name>"Groupon"</name>
+      <website>groupon.com</website>
+<description>A coupon app featuring discounts on various goods and services.</description>
+      <translations>
+        <de>
+	       <description>Eine Gutschein-App, in der Rabatte für verschiedene Waren und Dienstleistungen angeboten werden.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de cupones que ofrece descuentos en diversos bienes y servicios.</description>
+        </es>
+        <fr>
+	       <description>Application de bons de réduction offrant des remises sur divers produits et services.</description>
+        </fr>
+      </translations>
+      <packet>200</packet>
+      <mainCategory>23</mainCategory>
+      <domains>
+        <domain path="ab9e3844903b75b9" />
+        <domain path="7034318aa82b3daa" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="144">
+      <name>"Timehop"</name>
+      <website>timehop.com</website>
+<description>A social media tool that searches through a user&apos;s accounts and allows you to share was posted a year ago on this date.</description>
+      <translations>
+        <de>
+	       <description>Ein Social-Media-Tool, das die Accounts eines Benutzers durchsucht und Ihnen ermöglicht, die Dinge zu teilen, die an diesem Datum vor einem Jahr gepostet wurden.</description>
+        </de>
+        <es>
+	       <description>Una herramienta de redes sociales que busca en las cuentas de un usuario y le permite compartir lo que se publicó en esa fecha un año antes.</description>
+        </es>
+        <fr>
+	       <description>Outil de média social qui effectue des recherches dans les comptes d’un utilisateur et lui permet de partager ce qu’il avait publié à la date correspondante l’année précédente.</description>
+        </fr>
+      </translations>
+      <packet>10</packet>
+      <mainCategory>27</mainCategory>
+      <domains>
+        <domain path="c80417f7255ead9d" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="145">
+      <name>"Zoosk"</name>
+      <website>zoosk.com</website>
+<description>A dating app where users find potential dating partners and message each other.</description>
+      <translations>
+        <de>
+	       <description>Eine Dating-App, mit der Benutzer mögliche Dating-Partner finden und miteinander kommunizieren.</description>
+        </de>
+        <es>
+	       <description>Una aplicación de citas en la que los usuarios pueden conocer a posibles parejas para quedar e intercambiar mensajes.</description>
+        </es>
+        <fr>
+	       <description>Application de rencontres permettant à ses utilisateurs de découvrir des partenaires potentiels et d’échanger des messages.</description>
+        </fr>
+      </translations>
+      <packet>70</packet>
+      <mainCategory>7</mainCategory>
+      <domains>
+        <domain path="3f83189edda87200" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="146">
+      <name>"Google Earth"</name>
+      <website>earth.google.com</website>
+<description>A map and travel tool which features satellite images and 3D maps.</description>
+      <translations>
+        <de>
+	       <description>Ein Karten- und Reisetool mit Satellitenbildern und 3D-Karten.</description>
+        </de>
+        <es>
+	       <description>Una herramienta de mapas y de viaje que incluye imágenes de satélite y mapas en 3D.</description>
+        </es>
+        <fr>
+	       <description>Outil de voyage et de cartes géographiques proposant des images satellites et des cartes en 3D.</description>
+        </fr>
+      </translations>
+      <packet>75</packet>
+      <mainCategory>33</mainCategory>
+      <domains>
+        <domain path="e2b9b9bd0a7c3e45" />
+        <domain path="f097c35a9c2bd10d" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="148">
+      <name>"Google Classroom"</name>
+      <website>classroom.google.com</website>
+<description>An education tool for teachers and students to organize classwork and grading as well as communicate with one another.</description>
+      <translations>
+        <de>
+	       <description>Ein Hilfsmittel im Unterricht für Lehrer und Lernende, um Klassenaufgaben und Benotungen zu organisieren sowie miteinander zu kommunizieren.</description>
+        </de>
+        <es>
+	       <description>Una herramienta educativa para profesores y alumnos que permite organizar el trabajo en clase y las calificaciones, además de comunicarse.</description>
+        </es>
+        <fr>
+	       <description>Outil éducatif qui permet aux enseignants et aux élèves d’organiser leurs travaux et de les noter, ainsi que de communiquer les uns avec les autres.</description>
+        </fr>
+      </translations>
+      <packet>75</packet>
+      <mainCategory>8</mainCategory>
+      <domains>
+        <domain path="7daedd7e4cca798b" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="149">
+      <name>"Google Play Music"</name>
+      <website>play.google.com/music</website>
+<description>A digital distribution platform for browsing and downloading music on Android devices.</description>
+      <translations>
+        <de>
+	       <description>Eine digitale Vertriebsplattform zum Durchsuchen und Herunterladen von Musik auf Android-Geräten.</description>
+        </de>
+        <es>
+	       <description>Una plataforma de distribución digital para ver y descargar música en dispositivos Android.</description>
+        </es>
+        <fr>
+	       <description>Plateforme de distribution numérique permettant de découvrir et de télécharger de la musique sur des appareils Android.</description>
+        </fr>
+      </translations>
+      <packet>175</packet>
+      <mainCategory>21</mainCategory>
+      <domains>
+        <domain path="1d61e843dcd3d291" />
+      </domains>
+      <readingTime>4</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="153">
+      <name>"Craigslist"</name>
+      <website>craigslist.org</website>
+<description>A website that provides local classifieds and forums for jobs, housing, for sale, personals, services, local community, and events.</description>
+      <translations>
+        <de>
+	       <description>Eine Website, auf der lokale Kleinanzeigen stehen und Foren für Jobs, Immobilien, Verkäufe, Persönliches, Dienstleistungen, Community und Ereignisse vorhanden sind.</description>
+        </de>
+        <es>
+	       <description>Un sitio web de anuncios locales clasificados y foros relacionados con el empleo, la vivienda, artículos en venta, anuncios personales, servicios, comunidad y eventos.</description>
+        </es>
+        <fr>
+	       <description>Site Web qui propose des petites annonces et des forums consacrés aux offres d’emploi, au logement, aux relations personnelles, aux services, à la communauté locale et aux événements.</description>
+        </fr>
+      </translations>
+      <packet>200</packet>
+      <mainCategory>23</mainCategory>
+      <domains>
+        <domain path="034d0de3bc2911fd" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="155">
+      <name>"BBC"</name>
+      <website>bbc.com</website>
+<description>A media non-profit and news agency which produces TV, radio, and online content.</description>
+      <translations>
+        <de>
+	       <description>Eine gemeinnützige Medienanstalt und Nachrichtenagentur, die TV-, Radio- und Onlineinhalte produziert.</description>
+        </de>
+        <es>
+	       <description>Una agencia de noticias y cadena sin ánimo de lucro que produce contenidos para TV, radio e internet.</description>
+        </es>
+        <fr>
+	       <description>Agence de presse et média sans but lucratif qui produit des émissions de télévision, des programmes radio et du contenu en ligne.</description>
+        </fr>
+      </translations>
+      <packet>20</packet>
+      <mainCategory>22</mainCategory>
+      <domains>
+        <domain path="934a64bebd253756" />
+        <domain path="6f3ca94beb2d87f1" />
+        <domain path="156ca89b68ed9d8d" />
+        <domain path="7719abac42445d70" />
+        <domain path="12fbeb075952644b" /> 
+        <domain path="ffea18b3b192108c" />
+        <domain path="90ffab125ce5d0c7" />
+        <domain path="d8569780828051de" />
+        <domain path="f9125f66cb9dd3de" />
+        <domain path="0c20a93b313a0aeb" />
+      </domains>
+      <readingTime>3</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="156">
+      <name>"Ebaumsworld"</name>
+      <website>www.ebaumsworld.com</website>
+<description>A humor publication with content in written, photo, and video formats as well as discussion forums.</description>
+      <translations>
+        <de>
+	       <description>Eine Humor-Publikation mit Text-, Foto- und Videoinhalten sowie mit Diskussionsforen.</description>
+        </de>
+        <es>
+	       <description>Una publicación de humor con contenidos en formato escrito, fotos y vídeo, además de foros de debate.</description>
+        </es>
+        <fr>
+	       <description>Publication humoristique proposant du contenu sous forme de texte, de photos et de vidéos, ainsi que des forums de discussion.</description>
+        </fr>
+      </translations>
+      <packet>200</packet>
+      <mainCategory>6</mainCategory>
+      <domains>
+        <domain path="77b83883437a2bc0" />
+      </domains>
+      <readingTime>1</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="157">
+      <name>"Twitch"</name>
+      <website>www.twitch.tv</website>
+<description>A live-streaming video platform with a focus on gaming.</description>
+      <translations>
+        <de>
+	       <description>Eine Plattform, auf der Videos live gestreamt werden. Der Schwerpunkt liegt auf Spielen.</description>
+        </de>
+        <es>
+	       <description>Una plataforma de streaming de vídeo en directo centrada sobre todo en videojuegos.</description>
+        </es>
+        <fr>
+	       <description>Plateforme de streaming vidéo en direct axée sur les jeux.</description>
+        </fr>
+      </translations>
+      <packet>250</packet>
+      <mainCategory>27</mainCategory>
+      <domains>
+        <domain path="faaad2b65b6fcc2e" />
+        <domain path="94ac4490a0915cff" />
+        <domain path="5a10a4d74927a585" />
+      </domains>
+      <readingTime>0</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="159">
+      <name>"The Student Room"</name>
+      <website>www.thestudentroom.co.uk</website>
+<description>A UK-based student community site with study tools, advice, and a discussion forum.</description>
+      <translations>
+        <de>
+	       <description>Eine im Vereinigten Königreich ansässige Studentencommunity-Website mit Lerntools, Ratschlägen und einem Diskussionsforum.</description>
+        </de>
+        <es>
+	       <description>Sitio del Reino Unido para la comunidad estudiantil, con herramientas de estudio, asesoramiento y foro de debate.</description>
+        </es>
+        <fr>
+	       <description>Site communautaire pour étudiants basé en Grande-Bretagne proposant des outils éducatifs, des conseils et un forum de discussion.</description>
+        </fr>
+      </translations>
+      <packet>30</packet>
+      <mainCategory>8</mainCategory>
+      <domains>
+        <domain path="f40a3f5d9a59e84a" />
+        <domain path="4d1d31984cdcc4d3" />
+      </domains>
+      <readingTime>2</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+    <platform id="160">
+      <name>"UNILAD"</name>
+      <website>www.unilad.co.uk</website>
+<description>A UK-based entertainment news site.</description>
+      <translations>
+        <de>
+	       <description>Eine im Vereinigten Königreich ansässige Unterhaltungs-Website.</description>
+        </de>
+        <es>
+	       <description>Sitio del Reino Unido con noticias de entretenimiento.</description>
+        </es>
+        <fr>
+	       <description>Site d’actualités basé en Grande-Bretagne et consacré au monde du spectacle.</description>
+        </fr>
+      </translations>
+      <packet>75</packet>
+      <mainCategory>22</mainCategory>
+      <domains>
+        <domain path="4ff093cef6373e9e" />
+      </domains>
+      <readingTime>3</readingTime>
+      <isVisibleFor>OnRequest</isVisibleFor>
+    </platform>
+  </platforms>
+</config>
+

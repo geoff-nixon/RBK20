@@ -1,0 +1,8 @@
+/etc/init.d/check_connect
+/etc/init.d/parental_cmd
+/usr/bin/circled
+/lib/circle/database.bin
+/lib/circle/firmware.bin
+/usr/bin/circle_check_account
+/usr/bin/backup_cfg
+/etc/init.d/circle_init

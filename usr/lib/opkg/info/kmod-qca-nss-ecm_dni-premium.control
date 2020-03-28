@@ -1,0 +1,8 @@
+Package: kmod-qca-nss-ecm_dni-premium
+Version: 3.14.77-1
+Depends: kernel (=3.14.77-1-f42378b3f0fe1f8d209ccc333cd46d53), kmod-qca-nss-drv_dni, iptables-mod-extra, kmod-ipt-conntrack, kmod-ipv6, kmod-shortcut-fe_dni-drv, kmod-l2tp, kmod-pppol2tp, kmod-bonding, kmod-pptp, kmod-qca-hyfi-bridge_dni, kmod-nat46
+Source: package/qca/qca-nss-ecm_dni
+Section: kernel
+Architecture: ipq806x
+Installed-Size: 168457
+Description:  QCA NSS Enhanced Connection Manager (ECM) (with premium features)

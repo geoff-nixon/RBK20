@@ -1,0 +1,13 @@
+{
+    "name": "urlstatus",
+    "min_subscription_level": "basic",
+    "config_rules": [
+        {
+            "name": "urlstatus.*",
+            "action": ["block_flow"],
+            "notify_count": "notify_count()",
+            "notify_interval": "notify_interval()",
+            "notify_matches": ["dst_ip", "http_host"]
+        }
+    ]
+}

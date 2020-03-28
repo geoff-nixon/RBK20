@@ -1,0 +1,11 @@
+Package: jpeg-tools
+Version: 9a-1
+Depends: libc, libjpeg
+Source: package/dni/arlo/libjpeg
+License: IJG
+LicenseFiles: README
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ipq806x
+Installed-Size: 26655
+Description:  The Independent JPEG Group's JPEG manipulation tools

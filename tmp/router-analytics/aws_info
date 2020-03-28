@@ -1,0 +1,19 @@
+AWS IOT: RAE BINARY VERSION is  1.4.0.16
+AWS IOT: POLICY VERSION is  V0.21
+AWS IOT: expect time  is  8:4:40
+AWS IOT: dailyUpdateMethod is  1
+AWS IOT: updaterInternal is  1440
+AWS IOT: routerInfo is  1440
+AWS IOT: routerConfig is  1440
+AWS IOT: readyShare is  1440
+AWS IOT: mediaDevice is  1440
+AWS IOT: connectedDevice is  1440
+AWS IOT: wifiAnalytics is  0
+AWS IOT: cpuThresholdHigh is  90
+AWS IOT: cpuThresholdDuration is  60
+AWS IOT: memoryUtilizationsHigh is  90
+AWS IOT: memoryUtilizationsDuration is  60
+AWS IOT: topic is  analytics/
+AWS IOT: stage is  prod
+AWS IOT: retry interval is  3600
+AWS IOT: sleeptime is  60

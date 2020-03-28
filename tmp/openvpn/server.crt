@@ -1,0 +1,75 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=TW, ST=TW, L=Taipei, O=netgear, OU=netgear, CN=netgear/name=changeme/emailAddress=mail@netgear.com
+        Validity
+            Not Before: Dec 15 06:00:41 2018 GMT
+            Not After : Dec 10 06:00:41 2038 GMT
+        Subject: C=TW, ST=TW, L=Taipei, O=netgear, OU=netgear, CN=netgear/name=changeme/emailAddress=mail@netgear.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:d1:5a:c9:e8:38:41:b1:6e:b2:6a:cb:89:2b:e0:
+                    b2:4b:37:20:4f:f4:c4:24:3b:39:9a:e9:d6:fb:fb:
+                    26:d3:f9:04:8e:f1:c6:df:9c:66:f5:f3:57:08:1c:
+                    4d:56:f7:44:3b:59:c4:9b:f3:51:e0:03:22:ac:f8:
+                    3d:7f:35:e0:e5:d6:f2:13:fa:c4:5f:52:63:16:39:
+                    df:d2:a5:f4:12:ca:d8:b1:dc:75:3d:52:58:c1:7f:
+                    0b:61:1e:74:cc:ee:86:0b:42:a1:6c:3e:62:1a:22:
+                    42:44:29:34:a2:ad:f9:ad:6b:ca:34:65:0d:d8:ca:
+                    25:3c:d4:91:a7:f6:3e:86:57
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                57:EE:27:5A:23:B1:1E:D4:77:90:02:CE:CD:4E:CE:30:86:5E:D6:47
+            X509v3 Authority Key Identifier: 
+                keyid:09:87:53:D6:3E:BE:9A:6D:67:B7:9F:ED:F6:2B:CC:B8:47:13:79:21
+                DirName:/C=TW/ST=TW/L=Taipei/O=netgear/OU=netgear/CN=netgear/name=changeme/emailAddress=mail@netgear.com
+                serial:86:75:41:85:68:B6:2B:EB
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+    Signature Algorithm: sha256WithRSAEncryption
+         87:ce:cb:59:87:a3:2b:e3:02:5f:d5:61:89:af:ab:62:e8:1a:
+         f2:00:b1:35:0a:a9:3b:33:79:07:0f:64:69:26:d9:f6:c9:12:
+         ea:d2:13:94:64:15:22:05:7b:19:13:e4:eb:17:0a:2a:43:45:
+         17:b0:57:9d:b7:02:d2:f3:8d:64:31:d4:60:cb:46:69:56:86:
+         6b:d2:20:ec:e4:f6:ef:10:08:ef:77:2d:5e:c4:79:84:5f:cc:
+         b8:74:95:e1:3d:1e:52:fd:f4:bf:73:01:32:2a:0a:6c:83:90:
+         da:42:21:70:bc:18:b9:85:c6:07:06:c1:90:00:0c:cc:f0:47:
+         86:3c
+-----BEGIN CERTIFICATE-----
+MIIECjCCA3OgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBlTELMAkGA1UEBhMCVFcx
+CzAJBgNVBAgTAlRXMQ8wDQYDVQQHEwZUYWlwZWkxEDAOBgNVBAoTB25ldGdlYXIx
+EDAOBgNVBAsTB25ldGdlYXIxEDAOBgNVBAMTB25ldGdlYXIxETAPBgNVBCkTCGNo
+YW5nZW1lMR8wHQYJKoZIhvcNAQkBFhBtYWlsQG5ldGdlYXIuY29tMB4XDTE4MTIx
+NTA2MDA0MVoXDTM4MTIxMDA2MDA0MVowgZUxCzAJBgNVBAYTAlRXMQswCQYDVQQI
+EwJUVzEPMA0GA1UEBxMGVGFpcGVpMRAwDgYDVQQKEwduZXRnZWFyMRAwDgYDVQQL
+EwduZXRnZWFyMRAwDgYDVQQDEwduZXRnZWFyMREwDwYDVQQpEwhjaGFuZ2VtZTEf
+MB0GCSqGSIb3DQEJARYQbWFpbEBuZXRnZWFyLmNvbTCBnzANBgkqhkiG9w0BAQEF
+AAOBjQAwgYkCgYEA0VrJ6DhBsW6yasuJK+CySzcgT/TEJDs5munW+/sm0/kEjvHG
+35xm9fNXCBxNVvdEO1nEm/NR4AMirPg9fzXg5dbyE/rEX1JjFjnf0qX0EsrYsdx1
+PVJYwX8LYR50zO6GC0KhbD5iGiJCRCk0oq35rWvKNGUN2MolPNSRp/Y+hlcCAwEA
+AaOCAWYwggFiMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgZAMDQGCWCGSAGG
++EIBDQQnFiVFYXN5LVJTQSBHZW5lcmF0ZWQgU2VydmVyIENlcnRpZmljYXRlMB0G
+A1UdDgQWBBRX7idaI7Ee1HeQAs7NTs4whl7WRzCBygYDVR0jBIHCMIG/gBQJh1PW
+Pr6abWe3n+32K8y4RxN5IaGBm6SBmDCBlTELMAkGA1UEBhMCVFcxCzAJBgNVBAgT
+AlRXMQ8wDQYDVQQHEwZUYWlwZWkxEDAOBgNVBAoTB25ldGdlYXIxEDAOBgNVBAsT
+B25ldGdlYXIxEDAOBgNVBAMTB25ldGdlYXIxETAPBgNVBCkTCGNoYW5nZW1lMR8w
+HQYJKoZIhvcNAQkBFhBtYWlsQG5ldGdlYXIuY29tggkAhnVBhWi2K+swEwYDVR0l
+BAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4GBAIfO
+y1mHoyvjAl/VYYmvq2LoGvIAsTUKqTszeQcPZGkm2fbJEurSE5RkFSIFexkT5OsX
+CipDRRewV523AtLzjWQx1GDLRmlWhmvSIOzk9u8QCO93LV7EeYRfzLh0leE9HlL9
+9L9zATIqCmyDkNpCIXC8GLmFxgcGwZAADMzwR4Y8
+-----END CERTIFICATE-----

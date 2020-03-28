@@ -1,0 +1,7 @@
+2020-03-12 05:47:26 (9560):libXhdlr.c:89	DEBUG: Inside XHandlerInit Func2020-03-12 05:47:26 (9560):libXhdlr.c:89	DEBUG: port: 4466, sock : 11
+2020-03-12 05:47:26 (9560):libXhdlr.c:89	DEBUG: port: 4455, sock : 12
+2020-03-12 05:47:26 (9560):libXhdlr.c:89	DEBUG: Both the ports are initialized, Initializing X-Agent
+2020-03-12 05:47:26 (9560):libXhdlr.c:89	DEBUG: listener thread started
+2020-03-12 05:47:26 (9560):libXhdlr.c:89	DEBUG: xagentChgNtf 0, 0, 0
+2020-03-27 17:58:32 (9560):libXhdlr.c:89	DEBUG: xagentChgNtf 1, 0, 0
+2020-03-27 18:26:11 (9560):libXhdlr.c:89	DEBUG: xagentChgNtf 1, 0, 1

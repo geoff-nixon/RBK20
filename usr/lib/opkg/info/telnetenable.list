@@ -1,0 +1,3 @@
+/lib/network/RtDebug.sh
+/usr/sbin/telnetenable
+/etc/init.d/telnet

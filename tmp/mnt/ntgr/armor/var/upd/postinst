@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp -a ./var/tmp/storage.data.backup ./etc/storage.data 2> /dev/null || true
+rm -f ./var/tmp/storage.data.backup
+
+./bin/bd start
+

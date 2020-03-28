@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+  <wifi>
+    <status>unpaired</status>
+    <restart>false</restart>
+    <ssid>none</ssid>
+    <authentication>empty</authentication>
+    <key>none</key>
+  </wifi>
+  <overall>
+    <circleName></circleName>
+    <mode>Filter</mode>
+    <enabled>True</enabled>
+    <timezone>PST/PDT</timezone>
+    <activeNotifications>
+      <notification id="1"/>
+      <notification id="4"/>
+      <notification id="5"/>
+      <notification id="6"/>
+      <notification id="7"/>
+      <notification id="8"/>
+    </activeNotifications>
+    <defaultProfile>0</defaultProfile>
+	<locale>en_US</locale>
+	<weekend>56</weekend>
+	<debugEnabled>True</debugEnabled>
+	<coppaAgreement>not_complete</coppaAgreement>
+  </overall>
+  <users>
+    <user pid="0">
+      <name>Home</name>
+      <ageCategory>None</ageCategory>
+      <relatedDevices>
+      </relatedDevices>
+      <mode>Filter</mode>
+      <categorySwitches>
+      </categorySwitches>
+      <customSwitches>
+      </customSwitches>
+      <timeLimits>
+      </timeLimits>
+      <flexOffTimes>
+	  </flexOffTimes>
+      <extensions>
+        <limits>
+        </limits>
+        <offTimes>
+        </offTimes>
+	  </extensions>
+      <toggles>
+        <timeLimits>Off</timeLimits>
+        <offTimes>Off</offTimes>
+        <defaultPlatforms>On</defaultPlatforms>
+      </toggles>
+       <role>standard</role>
+       <platformSwitches>
+       </platformSwitches>
+       <weekend>
+       </weekend>
+    </user>
+    <user pid="1">
+      <name>Unmanaged Devices</name>
+      <ageCategory>None</ageCategory>
+      <relatedDevices>
+      </relatedDevices>
+      <mode>Unmanaged</mode>
+      <categorySwitches>
+      </categorySwitches>
+      <customSwitches>
+      </customSwitches>
+      <timeLimits>
+      </timeLimits>
+      <flexOffTimes>
+	  </flexOffTimes>
+      <extensions>
+        <limits>
+        </limits>
+        <offTimes>
+        </offTimes>
+	  </extensions>
+      <toggles>
+        <timeLimits>Off</timeLimits>
+        <offTimes>Off</offTimes>
+        <defaultPlatforms>On</defaultPlatforms>
+      </toggles>
+       <role>standard</role>
+       <platformSwitches>
+       </platformSwitches>
+       <weekend>
+       </weekend>
+    </user>
+  </users>
+  <devices>
+  </devices>
+  <contact>
+    <phone></phone>
+	<countryCode></countryCode>
+    <email></email>
+    <name></name>
+  </contact>
+</config>

@@ -1,0 +1,10 @@
+Package: kmod-crypto-qcrypto
+Version: 3.14.77-1
+Depends: kernel (=3.14.77-1-f42378b3f0fe1f8d209ccc333cd46d53), kmod-crypto-manager, kmod-crypto-aes, kmod-crypto-hash, kmod-crypto-des, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ipq806x
+Installed-Size: 28418
+Description:  Qualcomm crypto CE engine

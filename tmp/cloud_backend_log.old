@@ -1,0 +1,16 @@
+[2020-03-12 05:47:11]:DEBUG:TimeStamp : 1583992031
+[2020-03-12 05:47:11]:DEBUG:JSON CMD is {"token":"8a1fdce84724aa7a85c1562fa25291bc4b697ddc680e7ef3db7822b29e52436b","ePOCHTimeStamp":"1583992031","modelNumber":"RBR20","serialNumber":"5EH68C5806F6F","regionCode":"1","reasonToCall":"3","betaAcceptance":0,"currentFWVersion":"V2.3.5.30"}
+[2020-03-12 05:47:11]:DEBUG:CheckFwURL is https://devcom.up.netgear.com/UpBackend/checkFirmware/
+[2020-03-12 05:47:11]:DEBUG:Loading fwlib on PROD
+[2020-03-12 05:47:11]:DEBUG: URL is https://devcom.up.netgear.com/UpBackend/checkFirmware/
+[2020-03-12 05:47:11]:INFO:curl_easy_perform() failed: Error::
+[2020-03-12 05:47:11]:DEBUG:
+Unable to connect to Up-Backend for CHECK_FW_API
+[2020-03-12 05:59:39]:DEBUG:TimeStamp : 1583992779
+[2020-03-12 05:59:39]:DEBUG:JSON CMD is {"token":"d873d614d757798ff80246d82a576db5d14cf40ca6d23223e10603bf2eac64f1","ePOCHTimeStamp":"1583992779","serialNumber":"5EH68C5806F6F","currentFWVersion":"V2.3.5.30"}
+[2020-03-12 05:59:39]:DEBUG:NotifyFwURL is https://devcom.up.netgear.com/UpBackend/notifyFirmware/
+[2020-03-12 05:59:39]:DEBUG:Loading fwlib on PROD
+[2020-03-12 05:59:40]:DEBUG: URL is https://devcom.up.netgear.com/UpBackend/notifyFirmware/
+[2020-03-12 06:00:10]:INFO:curl_easy_perform() failed: Error::
+[2020-03-12 06:00:10]:DEBUG:
+Unable to connect to Up-Backend for NOTIFY FW API

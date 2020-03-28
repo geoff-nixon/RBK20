@@ -1,0 +1,8 @@
+Package: datalib
+Version: 1.0-1
+Depends: libc, dni-libmtd
+Source: package/dni/datalib
+Section: utils
+Architecture: ipq806x
+Installed-Size: 24066
+Description:  Small application for saving data on embedded system

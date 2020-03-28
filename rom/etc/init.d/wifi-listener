@@ -1,0 +1,25 @@
+#!/bin/sh /etc/rc.common
+
+START=95
+
+boot() {
+	echo  "[wifi-listener] Starting daemon" > /dev/console
+	/usr/sbin/wifi-listener
+	/usr/sbin/arlo_map_tracker.sh     # scan arlo_list to avoid ignoring camera which have connect earlier before wifi-lister implement
+}
+
+
+start() {
+	DNI_WLAN_UPDOWN_LOCK=/tmp/.wlan_updown_lockfile
+	nrvaps=$(find /sys/class/net/ -name 'ath*'|wc -l)
+	if [ ${nrvaps} -eq 0  -o -f $DNI_WLAN_UPDOWN_LOCK ]; then
+		echo  "[wifi-listener] Wireless interface not ready, not launch wifi-listener" > /dev/console
+	else
+		echo  "[wifi-listener] Starting daemon" > /dev/console
+		/usr/sbin/wifi-listener
+	fi
+}
+
+stop() {
+	killall -9 wifi-listener
+}

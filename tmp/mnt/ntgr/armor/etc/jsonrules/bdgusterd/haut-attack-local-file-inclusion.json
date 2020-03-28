@@ -1,0 +1,23 @@
+{
+    "name": "haut-attack-lfi",
+    "min_subscription_level": "pro",
+    "config_rules": [
+        {
+            "name": "haut.Attack.LocalFileInclusion.*",
+            "block_direction": "original",
+            "action": ["block_flow", "block_src_ip", "block_dst_ip"],
+            "block_lifetime": "block_lifetime()",
+            "notify_count": "notify_count()",
+            "notify_interval": "notify_interval()",
+            "notify_matches": ["src_ip"],
+            "src_netif": "@wan()"
+        },
+        {
+            "name": "haut.Attack.LocalFileInclusion.*",
+            "action": [],
+            "notify_count": 0,
+            "src_netif": "@lan()"
+        }
+    ]
+}
+

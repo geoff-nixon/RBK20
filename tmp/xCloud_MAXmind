@@ -1,0 +1,11 @@
+{
+  "_type": "ExtendedLocation",
+  "zoneOffset": -28800,
+  "timeZone": "America/Los_Angeles",
+  "country": "US",
+  "region": "CA",
+  "city": "Santa Rosa",
+  "zip": "95409",
+  "ip": "73.92.70.22",
+  "isp": "Comcast Cable"
+}

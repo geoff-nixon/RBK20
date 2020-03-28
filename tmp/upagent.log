@@ -1,0 +1,66 @@
+2020-03-12 05:47:26 (9560):up_main.c:265	  DEBUG: Starting upagent Version Id is 1.0.0
+2020-03-12 05:47:26 (9560):up_main.c:275	   INFO: upagent locked the pid file.
+2020-03-12 05:47:26 (9560):up_get_dalfld.c:336	   INFO: XID 
+2020-03-12 05:47:26 (9560):up_get_dalfld.c:340	   INFO: claimed 
+2020-03-12 05:47:26 (9560):up_get_dalfld.c:345	   INFO: FSN 5EH68C5806F6F
+2020-03-12 05:47:26 (9560):up_get_dalfld.c:350	   INFO: DeviceModel RBR20
+2020-03-12 05:47:26 (9560):up_get_dalfld.c:355	   INFO: DeviceName RBR20
+2020-03-12 05:47:26 (9560):up_get_dalfld.c:360	   INFO: UpBaseURL https://devcom.up.netgear.com/UpBackend/
+2020-03-12 05:47:26 (9560):up_get_dalfld.c:365	   INFO: FwRevision V2.3.5.30
+2020-03-12 05:47:26 (9560):up_get_dalfld.c:369	   INFO: DefaultMAC 28:80:88:D7:95:DF
+
+2020-03-12 05:47:26 (9560):up_get_dalfld.c:373	  DEBUG: serialNo : 5EH68C5806F6F, modelNumber : RBR20, MacAddr : 28:80:88:D7:95:DF, fwVersion :V2.3.5.30
+2020-03-12 05:47:26 (9560):up_main.c:302	  ERROR: Failed to get info on startup. Will again get when get triggers
+2020-03-12 05:47:26 (9560):up_url.c:34	  DEBUG: UpBaseUrl is https://devcom.up.netgear.com/UpBackend/
+2020-03-12 05:47:26 (9560):up_url.c:35	  DEBUG: BOOT_API is https://devcom.up.netgear.com/UpBackend/addXDeviceId/
+2020-03-12 05:47:26 (9560):up_url.c:36	  DEBUG: BITDEF_API is https://devcom.up.netgear.com/UpBackend/changeBDStatus/
+2020-03-12 05:47:26 (9560):up_url.c:37	  DEBUG: BDEXPIRE_API is https://devcom.up.netgear.com/UpBackend/resetBD/
+2020-03-12 05:47:26 (9560):up_url.c:39	  DEBUG: API URLs:
+			https://devcom.up.netgear.com/UpBackend/addXDeviceId/
+			https://devcom.up.netgear.com/UpBackend/changeBDStatus/
+			https://devcom.up.netgear.com/UpBackend/resetBD/
+2020-03-12 05:47:26 (9560):up_main.c:234	  DEBUG: Getting Registered status from XagentStatus table
+2020-03-12 05:47:26 (9560):up_main.c:243	  DEBUG: regStatus is false, addXdeviceId will call normal registration flow
+2020-03-12 05:47:26 (9560):up_main.c:328	  DEBUG: Initiating Connection with libXhdlr
+2020-03-12 05:47:26 (9560):up_main.c:151	  DEBUG: Callback successfull, registered is: 0, claimed is 0, connected is: 0
+2020-03-12 05:47:26 (9560):up_main.c:166	  DEBUG: Not a valid event received not honor this!...
+2020-03-12 05:47:26 (9560):up_main.c:174	  DEBUG: xagent force connection is 1
+2020-03-12 05:47:26 (9560):up_main.c:181	  DEBUG: Returning from XAgentStatus_cbHandler
+2020-03-27 17:58:32 (9560):up_main.c:151	  DEBUG: Callback successfull, registered is: 1, claimed is 0, connected is: 0
+2020-03-27 17:58:32 (9560):up_main.c:154	  DEBUG: =====LOCKed Process..=====
+2020-03-27 17:58:32 (9560):up_reg.c:609	  DEBUG: Device Registered with XCloud
+
+2020-03-27 17:58:32 (9560):up_utils.c:89	  DEBUG: TimeStamp : 1585331912
+2020-03-27 17:58:32 (9560):up_reg.c:621	   INFO: token : 9cb05ba7205bec97902b7afbb6e013560562724239fd6530554ba242944b5b9a, timestamp : 1585331912
+2020-03-27 17:58:32 (9560):up_reg.c:628	  DEBUG: FSN: 5EH68C5806F6F
+ XID: 
+2020-03-27 17:58:32 (9560):up_get_dalfld.c:336	   INFO: XID R9KZCEP7-2350-336-159896667
+2020-03-27 17:58:32 (9560):up_get_dalfld.c:340	   INFO: claimed DH4D5S2R289CHEYPJ37
+2020-03-27 17:58:32 (9560):up_get_dalfld.c:345	   INFO: FSN 5EH68C5806F6F
+2020-03-27 17:58:32 (9560):up_get_dalfld.c:350	   INFO: DeviceModel RBR20
+2020-03-27 17:58:32 (9560):up_get_dalfld.c:355	   INFO: DeviceName RBR20
+2020-03-27 17:58:32 (9560):up_get_dalfld.c:360	   INFO: UpBaseURL https://devcom.up.netgear.com/UpBackend/
+2020-03-27 17:58:32 (9560):up_get_dalfld.c:365	   INFO: FwRevision V2.3.5.30
+2020-03-27 17:58:32 (9560):up_get_dalfld.c:369	   INFO: DefaultMAC 28:80:88:D7:95:DF
+
+2020-03-27 17:58:32 (9560):up_get_dalfld.c:373	  DEBUG: serialNo : 5EH68C5806F6F, modelNumber : RBR20, MacAddr : 28:80:88:D7:95:DF, fwVersion :V2.3.5.30
+2020-03-27 17:58:32 (9560):up_reg.c:636	  DEBUG: Retry to get info 
+2020-03-27 17:58:32 (9560):up_reg.c:644	  DEBUG: Making payload here
+
+2020-03-27 17:58:32 (9560):up_reg.c:663	  DEBUG: CMD is  : {"serialNo":"5EH68C5806F6F","deviceType":"RBR20","modelNumber":"RBR20","xDeviceId":"R9KZCEP7-2350-336-159896667","macaddress":"28:80:88:D7:95:DF","ePOCHTimeStamp":"1585331912","token":"9cb05ba7205bec97902b7afbb6e013560562724239fd6530554ba242944b5b9a","firmwareVersion":"V2.3.5.30"}
+2020-03-27 17:58:32 (9560):up_reg.c:670	  DEBUG: Registering Device to UPCloud
+2020-03-27 17:58:32 (9560):up_utils.c:45	  DEBUG: Loading upagent on PROD
+2020-03-27 17:58:32 (9560):up_utils.c:187	  DEBUG:  URL is https://devcom.up.netgear.com/UpBackend/addXDeviceId/
+2020-03-27 17:58:32 (9560):up_reg.c:679	  DEBUG: Response from UPCloud: {"status":1,"errorCode":null,"message":null,"reset":0,"subscriptionStatus":0,"claimState":false,"syncTime":null}
+2020-03-27 17:58:32 (9560):up_reg.c:526	  DEBUG: buff : {"status":1,"errorCode":null,"message":null,"reset":0,"subscriptionStatus":0,"claimState":false,"syncTime":null}
+2020-03-27 17:58:32 (9560):up_reg.c:571	  DEBUG: Successfully called addXDeviceId...
+2020-03-27 17:58:32 (9560):up_reg.c:682	  DEBUG: Registration Successfull
+
+2020-03-27 17:58:32 (9560):up_main.c:159	  DEBUG: =====UnLOCK Done..=====
+2020-03-27 17:58:32 (9560):up_main.c:181	  DEBUG: Returning from XAgentStatus_cbHandler
+2020-03-27 18:26:11 (9560):up_main.c:151	  DEBUG: Callback successfull, registered is: 1, claimed is 0, connected is: 1
+2020-03-27 18:26:11 (9560):up_main.c:154	  DEBUG: =====LOCKed Process..=====
+2020-03-27 18:26:11 (9560):up_reg.c:609	  DEBUG: Device Registered with XCloud
+
+2020-03-27 18:26:11 (9560):up_reg.c:702	   INFO: AddxDeviceId API already done2020-03-27 18:26:11 (9560):up_main.c:159	  DEBUG: =====UnLOCK Done..=====
+2020-03-27 18:26:11 (9560):up_main.c:181	  DEBUG: Returning from XAgentStatus_cbHandler

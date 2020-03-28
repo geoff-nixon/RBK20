@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# IPv6 disabled for Netgear
+exit 0

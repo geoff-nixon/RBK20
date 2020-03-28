@@ -1,0 +1,7 @@
+PING www.netgear.com (99.84.216.123): 56 data bytes
+64 bytes from 99.84.216.123: seq=0 ttl=229 time=76.532 ms
+64 bytes from 99.84.216.123: seq=1 ttl=229 time=76.916 ms
+
+--- www.netgear.com ping statistics ---
+2 packets transmitted, 2 packets received, 0% packet loss
+round-trip min/avg/max = 76.532/76.724/76.916 ms

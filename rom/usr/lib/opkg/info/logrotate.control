@@ -1,0 +1,11 @@
+Package: logrotate
+Version: 3.8.1-1
+Depends: libc, libpopt
+Source: package/others/logrotate
+Section: utils
+Architecture: ipq806x
+Installed-Size: 19327
+Description:  logrotate is designed to ease administration of systems that generate large
+ numbers of log files. It allows auto-matic rotation, compression, removal and
+ mailing of log files. Each log file may be handled daily, weekly, monthly or
+ when it grows too large.

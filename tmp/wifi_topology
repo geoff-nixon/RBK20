@@ -1,0 +1,8 @@
+NORMAL:AP:wifi0:ath0:@wifi-iface[0]:wl
+BACKHAUL:AP:wifi0:ath01:@wifi-iface[1]:wlg_ap_bh
+NORMAL:AP:wifi1:ath1:@wifi-iface[2]:wla
+BACKHAUL:AP:wifi1:ath11:@wifi-iface[3]:wla_ap_bh
+GUEST:AP:wifi0:ath02:@wifi-iface[4]:wlg1
+GUEST:AP:wifi1:ath12:@wifi-iface[5]:wla1
+NORMAL:AP:wifi2:ath2:@wifi-iface[6]:wla_2nd
+GUEST:AP:wifi2:ath21:@wifi-iface[7]:wla1_2nd

@@ -1,0 +1,20 @@
+fe80::ee0e:c4ff:fe24:a283 dev br0 lladdr ec:0e:c4:24:a2:83 REACHABLE
+2601:645:400:b66::5 dev br0 lladdr 2c:33:61:ec:cd:77 STALE
+2601:645:400:b66:f9b3:6ae2:50f8:c831 dev br0  FAILED
+2601:645:400:b66:8e7:825f:8fca:3a7 dev br0 lladdr 2c:33:61:ec:cd:77 STALE
+fe80::1ab4:30ff:fe0c:d5cd dev br0 lladdr 18:b4:30:0c:d5:cd STALE
+2601:645:400:b66:3432:a421:3c52:73ba dev br0 lladdr 6c:40:08:92:e4:5e STALE
+2601:645:400:b66::2 dev br0 lladdr 44:00:10:d2:66:a6 STALE
+fe80::2a80:88ff:fed7:95df dev br0 lladdr 28:80:88:d7:95:df router STALE
+2601:645:400:b66::4 dev br0 lladdr 18:b4:30:0c:d5:cd STALE
+2601:645:400:b66:3d33:8a1d:88f4:dc96 dev br0 lladdr 44:00:10:d2:66:a6 STALE
+fe80::2a80:88ff:fed7:95e0 dev brwan lladdr 28:80:88:d7:95:e0 STALE
+2601:645:400:b66:21:5353:350b:2513 dev br0 lladdr ec:0e:c4:24:a2:83 REACHABLE
+fe80::18ab:c069:1c66:303c dev br0 lladdr 44:00:10:d2:66:a6 STALE
+2601:645:400:b66:2a80:88ff:fed7:95df dev br0  FAILED
+fe80::7ae1:3ff:fe17:1a97 dev br0 lladdr 78:e1:03:17:1a:97 STALE
+fe80::1089:9b80:4578:97dc dev br0 lladdr 6c:40:08:92:e4:5e REACHABLE
+fe80::184a:780d:e729:d4a5 dev br0 lladdr 2c:33:61:ec:cd:77 STALE
+fe80::2601:6454:400:b66 dev br0  router FAILED
+2601:645:400:b66::3 dev br0  FAILED
+fe80::201:5cff:fe74:e46 dev brwan lladdr 00:01:5c:74:0e:46 router REACHABLE

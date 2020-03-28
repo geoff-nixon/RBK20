@@ -1,0 +1,10 @@
+Package: qca-whc-repacd_dni
+Version: 3.0.1500.042-1
+Depends: libc, qca-whc-init_dni, qca-ieee1905-init_dni, qca-wsplcd_dni, openssl-util
+Source: package/qca/whc/qca-whc-repacd_dni
+Section: QCA
+Maintainer: Qualcomm Atheros, Inc.
+Architecture: ipq806x
+Installed-Size: 61875
+Description:  This package installs the Whole Home Coverage Range Extender Placement and
+ Auto-configuration scripts

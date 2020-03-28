@@ -1,0 +1,21 @@
+{
+    "name": "haut-attack-bruteforce",
+    "min_subscription_level": "pro",
+    "config_rules": [
+        {
+            "name": "haut.Attack.Bruteforce.*",
+            "action": ["block_flow", "block_src_ip"],
+            "block_lifetime": "block_lifetime()",
+            "notify_count": "notify_count()",
+            "notify_interval": "notify_interval()",
+            "notify_matches": ["src_ip"]
+        },
+        {
+            "name": "haut.Attack.Bruteforce.*",
+            "action": [],
+            "notify_count": 0,
+            "src_netif": "@lan()"
+        }
+    ]
+}
+

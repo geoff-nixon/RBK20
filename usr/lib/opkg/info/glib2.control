@@ -1,0 +1,9 @@
+Package: glib2
+Version: 2.44.1-1
+Depends: libc, zlib, libpthread, libffi, libattr, libiconv-full, libintl-full
+Source: package/dni/arlo/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ipq806x
+Installed-Size: 821053
+Description:  The GLib library of C routines

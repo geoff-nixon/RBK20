@@ -1,0 +1,8 @@
+Package: dnippp
+Version: 2.4.7-8
+Depends: libc, kmod-ppp, datalib
+Source: package/dni/dnippp
+Section: net
+Architecture: ipq806x
+Installed-Size: 107509
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.

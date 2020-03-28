@@ -1,0 +1,8 @@
+Package: dnippp-mod-l2tp
+Version: 2.4.7-8
+Depends: libc, dnippp, kmod-l2tp
+Source: package/dni/dnippp
+Section: net
+Architecture: ipq806x
+Installed-Size: 9058
+Description:  This package contains a L2TP (PPP over L2TP) plugin for ppp.

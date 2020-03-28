@@ -1,0 +1,7 @@
+/usr/lib/libqca_wifison_ext.so
+/usr/sbin/arlo_unicast.sh
+/usr/sbin/wifi-listener
+/etc/init.d/wifi-listener
+/usr/sbin/tri_band_detect.sh
+/usr/sbin/arlo_map_tracker.sh
+/usr/sbin/qca_event_sample

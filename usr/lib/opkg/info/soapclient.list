@@ -1,0 +1,13 @@
+/usr/sbin/soap_check_fw
+/usr/sbin/soap_wifi_action.sh
+/usr/sbin/soapclient
+/usr/sbin/check_soapagent.sh
+/usr/sbin/check_satellite_allconfig
+/usr/sbin/schedule_speed_test
+/etc/init.d/soap_agent
+/usr/sbin/checkfirmware.sh
+/usr/sbin/satellite_allconfig_result.sh
+/usr/sbin/iwlist_scan.sh
+/usr/sbin/satelliteinfo
+/usr/sbin/soap_agent
+/usr/sbin/check_wps_soap

@@ -1,0 +1,45 @@
+{
+    "box_cloud_guardian_report": {
+        "device_fingerprint": "$fingerprint", 
+        "bd_product_name": "$product_name", 
+        "report_type": "JSON_STRING", 
+        "event_time": "$event_time", 
+        "throttling": "JSON_STRING", 
+        "bd_product_version": "$image_version", 
+        "bd_display_name": "$display_name", 
+        "service": "JSON_STRING", 
+        "bd_box_production_version": "$image_version", 
+        "anon_id": "$fingerprint", 
+        "errors": "JSON_ARRAY", 
+        "method": "JSON_STRING"
+    }, 
+    "box_cloud_warning": {
+        "device_fingerprint": "$fingerprint", 
+        "bd_product_name": "$product_name", 
+        "service": "JSON_STRING", 
+        "event_time": "$event_time", 
+        "bd_product_version": "$image_version", 
+        "bd_display_name": "$display_name", 
+        "warning": "JSON_STRING", 
+        "anon_id": "$fingerprint", 
+        "method": "JSON_STRING"
+    }, 
+    "box_agent_status": {
+        "device_fingerprint": "$fingerprint", 
+        "bd_product_name": "$product_name", 
+        "event_time": "$event_time", 
+        "bd_product_version": "$image_version", 
+        "bd_display_name": "$display_name", 
+        "anon_id": "$fingerprint", 
+        "agent_state": "JSON_STRING"
+    }, 
+    "bd_module_crashed": {
+        "device_fingerprint": "$fingerprint", 
+        "crash_info": "JSON_OBJECT", 
+        "bd_product_name": "$product_name", 
+        "event_time": "$event_time", 
+        "bd_product_version": "$image_version", 
+        "bd_display_name": "$display_name", 
+        "anon_id": "$fingerprint"
+    }
+}

@@ -1,0 +1,8 @@
+/etc/init.d/pot
+/etc/init.d/netconn_detect
+/usr/sbin/potd
+/usr/sbin/ntpst
+/usr/sbin/stamac
+/usr/sbin/netconn
+/sbin/netconn.sh
+/usr/sbin/potval

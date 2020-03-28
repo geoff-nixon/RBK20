@@ -1,0 +1,35 @@
+2020-03-27 18:01:12 (11137):ash_main.c:154	  DEBUG: Starting ASH Version Id is 1.0.0
+2020-03-27 18:01:12 (11137):ash_main.c:164	   INFO: ArSvcHdlr locked the pid file.
+2020-03-27 18:01:12 (11137):ash_get_dalfld.c:352	   INFO: FeatureLevel armor-basic-1.0
+2020-03-27 18:01:12 (11137):ash_get_dalfld.c:357	   INFO: DeviceModel RBR20
+2020-03-27 18:01:12 (11137):ash_get_dalfld.c:362	   INFO: DeviceName RBR20
+2020-03-27 18:01:12 (11137):ash_get_dalfld.c:370	   INFO: DefaultMAC 28:80:88:D7:95:DF
+
+2020-03-27 18:01:12 (11137):ash_get_dalfld.c:371	   INFO: FSN 5EH68C5806F6F
+2020-03-27 18:01:12 (11137):ash_get_dalfld.c:385	  DEBUG: FeatureLevel : armor-basic-1.0, DeviceName : RBR20, DeviceModel : RBR20, serialNo : 5EH68C5806F6F, MacAddr : 28:80:88:D7:95:DF
+, wan_ifname : brwan, lan_ifname : br0
+2020-03-27 18:01:12 (11137):ash_bdef.c:481	  DEBUG: Initing armor subscriptions
+2020-03-27 18:01:12 (11137):ash_bdef.c:484	  DEBUG: Armor init successfull
+2020-03-27 18:01:12 (11137):ash_bdef.c:487	  DEBUG: Subscribe to registration status
+2020-03-27 18:01:12 (11137):ash_bdef.c:494	  DEBUG: Subscribe to subcription changed
+2020-03-27 18:01:12 (11137):ash_bdef.c:564	  DEBUG: Inside get armor status
+2020-03-27 18:01:17 (11137):ash_bdef.c:568	  DEBUG: Inside loop
+2020-03-27 18:01:17 (11137):ash_bdef.c:597	  DEBUG: subscription_status is getting NULL
+2020-03-27 18:01:17 (11137):ash_bdef.c:608	  DEBUG:  **Getting fallback_ex : 0
+2020-03-27 18:01:17 (11137):ash_bdef.c:610	  DEBUG:  Subscription is not Changed! 
+2020-03-27 18:01:17 (11137):ash_bdef.c:521	  DEBUG: !! version_info {"version": "2.2.45.3", "patch_level": "0"} !!
+2020-03-27 18:01:17 (11137):ash_bdef.c:528	  DEBUG: bdaversion 2.2.45.3
+2020-03-27 18:01:17 (11137):ash_bdef.c:539	  DEBUG: patch_level "0"
+2020-03-27 18:01:17 (11137):ash_main.c:225	  DEBUG: !! get_version_info() is called at boot time !!
+2020-03-27 18:26:11 (11137):ash_bdef.c:656	  DEBUG: =====LOCKed Process..=====
+2020-03-27 18:26:11 (11137):ash_bdef.c:564	  DEBUG: Inside get armor status
+2020-03-27 18:26:16 (11137):ash_bdef.c:568	  DEBUG: Inside loop
+2020-03-27 18:26:16 (11137):ash_bdef.c:597	  DEBUG: subscription_status is getting NULL
+2020-03-27 18:26:16 (11137):ash_bdef.c:608	  DEBUG:  **Getting fallback_ex : 0
+2020-03-27 18:26:16 (11137):ash_bdef.c:610	  DEBUG:  Subscription is not Changed! 
+2020-03-27 18:26:16 (11137):ash_bdef.c:521	  DEBUG: !! version_info {"version": "2.2.45.3", "patch_level": "0"} !!
+2020-03-27 18:26:16 (11137):ash_bdef.c:528	  DEBUG: bdaversion 2.2.45.3
+2020-03-27 18:26:16 (11137):ash_bdef.c:539	  DEBUG: patch_level "0"
+2020-03-27 18:26:16 (11137):ash_bdef.c:659	  DEBUG: !! get_version_info() is called while connected is true !!
+2020-03-27 18:26:16 (11137):ash_bdef.c:660	  DEBUG: =====UnLOCK Done..=====
+2020-03-27 18:26:16 (11137):ash_bdef.c:667	  DEBUG: =====UnLOCK Done..=====

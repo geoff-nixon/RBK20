@@ -1,0 +1,8 @@
+Package: dnitoolbox
+Version: 0.1-1
+Depends: libc
+Source: package/dni/dnitoolbox
+Section: utils
+Architecture: ipq806x
+Installed-Size: 7952
+Description:  a set of dni common tools

@@ -1,0 +1,35 @@
+{
+    "action": "update",
+    "channels": {
+        "default": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY"
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY"
+            }
+        ],
+        "guardian": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME"
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME"
+            }
+        ],
+        "bdgusterhandlers":  [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY"
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY"
+            }
+        ]
+    }
+}

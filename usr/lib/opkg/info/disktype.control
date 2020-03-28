@@ -1,0 +1,8 @@
+Package: disktype
+Version: 1
+Depends: libc
+Source: package/dni/disktype
+Section: utils
+Architecture: ipq806x
+Installed-Size: 7319
+Description:  disktype is used to detect the 200M EFI partition

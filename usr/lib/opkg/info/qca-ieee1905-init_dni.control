@@ -1,0 +1,9 @@
+Package: qca-ieee1905-init_dni
+Version: 3.0.1500.042-1
+Depends: libc
+Source: package/qca/ieee1905_security/qca-ieee1905-init_dni
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 4702
+Description:  This Package contains the script helper files for the IEEE1905.1 init scripts

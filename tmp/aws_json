@@ -1,0 +1,38 @@
+    "routerHardware": {
+        "productFamily": "wifiSystem",
+        "modelName": "rbr20",
+        "hwRevision": "H1",
+        "stage": "prod",
+        "deviceInfo": {
+            "macAddress": "288088D795DF",
+            "serialNumber": "5EH68C5806F6F"
+        },
+        "eventType": 2,
+        "timeStamp": {
+            "date":[2020,3,27],
+            "time": [15,52,10]
+        },
+        "firmware": {
+            "fwVersion": "V2.3.5.30",
+            "fwLastUpdate": "",
+            "fwLastChecked": "2020_3.27_15:52:1"
+        },
+        "tncVersion": "V2.0",
+        "autoUpdateOption": 1,
+        "routerAnalyticsOption": 1
+    },
+    "firmwareUpgradeAnalytics": {
+        "eventType": "GUI upgrade",
+        "fwUpgradeTriggered": "Not trigger",
+        "fwDownloadUrl": "https://http.fw.updates1.netgear.com/rbr20/default/ww",
+        "fwDownloadUrlFromCloud": "https://http.fw.updates1.netgear.com/rbr20/default",
+        "firmwareConfigSetting": "fw_check_status=2,fw_check_all_status=,fw_check_tonight=1,server_path=",
+        "fwCheckedDate": "2020_3.27_15:52:1",
+        "routerCurrentVersion": "V2.3.5.30",
+        "routerNewVersion": "",
+        "fwCheckResult": "no error",
+        "fwupgrade_Method": "",
+        "satelliteFwInfo":{
+            "numberOfSatellite":"0"
+        }
+    }

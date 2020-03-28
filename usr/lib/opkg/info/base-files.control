@@ -1,0 +1,9 @@
+Package: base-files
+Version: 157.2-r6043
+Depends: libc, libpthread, libstdcpp, procd, jsonfilter, usign
+Source: package/base-files
+License: GPL-2.0
+Section: base
+Architecture: ipq806x
+Installed-Size: 335529
+Description:  This package contains a base filesystem and system scripts for OpenWrt.

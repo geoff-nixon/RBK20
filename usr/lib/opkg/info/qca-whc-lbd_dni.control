@@ -1,0 +1,9 @@
+Package: qca-whc-lbd_dni
+Version: 3.0.1500.042-1
+Depends: libc, qca-whc-init_dni, libhyficommon_dni, libpthread, jansson
+Source: package/qca/whc/qca-whc-lbd_dni
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 120878
+Description:  This package installs the Whole Home Coverage Load Balancing daemon

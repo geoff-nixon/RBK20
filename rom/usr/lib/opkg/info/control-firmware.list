@@ -1,0 +1,3 @@
+/usr/sbin/control-firmware
+/etc/init.d/control_firmware
+/usr/sbin/boot-notification

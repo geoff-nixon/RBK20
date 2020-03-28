@@ -1,0 +1,998 @@
+54:[Initialized, firmware version: V2.3.5.30]
+78:[wifi-listener] fifo_event_init:FIFO create success .
+78:[wifi-listener] Start Event loop
+78:[wifi-listener]: epoll_wait start
+122:[wifi-listener] fifo_event_init:FIFO create success .
+122:[wifi-listener] Start Event loop
+122:[wifi-listener]: epoll_wait start
+122:[ath0] Band steering events being sent to PID:18869
+122:[ath01] Band steering events being sent to PID:18869
+122:[ath1] Band steering events being sent to PID:18869
+122:[ath11] Band steering events being sent to PID:18869
+122:[ath2] Band steering events being sent to PID:18869
+123:[wifi-listener]: epoll_wait wakeup
+123:[wifi-listener] HYD restart, td database information is disappear (RE maybe leave and wait for new Database update)^M
+123:[wifi-listener]: epoll_wait start
+123:[ath0] Band steering events being sent to PID:18869
+123:[ath1] Band steering events being sent to PID:18869
+123:[ath2] Band steering events being sent to PID:18869
+130:[ath0] Band steering events being sent to PID:21763
+130:[ath01] Band steering events being sent to PID:21763
+130:[ath1] Band steering events being sent to PID:21763
+130:[ath11] Band steering events being sent to PID:21763
+130:[ath2] Band steering events being sent to PID:21763
+130:[wifi-listener]: epoll_wait wakeup
+130:[wifi-listener] HYD restart, td database information is disappear (RE maybe leave and wait for new Database update)^M
+130:[wifi-listener]: epoll_wait start
+130:[ath0] Band steering events being sent to PID:21763
+130:[ath1] Band steering events being sent to PID:21763
+130:[ath2] Band steering events being sent to PID:21763
+134:[DHCP IP: 192.168.1.2] to MAC address 44:00:10:d2:66:a6,
+155:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+351:[DHCP IP: 192.168.1.4] to MAC address 18:b4:30:0c:d5:cd,
+362:[ath0] Band steering events being sent to PID:16042
+362:[ath01] Band steering events being sent to PID:16042
+362:[ath1] Band steering events being sent to PID:16042
+362:[ath11] Band steering events being sent to PID:16042
+362:[ath2] Band steering events being sent to PID:16042
+368:[wifi-listener] fifo_event_init:FIFO create success .
+368:[wifi-listener] Start Event loop
+368:[wifi-listener]: epoll_wait start
+373:[ath0] Band steering events being sent to PID:20101
+373:[ath01] Band steering events being sent to PID:20101
+373:[ath11] Band steering events being sent to PID:20101
+373:[ath2] Band steering events being sent to PID:20101
+374:[wifi-listener]: epoll_wait wakeup
+374:[wifi-listener] HYD restart, td database information is disappear (RE maybe leave and wait for new Database update)^M
+374:[wifi-listener]: epoll_wait start
+374:[ath0] Band steering events being sent to PID:20101
+374:[ath1] Band steering events being sent to PID:20101
+374:[ath2] Band steering events being sent to PID:20101
+394:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+395:[DHCP IP: 192.168.1.4] to MAC address 18:b4:30:0c:d5:cd,
+396:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+412:[DETWAN] *External* DutMAC: 28:80:88:D7:95:E0
+412:[DETWAN] *External* PCMAC: 6c:40:08:92:e4:5e
+450:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+471:[admin login failure] from source 192.168.1.3,
+477:[admin login] from source 192.168.1.3,
+501:[DETWAN] *Internal* from_ip: 192.168.1.3 ,wan_if_name: brwan ,dutMac: 28:80:88:D7:95:E0 ,pc_mac: 6c:40:08:92:e4:5e
+501:[DETWAN] *External* DutMAC: 28:80:88:D7:95:E0
+501:[DETWAN] *External* PCMAC: 6c:40:08:92:e4:5e
+520:[admin login] from source 192.168.1.3,
+538:[DETWAN] *External* Result of do_detection: 0
+538:[DETWAN] *Internal* result of status 0, result of WEXITSTATUS(status) 0
+550:[admin login] from source 192.168.1.3,
+553:[Internet disconnected]
+571:[admin login] from source 192.168.1.3,
+581:[admin login] from source 192.168.1.3,
+612:[admin login] from source 192.168.1.3,
+615:[admin login] from source 192.168.1.3,
+630:[DETWAN] *Internal* from_ip: 192.168.1.3 ,wan_if_name: brwan ,dutMac: 28:80:88:D7:95:E0 ,pc_mac: 6c:40:08:92:e4:5e
+630:[DETWAN] *External* DutMAC: 28:80:88:D7:95:E0
+630:[DETWAN] *External* PCMAC: 6c:40:08:92:e4:5e
+660:[DETWAN] *Internal* from_ip: 192.168.1.3 ,wan_if_name: brwan ,dutMac: 28:80:88:D7:95:E0 ,pc_mac: 6c:40:08:92:e4:5e
+660:[DETWAN] *External* DutMAC: 28:80:88:D7:95:E0
+660:[DETWAN] *External* PCMAC: 6c:40:08:92:e4:5e
+666:[DETWAN] *External* Result of do_detection: 0
+666:[DETWAN] *Internal* result of status 0, result of WEXITSTATUS(status) 0
+666:[Internet disconnected]
+672:[admin login] from source 192.168.1.3,
+696:[DETWAN] *External* Result of do_detection: 0
+696:[DETWAN] *Internal* result of status 0, result of WEXITSTATUS(status) 0
+703:[admin login] from source 192.168.1.3,
+707:[Internet disconnected]
+749:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+783:[wifi-listener]: Enter:fifo_receive 
+783:[wifi-listener]: receive:2-1  
+783:[wifi-listener] Enter fifoEventsMsgRx
+783:[wifi-listener] Receive command 2
+783:[wifi-listener] FIFO_EVENT_IP_UPDATE
+783:[wifi-listener] TRI-BAND setting:1
+785:[wifi-listener](cast-event) multi-cast
+785:[wifi-listener]: epoll_wait start
+790:[<c021ea2c>] (unwind_backtrace) from [<c021bb24>] (show_stack+0x10/0x14)
+790:[<c021bb24>] (show_stack) from [<c04453a0>] (dump_stack+0x78/0x98)
+790:[<c04453a0>] (dump_stack) from [<c0223474>] (__do_user_fault+0x74/0xbc)
+790:[<c0223474>] (__do_user_fault) from [<c0223820>] (do_page_fault+0x2f0/0x370)
+790:[<c0223820>] (do_page_fault) from [<c02083dc>] (do_DataAbort+0x34/0x98)
+790:[<c02083dc>] (do_DataAbort) from [<c02096f4>] (__dabt_usr+0x34/0x40)
+803:[ath0] Band steering events being sent to PID:9453
+803:[ath01] Band steering events being sent to PID:9453
+803:[ath1] Band steering events being sent to PID:9453
+803:[ath11] Band steering events being sent to PID:9453
+803:[ath2] Band steering events being sent to PID:9453
+804:[wifi-listener]: epoll_wait wakeup
+804:[wifi-listener] HYD restart, td database information is disappear (RE maybe leave and wait for new Database update)^M
+804:[wifi-listener]: epoll_wait start
+804:[ath0] Band steering events being sent to PID:9453
+804:[ath1] Band steering events being sent to PID:9453
+804:[ath2] Band steering events being sent to PID:9453
+834:[DHCP IP: 192.168.1.4] to MAC address 18:b4:30:0c:d5:cd,
+926:[admin login] from source 192.168.1.3,
+926:[DETWAN] *Internal* from_ip: 192.168.1.3 ,wan_if_name: brwan ,dutMac: 28:80:88:D7:95:E0 ,pc_mac: 6c:40:08:92:e4:5e
+926:[DETWAN] *External* DutMAC: 28:80:88:D7:95:E0
+926:[DETWAN] *External* PCMAC: 6c:40:08:92:e4:5e
+926:[admin login] from source 192.168.1.3,
+928:[admin login] from source 192.168.1.3,
+946:[admin login] from source 2601:645:400:b66:d34:aaa8:f0bc:fc04,
+956:[admin login] from source 2601:645:400:b66:d34:aaa8:f0bc:fc04,
+962:[DETWAN] *External* Result of do_detection: 2
+962:[DETWAN] *Internal* result of status 512, result of WEXITSTATUS(status) 2
+962:[Internet disconnected]
+967:[admin login] from source 192.168.1.3,
+992:[admin login] from source 192.168.1.3,
+996:[Internet connected] IP address: 73.92.70.22,
+1015:[Time synchronized with NTP server]
+1029:[Internet disconnected]
+1060:[admin login] from source 192.168.1.3,
+1061:[admin login] from source 192.168.1.3,
+1070:[ath0] Band steering events being sent to PID:9282
+1070:[ath01] Band steering events being sent to PID:9282
+1070:[ath1] Band steering events being sent to PID:9282
+1070:[ath11] Band steering events being sent to PID:9282
+1070:[ath2] Band steering events being sent to PID:9282
+1070:[wifi-listener]: epoll_wait wakeup
+1070:[wifi-listener] HYD restart, td database information is disappear (RE maybe leave and wait for new Database update)^M
+1070:[wifi-listener]: epoll_wait start
+1070:[ath0] Band steering events being sent to PID:9282
+1070:[ath1] Band steering events being sent to PID:9282
+1070:[ath2] Band steering events being sent to PID:9282
+1076:[Internet connected] IP address: 73.92.70.22,
+1077:[admin login] from source 192.168.1.3,
+1092:[wifi-listener]: epoll_wait wakeup
+1092:[wifi-listener]: Enter:fifo_receive 
+1092:[wifi-listener]: receive:2-1  
+1092:[wifi-listener] Enter fifoEventsMsgRx
+1092:[wifi-listener] Receive command 2
+1092:[wifi-listener] FIFO_EVENT_IP_UPDATE
+1092:[wifi-listener] TRI-BAND setting:1
+1094:[wifi-listener](cast-event) multi-cast
+1094:[wifi-listener]: epoll_wait start
+1109:[admin login] from source 192.168.1.3,
+1120:[Time synchronized with NTP server]
+1150:[DHCP IP: 192.168.1.4] to MAC address 18:b4:30:0c:d5:cd,
+1158:[DHCP IP: 192.168.1.6] to MAC address 78:e1:03:17:1a:97,
+1169:[ath0] Band steering events being sent to PID:24496
+1169:[ath01] Band steering events being sent to PID:24496
+1169:[ath1] Band steering events being sent to PID:24496
+1169:[ath11] Band steering events being sent to PID:24496
+1169:[ath2] Band steering events being sent to PID:24496
+1170:[ath0] Band steering events being sent to PID:24496
+1170:[ath1] Band steering events being sent to PID:24496
+1170:[ath2] Band steering events being sent to PID:24496
+1178:[wifi-listener] fifo_event_init:FIFO create success .
+1178:[wifi-listener] Start Event loop
+1178:[wifi-listener]: epoll_wait start
+1185:[ath0] Band steering events being sent to PID:29333
+1185:[ath01] Band steering events being sent to PID:29333
+1185:[ath1] Band steering events being sent to PID:29333
+1185:[ath11] Band steering events being sent to PID:29333
+1185:[ath2] Band steering events being sent to PID:29333
+1186:[wifi-listener]: epoll_wait wakeup
+1186:[wifi-listener] HYD restart, td database information is disappear (RE maybe leave and wait for new Database update)^M
+1186:[wifi-listener]: epoll_wait start
+1186:[ath0] Band steering events being sent to PID:29333
+1186:[ath1] Band steering events being sent to PID:29333
+1186:[ath2] Band steering events being sent to PID:29333
+1186:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+1240:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+1267:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1316:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1412:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1413:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1416:[admin login] from source 192.168.1.3,
+1427:[Internet disconnected]
+1451:[wifi-listener]: epoll_wait wakeup
+1451:[wifi-listener]: Enter:fifo_receive 
+1451:[wifi-listener]: receive:2-1  
+1451:[wifi-listener] Enter fifoEventsMsgRx
+1451:[wifi-listener] Receive command 2
+1451:[wifi-listener] FIFO_EVENT_IP_UPDATE
+1451:[wifi-listener] TRI-BAND setting:1
+1453:[wifi-listener](cast-event) multi-cast
+1453:[wifi-listener]: epoll_wait start
+1456:[Internet connected] IP address: 73.92.70.22,
+1458:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1461:[admin login] from source 192.168.1.3,
+1471:[admin login] from source 192.168.1.3,
+1487:[Time synchronized with NTP server]
+1516:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+1584:[DoS Attack: ACK Scan] from source: 72.21.207.190, port 443,
+1628:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1628:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1631:[admin login] from source 192.168.1.3,
+1637:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+1650:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1653:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1660:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1696:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1737:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1738:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1741:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+1757:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+1759:[wifi-listener]: Enter:fifo_receive 
+1759:[wifi-listener]: receive:2-1  
+1759:[wifi-listener] Enter fifoEventsMsgRx
+1759:[wifi-listener] Receive command 2
+1759:[wifi-listener] FIFO_EVENT_IP_UPDATE
+1759:[wifi-listener] TRI-BAND setting:1
+1761:[wifi-listener](cast-event) multi-cast
+1761:[wifi-listener]: epoll_wait start
+1807:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+1877:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+2068:[wifi-listener]: epoll_wait wakeup
+2068:[wifi-listener]: Enter:fifo_receive 
+2068:[wifi-listener]: receive:2-1  
+2068:[wifi-listener] Enter fifoEventsMsgRx
+2068:[wifi-listener] Receive command 2
+2068:[wifi-listener] FIFO_EVENT_IP_UPDATE
+2068:[wifi-listener] TRI-BAND setting:1
+2070:[wifi-listener](cast-event) multi-cast
+2070:[wifi-listener]: epoll_wait start
+2118:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+2375:[wifi-listener]: epoll_wait wakeup
+2375:[wifi-listener]: Enter:fifo_receive 
+2375:[wifi-listener]: receive:2-1  
+2375:[wifi-listener] Enter fifoEventsMsgRx
+2375:[wifi-listener] Receive command 2
+2375:[wifi-listener] FIFO_EVENT_IP_UPDATE
+2375:[wifi-listener] TRI-BAND setting:1
+2377:[wifi-listener](cast-event) multi-cast
+2377:[wifi-listener]: epoll_wait start
+2479:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+2641:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+2683:[wifi-listener]: epoll_wait wakeup
+2683:[wifi-listener]: Enter:fifo_receive 
+2683:[wifi-listener]: receive:2-1  
+2683:[wifi-listener] Enter fifoEventsMsgRx
+2683:[wifi-listener] Receive command 2
+2683:[wifi-listener] FIFO_EVENT_IP_UPDATE
+2683:[wifi-listener] TRI-BAND setting:1
+2685:[wifi-listener](cast-event) multi-cast
+2685:[wifi-listener]: epoll_wait start
+2719:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+2991:[wifi-listener]: epoll_wait wakeup
+2991:[wifi-listener]: Enter:fifo_receive 
+2991:[wifi-listener]: receive:2-1  
+2991:[wifi-listener] Enter fifoEventsMsgRx
+2991:[wifi-listener] Receive command 2
+2991:[wifi-listener] FIFO_EVENT_IP_UPDATE
+2991:[wifi-listener] TRI-BAND setting:1
+2993:[wifi-listener](cast-event) multi-cast
+2993:[wifi-listener]: epoll_wait start
+3080:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+3299:[wifi-listener]: epoll_wait wakeup
+3299:[wifi-listener]: Enter:fifo_receive 
+3299:[wifi-listener]: receive:2-1  
+3299:[wifi-listener] Enter fifoEventsMsgRx
+3299:[wifi-listener] Receive command 2
+3299:[wifi-listener] FIFO_EVENT_IP_UPDATE
+3299:[wifi-listener] TRI-BAND setting:1
+3301:[wifi-listener](cast-event) multi-cast
+3301:[wifi-listener]: epoll_wait start
+3321:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+3606:[wifi-listener]: epoll_wait wakeup
+3606:[wifi-listener]: Enter:fifo_receive 
+3606:[wifi-listener]: receive:2-1  
+3606:[wifi-listener] Enter fifoEventsMsgRx
+3606:[wifi-listener] Receive command 2
+3606:[wifi-listener] FIFO_EVENT_IP_UPDATE
+3606:[wifi-listener] TRI-BAND setting:1
+3608:[wifi-listener](cast-event) multi-cast
+3608:[wifi-listener]: epoll_wait start
+3682:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+3914:[wifi-listener]: epoll_wait wakeup
+3914:[wifi-listener]: Enter:fifo_receive 
+3914:[wifi-listener]: receive:2-1  
+3914:[wifi-listener] Enter fifoEventsMsgRx
+3914:[wifi-listener] Receive command 2
+3914:[wifi-listener] FIFO_EVENT_IP_UPDATE
+3914:[wifi-listener] TRI-BAND setting:1
+3916:[wifi-listener](cast-event) multi-cast
+3916:[wifi-listener]: epoll_wait start
+3923:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+4033:[DHCP IP: 192.168.1.13] to MAC address ec:0e:c4:24:a2:83,
+4043:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+4222:[wifi-listener]: epoll_wait wakeup
+4222:[wifi-listener]: Enter:fifo_receive 
+4222:[wifi-listener]: receive:2-1  
+4222:[wifi-listener] Enter fifoEventsMsgRx
+4222:[wifi-listener] Receive command 2
+4222:[wifi-listener] FIFO_EVENT_IP_UPDATE
+4222:[wifi-listener] TRI-BAND setting:1
+4224:[wifi-listener](cast-event) multi-cast
+4224:[wifi-listener]: epoll_wait start
+4284:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+4530:[wifi-listener]: epoll_wait wakeup
+4530:[wifi-listener]: Enter:fifo_receive 
+4530:[wifi-listener]: receive:2-1  
+4530:[wifi-listener] Enter fifoEventsMsgRx
+4530:[wifi-listener] Receive command 2
+4530:[wifi-listener] FIFO_EVENT_IP_UPDATE
+4530:[wifi-listener] TRI-BAND setting:1
+4532:[wifi-listener](cast-event) multi-cast
+4532:[wifi-listener]: epoll_wait start
+4645:[DoS Attack: ACK Scan] from source: 34.195.7.218, port 9543,
+4838:[wifi-listener]: epoll_wait wakeup
+4838:[wifi-listener]: Enter:fifo_receive 
+4838:[wifi-listener]: receive:2-1  
+4838:[wifi-listener] Enter fifoEventsMsgRx
+4838:[wifi-listener] Receive command 2
+4838:[wifi-listener] FIFO_EVENT_IP_UPDATE
+4838:[wifi-listener] TRI-BAND setting:1
+4840:[wifi-listener](cast-event) multi-cast
+4840:[wifi-listener]: epoll_wait start
+5145:[wifi-listener]: epoll_wait wakeup
+5145:[wifi-listener]: Enter:fifo_receive 
+5145:[wifi-listener]: receive:2-1  
+5145:[wifi-listener] Enter fifoEventsMsgRx
+5145:[wifi-listener] Receive command 2
+5145:[wifi-listener] FIFO_EVENT_IP_UPDATE
+5145:[wifi-listener] TRI-BAND setting:1
+5147:[wifi-listener](cast-event) multi-cast
+5147:[wifi-listener]: epoll_wait start
+5453:[wifi-listener]: epoll_wait wakeup
+5453:[wifi-listener]: Enter:fifo_receive 
+5453:[wifi-listener]: receive:2-1  
+5453:[wifi-listener] Enter fifoEventsMsgRx
+5453:[wifi-listener] Receive command 2
+5453:[wifi-listener] FIFO_EVENT_IP_UPDATE
+5453:[wifi-listener] TRI-BAND setting:1
+5455:[wifi-listener](cast-event) multi-cast
+5455:[wifi-listener]: epoll_wait start
+5761:[wifi-listener]: epoll_wait wakeup
+5761:[wifi-listener]: Enter:fifo_receive 
+5761:[wifi-listener]: receive:2-1  
+5761:[wifi-listener] Enter fifoEventsMsgRx
+5761:[wifi-listener] Receive command 2
+5761:[wifi-listener] FIFO_EVENT_IP_UPDATE
+5761:[wifi-listener] TRI-BAND setting:1
+5763:[wifi-listener](cast-event) multi-cast
+5763:[wifi-listener]: epoll_wait start
+6069:[wifi-listener]: epoll_wait wakeup
+6069:[wifi-listener]: Enter:fifo_receive 
+6069:[wifi-listener]: receive:2-1  
+6069:[wifi-listener] Enter fifoEventsMsgRx
+6069:[wifi-listener] Receive command 2
+6069:[wifi-listener] FIFO_EVENT_IP_UPDATE
+6069:[wifi-listener] TRI-BAND setting:1
+6071:[wifi-listener](cast-event) multi-cast
+6071:[wifi-listener]: epoll_wait start
+6326:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+6376:[wifi-listener]: epoll_wait wakeup
+6376:[wifi-listener]: Enter:fifo_receive 
+6376:[wifi-listener]: receive:2-1  
+6376:[wifi-listener] Enter fifoEventsMsgRx
+6376:[wifi-listener] Receive command 2
+6376:[wifi-listener] FIFO_EVENT_IP_UPDATE
+6376:[wifi-listener] TRI-BAND setting:1
+6378:[wifi-listener](cast-event) multi-cast
+6378:[wifi-listener]: epoll_wait start
+6486:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+6684:[wifi-listener]: epoll_wait wakeup
+6684:[wifi-listener]: Enter:fifo_receive 
+6684:[wifi-listener]: receive:2-1  
+6684:[wifi-listener] Enter fifoEventsMsgRx
+6684:[wifi-listener] Receive command 2
+6684:[wifi-listener] FIFO_EVENT_IP_UPDATE
+6684:[wifi-listener] TRI-BAND setting:1
+6686:[wifi-listener](cast-event) multi-cast
+6686:[wifi-listener]: epoll_wait start
+6751:[DoS Attack: ACK Scan] from source: 209.126.104.117, port 443,
+6992:[wifi-listener]: epoll_wait wakeup
+6992:[wifi-listener]: Enter:fifo_receive 
+6992:[wifi-listener]: receive:2-1  
+6992:[wifi-listener] Enter fifoEventsMsgRx
+6992:[wifi-listener] Receive command 2
+6992:[wifi-listener] FIFO_EVENT_IP_UPDATE
+6992:[wifi-listener] TRI-BAND setting:1
+6994:[wifi-listener](cast-event) multi-cast
+6994:[wifi-listener]: epoll_wait start
+7206:[DoS Attack: SYN/ACK Scan] from source: 66.70.223.119, port 443,
+7231:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+7300:[wifi-listener]: epoll_wait wakeup
+7300:[wifi-listener]: Enter:fifo_receive 
+7300:[wifi-listener]: receive:2-1  
+7300:[wifi-listener] Enter fifoEventsMsgRx
+7300:[wifi-listener] Receive command 2
+7300:[wifi-listener] FIFO_EVENT_IP_UPDATE
+7300:[wifi-listener] TRI-BAND setting:1
+7302:[wifi-listener](cast-event) multi-cast
+7302:[wifi-listener]: epoll_wait start
+7390:[DHCP IP: 192.168.1.4] to MAC address 18:b4:30:0c:d5:cd,
+7607:[wifi-listener]: epoll_wait wakeup
+7607:[wifi-listener]: Enter:fifo_receive 
+7607:[wifi-listener]: receive:2-1  
+7607:[wifi-listener] Enter fifoEventsMsgRx
+7607:[wifi-listener] Receive command 2
+7607:[wifi-listener] FIFO_EVENT_IP_UPDATE
+7607:[wifi-listener] TRI-BAND setting:1
+7609:[wifi-listener](cast-event) multi-cast
+7609:[wifi-listener]: epoll_wait start
+7915:[wifi-listener]: epoll_wait wakeup
+7915:[wifi-listener]: Enter:fifo_receive 
+7915:[wifi-listener]: receive:2-1  
+7915:[wifi-listener] Enter fifoEventsMsgRx
+7915:[wifi-listener] Receive command 2
+7915:[wifi-listener] FIFO_EVENT_IP_UPDATE
+7915:[wifi-listener] TRI-BAND setting:1
+7917:[wifi-listener](cast-event) multi-cast
+7917:[wifi-listener]: epoll_wait start
+8223:[wifi-listener]: epoll_wait wakeup
+8223:[wifi-listener]: Enter:fifo_receive 
+8223:[wifi-listener]: receive:2-1  
+8223:[wifi-listener] Enter fifoEventsMsgRx
+8223:[wifi-listener] Receive command 2
+8223:[wifi-listener] FIFO_EVENT_IP_UPDATE
+8223:[wifi-listener] TRI-BAND setting:1
+8225:[wifi-listener](cast-event) multi-cast
+8225:[wifi-listener]: epoll_wait start
+8451:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+8531:[wifi-listener]: epoll_wait wakeup
+8531:[wifi-listener]: Enter:fifo_receive 
+8531:[wifi-listener]: receive:2-1  
+8531:[wifi-listener] Enter fifoEventsMsgRx
+8531:[wifi-listener] Receive command 2
+8531:[wifi-listener] FIFO_EVENT_IP_UPDATE
+8531:[wifi-listener] TRI-BAND setting:1
+8533:[wifi-listener](cast-event) multi-cast
+8533:[wifi-listener]: epoll_wait start
+8550:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+8839:[wifi-listener]: epoll_wait wakeup
+8839:[wifi-listener]: Enter:fifo_receive 
+8839:[wifi-listener]: receive:2-1  
+8839:[wifi-listener] Enter fifoEventsMsgRx
+8839:[wifi-listener] Receive command 2
+8839:[wifi-listener] FIFO_EVENT_IP_UPDATE
+8839:[wifi-listener] TRI-BAND setting:1
+8841:[wifi-listener](cast-event) multi-cast
+8841:[wifi-listener]: epoll_wait start
+8927:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+9146:[wifi-listener]: epoll_wait wakeup
+9146:[wifi-listener]: Enter:fifo_receive 
+9146:[wifi-listener]: receive:2-1  
+9146:[wifi-listener] Enter fifoEventsMsgRx
+9146:[wifi-listener] Receive command 2
+9146:[wifi-listener] FIFO_EVENT_IP_UPDATE
+9146:[wifi-listener] TRI-BAND setting:1
+9148:[wifi-listener](cast-event) multi-cast
+9148:[wifi-listener]: epoll_wait start
+9454:[wifi-listener]: epoll_wait wakeup
+9454:[wifi-listener]: Enter:fifo_receive 
+9454:[wifi-listener]: receive:2-1  
+9454:[wifi-listener] Enter fifoEventsMsgRx
+9454:[wifi-listener] Receive command 2
+9454:[wifi-listener] FIFO_EVENT_IP_UPDATE
+9454:[wifi-listener] TRI-BAND setting:1
+9456:[wifi-listener](cast-event) multi-cast
+9456:[wifi-listener]: epoll_wait start
+9762:[wifi-listener]: epoll_wait wakeup
+9762:[wifi-listener]: Enter:fifo_receive 
+9762:[wifi-listener]: receive:2-1  
+9762:[wifi-listener] Enter fifoEventsMsgRx
+9762:[wifi-listener] Receive command 2
+9762:[wifi-listener] FIFO_EVENT_IP_UPDATE
+9762:[wifi-listener] TRI-BAND setting:1
+9764:[wifi-listener](cast-event) multi-cast
+9764:[wifi-listener]: epoll_wait start
+10070:[wifi-listener]: epoll_wait wakeup
+10070:[wifi-listener]: Enter:fifo_receive 
+10070:[wifi-listener]: receive:2-1  
+10070:[wifi-listener] Enter fifoEventsMsgRx
+10070:[wifi-listener] Receive command 2
+10070:[wifi-listener] FIFO_EVENT_IP_UPDATE
+10070:[wifi-listener] TRI-BAND setting:1
+10072:[wifi-listener](cast-event) multi-cast
+10072:[wifi-listener]: epoll_wait start
+10359:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+10377:[wifi-listener]: epoll_wait wakeup
+10377:[wifi-listener]: Enter:fifo_receive 
+10377:[wifi-listener]: receive:2-1  
+10377:[wifi-listener] Enter fifoEventsMsgRx
+10377:[wifi-listener] Receive command 2
+10377:[wifi-listener] FIFO_EVENT_IP_UPDATE
+10377:[wifi-listener] TRI-BAND setting:1
+10379:[wifi-listener](cast-event) multi-cast
+10379:[wifi-listener]: epoll_wait start
+10485:[DHCP IP: 192.168.1.4] to MAC address 18:b4:30:0c:d5:cd,
+10685:[wifi-listener]: epoll_wait wakeup
+10685:[wifi-listener]: Enter:fifo_receive 
+10685:[wifi-listener]: receive:2-1  
+10685:[wifi-listener] Enter fifoEventsMsgRx
+10685:[wifi-listener] Receive command 2
+10685:[wifi-listener] FIFO_EVENT_IP_UPDATE
+10685:[wifi-listener] TRI-BAND setting:1
+10687:[wifi-listener](cast-event) multi-cast
+10687:[wifi-listener]: epoll_wait start
+10993:[wifi-listener]: epoll_wait wakeup
+10993:[wifi-listener]: Enter:fifo_receive 
+10993:[wifi-listener]: receive:2-1  
+10993:[wifi-listener] Enter fifoEventsMsgRx
+10993:[wifi-listener] Receive command 2
+10993:[wifi-listener] FIFO_EVENT_IP_UPDATE
+10993:[wifi-listener] TRI-BAND setting:1
+10995:[wifi-listener](cast-event) multi-cast
+10995:[wifi-listener]: epoll_wait start
+11082:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+11301:[wifi-listener]: epoll_wait wakeup
+11301:[wifi-listener]: Enter:fifo_receive 
+11301:[wifi-listener]: receive:2-1  
+11301:[wifi-listener] Enter fifoEventsMsgRx
+11301:[wifi-listener] Receive command 2
+11301:[wifi-listener] FIFO_EVENT_IP_UPDATE
+11301:[wifi-listener] TRI-BAND setting:1
+11303:[wifi-listener](cast-event) multi-cast
+11303:[wifi-listener]: epoll_wait start
+11609:[wifi-listener]: epoll_wait wakeup
+11609:[wifi-listener]: Enter:fifo_receive 
+11609:[wifi-listener]: receive:2-1  
+11609:[wifi-listener] Enter fifoEventsMsgRx
+11609:[wifi-listener] Receive command 2
+11609:[wifi-listener] FIFO_EVENT_IP_UPDATE
+11609:[wifi-listener] TRI-BAND setting:1
+11611:[wifi-listener](cast-event) multi-cast
+11611:[wifi-listener]: epoll_wait start
+11916:[wifi-listener]: epoll_wait wakeup
+11916:[wifi-listener]: Enter:fifo_receive 
+11916:[wifi-listener]: receive:2-1  
+11916:[wifi-listener] Enter fifoEventsMsgRx
+11916:[wifi-listener] Receive command 2
+11916:[wifi-listener] FIFO_EVENT_IP_UPDATE
+11916:[wifi-listener] TRI-BAND setting:1
+11918:[wifi-listener](cast-event) multi-cast
+11918:[wifi-listener]: epoll_wait start
+12090:[DoS Attack: SYN/ACK Scan] from source: 45.82.240.170, port 80,
+12224:[wifi-listener]: epoll_wait wakeup
+12224:[wifi-listener]: Enter:fifo_receive 
+12224:[wifi-listener]: receive:2-1  
+12224:[wifi-listener] Enter fifoEventsMsgRx
+12224:[wifi-listener] Receive command 2
+12224:[wifi-listener] FIFO_EVENT_IP_UPDATE
+12224:[wifi-listener] TRI-BAND setting:1
+12226:[wifi-listener](cast-event) multi-cast
+12226:[wifi-listener]: epoll_wait start
+12532:[wifi-listener]: epoll_wait wakeup
+12532:[wifi-listener]: Enter:fifo_receive 
+12532:[wifi-listener]: receive:2-1  
+12532:[wifi-listener] Enter fifoEventsMsgRx
+12532:[wifi-listener] Receive command 2
+12532:[wifi-listener] FIFO_EVENT_IP_UPDATE
+12532:[wifi-listener] TRI-BAND setting:1
+12534:[wifi-listener](cast-event) multi-cast
+12534:[wifi-listener]: epoll_wait start
+12840:[wifi-listener]: epoll_wait wakeup
+12840:[wifi-listener]: Enter:fifo_receive 
+12840:[wifi-listener]: receive:2-1  
+12840:[wifi-listener] Enter fifoEventsMsgRx
+12840:[wifi-listener] Receive command 2
+12840:[wifi-listener] FIFO_EVENT_IP_UPDATE
+12840:[wifi-listener] TRI-BAND setting:1
+12842:[wifi-listener](cast-event) multi-cast
+12842:[wifi-listener]: epoll_wait start
+13147:[wifi-listener]: epoll_wait wakeup
+13147:[wifi-listener]: Enter:fifo_receive 
+13147:[wifi-listener]: receive:2-1  
+13147:[wifi-listener] Enter fifoEventsMsgRx
+13147:[wifi-listener] Receive command 2
+13147:[wifi-listener] FIFO_EVENT_IP_UPDATE
+13147:[wifi-listener] TRI-BAND setting:1
+13149:[wifi-listener](cast-event) multi-cast
+13149:[wifi-listener]: epoll_wait start
+13455:[wifi-listener]: epoll_wait wakeup
+13455:[wifi-listener]: Enter:fifo_receive 
+13455:[wifi-listener]: receive:2-1  
+13455:[wifi-listener] Enter fifoEventsMsgRx
+13455:[wifi-listener] Receive command 2
+13455:[wifi-listener] FIFO_EVENT_IP_UPDATE
+13455:[wifi-listener] TRI-BAND setting:1
+13457:[wifi-listener](cast-event) multi-cast
+13457:[wifi-listener]: epoll_wait start
+13759:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+13763:[wifi-listener]: epoll_wait wakeup
+13763:[wifi-listener]: Enter:fifo_receive 
+13763:[wifi-listener]: receive:2-1  
+13763:[wifi-listener] Enter fifoEventsMsgRx
+13763:[wifi-listener] Receive command 2
+13763:[wifi-listener] FIFO_EVENT_IP_UPDATE
+13763:[wifi-listener] TRI-BAND setting:1
+13765:[wifi-listener](cast-event) multi-cast
+13765:[wifi-listener]: epoll_wait start
+13825:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+14001:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+14031:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+14032:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+14071:[wifi-listener]: epoll_wait wakeup
+14071:[wifi-listener]: Enter:fifo_receive 
+14071:[wifi-listener]: receive:2-1  
+14071:[wifi-listener] Enter fifoEventsMsgRx
+14071:[wifi-listener] Receive command 2
+14071:[wifi-listener] FIFO_EVENT_IP_UPDATE
+14071:[wifi-listener] TRI-BAND setting:1
+14073:[wifi-listener](cast-event) multi-cast
+14073:[wifi-listener]: epoll_wait start
+14181:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+14182:[admin login] from source 2601:645:400:b66:31e9:86f2:9f25:8513,
+14185:[admin login] from source 192.168.1.3,
+14192:[admin login] from source 192.168.1.3,
+14207:[admin login] from source 192.168.1.3,
+14298:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+14353:[admin login] from source 2601:645:400:b66::2,
+14379:[wifi-listener]: epoll_wait wakeup
+14379:[wifi-listener]: Enter:fifo_receive 
+14379:[wifi-listener]: receive:2-1  
+14379:[wifi-listener] Enter fifoEventsMsgRx
+14379:[wifi-listener] Receive command 2
+14379:[wifi-listener] FIFO_EVENT_IP_UPDATE
+14379:[wifi-listener] TRI-BAND setting:1
+14381:[wifi-listener](cast-event) multi-cast
+14381:[wifi-listener]: epoll_wait start
+14668:[admin login] from source 2601:645:400:b66::2,
+14686:[wifi-listener]: epoll_wait wakeup
+14686:[wifi-listener]: Enter:fifo_receive 
+14686:[wifi-listener]: receive:2-1  
+14686:[wifi-listener] Enter fifoEventsMsgRx
+14686:[wifi-listener] Receive command 2
+14686:[wifi-listener] FIFO_EVENT_IP_UPDATE
+14686:[wifi-listener] TRI-BAND setting:1
+14688:[wifi-listener](cast-event) multi-cast
+14688:[wifi-listener]: epoll_wait start
+14697:[admin login] from source 2601:645:400:b66::2,
+14728:[admin login] from source 2601:645:400:b66::2,
+14729:[admin login] from source 2601:645:400:b66::2,
+14732:[admin login] from source 192.168.1.3,
+14739:[admin login] from source 2601:645:400:b66::2,
+14740:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+14753:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+14871:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+14930:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+14992:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+14994:[wifi-listener]: epoll_wait wakeup
+14994:[wifi-listener]: Enter:fifo_receive 
+14994:[wifi-listener]: receive:2-1  
+14994:[wifi-listener] Enter fifoEventsMsgRx
+14994:[wifi-listener] Receive command 2
+14994:[wifi-listener] FIFO_EVENT_IP_UPDATE
+14994:[wifi-listener] TRI-BAND setting:1
+14996:[wifi-listener](cast-event) multi-cast
+14996:[wifi-listener]: epoll_wait start
+15047:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+15151:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+15172:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+15196:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+15215:[admin login] from source 192.168.1.3,
+15226:[admin login] from source 192.168.1.3,
+15232:[admin login] from source 192.168.1.3,
+15302:[wifi-listener]: epoll_wait wakeup
+15302:[wifi-listener]: Enter:fifo_receive 
+15302:[wifi-listener]: receive:2-1  
+15302:[wifi-listener] Enter fifoEventsMsgRx
+15302:[wifi-listener] Receive command 2
+15302:[wifi-listener] FIFO_EVENT_IP_UPDATE
+15302:[wifi-listener] TRI-BAND setting:1
+15304:[wifi-listener](cast-event) multi-cast
+15304:[wifi-listener]: epoll_wait start
+15405:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+15460:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+15610:[wifi-listener]: epoll_wait wakeup
+15610:[wifi-listener]: Enter:fifo_receive 
+15610:[wifi-listener]: receive:2-1  
+15610:[wifi-listener] Enter fifoEventsMsgRx
+15610:[wifi-listener] Receive command 2
+15610:[wifi-listener] FIFO_EVENT_IP_UPDATE
+15610:[wifi-listener] TRI-BAND setting:1
+15612:[wifi-listener](cast-event) multi-cast
+15612:[wifi-listener]: epoll_wait start
+15624:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+15655:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+15681:[admin login] from source 192.168.1.3,
+15685:[admin login] from source 192.168.1.3,
+15697:[admin login] from source 2601:645:400:b66:f028:82e7:2ea0:6ca8,
+15918:[wifi-listener]: epoll_wait wakeup
+15918:[wifi-listener]: Enter:fifo_receive 
+15918:[wifi-listener]: receive:2-1  
+15918:[wifi-listener] Enter fifoEventsMsgRx
+15918:[wifi-listener] Receive command 2
+15918:[wifi-listener] FIFO_EVENT_IP_UPDATE
+15918:[wifi-listener] TRI-BAND setting:1
+15920:[wifi-listener](cast-event) multi-cast
+15920:[wifi-listener]: epoll_wait start
+15967:[DoS Attack: ACK Scan] from source: 17.248.128.172, port 443,
+16163:[DHCP IP: 192.168.1.2] to MAC address 44:00:10:d2:66:a6,
+16225:[wifi-listener]: epoll_wait wakeup
+16225:[wifi-listener]: Enter:fifo_receive 
+16225:[wifi-listener]: receive:2-1  
+16225:[wifi-listener] Enter fifoEventsMsgRx
+16225:[wifi-listener] Receive command 2
+16225:[wifi-listener] FIFO_EVENT_IP_UPDATE
+16225:[wifi-listener] TRI-BAND setting:1
+16227:[wifi-listener](cast-event) multi-cast
+16227:[wifi-listener]: epoll_wait start
+16293:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+16509:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+16533:[wifi-listener]: epoll_wait wakeup
+16533:[wifi-listener]: Enter:fifo_receive 
+16533:[wifi-listener]: receive:2-1  
+16533:[wifi-listener] Enter fifoEventsMsgRx
+16533:[wifi-listener] Receive command 2
+16533:[wifi-listener] FIFO_EVENT_IP_UPDATE
+16533:[wifi-listener] TRI-BAND setting:1
+16535:[wifi-listener](cast-event) multi-cast
+16535:[wifi-listener]: epoll_wait start
+16841:[wifi-listener]: epoll_wait wakeup
+16841:[wifi-listener]: Enter:fifo_receive 
+16841:[wifi-listener]: receive:2-1  
+16841:[wifi-listener] Enter fifoEventsMsgRx
+16841:[wifi-listener] Receive command 2
+16841:[wifi-listener] FIFO_EVENT_IP_UPDATE
+16841:[wifi-listener] TRI-BAND setting:1
+16843:[wifi-listener](cast-event) multi-cast
+16843:[wifi-listener]: epoll_wait start
+17149:[wifi-listener]: epoll_wait wakeup
+17149:[wifi-listener]: Enter:fifo_receive 
+17149:[wifi-listener]: receive:2-1  
+17149:[wifi-listener] Enter fifoEventsMsgRx
+17149:[wifi-listener] Receive command 2
+17149:[wifi-listener] FIFO_EVENT_IP_UPDATE
+17149:[wifi-listener] TRI-BAND setting:1
+17151:[wifi-listener](cast-event) multi-cast
+17151:[wifi-listener]: epoll_wait start
+17457:[wifi-listener]: epoll_wait wakeup
+17457:[wifi-listener]: Enter:fifo_receive 
+17457:[wifi-listener]: receive:2-1  
+17457:[wifi-listener] Enter fifoEventsMsgRx
+17457:[wifi-listener] Receive command 2
+17457:[wifi-listener] FIFO_EVENT_IP_UPDATE
+17457:[wifi-listener] TRI-BAND setting:1
+17459:[wifi-listener](cast-event) multi-cast
+17459:[wifi-listener]: epoll_wait start
+17720:[admin login] from source 2601:645:400:b66::4,
+17763:[admin login] from source 2601:645:400:b66::4,
+17764:[wifi-listener]: epoll_wait wakeup
+17764:[wifi-listener]: Enter:fifo_receive 
+17764:[wifi-listener]: receive:2-1  
+17764:[wifi-listener] Enter fifoEventsMsgRx
+17764:[wifi-listener] Receive command 2
+17764:[wifi-listener] FIFO_EVENT_IP_UPDATE
+17764:[wifi-listener] TRI-BAND setting:1
+17766:[wifi-listener](cast-event) multi-cast
+17766:[wifi-listener]: epoll_wait start
+17838:[admin login] from source 2601:645:400:b66::4,
+17840:[admin login] from source 2601:645:400:b66::4,
+17844:[admin login] from source 2601:645:400:b66::4,
+17855:[admin login] from source 2601:645:400:b66::4,
+17856:[remote login failure] from source 2601:645:400:b66::4,
+17861:[ath0] Band steering events being sent to PID:8864
+17861:[ath01] Band steering events being sent to PID:8864
+17861:[ath1] Band steering events being sent to PID:8864
+17861:[ath11] Band steering events being sent to PID:8864
+17861:[ath2] Band steering events being sent to PID:8864
+17861:[wifi-listener]: epoll_wait wakeup
+17861:[wifi-listener] HYD restart, td database information is disappear (RE maybe leave and wait for new Database update)^M
+17861:[wifi-listener]: epoll_wait start
+17861:[ath0] Band steering events being sent to PID:8864
+17861:[ath1] Band steering events being sent to PID:8864
+17861:[ath2] Band steering events being sent to PID:8864
+17861:[admin login failure] from source 2601:645:400:b66::4,
+17882:[admin login] from source 192.168.1.3,
+17959:[DHCP IP: 192.168.1.6] to MAC address 78:e1:03:17:1a:97,
+17959:[DHCP IP: 192.168.1.2] to MAC address 44:00:10:d2:66:a6,
+17963:[DHCP IP: 192.168.1.4] to MAC address 18:b4:30:0c:d5:cd,
+17963:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+17984:[wifi-listener] fifo_event_init:FIFO create success .
+17984:[wifi-listener] Start Event loop
+17984:[wifi-listener]: epoll_wait start
+17984:[ath0] Band steering events being sent to PID:29821
+17984:[ath01] Band steering events being sent to PID:29821
+17984:[ath1] Band steering events being sent to PID:29821
+17984:[ath11] Band steering events being sent to PID:29821
+17984:[ath2] Band steering events being sent to PID:29821
+17992:[ath0] Band steering events being sent to PID:31698
+17992:[ath01] Band steering events being sent to PID:31698
+17992:[ath1] Band steering events being sent to PID:31698
+17992:[ath11] Band steering events being sent to PID:31698
+17992:[ath2] Band steering events being sent to PID:31698
+17992:[wifi-listener]: epoll_wait wakeup
+17992:[wifi-listener] HYD restart, td database information is disappear (RE maybe leave and wait for new Database update)^M
+17992:[wifi-listener]: epoll_wait start
+17992:[ath0] Band steering events being sent to PID:31698
+17992:[ath1] Band steering events being sent to PID:31698
+17992:[ath2] Band steering events being sent to PID:31698
+18031:[admin login] from source 2601:645:400:b66::3,
+18153:[DHCP IP: 192.168.1.5] to MAC address 2c:33:61:ec:cd:77,
+18259:[wifi-listener]: epoll_wait wakeup
+18259:[wifi-listener]: Enter:fifo_receive 
+18259:[wifi-listener]: receive:2-1  
+18259:[wifi-listener] Enter fifoEventsMsgRx
+18259:[wifi-listener] Receive command 2
+18259:[wifi-listener] FIFO_EVENT_IP_UPDATE
+18259:[wifi-listener] TRI-BAND setting:1
+18262:[wifi-listener](cast-event) multi-cast
+18262:[wifi-listener]: epoll_wait start
+18280:[admin login failure] from source 2601:645:400:b66::3,
+18287:[admin login] from source 2601:645:400:b66::3,
+18288:[admin login] from source 2601:645:400:b66::3,
+18313:[admin login] from source 192.168.1.3,
+18356:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+18556:[admin login] from source 2601:645:400:b66::2,
+18556:[admin login] from source 2601:645:400:b66::2,
+18559:[admin login] from source 192.168.1.3,
+18567:[wifi-listener]: epoll_wait wakeup
+18567:[wifi-listener]: Enter:fifo_receive 
+18567:[wifi-listener]: receive:2-1  
+18567:[wifi-listener] Enter fifoEventsMsgRx
+18567:[wifi-listener] Receive command 2
+18567:[wifi-listener] FIFO_EVENT_IP_UPDATE
+18567:[wifi-listener] TRI-BAND setting:1
+18569:[wifi-listener](cast-event) multi-cast
+18569:[wifi-listener]: epoll_wait start
+18578:[admin login] from source 2601:645:400:b66:f9b3:6ae2:50f8:c831,
+18582:[admin login] from source 2601:645:400:b66:f9b3:6ae2:50f8:c831,
+18668:[admin login] from source 2601:645:400:b66:f9b3:6ae2:50f8:c831,
+18694:[admin login] from source 2601:645:400:b66:f9b3:6ae2:50f8:c831,
+18738:[admin login] from source 2601:645:400:b66:f9b3:6ae2:50f8:c831,
+18741:[admin login failure] from source 2601:645:400:b66:f9b3:6ae2:50f8:c831,
+18875:[wifi-listener]: epoll_wait wakeup
+18875:[wifi-listener]: Enter:fifo_receive 
+18875:[wifi-listener]: receive:2-1  
+18875:[wifi-listener] Enter fifoEventsMsgRx
+18875:[wifi-listener] Receive command 2
+18875:[wifi-listener] FIFO_EVENT_IP_UPDATE
+18875:[wifi-listener] TRI-BAND setting:1
+18877:[wifi-listener](cast-event) multi-cast
+18877:[wifi-listener]: epoll_wait start
+19183:[wifi-listener]: epoll_wait wakeup
+19183:[wifi-listener]: Enter:fifo_receive 
+19183:[wifi-listener]: receive:2-1  
+19183:[wifi-listener] Enter fifoEventsMsgRx
+19183:[wifi-listener] Receive command 2
+19183:[wifi-listener] FIFO_EVENT_IP_UPDATE
+19183:[wifi-listener] TRI-BAND setting:1
+19185:[wifi-listener](cast-event) multi-cast
+19185:[wifi-listener]: epoll_wait start
+19204:[admin login] from source 2601:645:400:b66:f9b3:6ae2:50f8:c831,
+19205:[admin login] from source 2601:645:400:b66:f9b3:6ae2:50f8:c831,
+19208:[admin login] from source 192.168.1.3,
+19235:[admin login] from source 2601:645:400:b66:f9b3:6ae2:50f8:c831,
+19277:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+19491:[wifi-listener]: epoll_wait wakeup
+19491:[wifi-listener]: Enter:fifo_receive 
+19491:[wifi-listener]: receive:2-1  
+19491:[wifi-listener] Enter fifoEventsMsgRx
+19491:[wifi-listener] Receive command 2
+19491:[wifi-listener] FIFO_EVENT_IP_UPDATE
+19491:[wifi-listener] TRI-BAND setting:1
+19493:[wifi-listener](cast-event) multi-cast
+19493:[wifi-listener]: epoll_wait start
+19596:[admin login] from source 2601:645:400:b66::2,
+19695:[admin login] from source 2601:645:400:b66::2,
+19696:[admin login] from source 2601:645:400:b66::2,
+19699:[admin login] from source 192.168.1.3,
+19703:[admin login] from source 192.168.1.3,
+19704:[admin login] from source 192.168.1.3,
+19722:[admin login] from source 2601:645:400:b66:3432:a421:3c52:73ba,
+19776:[DHCP IP: 192.168.1.3] to MAC address 6c:40:08:92:e4:5e,
+19798:[wifi-listener]: epoll_wait wakeup
+19798:[wifi-listener]: Enter:fifo_receive 
+19798:[wifi-listener]: receive:2-1  
+19798:[wifi-listener] Enter fifoEventsMsgRx
+19798:[wifi-listener] Receive command 2
+19798:[wifi-listener] FIFO_EVENT_IP_UPDATE
+19798:[wifi-listener] TRI-BAND setting:1
+19800:[wifi-listener](cast-event) multi-cast
+19800:[wifi-listener]: epoll_wait start
+19816:[admin login] from source 2601:645:400:b66:3432:a421:3c52:73ba,
+20106:[wifi-listener]: epoll_wait wakeup
+20106:[wifi-listener]: Enter:fifo_receive 
+20106:[wifi-listener]: receive:2-1  
+20106:[wifi-listener] Enter fifoEventsMsgRx
+20106:[wifi-listener] Receive command 2
+20106:[wifi-listener] FIFO_EVENT_IP_UPDATE
+20106:[wifi-listener] TRI-BAND setting:1
+20108:[wifi-listener](cast-event) multi-cast
+20108:[wifi-listener]: epoll_wait start
+20259:[DoS Attack: SYN/ACK Scan] from source: 167.114.145.3, port 3006,
+20414:[wifi-listener]: epoll_wait wakeup
+20414:[wifi-listener]: Enter:fifo_receive 
+20414:[wifi-listener]: receive:2-1  
+20414:[wifi-listener] Enter fifoEventsMsgRx
+20414:[wifi-listener] Receive command 2
+20414:[wifi-listener] FIFO_EVENT_IP_UPDATE
+20414:[wifi-listener] TRI-BAND setting:1
+20416:[wifi-listener](cast-event) multi-cast
+20416:[wifi-listener]: epoll_wait start
+20722:[wifi-listener]: epoll_wait wakeup
+20722:[wifi-listener]: Enter:fifo_receive 
+20722:[wifi-listener]: receive:2-1  
+20722:[wifi-listener] Enter fifoEventsMsgRx
+20722:[wifi-listener] Receive command 2
+20722:[wifi-listener] FIFO_EVENT_IP_UPDATE
+20722:[wifi-listener] TRI-BAND setting:1
+20724:[wifi-listener](cast-event) multi-cast
+20724:[wifi-listener]: epoll_wait start
+21030:[wifi-listener]: epoll_wait wakeup
+21030:[wifi-listener]: Enter:fifo_receive 
+21030:[wifi-listener]: receive:2-1  
+21030:[wifi-listener] Enter fifoEventsMsgRx
+21030:[wifi-listener] Receive command 2
+21030:[wifi-listener] FIFO_EVENT_IP_UPDATE
+21030:[wifi-listener] TRI-BAND setting:1
+21032:[wifi-listener](cast-event) multi-cast
+21032:[wifi-listener]: epoll_wait start
+21068:[admin login] from source 192.168.1.3,
+21085:[admin login] from source 192.168.1.3,
+21088:[admin login] from source 192.168.1.3,
+21338:[wifi-listener]: epoll_wait wakeup
+21338:[wifi-listener]: Enter:fifo_receive 
+21338:[wifi-listener]: receive:2-1  
+21338:[wifi-listener] Enter fifoEventsMsgRx
+21338:[wifi-listener] Receive command 2
+21338:[wifi-listener] FIFO_EVENT_IP_UPDATE
+21338:[wifi-listener] TRI-BAND setting:1
+21340:[wifi-listener](cast-event) multi-cast
+21340:[wifi-listener]: epoll_wait start
+21646:[wifi-listener]: epoll_wait wakeup
+21646:[wifi-listener]: Enter:fifo_receive 
+21646:[wifi-listener]: receive:2-1  
+21646:[wifi-listener] Enter fifoEventsMsgRx
+21646:[wifi-listener] Receive command 2
+21646:[wifi-listener] FIFO_EVENT_IP_UPDATE
+21646:[wifi-listener] TRI-BAND setting:1
+21648:[wifi-listener](cast-event) multi-cast
+21648:[wifi-listener]: epoll_wait start
+21954:[wifi-listener]: epoll_wait wakeup
+21954:[wifi-listener]: Enter:fifo_receive 
+21954:[wifi-listener]: receive:2-1  
+21954:[wifi-listener] Enter fifoEventsMsgRx
+21954:[wifi-listener] Receive command 2
+21954:[wifi-listener] FIFO_EVENT_IP_UPDATE
+21954:[wifi-listener] TRI-BAND setting:1
+21956:[wifi-listener](cast-event) multi-cast
+21956:[wifi-listener]: epoll_wait start
+22202:[e0b79420] *pgd=9f587811, *pte=00000000, *ppte=00000000
+22202:[<c021ea2c>] (unwind_backtrace) from [<c021bb24>] (show_stack+0x10/0x14)
+22202:[<c021bb24>] (show_stack) from [<c04453a0>] (dump_stack+0x78/0x98)
+22202:[<c04453a0>] (dump_stack) from [<c0223474>] (__do_user_fault+0x74/0xbc)
+22202:[<c0223474>] (__do_user_fault) from [<c0223820>] (do_page_fault+0x2f0/0x370)
+22202:[<c0223820>] (do_page_fault) from [<c02083dc>] (do_DataAbort+0x34/0x98)
+22202:[<c02083dc>] (do_DataAbort) from [<c02096f4>] (__dabt_usr+0x34/0x40)
+22261:[wifi-listener]: epoll_wait wakeup
+22261:[wifi-listener]: Enter:fifo_receive 
+22261:[wifi-listener]: receive:2-1  
+22261:[wifi-listener] Enter fifoEventsMsgRx
+22261:[wifi-listener] Receive command 2
+22261:[wifi-listener] FIFO_EVENT_IP_UPDATE
+22261:[wifi-listener] TRI-BAND setting:1
+22263:[wifi-listener](cast-event) multi-cast
+22263:[wifi-listener]: epoll_wait start
+22360:[admin login] from source 192.168.1.3,
+22410:[admin login] from source 192.168.1.3,
+22569:[wifi-listener]: epoll_wait wakeup
+22569:[wifi-listener]: Enter:fifo_receive 
+22569:[wifi-listener]: receive:2-1  
+22569:[wifi-listener] Enter fifoEventsMsgRx
+22569:[wifi-listener] Receive command 2
+22569:[wifi-listener] FIFO_EVENT_IP_UPDATE
+22569:[wifi-listener] TRI-BAND setting:1
+22571:[wifi-listener](cast-event) multi-cast
+22571:[wifi-listener]: epoll_wait start
+22636:[admin login] from source 192.168.1.3,
+22768:[DHCP IP: 192.168.1.13] to MAC address ec:0e:c4:24:a2:83,
+22877:[wifi-listener]: epoll_wait wakeup
+22877:[wifi-listener]: Enter:fifo_receive 
+22877:[wifi-listener]: receive:2-1  
+22877:[wifi-listener] Enter fifoEventsMsgRx
+22877:[wifi-listener] Receive command 2
+22877:[wifi-listener] FIFO_EVENT_IP_UPDATE
+22877:[wifi-listener] TRI-BAND setting:1
+22879:[wifi-listener](cast-event) multi-cast
+22879:[wifi-listener]: epoll_wait start
+23185:[wifi-listener]: epoll_wait wakeup
+23185:[wifi-listener]: Enter:fifo_receive 
+23185:[wifi-listener]: receive:2-1  
+23185:[wifi-listener] Enter fifoEventsMsgRx
+23185:[wifi-listener] Receive command 2
+23185:[wifi-listener] FIFO_EVENT_IP_UPDATE
+23185:[wifi-listener] TRI-BAND setting:1
+23187:[wifi-listener](cast-event) multi-cast
+23187:[wifi-listener]: epoll_wait start

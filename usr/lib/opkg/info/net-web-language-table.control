@@ -1,0 +1,8 @@
+Package: net-web-language-table
+Version: 1
+Depends: libc
+Source: package/dni/net-web-language-table
+Section: utils
+Architecture: ipq806x
+Installed-Size: 106
+Description:  The language tables

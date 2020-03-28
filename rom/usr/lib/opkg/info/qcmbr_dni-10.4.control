@@ -1,0 +1,9 @@
+Package: qcmbr_dni-10.4
+Version: gaa10271-1
+Depends: libc, libpthread, librt
+Source: package/qca/qcmbr_dni
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 16085
+Description:  - QCA ART Driver & tools

@@ -1,0 +1,8 @@
+/lib/dni_platform/config/01-common_info.config
+/lib/dni_platform/config/02-network_interface_info.config
+/lib/dni_platform/dni_global.config
+/lib/dni_platform/config/05-system_info.config
+/lib/dni_platform/dni_platform.sh
+/lib/dni_platform/config/03-flash_info.config
+/lib/dni_platform/project/dni_project.sh
+/lib/dni_platform/config/04-feature_info.config

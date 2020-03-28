@@ -1,0 +1,8 @@
+Package: bob
+Version: 1.8.10
+Depends: libc, ntgdal, libopenssl
+Source: package/dni/bob
+Section: arlo
+Architecture: ipq806x
+Installed-Size: 66450
+Description:  Netgear arlo bob

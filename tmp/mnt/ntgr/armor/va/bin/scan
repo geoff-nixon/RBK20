@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export LD_LIBRARY_PATH="/opt/bitdefender/lib:/opt/bitdefender/va/bin"
+export PATH="/opt/bitdefender/va/bin":$PATH
+
+if [ "$#" -ne 2 ]; then
+    echo "Invalid usage : scan input_file output_file"
+    exit 1
+fi
+/opt/bitdefender/va/bin/main -r -i $1 -o $2

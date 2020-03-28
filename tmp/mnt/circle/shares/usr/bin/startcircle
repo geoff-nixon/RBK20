@@ -1,0 +1,312 @@
+#!/bin/sh
+#final boot-up script to start circle functionality
+
+contains() {
+    string="$1"
+    substring="$2"
+    if test "${string#*$substring}" != "$string"
+    then
+        return 0    # $substring is in $string
+    else
+        return 1    # $substring is not in $string
+    fi
+}
+
+echo > /tmp/circle_enabled.flag
+
+# avoid running this script twice
+if [ -e /tmp/circle_running.flag ] ; then
+	echo "Circle is already running, no action ... "
+	exit 0
+fi
+
+# if called by GUI, then just exit after creating flag
+if [ $# -eq 0 ] ; then
+	exit 0
+fi
+echo > /tmp/circle_running.flag
+orbi=0
+R8000P=0
+if [ "$1" = "orbi" ] || [ "$2" = "orbi" ] ; then
+	orbi=1
+elif [ "$1" = "R8000P" ] || [ "$2" = "R8000P" ] ; then
+	R8000P=1
+fi
+if [ $orbi = 1 ]; then
+	export CIRCLE_BASE=/mnt/circle/shares
+	export CIRCLE_ROOT=/mnt/circle/shares/usr/bin
+	export CIRCLE_PRELOAD=/lib/circle
+elif [ $R8000P = 1 ]; then
+	export CIRCLE_BASE=/data/circle/shares
+	export CIRCLE_ROOT=/data/circle/shares/usr/bin
+	export CIRCLE_PRELOAD=/opt/circle # TODO(derek): Verify this.
+else
+	export CIRCLE_BASE=/mnt/shares
+	export CIRCLE_ROOT=/mnt/shares/usr/bin
+	export CIRCLE_PRELOAD=/opt/circle
+fi
+echo $CIRCLE_ROOT > /tmp/CIRCLE_ROOT
+echo $CIRCLE_BASE > /tmp/CIRCLE_BASE
+if [ -d $CIRCLE_PRELOAD ]; then
+	echo $CIRCLE_PRELOAD > /tmp/CIRCLE_PRELOAD
+else
+	unset CIRCLE_PRELOAD
+fi
+DIR=$CIRCLE_ROOT
+export PATH=$PATH:$DIR
+export LD_LIBRARY_PATH=$DIR
+ln -s $DIR/libbluecoat.so /usr/lib/ 
+echo 3 > /proc/sys/vm/drop_caches
+
+#set date to 2000 so we can detect when we get ntp time
+if [ $orbi = 1 ] ; then
+	year=`date +"%Y"`
+	echo current year is $year
+	if [ $year -lt 2017 ] ; then
+		echo "system time is off, setting it..."
+		date -s 2015.09.11-00:00
+		killall ntpclient
+		/usr/sbin/ntpclient
+	fi
+fi
+export TZ=`$DIR/get_tz`
+[ "x$TZ" = "x" ] && export TZ='GMT8DST,M03.02.00,M11.01.00'
+if [ $orbi = 1 ]; then
+        echo $TZ > /etc/TZ
+fi
+
+if [ -s $DIR/MAC ] ; then
+	cp -f $DIR/MAC /tmp/MAC;
+else
+	MAC=`ifconfig br0 | awk '/HWaddr/{print $5;exit;}'`
+	echo "$MAC" > $DIR/MAC;
+	echo "$MAC" > /tmp/MAC;
+fi
+
+rules=`iptables -S`
+#PAUSE chain in iptables
+iptables -N PAUSE
+if !(contains "$rules" "FORWARD -j PAUSE"); then
+	iptables -I FORWARD -j PAUSE
+fi
+#iptables -t raw -N RAWPAUSE
+#iptables -t raw -A PREROUTING -j RAWPAUSE
+
+#FILTERED chains
+iptables -N FILTERED
+if !(contains "$rules" "FORWARD -j FILTERED"); then
+	iptables -A FORWARD -j FILTERED
+fi
+
+#UNMANAGED chains
+iptables -N UNMANAGED
+if !(contains "$rules" "FORWARD -j UNMANAGED"); then
+	iptables -I FORWARD -j UNMANAGED
+fi
+
+#Minecraft Pocket Edition Chain
+#iptables -t raw -N MCPE
+#iptables -t raw -A PREROUTING -j MCPE
+
+#misc
+ln -sf $DIR/aescrypt /tmp/
+
+if [ ! -s $DIR/configure.xml ]; then
+	if [ -s $DIR/configure.xml.backup ]; then
+		cp $DIR/configure.xml.backup $DIR/configure.xml
+	else
+		cp $DIR/configure-default.xml $DIR/configure.xml
+	fi
+fi
+
+mkdir -p $DIR/category_data
+#generate platform db and files
+$DIR/timetracker -p
+ip=`ifconfig br0 | awk '/inet addr:/{print substr($2,6);}'`
+ipv6="FE80::C001:37FF:FE6C:0"
+
+ifconfig br0:0 10.123.234.1 netmask 255.255.255.0
+#ip6tables -t nat -I PREROUTING -i br0 -p udp --dport 53 -j REDIRECT
+#iptables  -t nat -A PREROUTING -i br0 -p tcp --dport 80  -d 10.123.234.1 -j DNAT --to-port 8889
+if [ $orbi = 0 ]; then
+	check=`iptables  -t nat -C PREROUTING -i br0 -p tcp --dport 80 -d 10.123.234.1 -j DNAT --to-destination 10.123.234.1:8889 2>&1`
+	if [ $? != 0 ]; then
+		iptables  -t nat -I PREROUTING -i br0 -p tcp --dport 80 -d 10.123.234.1 -j DNAT --to-destination 10.123.234.1:8889
+	fi
+fi
+if [ $orbi = 0 ]; then
+	check=`iptables -t nat -C PREROUTING -i br0 -p tcp --dport 443 -d 10.123.234.1 -j DNAT --to-destination 10.123.234.1:8890 2>&1`
+	if [ $? != 0 ]; then
+		iptables -t nat -I PREROUTING -i br0 -p tcp --dport 443 -d 10.123.234.1 -j DNAT --to-destination 10.123.234.1:8890
+	fi
+fi
+
+mod=`lsmod`
+if [ $orbi = 1 ]; then
+	cd /lib/modules/`uname -r`/
+elif [ $R8000P = 1 ]; then
+	cd /lib/modules/`uname -r`/kernel/drivers/net/ipset/
+else
+	cd /lib/modules/`uname -r`/kernel/net/
+fi
+
+if !(contains "$mod" "ip_set "); then
+	insmod ip_set.ko
+fi
+
+if !(contains "$mod" "xt_set "); then
+	insmod xt_set.ko
+fi
+
+if !(contains "$mod" "ip_set_hash_ip "); then
+	insmod ip_set_hash_ip.ko
+fi
+
+if !(contains "$mod" "ip_set_hash_net "); then
+	insmod ip_set_hash_net.ko
+fi
+
+if !(contains "$mod" "ip_set_hash_ipportip "); then
+	insmod ip_set_hash_ipportip.ko
+fi
+
+if !(contains "$mod" "skipctf"); then
+	cd /
+	insmod /lib/modules/`uname -r`/kernel/drivers/net/ipset/skipctf.ko
+fi
+
+if !(contains "$mod" "circle_pcc"); then
+	insmod $DIR/circle_pcc.ko
+fi
+
+check=`ipset list -n`
+if !(contains "$check" "circleservers"); then
+	ipset create circleservers hash:ip
+	cp $DIR/scripts/circleservers.list /tmp/circleservers
+	$DIR/ipsetload circleservers /tmp/circleservers
+fi
+
+if !(contains "$check" "filtered"); then
+	ipset create filtered hash:ip,port,ip timeout 60
+fi
+
+if !(contains "$check" "torlist"); then
+  	ipset create torlist hash:ip hashsize 2048 maxelem 65536
+fi
+
+if !(contains "$check" "unmanaged"); then
+	ipset create unmanaged hash:ip,port,ip timeout 60
+fi
+
+if !(contains "$check" "dnsallow"); then
+	ipset create dnsallow hash:ip timeout 15
+fi
+
+if !(contains "$check" "managedlist"); then
+	ipset create managedlist hash:ip timeout 60
+fi
+
+if [ $orbi = 0 ]; then
+	check=`iptables -t nat -C PREROUTING -i br0 -m set --match-set managedlist src -p udp --dport 53 -j REDIRECT 2>&1`
+	if [ $? != 0 ]; then
+		iptables -t nat -I PREROUTING -i br0 -m set --match-set managedlist src -p udp --dport 53 -j REDIRECT
+	fi
+fi
+
+check=`iptables -C FILTERED -m set --match-set filtered dst,src,src -p tcp -j REJECT --reject-with tcp-reset 2>&1`
+if [ $? != 0 ]; then
+	iptables -I FILTERED -m set --match-set filtered dst,src,src -p tcp -j REJECT --reject-with tcp-reset
+fi
+
+check=`iptables -C FILTERED -m set --match-set filtered dst,src,src -p udp -j DROP 2>&1`
+if [ $? != 0 ]; then
+	iptables -I FILTERED -m set --match-set filtered dst,src,src -p udp -j DROP
+fi
+
+if [ $orbi = 0 ]; then
+	check=`iptables -t nat -C PREROUTING -m set --match-set filtered dst,src,src -p tcp --dport 80 -j DNAT --to-destination 10.123.234.1:8889 2>&1`
+	val=$?
+	if [ $val != 0 ]; then
+		iptables -t nat -A PREROUTING -m set --match-set filtered dst,src,src -p tcp --dport 80 -j DNAT --to-destination 10.123.234.1:8889
+	fi
+fi
+
+check=`iptables -C UNMANAGED -m set --match-set unmanaged dst,src,src -j ACCEPT 2>&1`
+if [ $? != 0 ]; then
+	iptables -I UNMANAGED -m set --match-set unmanaged dst,src,src -j ACCEPT
+fi
+
+check=`iptables -C UNMANAGED -m set --match-set dnsallow dst -j ACCEPT 2>&1`
+if [ $? != 0 ]; then
+	iptables -I UNMANAGED -m set --match-set dnsallow dst -j ACCEPT
+fi
+
+if [ $R8000P = 1 ]; then
+	check=`iptables -t raw -C PREROUTING -m set --match-set filtered dst,src,src -p tcp -j DROP 2>&1`
+	if [ $? != 0 ]; then
+		iptables -t raw -I PREROUTING -m set --match-set filtered dst,src,src -p tcp -j DROP
+	fi 
+
+	check=`iptables -t raw -C PREROUTING -m set --match-set filtered dst,src,src -p udp -j DROP 2>&1`
+	if [ $? != 0 ]; then
+		iptables -t raw -I PREROUTING -m set --match-set filtered dst,src,src -p udp -j DROP
+	fi
+fi
+
+#start cron job
+$DIR/tinycron 3600 $DIR/scripts/check_torlist.sh
+$DIR/tinycron 14400 $DIR/scripts/check_circleservers.sh
+$DIR/tinycron 120 $DIR/scripts/check_system_time.sh
+$DIR/tinycron 21600 "$DIR/scripts/cleanup_log_files.sh 7 90 29"
+
+#remove residual files
+if [ -d $DIR/service/filterd ]; then
+	rm -rf $DIR/service/filterd
+fi
+if [ -f $DIR/filterd ]; then
+	rm -f $DIR/filterd
+fi
+
+#create API cert
+if [ ! -s $DIR/apid.pem ]; then
+	$DIR/apid --makecert
+fi
+
+#start services
+cp -a $DIR/service /var
+[ -f $DIR/runsvdir ] || {
+	cd $DIR &&  ln -sf busybox runsvdir && ln -sf busybox sv && ln -sf busybox runsv
+}
+
+#kill router's dnsmasq and use ours instead
+if [ $orbi = 0 ]; then 
+	killall dnsmasq;
+else
+	killall dnsmasq
+	sleep 1
+	dnsmasq -h -n -c 0 -N -i br0 -r /tmp/resolv.conf -u root -p 5300
+fi
+sleep 1;
+runsvdir /var/service >/dev/null 2>/dev/null &
+
+cp $DIR/hosts0 $DIR/hosts
+#echo "$ip device.meetcircle.co" >> $DIR/hosts
+echo "10.123.234.1 device.meetcircle.co" >> $DIR/hosts
+route add -net 224.0.0.0 netmask 224.0.0.0 br0
+$DIR/mdnsd $ip "$ipv6" &
+#$DIR/mdns-scan &
+#ip -6 addr add fd22:9464:dfb8::1/64 dev br0
+
+echo 8 > /proc/sys/net/ipv4/tcp_retries2
+
+if [ $orbi = 1 ]; then
+	#restart net-wall as required by Netgear
+	sleep 3
+	net-wall restart
+fi
+
+echo > /tmp/circle_running.flag
+echo "Circle started."
+
+#disable ipv6 forward
+#echo 0 > /proc/sys/net/ipv6/conf/all/forwarding

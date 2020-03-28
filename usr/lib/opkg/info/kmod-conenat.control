@@ -1,0 +1,8 @@
+Package: kmod-conenat
+Version: 3.14.77-1
+Depends: kernel (=3.14.77-1-f42378b3f0fe1f8d209ccc333cd46d53)
+Source: package/dni/kmod-conenat
+Section: kernel
+Architecture: ipq806x
+Installed-Size: 1987
+Description:  Conenat linux kernel module

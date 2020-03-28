@@ -1,0 +1,10 @@
+Package: kmod-nls-cp437
+Version: 3.14.77-1
+Depends: kernel (=3.14.77-1-f42378b3f0fe1f8d209ccc333cd46d53), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: ipq806x
+Installed-Size: 190
+Description:  Kernel module for NLS Codepage 437 (United States, Canada)

@@ -1,0 +1,54 @@
+{
+    "name": "urlstatus_clean-categories",
+    "match_rules": [
+        {
+            "key": "type",
+            "val": "urlstatus_clean"
+        },
+        {
+            "key": "name",
+            "val": "Categories"
+        }
+    ],
+    "output": {
+        "data": {
+            "reason": null,
+            "categories": null,
+            "domain": null,
+            "blocked": null
+        },
+        "metadata": {
+            "name": "urlstatus_clean.Categories",
+            "device_id": null
+        }
+    },
+    "action_rules": [
+        {
+            "key": "data.reason",
+            "val": "$block_data.parental_reason",
+            "mandatory": true
+        },
+        {
+            "key": "data.categories",
+            "val": "$extra.categories",
+            "mandatory": true
+        },
+        {
+            "key": "data.domain",
+            "val": "$extra.http_host",
+            "mandatory": true
+        },
+        {
+            "key": "data.blocked",
+            "val": "$was_blocked",
+            "mandatory": true
+        },
+        {
+            "key": "metadata.device_id",
+            "val": "device_id()",
+            "params": ["$extra.src_mac"],
+            "mandatory": true
+        }
+    ]
+}
+

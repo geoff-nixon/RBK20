@@ -1,0 +1,12 @@
+Package: libmicrohttpd
+Version: 0.9.38-1.2
+Depends: libc, libpthread, libgcrypt, libgnutls, libgpg-error, libopenssl
+Source: package/dni/arlo/libmicrohttpd
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Martijn Zilverschoon <martijn@friedzombie.com>
+Architecture: ipq806x
+Installed-Size: 49864
+Description:  GNU libmicrohttpd is a small C library that is supposed to make it easy
+ to run an HTTP server as part of another application.

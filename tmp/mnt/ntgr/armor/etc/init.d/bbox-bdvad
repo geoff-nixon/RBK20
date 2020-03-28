@@ -1,0 +1,24 @@
+#!/bin/sh /etc/rc.common
+
+USE_PROCD=1
+START=957
+STOP=17
+SVC="bdvad"
+
+BD_ROOT_DIR="/opt/bitdefender"
+BD_BIN_DIR="$BD_ROOT_DIR/bin"
+BD_LIB_DIR="$BD_ROOT_DIR/lib"
+
+start_service() {
+    procd_open_instance $SVC
+    procd_set_param command $BD_BIN_DIR/$SVC -start -no-detach
+    procd_set_param env LD_LIBRARY_PATH=$BD_LIB_DIR:$LD_LIBRARY_PATH
+    procd_set_param respawn ${respawn_threshold:-3600} ${respawn_timeout:-5} ${respawn_retry:-5}
+    procd_set_param limits stack="131072 131072"
+    procd_close_instance
+}
+
+stop_service() {
+    $BD_BIN_DIR/$SVC -stop
+    procd_kill bbox-$SVC $SVC
+}

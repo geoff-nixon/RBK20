@@ -1,0 +1,105 @@
+{
+    "name": "anomaly-ports-outgoing-or-ipv4",
+    "match_rules": [
+        {
+            "key": "type",
+            "val": "anomaly"
+        },
+        {
+            "key": "name",
+            "val": ["Anomaly.Ports.Outgoing", "Anomaly.IPv4"]
+        },
+        {
+            "key": "extra.src_netif",
+            "val": "lan()"
+        }
+    ],
+    "output": {
+        "data": {
+            "object_type": "behaviour",
+            "object": {
+                "ip": null,
+                "src_mac": null,
+                "src_ip": null,
+                "dst_mac": "",
+                "dst_ip": null,
+                "detection": null,
+                "lan_initiated": true
+            },
+            "threat_type": "anomaly",
+            "threat": null,
+            "blocked": null
+        },
+        "metadata": {
+            "target_mac": null,
+            "target_ip": null,
+            "device_id": null,
+            "service": "connect/seccenter",
+            "method": "report_malware",
+            "data_name": "threats",
+            "app_id": null
+        }
+    },
+    "action_rules": [
+        {
+            "key": ["data.object.ip", "data.object.dst_ip"],
+            "val": "$extra.dst_ip",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.src_mac",
+            "val": "$extra.src_mac",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.src_ip",
+            "val": "$extra.src_ip",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.dst_mac",
+            "val": "$extra.dst_mac",
+            "mandatory": false
+        },
+        {
+            "key": "data.object.detection",
+            "val": "concatenate()",
+            "params": ["$type", ".", "$name"],
+            "mandatory": true
+        },
+        {
+            "key": "data.threat",
+            "val": "$name",
+            "mandatory": true
+        },
+        {
+            "key": "data.blocked",
+            "val": "was_blocked()",
+            "params": ["$was_blocked"],
+            "mandatory": true
+        },
+        {
+            "key": "metadata.target_mac",
+            "val": "$extra.src_mac",
+            "mandatory": true
+        },
+        {
+            "key": "metadata.target_ip",
+            "val": "$extra.src_ip",
+            "mandatory": true
+        },
+        {
+            "key": "metadata.device_id",
+            "val": "device_id()",
+            "params": ["$extra.src_mac"],
+            "mandatory": true
+        },
+        {
+            "key": "metadata.app_id",
+            "val": "app_id()",
+            "params": [],
+            "mandatory": true
+        }
+    ]
+}
+

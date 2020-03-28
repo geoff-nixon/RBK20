@@ -1,0 +1,8 @@
+Package: pot
+Version: 4
+Depends: libc, datalib
+Source: package/dni/pot
+Section: net
+Architecture: ipq806x
+Installed-Size: 9302
+Description:  POT

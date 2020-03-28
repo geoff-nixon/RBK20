@@ -1,0 +1,8 @@
+Package: circle
+Version: 1
+Depends: libc, libopenssl, libpthread
+Source: package/dni/circle
+Section: opt
+Architecture: ipq806x
+Installed-Size: 1958089
+Description:  circle parental control related files

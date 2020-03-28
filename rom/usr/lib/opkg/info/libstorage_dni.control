@@ -1,0 +1,9 @@
+Package: libstorage_dni
+Version: 3.0.1500.042-1
+Depends: libc, libhyficommon_dni, libuci
+Source: package/qca/ieee1905_security/libstorage_dni
+Section: QCA
+Maintainer: Qualcomm Atheros, Inc.
+Architecture: ipq806x
+Installed-Size: 11173
+Description:  This Package installs the Storage Abstration Library

@@ -1,0 +1,15 @@
+{
+    "action": "update",
+    "channels": {
+        "default": [
+            {
+                "level": "warning",
+                "file": "var/log/$IDENTITY"
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY"
+            }
+        ]
+    }
+}

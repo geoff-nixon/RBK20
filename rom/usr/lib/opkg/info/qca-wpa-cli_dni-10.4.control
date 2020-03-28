@@ -1,0 +1,9 @@
+Package: qca-wpa-cli_dni-10.4
+Version: 1
+Depends: libc, librt, libopenssl, libnl
+Source: package/qca/qca-hostap_dni
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 42108
+Description:  WPA Supplicant command line interface

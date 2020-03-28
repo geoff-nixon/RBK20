@@ -1,0 +1,11 @@
+Package: sysstat
+Version: 11.0.4-2
+Depends: libc
+Source: qca/feeds/packages/utils/sysstat
+License: GPL-2.0
+Section: utils
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: ipq806x
+Installed-Size: 152599
+Description:  The sysstat utilities are a collection of performance monitoring tools for
+ Linux. These include sar, sadf, mpstat, iostat, pidstat and sa tools.

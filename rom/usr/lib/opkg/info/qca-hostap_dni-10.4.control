@@ -1,0 +1,9 @@
+Package: qca-hostap_dni-10.4
+Version: 1
+Depends: libc, libnl
+Source: package/qca/qca-hostap_dni
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 385691
+Description:  This package contains the IEEE 802.1x/WPA/EAP/RADIUS Authenticator.

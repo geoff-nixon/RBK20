@@ -1,0 +1,8 @@
+Package: udhcp-ext
+Version: 0.9.8-3
+Depends: libc
+Source: package/dni/udhcp-ext
+Section: net
+Architecture: ipq806x
+Installed-Size: 24380
+Description:  This package contains udhcp Server and Client.

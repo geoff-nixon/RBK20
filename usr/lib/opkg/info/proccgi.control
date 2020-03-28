@@ -1,0 +1,8 @@
+Package: proccgi
+Version: 4
+Depends: libc
+Source: package/dni/proccgi
+Section: utils
+Architecture: ipq806x
+Installed-Size: 2311
+Description:  The CGI interface

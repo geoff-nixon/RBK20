@@ -1,0 +1,13 @@
+Package: iptables-mod-XHTTP
+Version: 1.4.21-1
+Depends: libc, iptables, kmod-ipt-XHTTP
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: ipq806x
+Installed-Size: 1178
+Description:  XHTTP iptables extensions.
+ 
+ Matches:
+ - XHTTP
+ 

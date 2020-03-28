@@ -1,0 +1,8 @@
+Package: kmod-nat2.5
+Version: none
+Depends: kernel (=3.14.77-1-f42378b3f0fe1f8d209ccc333cd46d53)
+Source: package/dni/kmod-nat2.5
+Section: kernel
+Architecture: ipq806x
+Installed-Size: 12726
+Description:  NAT 2.5 (client bridge)

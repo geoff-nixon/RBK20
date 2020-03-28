@@ -1,0 +1,6 @@
+/lib/modules/3.14.77/dm-region-hash.ko
+/lib/modules/3.14.77/dm-mirror.ko
+/etc/modules.d/30-dm
+/lib/modules/3.14.77/dm-crypt.ko
+/lib/modules/3.14.77/dm-mod.ko
+/lib/modules/3.14.77/dm-log.ko

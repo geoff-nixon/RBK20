@@ -1,0 +1,9 @@
+Package: luci-whc_dni
+Version: 3.0.1500.042-1
+Depends: libc, luci, luci-mod-admin-core, luci-mod-admin-full
+Source: package/qca/whc/qca-whc-luci_dni
+Section: QCA
+Maintainer: Qualcomm Atheros
+Architecture: ipq806x
+Installed-Size: 589
+Description:  Luci WebUI for Whole Home Coverage

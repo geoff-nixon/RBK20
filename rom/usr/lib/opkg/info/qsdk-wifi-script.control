@@ -1,0 +1,9 @@
+Package: qsdk-wifi-script
+Version: 1-1
+Depends: libc
+Source: package/qca/qsdk-wifi-script
+Section: net
+Maintainer: Matthew McClintock <mmcclint@qca.qualcomm.com>
+Architecture: ipq806x
+Installed-Size: 51256
+Description:  qca-wifi scripts

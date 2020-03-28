@@ -1,0 +1,3 @@
+/www/cgi-bin/genie.cgi
+/usr/bin/genie_handler
+/etc/init.d/remGenie

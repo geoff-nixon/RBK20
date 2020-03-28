@@ -1,0 +1,1518 @@
+[2020-03-27 18:08:47.324] [info] Trace level set to 1
+[2020-03-27 18:08:47.325] [info] Retrieving configuration from URL: http://www.speedtest.net/api/embed/netgear/config
+[2020-03-27 18:08:47.505] [info] HTTP request (effective url: http://www.speedtest.net/api/embed/netgear/config) completed with response code 200
+[2020-03-27 18:08:47.506] [info] configuration content: threadnum = "8"
+testlength = "15"
+latencytestlength = "5"
+uploadfirst = "1"
+tracelevel = "1"
+licensekey = "a7bd7c3d5e87ce00-C955a9b26d471e352-56e3099f1e57e5cd"
+customer = "netgear"
+apiurl = "http://www.speedtest.net/api/embed/api.php"
+isp = "Comcast Cable"
+
+servers = [
+{
+serverid = "27103"
+host = "speedtest.openfiber.net:8080"
+name = "Emeryville, CA"
+country = "United States"
+sponsor = "OpenFiber"
+},{
+serverid = "5026"
+host = "sfo.speedtest.sbcglobal.net:8080"
+name = "San Francisco, CA"
+country = "United States"
+sponsor = "AT&T"
+},{
+serverid = "5754"
+host = "speedtest.fastmetrics.com:8080"
+name = "San Francisco, CA"
+country = "United States"
+sponsor = "Fastmetrics Inc."
+},{
+serverid = "17587"
+host = "sfosfookla.wiline.com:8080"
+name = "San Francisco, CA"
+country = "United States"
+sponsor = "Wiline Networks"
+},{
+serverid = "603"
+host = "www.unwiredltd.com:8080"
+name = "San Francisco, CA"
+country = "United States"
+sponsor = "Unwired"
+},{
+serverid = "1783"
+host = "stosat-scla-01.sys.comcast.net:8080"
+name = "San Francisco, CA"
+country = "United States"
+sponsor = "Comcast"
+},{
+serverid = "18531"
+host = "Speedtest-200P.wavebroadband.com:8080"
+name = "San Francisco, CA"
+country = "United States"
+sponsor = "Wave"
+},{
+serverid = "8228"
+host = "sf-speedtest.race.com:8080"
+name = "San Francisco, CA"
+country = "United States"
+sponsor = "Race Communications"
+},{
+serverid = "31420"
+host = "speedtest02.openfiber.net:8080"
+name = "Oakland, CA"
+country = "United States"
+sponsor = "OpenFiber Inc."
+},{
+serverid = "19900"
+host = "speed.juhsd.net:8080"
+name = "Daly City, CA"
+country = "United States"
+sponsor = "Jefferson Union High School District"
+}
+]
+[2020-03-27 18:08:47.508] [info] added server id:27103
+	host: speedtest.openfiber.net
+	port: 8080
+	name: Emeryville, CA
+	country: United States
+	sponsor: OpenFiber
+
+[2020-03-27 18:08:47.508] [info] added server id:5026
+	host: sfo.speedtest.sbcglobal.net
+	port: 8080
+	name: San Francisco, CA
+	country: United States
+	sponsor: AT&T
+
+[2020-03-27 18:08:47.509] [info] added server id:5754
+	host: speedtest.fastmetrics.com
+	port: 8080
+	name: San Francisco, CA
+	country: United States
+	sponsor: Fastmetrics Inc.
+
+[2020-03-27 18:08:47.509] [info] added server id:17587
+	host: sfosfookla.wiline.com
+	port: 8080
+	name: San Francisco, CA
+	country: United States
+	sponsor: Wiline Networks
+
+[2020-03-27 18:08:47.509] [info] added server id:603
+	host: www.unwiredltd.com
+	port: 8080
+	name: San Francisco, CA
+	country: United States
+	sponsor: Unwired
+
+[2020-03-27 18:08:47.510] [info] added server id:1783
+	host: stosat-scla-01.sys.comcast.net
+	port: 8080
+	name: San Francisco, CA
+	country: United States
+	sponsor: Comcast
+
+[2020-03-27 18:08:47.510] [info] added server id:18531
+	host: Speedtest-200P.wavebroadband.com
+	port: 8080
+	name: San Francisco, CA
+	country: United States
+	sponsor: Wave
+
+[2020-03-27 18:08:47.510] [info] added server id:8228
+	host: sf-speedtest.race.com
+	port: 8080
+	name: San Francisco, CA
+	country: United States
+	sponsor: Race Communications
+
+[2020-03-27 18:08:47.511] [info] added server id:31420
+	host: speedtest02.openfiber.net
+	port: 8080
+	name: Oakland, CA
+	country: United States
+	sponsor: OpenFiber Inc.
+
+[2020-03-27 18:08:47.511] [info] added server id:19900
+	host: speed.juhsd.net
+	port: 8080
+	name: Daly City, CA
+	country: United States
+	sponsor: Jefferson Union High School District
+
+[2020-03-27 18:08:47.511] [info] Server count: 10
+[2020-03-27 18:08:47.512] [info] Configuration expiry date: 1585958400
+[2020-03-27 18:08:47.512] [info] app.version: 3.5.9-12
+[2020-03-27 18:08:47.513] [info] resolving speedtest.openfiber.net
+[2020-03-27 18:08:47.534] [info] connecting to port 8080
+[2020-03-27 18:08:47.534] [info] waiting for connection
+[2020-03-27 18:08:47.547] [info] connection successful
+[2020-03-27 18:08:47.547] [info] socket connected: 4
+[2020-03-27 18:08:47.575] [info] received 'PONG 1585332197766
+'
+[2020-03-27 18:08:47.576] [info] latency sample: 16
+[2020-03-27 18:08:47.588] [info] received 'PONG 1585332197779
+'
+[2020-03-27 18:08:47.590] [info] latency sample: 13
+[2020-03-27 18:08:47.602] [info] received 'PONG 1585332197793
+'
+[2020-03-27 18:08:47.603] [info] latency sample: 12
+[2020-03-27 18:08:47.616] [info] received 'PONG 1585332197806
+'
+[2020-03-27 18:08:47.617] [info] latency sample: 13
+[2020-03-27 18:08:47.631] [info] received 'PONG 1585332197821
+'
+[2020-03-27 18:08:47.632] [info] latency sample: 14
+[2020-03-27 18:08:47.632] [info] latency measured for server 27103: 14196
+[2020-03-27 18:08:47.633] [info] new lowest latency server (id=27103) found with latency 14196
+[2020-03-27 18:08:47.634] [info] resolving sfo.speedtest.sbcglobal.net
+[2020-03-27 18:08:47.654] [info] connecting to port 8080
+[2020-03-27 18:08:47.655] [info] waiting for connection
+[2020-03-27 18:08:47.669] [info] connection successful
+[2020-03-27 18:08:47.669] [info] socket connected: 5
+[2020-03-27 18:08:47.708] [info] received 'PONG 1585332527707
+'
+[2020-03-27 18:08:47.708] [info] latency sample: 19
+[2020-03-27 18:08:47.723] [info] received 'PONG 1585332527722
+'
+[2020-03-27 18:08:47.723] [info] latency sample: 14
+[2020-03-27 18:08:47.739] [info] received 'PONG 1585332527738
+'
+[2020-03-27 18:08:47.740] [info] latency sample: 15
+[2020-03-27 18:08:47.754] [info] received 'PONG 1585332527753
+'
+[2020-03-27 18:08:47.755] [info] latency sample: 14
+[2020-03-27 18:08:47.770] [info] received 'PONG 1585332527769
+'
+[2020-03-27 18:08:47.771] [info] latency sample: 15
+[2020-03-27 18:08:47.771] [info] latency measured for server 5026: 16038
+[2020-03-27 18:08:47.773] [info] resolving speedtest.fastmetrics.com
+[2020-03-27 18:08:47.807] [info] connecting to port 8080
+[2020-03-27 18:08:47.808] [info] waiting for connection
+[2020-03-27 18:08:47.819] [info] connection successful
+[2020-03-27 18:08:47.820] [info] socket connected: 6
+[2020-03-27 18:08:47.853] [info] received 'PONG 1585332527853
+'
+[2020-03-27 18:08:47.854] [info] latency sample: 16
+[2020-03-27 18:08:47.866] [info] received 'PONG 1585332527866
+'
+[2020-03-27 18:08:47.867] [info] latency sample: 12
+[2020-03-27 18:08:47.878] [info] received 'PONG 1585332527878
+'
+[2020-03-27 18:08:47.879] [info] latency sample: 11
+[2020-03-27 18:08:47.891] [info] received 'PONG 1585332527891
+'
+[2020-03-27 18:08:47.891] [info] latency sample: 11
+[2020-03-27 18:08:47.903] [info] received 'PONG 1585332527903
+'
+[2020-03-27 18:08:47.903] [info] latency sample: 11
+[2020-03-27 18:08:47.904] [info] latency measured for server 5754: 12886
+[2020-03-27 18:08:47.904] [info] new lowest latency server (id=5754) found with latency 12886
+[2020-03-27 18:08:47.904] [info] resolving sfosfookla.wiline.com
+[2020-03-27 18:08:47.937] [info] connecting to port 8080
+[2020-03-27 18:08:47.937] [info] waiting for connection
+[2020-03-27 18:08:47.950] [info] connection successful
+[2020-03-27 18:08:47.951] [info] socket connected: 7
+[2020-03-27 18:08:47.987] [info] received 'PONG 1585332527987
+'
+[2020-03-27 18:08:47.988] [info] latency sample: 19
+[2020-03-27 18:08:48.003] [info] received 'PONG 1585332528002
+'
+[2020-03-27 18:08:48.003] [info] latency sample: 15
+[2020-03-27 18:08:48.016] [info] received 'PONG 1585332528016
+'
+[2020-03-27 18:08:48.017] [info] latency sample: 12
+[2020-03-27 18:08:48.031] [info] received 'PONG 1585332528031
+'
+[2020-03-27 18:08:48.032] [info] latency sample: 14
+[2020-03-27 18:08:48.045] [info] received 'PONG 1585332528045
+'
+[2020-03-27 18:08:48.046] [info] latency sample: 13
+[2020-03-27 18:08:48.046] [info] latency measured for server 17587: 15233
+[2020-03-27 18:08:48.046] [info] resolving www.unwiredltd.com
+[2020-03-27 18:08:48.093] [info] connecting to port 8080
+[2020-03-27 18:08:48.094] [info] waiting for connection
+[2020-03-27 18:08:48.106] [info] connection successful
+[2020-03-27 18:08:48.107] [info] socket connected: 8
+[2020-03-27 18:08:48.140] [info] received 'PONG 1585332528137
+'
+[2020-03-27 18:08:48.140] [info] latency sample: 16
+[2020-03-27 18:08:48.153] [info] received 'PONG 1585332528150
+'
+[2020-03-27 18:08:48.153] [info] latency sample: 12
+[2020-03-27 18:08:48.166] [info] received 'PONG 1585332528164
+'
+[2020-03-27 18:08:48.167] [info] latency sample: 13
+[2020-03-27 18:08:48.180] [info] received 'PONG 1585332528177
+'
+[2020-03-27 18:08:48.180] [info] latency sample: 13
+[2020-03-27 18:08:48.192] [info] received 'PONG 1585332528190
+'
+[2020-03-27 18:08:48.193] [info] latency sample: 12
+[2020-03-27 18:08:48.194] [info] latency measured for server 603: 13727
+[2020-03-27 18:08:48.194] [info] server selected: 5754
+[2020-03-27 18:08:48.194] [info] Server id: 5754
+[2020-03-27 18:08:48.195] [info] Name: San Francisco, CA
+[2020-03-27 18:08:48.195] [info] Country: United States
+[2020-03-27 18:08:48.196] [info] Sponsor: Fastmetrics Inc.
+serverid: 5754
+isp: Comcast Cable
+[2020-03-27 18:08:48.196] [info] Running TCP test suite
+[2020-03-27 18:08:48.197] [info] Running Speedtest against host:port speedtest.fastmetrics.com:8080
+[2020-03-27 18:08:48.199] [info] Resolving host in thread.
+[2020-03-27 18:08:48.270] [info] Resolved address 1: 216.38.158.170
+[2020-03-27 18:08:48.270] [info] Opening socket to '216.38.158.170'
+[2020-03-27 18:08:48.290] [info] Host speedtest.fastmetrics.com resolved to 216.38.158.170
+[2020-03-27 18:08:48.292] [info] Starting stage 1 of type 2
+[2020-03-27 18:08:48.350] [info] Ping 1: 11.67 ms (11.67ms avg, 0.00ms jitter)
+[2020-03-27 18:08:48.363] [info] Ping 2: 12.29 ms (11.67ms avg, 0.62ms jitter)
+[2020-03-27 18:08:48.375] [info] Ping 3: 11.34 ms (11.34ms avg, 0.78ms jitter)
+[2020-03-27 18:08:48.387] [info] Ping 4: 11.36 ms (11.34ms avg, 0.53ms jitter)
+[2020-03-27 18:08:48.399] [info] Ping 5: 11.32 ms (11.32ms avg, 0.41ms jitter)
+[2020-03-27 18:08:48.399] [info] Final Ping: 11.32 ms
+[2020-03-27 18:08:48.400] [info] Stage 1 completed
+latency: 11
+[2020-03-27 18:08:48.413] [info] Starting stage 2 of type 4
+[2020-03-27 18:08:50.862] [info] Upload test: Received 201959 bytes	0% complete	3718565 bytes/sec avg
+[2020-03-27 18:08:50.914] [info] Upload test: Received 226338 bytes	0% complete	4022512 bytes/sec avg
+[2020-03-27 18:08:50.966] [info] Upload test: Received 191303 bytes	1% complete	3920749 bytes/sec avg
+[2020-03-27 18:08:50.983] [info] Upload test: Received 4112 bytes	1% complete	3552679 bytes/sec avg
+[2020-03-27 18:08:51.051] [info] Upload test: Received 229559 bytes	1% complete	3501748 bytes/sec avg
+[2020-03-27 18:08:51.103] [info] Upload test: Received 4112 bytes	1% complete	2904896 bytes/sec avg
+[2020-03-27 18:08:51.138] [info] Upload test: Received 166491 bytes	2% complete	3103842 bytes/sec avg
+[2020-03-27 18:08:51.206] [info] Upload test: Received 79190 bytes	2% complete	2769965 bytes/sec avg
+[2020-03-27 18:08:51.223] [info] Upload test: Received 70966 bytes	2% complete	2824054 bytes/sec avg
+[2020-03-27 18:08:51.241] [info] Upload test: Received 412052 bytes	2% complete	3662271 bytes/sec avg
+[2020-03-27 18:08:51.258] [info] Upload test: Received 4112 bytes	3% complete	3530155 bytes/sec avg
+[2020-03-27 18:08:51.276] [info] Upload test: Received 60408 bytes	3% complete	3525970 bytes/sec avg
+[2020-03-27 18:08:51.311] [info] Upload test: Received 60408 bytes	3% complete	3402577 bytes/sec avg
+[2020-03-27 18:08:51.328] [info] Upload test: Received 290755 bytes	3% complete	3846426 bytes/sec avg
+[2020-03-27 18:08:51.346] [info] Upload test: Received 44499 bytes	3% complete	3805006 bytes/sec avg
+[2020-03-27 18:08:51.363] [info] Upload test: Received 64073 bytes	3% complete	3800046 bytes/sec avg
+[2020-03-27 18:08:51.414] [info] Upload test: Received 54680 bytes	4% complete	3569078 bytes/sec avg
+[2020-03-27 18:08:51.449] [info] Upload test: Received 44071 bytes	4% complete	3446175 bytes/sec avg
+[2020-03-27 18:08:51.500] [info] Upload test: Received 56296 bytes	4% complete	3270372 bytes/sec avg
+[2020-03-27 18:08:51.568] [info] Upload test: Received 75801 bytes	5% complete	3077461 bytes/sec avg
+[2020-03-27 18:08:51.586] [info] Upload test: Received 46468 bytes	5% complete	3068517 bytes/sec avg
+[2020-03-27 18:08:51.605] [info] Upload test: Received 330548 bytes	5% complete	3408150 bytes/sec avg
+[2020-03-27 18:08:51.640] [info] Upload test: Received 78746 bytes	5% complete	3360394 bytes/sec avg
+[2020-03-27 18:08:51.658] [info] Upload test: Received 53387 bytes	5% complete	3354529 bytes/sec avg
+[2020-03-27 18:08:51.693] [info] Upload test: Received 76886 bytes	5% complete	3308019 bytes/sec avg
+[2020-03-27 18:08:51.727] [info] Upload test: Received 127241 bytes	6% complete	3321961 bytes/sec avg
+[2020-03-27 18:08:51.745] [info] Upload test: Received 75801 bytes	6% complete	3339747 bytes/sec avg
+[2020-03-27 18:08:51.781] [info] Upload test: Received 53398 bytes	6% complete	3272629 bytes/sec avg
+[2020-03-27 18:08:51.798] [info] Upload test: Received 187408 bytes	6% complete	3404544 bytes/sec avg
+[2020-03-27 18:08:51.816] [info] Upload test: Received 239736 bytes	6% complete	3580825 bytes/sec avg
+[2020-03-27 18:08:51.834] [info] Upload test: Received 171362 bytes	6% complete	3684834 bytes/sec avg
+[2020-03-27 18:08:51.853] [info] Upload test: Received 92259 bytes	6% complete	3706785 bytes/sec avg
+[2020-03-27 18:08:51.870] [info] Upload test: Received 46464 bytes	7% complete	3689720 bytes/sec avg
+[2020-03-27 18:08:51.905] [info] Upload test: Received 136050 bytes	7% complete	3698552 bytes/sec avg
+[2020-03-27 18:08:51.922] [info] Upload test: Received 396650 bytes	7% complete	3996967 bytes/sec avg
+[2020-03-27 18:08:51.940] [info] Upload test: Received 212932 bytes	7% complete	4122747 bytes/sec avg
+[2020-03-27 18:08:51.957] [info] Upload test: Received 202957 bytes	7% complete	4236340 bytes/sec avg
+[2020-03-27 18:08:52.008] [info] Upload test: Received 144366 bytes	8% complete	4175753 bytes/sec avg
+[2020-03-27 18:08:52.026] [info] Upload test: Received 401048 bytes	8% complete	4445556 bytes/sec avg
+[2020-03-27 18:08:52.043] [info] Upload test: Received 55754 bytes	8% complete	4427099 bytes/sec avg
+[2020-03-27 18:08:52.061] [info] Upload test: Received 80289 bytes	8% complete	4428309 bytes/sec avg
+[2020-03-27 18:08:52.098] [info] Upload test: Received 66902 bytes	8% complete	4358760 bytes/sec avg
+[2020-03-27 18:08:52.116] [info] Upload test: Received 324173 bytes	8% complete	4542018 bytes/sec avg
+[2020-03-27 18:08:52.134] [info] Upload test: Received 216781 bytes	8% complete	4645349 bytes/sec avg
+[2020-03-27 18:08:52.151] [info] Upload test: Received 92244 bytes	8% complete	4653889 bytes/sec avg
+[2020-03-27 18:08:52.202] [info] Upload test: Received 80289 bytes	9% complete	4539432 bytes/sec avg
+[2020-03-27 18:08:52.220] [info] Upload test: Received 133812 bytes	9% complete	4578348 bytes/sec avg
+[2020-03-27 18:08:52.238] [info] Upload test: Received 384986 bytes	9% complete	4791166 bytes/sec avg
+[2020-03-27 18:08:52.272] [info] Upload test: Received 30415 bytes	9% complete	4698177 bytes/sec avg
+[2020-03-27 18:08:52.290] [info] Upload test: Received 66908 bytes	9% complete	4687116 bytes/sec avg
+[2020-03-27 18:08:52.324] [info] Upload test: Received 128735 bytes	10% complete	4666070 bytes/sec avg
+[2020-03-27 18:08:52.342] [info] Upload test: Received 133810 bytes	10% complete	4700304 bytes/sec avg
+[2020-03-27 18:08:52.377] [info] Upload test: Received 122661 bytes	10% complete	4673434 bytes/sec avg
+[2020-03-27 18:08:52.394] [info] Upload test: Received 30408 bytes	10% complete	4641483 bytes/sec avg
+[2020-03-27 18:08:52.412] [info] Upload test: Received 66906 bytes	10% complete	4632829 bytes/sec avg
+[2020-03-27 18:08:52.430] [info] Upload test: Received 287672 bytes	10% complete	4757650 bytes/sec avg
+[2020-03-27 18:08:52.464] [info] Upload test: Received 122665 bytes	11% complete	4733075 bytes/sec avg
+[2020-03-27 18:08:52.482] [info] Upload test: Received 256458 bytes	11% complete	4836398 bytes/sec avg
+[2020-03-27 18:08:52.516] [info] Upload test: Received 55759 bytes	11% complete	4772070 bytes/sec avg
+[2020-03-27 18:08:52.550] [info] Upload test: Received 97315 bytes	11% complete	4734133 bytes/sec avg
+[2020-03-27 18:08:52.568] [info] Upload test: Received 55759 bytes	11% complete	4719140 bytes/sec avg
+[2020-03-27 18:08:52.585] [info] Upload test: Received 55748 bytes	11% complete	4704346 bytes/sec avg
+[2020-03-27 18:08:52.602] [info] Upload test: Received 30410 bytes	11% complete	4675791 bytes/sec avg
+[2020-03-27 18:08:52.620] [info] Upload test: Received 214903 bytes	12% complete	4749622 bytes/sec avg
+[2020-03-27 18:08:52.637] [info] Upload test: Received 287672 bytes	12% complete	4861583 bytes/sec avg
+[2020-03-27 18:08:52.672] [info] Upload test: Received 102212 bytes	12% complete	4827007 bytes/sec avg
+[2020-03-27 18:08:52.689] [info] Upload test: Received 159142 bytes	12% complete	4866072 bytes/sec avg
+[2020-03-27 18:08:52.707] [info] Upload test: Received 66902 bytes	12% complete	4856134 bytes/sec avg
+[2020-03-27 18:08:52.724] [info] Upload test: Received 132626 bytes	12% complete	4881425 bytes/sec avg
+[2020-03-27 18:08:52.742] [info] Upload test: Received 66902 bytes	12% complete	4872341 bytes/sec avg
+[2020-03-27 18:08:52.776] [info] Upload test: Received 25343 bytes	13% complete	4799742 bytes/sec avg
+[2020-03-27 18:08:52.793] [info] Upload test: Received 97310 bytes	13% complete	4806783 bytes/sec avg
+[2020-03-27 18:08:52.811] [info] Upload test: Received 205600 bytes	13% complete	4867782 bytes/sec avg
+[2020-03-27 18:08:52.845] [info] Upload test: Received 143770 bytes	13% complete	4856368 bytes/sec avg
+[2020-03-27 18:08:52.862] [info] Upload test: Received 30410 bytes	13% complete	4830121 bytes/sec avg
+[2020-03-27 18:08:52.880] [info] Upload test: Received 25340 bytes	13% complete	4801881 bytes/sec avg
+[2020-03-27 18:08:52.897] [info] Upload test: Received 55748 bytes	13% complete	4788279 bytes/sec avg
+[2020-03-27 18:08:52.915] [info] Upload test: Received 66902 bytes	14% complete	4780491 bytes/sec avg
+[2020-03-27 18:08:52.932] [info] Upload test: Received 102203 bytes	14% complete	4789118 bytes/sec avg
+[2020-03-27 18:08:52.950] [info] Upload test: Received 122647 bytes	14% complete	4807527 bytes/sec avg
+[2020-03-27 18:08:52.967] [info] Upload test: Received 133804 bytes	14% complete	4830677 bytes/sec avg
+[2020-03-27 18:08:52.984] [info] Upload test: Received 138690 bytes	14% complete	4855851 bytes/sec avg
+[2020-03-27 18:08:53.019] [info] Upload test: Received 66897 bytes	14% complete	4810799 bytes/sec avg
+[2020-03-27 18:08:53.036] [info] Upload test: Received 130760 bytes	14% complete	4832031 bytes/sec avg
+[2020-03-27 18:08:53.054] [info] Upload test: Received 199505 bytes	14% complete	4883383 bytes/sec avg
+[2020-03-27 18:08:53.071] [info] Upload test: Received 55748 bytes	15% complete	4870572 bytes/sec avg
+[2020-03-27 18:08:53.088] [info] Upload test: Received 97302 bytes	15% complete	4875910 bytes/sec avg
+[2020-03-27 18:08:53.106] [info] Upload test: Received 66902 bytes	15% complete	4868214 bytes/sec avg
+[2020-03-27 18:08:53.123] [info] Upload test: Received 66902 bytes	15% complete	4860618 bytes/sec avg
+[2020-03-27 18:08:53.141] [info] Upload test: Received 25337 bytes	15% complete	4834609 bytes/sec avg
+[2020-03-27 18:08:53.158] [info] Upload test: Received 66893 bytes	15% complete	4827305 bytes/sec avg
+[2020-03-27 18:08:53.176] [info] Upload test: Received 184461 bytes	15% complete	4869768 bytes/sec avg
+[2020-03-27 18:08:53.193] [info] Upload test: Received 113352 bytes	15% complete	4881623 bytes/sec avg
+[2020-03-27 18:08:53.210] [info] Upload test: Received 122650 bytes	16% complete	4897403 bytes/sec avg
+[2020-03-27 18:08:53.245] [info] Upload test: Received 66891 bytes	16% complete	5010806 bytes/sec avg
+[2020-03-27 18:08:53.262] [info] Upload test: Received 46448 bytes	16% complete	4978258 bytes/sec avg
+[2020-03-27 18:08:53.280] [info] Upload test: Received 97307 bytes	16% complete	4985664 bytes/sec avg
+[2020-03-27 18:08:53.297] [info] Upload test: Received 97307 bytes	16% complete	4992942 bytes/sec avg
+[2020-03-27 18:08:53.314] [info] Upload test: Received 55748 bytes	16% complete	4968937 bytes/sec avg
+[2020-03-27 18:08:53.332] [info] Upload test: Received 76846 bytes	16% complete	4961066 bytes/sec avg
+[2020-03-27 18:08:53.349] [info] Upload test: Received 30405 bytes	16% complete	4919782 bytes/sec avg
+[2020-03-27 18:08:53.384] [info] Upload test: Received 387701 bytes	17% complete	5072316 bytes/sec avg
+[2020-03-27 18:08:53.401] [info] Upload test: Received 30410 bytes	17% complete	5031746 bytes/sec avg
+[2020-03-27 18:08:53.435] [info] Upload test: Received 286640 bytes	17% complete	5107792 bytes/sec avg
+[2020-03-27 18:08:53.470] [info] Upload test: Received 92222 bytes	17% complete	5051459 bytes/sec avg
+[2020-03-27 18:08:53.487] [info] Upload test: Received 205584 bytes	17% complete	5127470 bytes/sec avg
+[2020-03-27 18:08:53.522] [info] Upload test: Received 66886 bytes	18% complete	5057546 bytes/sec avg
+[2020-03-27 18:08:53.539] [info] Upload test: Received 46442 bytes	18% complete	5030994 bytes/sec avg
+[2020-03-27 18:08:53.557] [info] Upload test: Received 86150 bytes	18% complete	5029507 bytes/sec avg
+[2020-03-27 18:08:53.574] [info] Upload test: Received 210628 bytes	18% complete	5104879 bytes/sec avg
+[2020-03-27 18:08:53.591] [info] Upload test: Received 30402 bytes	18% complete	5069317 bytes/sec avg
+[2020-03-27 18:08:53.626] [info] Upload test: Received 92228 bytes	18% complete	5019772 bytes/sec avg
+[2020-03-27 18:08:53.643] [info] Upload test: Received 92219 bytes	18% complete	5022623 bytes/sec avg
+[2020-03-27 18:08:53.661] [info] Upload test: Received 92219 bytes	19% complete	5025420 bytes/sec avg
+[2020-03-27 18:08:53.679] [info] Upload test: Received 169089 bytes	19% complete	5071559 bytes/sec avg
+[2020-03-27 18:08:53.713] [info] Upload test: Received 66884 bytes	19% complete	5010564 bytes/sec avg
+[2020-03-27 18:08:53.747] [info] Upload test: Received 143726 bytes	19% complete	4995134 bytes/sec avg
+[2020-03-27 18:08:53.765] [info] Upload test: Received 133784 bytes	19% complete	5020861 bytes/sec avg
+[2020-03-27 18:08:53.782] [info] Upload test: Received 295471 bytes	19% complete	5133856 bytes/sec avg
+[2020-03-27 18:08:53.799] [info] Upload test: Received 76828 bytes	19% complete	5127162 bytes/sec avg
+[2020-03-27 18:08:53.834] [info] Upload test: Received 60801 bytes	20% complete	5066348 bytes/sec avg
+[2020-03-27 18:08:53.851] [info] Upload test: Received 92207 bytes	20% complete	5068701 bytes/sec avg
+[2020-03-27 18:08:53.869] [info] Upload test: Received 159134 bytes	20% complete	5105725 bytes/sec avg
+[2020-03-27 18:08:53.886] [info] Upload test: Received 55748 bytes	20% complete	5088379 bytes/sec avg
+[2020-03-27 18:08:53.904] [info] Upload test: Received 46431 bytes	20% complete	5067099 bytes/sec avg
+[2020-03-27 18:08:53.921] [info] Upload test: Received 55732 bytes	20% complete	5050584 bytes/sec avg
+[2020-03-27 18:08:53.955] [info] Upload test: Received 205547 bytes	20% complete	5066986 bytes/sec avg
+[2020-03-27 18:08:53.990] [info] Upload test: Received 86130 bytes	21% complete	5023637 bytes/sec avg
+[2020-03-27 18:08:54.008] [info] Upload test: Received 122639 bytes	21% complete	5040429 bytes/sec avg
+[2020-03-27 18:08:54.025] [info] Upload test: Received 76822 bytes	21% complete	5034984 bytes/sec avg
+[2020-03-27 18:08:54.042] [info] Upload test: Received 239723 bytes	21% complete	5107989 bytes/sec avg
+[2020-03-27 18:08:54.060] [info] Upload test: Received 159084 bytes	21% complete	5141529 bytes/sec avg
+[2020-03-27 18:08:54.077] [info] Upload test: Received 25325 bytes	21% complete	5111611 bytes/sec avg
+[2020-03-27 18:08:54.094] [info] Upload test: Received 97307 bytes	21% complete	5115844 bytes/sec avg
+[2020-03-27 18:08:54.112] [info] Upload test: Received 55748 bytes	22% complete	5100692 bytes/sec avg
+[2020-03-27 18:08:54.146] [info] Upload test: Received 60796 bytes	22% complete	5048993 bytes/sec avg
+[2020-03-27 18:08:54.164] [info] Upload test: Received 46428 bytes	22% complete	5030522 bytes/sec avg
+[2020-03-27 18:08:54.198] [info] Upload test: Received 159127 bytes	22% complete	5024859 bytes/sec avg
+[2020-03-27 18:08:54.215] [info] Upload test: Received 147958 bytes	22% complete	5051948 bytes/sec avg
+[2020-03-27 18:08:54.233] [info] Upload test: Received 76813 bytes	22% complete	5047357 bytes/sec avg
+[2020-03-27 18:08:54.250] [info] Upload test: Received 147936 bytes	22% complete	5074071 bytes/sec avg
+[2020-03-27 18:08:54.267] [info] Upload test: Received 66886 bytes	23% complete	5064991 bytes/sec avg
+[2020-03-27 18:08:54.302] [info] Upload test: Received 295431 bytes	23% complete	5117736 bytes/sec avg
+[2020-03-27 18:08:54.319] [info] Upload test: Received 189525 bytes	23% complete	5160862 bytes/sec avg
+[2020-03-27 18:08:54.354] [info] Upload test: Received 122603 bytes	23% complete	5138672 bytes/sec avg
+[2020-03-27 18:08:54.371] [info] Upload test: Received 55706 bytes	23% complete	5124136 bytes/sec avg
+[2020-03-27 18:08:54.389] [info] Upload test: Received 86146 bytes	23% complete	5123242 bytes/sec avg
+[2020-03-27 18:08:54.406] [info] Upload test: Received 66873 bytes	23% complete	5114408 bytes/sec avg
+[2020-03-27 18:08:54.423] [info] Upload test: Received 92219 bytes	24% complete	5115721 bytes/sec avg
+[2020-03-27 18:08:54.441] [info] Upload test: Received 92222 bytes	24% complete	5117455 bytes/sec avg
+[2020-03-27 18:08:54.475] [info] Upload test: Received 199434 bytes	24% complete	5127639 bytes/sec avg
+[2020-03-27 18:08:54.510] [info] Upload test: Received 97266 bytes	24% complete	5096971 bytes/sec avg
+[2020-03-27 18:08:54.544] [info] Upload test: Received 159084 bytes	24% complete	5091494 bytes/sec avg
+[2020-03-27 18:08:54.561] [info] Upload test: Received 25320 bytes	25% complete	5067193 bytes/sec avg
+[2020-03-27 18:08:54.579] [info] Upload test: Received 55748 bytes	25% complete	5054194 bytes/sec avg
+[2020-03-27 18:08:54.596] [info] Upload test: Received 66869 bytes	25% complete	5046329 bytes/sec avg
+[2020-03-27 18:08:54.614] [info] Upload test: Received 143706 bytes	25% complete	5068058 bytes/sec avg
+[2020-03-27 18:08:54.631] [info] Upload test: Received 427032 bytes	25% complete	5197590 bytes/sec avg
+[2020-03-27 18:08:54.665] [info] Upload test: Received 122591 bytes	25% complete	5177365 bytes/sec avg
+[2020-03-27 18:08:54.683] [info] Upload test: Received 122573 bytes	25% complete	5189641 bytes/sec avg
+[2020-03-27 18:08:54.701] [info] Upload test: Received 184447 bytes	25% complete	5224685 bytes/sec avg
+[2020-03-27 18:08:54.752] [info] Upload test: Received 86099 bytes	26% complete	5158680 bytes/sec avg
+[2020-03-27 18:08:54.770] [info] Upload test: Received 97295 bytes	26% complete	5161440 bytes/sec avg
+[2020-03-27 18:08:54.788] [info] Upload test: Received 97282 bytes	26% complete	5163873 bytes/sec avg
+[2020-03-27 18:08:54.822] [info] Upload test: Received 173241 bytes	26% complete	5163105 bytes/sec avg
+[2020-03-27 18:08:54.873] [info] Upload test: Received 245239 bytes	27% complete	5157347 bytes/sec avg
+[2020-03-27 18:08:54.908] [info] Upload test: Received 66864 bytes	27% complete	5119609 bytes/sec avg
+[2020-03-27 18:08:54.925] [info] Upload test: Received 46420 bytes	27% complete	5105071 bytes/sec avg
+[2020-03-27 18:08:54.942] [info] Upload test: Received 92229 bytes	27% complete	5106587 bytes/sec avg
+[2020-03-27 18:08:54.960] [info] Upload test: Received 289829 bytes	27% complete	5176113 bytes/sec avg
+[2020-03-27 18:08:54.977] [info] Upload test: Received 225950 bytes	27% complete	5223059 bytes/sec avg
+[2020-03-27 18:08:55.029] [info] Upload test: Received 30395 bytes	28% complete	5143752 bytes/sec avg
+[2020-03-27 18:08:55.046] [info] Upload test: Received 174069 bytes	28% complete	5172441 bytes/sec avg
+[2020-03-27 18:08:55.081] [info] Upload test: Received 189492 bytes	28% complete	5176910 bytes/sec avg
+[2020-03-27 18:08:55.098] [info] Upload test: Received 30390 bytes	28% complete	5157491 bytes/sec avg
+[2020-03-27 18:08:55.116] [info] Upload test: Received 55741 bytes	28% complete	5146286 bytes/sec avg
+[2020-03-27 18:08:55.133] [info] Upload test: Received 66858 bytes	28% complete	5139241 bytes/sec avg
+[2020-03-27 18:08:55.151] [info] Upload test: Received 55704 bytes	28% complete	5128541 bytes/sec avg
+[2020-03-27 18:08:55.168] [info] Upload test: Received 30393 bytes	29% complete	5109842 bytes/sec avg
+[2020-03-27 18:08:55.186] [info] Upload test: Received 66902 bytes	29% complete	5102849 bytes/sec avg
+[2020-03-27 18:08:55.203] [info] Upload test: Received 111462 bytes	29% complete	5110320 bytes/sec avg
+[2020-03-27 18:08:55.221] [info] Upload test: Received 122573 bytes	29% complete	5120858 bytes/sec avg
+[2020-03-27 18:08:55.239] [info] Upload test: Received 25320 bytes	29% complete	5100418 bytes/sec avg
+[2020-03-27 18:08:55.256] [info] Upload test: Received 92189 bytes	29% complete	5101663 bytes/sec avg
+[2020-03-27 18:08:55.291] [info] Upload test: Received 387649 bytes	29% complete	5168458 bytes/sec avg
+[2020-03-27 18:08:55.308] [info] Upload test: Received 66858 bytes	30% complete	5161280 bytes/sec avg
+[2020-03-27 18:08:55.326] [info] Upload test: Received 199421 bytes	30% complete	5195344 bytes/sec avg
+[2020-03-27 18:08:55.344] [info] Upload test: Received 66860 bytes	30% complete	5187978 bytes/sec avg
+[2020-03-27 18:08:55.361] [info] Upload test: Received 55737 bytes	30% complete	5177656 bytes/sec avg
+[2020-03-27 18:08:55.379] [info] Upload test: Received 66862 bytes	30% complete	5170374 bytes/sec avg
+[2020-03-27 18:08:55.413] [info] Upload test: Received 92178 bytes	30% complete	5144868 bytes/sec avg
+[2020-03-27 18:08:55.431] [info] Upload test: Received 214778 bytes	30% complete	5182873 bytes/sec avg
+[2020-03-27 18:08:55.448] [info] Upload test: Received 66902 bytes	30% complete	5176097 bytes/sec avg
+[2020-03-27 18:08:55.466] [info] Upload test: Received 46420 bytes	31% complete	5163020 bytes/sec avg
+[2020-03-27 18:08:55.484] [info] Upload test: Received 97250 bytes	31% complete	5165415 bytes/sec avg
+[2020-03-27 18:08:55.518] [info] Upload test: Received 55737 bytes	31% complete	5130042 bytes/sec avg
+[2020-03-27 18:08:55.536] [info] Upload test: Received 180136 bytes	31% complete	5156646 bytes/sec avg
+[2020-03-27 18:08:55.571] [info] Upload test: Received 92183 bytes	31% complete	5131393 bytes/sec avg
+[2020-03-27 18:08:55.589] [info] Upload test: Received 66902 bytes	31% complete	5125163 bytes/sec avg
+[2020-03-27 18:08:55.606] [info] Upload test: Received 107200 bytes	31% complete	5130315 bytes/sec avg
+[2020-03-27 18:08:55.624] [info] Upload test: Received 97248 bytes	32% complete	5131809 bytes/sec avg
+[2020-03-27 18:08:55.642] [info] Upload test: Received 452361 bytes	32% complete	5235770 bytes/sec avg
+[2020-03-27 18:08:55.677] [info] Upload test: Received 46420 bytes	32% complete	5197811 bytes/sec avg
+[2020-03-27 18:08:55.694] [info] Upload test: Received 214756 bytes	32% complete	5233420 bytes/sec avg
+[2020-03-27 18:08:55.712] [info] Upload test: Received 55715 bytes	32% complete	5223416 bytes/sec avg
+[2020-03-27 18:08:55.763] [info] Upload test: Received 230822 bytes	33% complete	5214295 bytes/sec avg
+[2020-03-27 18:08:55.781] [info] Upload test: Received 164150 bytes	33% complete	5234578 bytes/sec avg
+[2020-03-27 18:08:55.816] [info] Upload test: Received 159041 bytes	33% complete	5229355 bytes/sec avg
+[2020-03-27 18:08:55.833] [info] Upload test: Received 76804 bytes	33% complete	5225724 bytes/sec avg
+[2020-03-27 18:08:55.851] [info] Upload test: Received 66858 bytes	33% complete	5218810 bytes/sec avg
+[2020-03-27 18:08:55.869] [info] Upload test: Received 92183 bytes	33% complete	5219295 bytes/sec avg
+[2020-03-27 18:08:55.886] [info] Upload test: Received 30390 bytes	33% complete	5203077 bytes/sec avg
+[2020-03-27 18:08:55.904] [info] Upload test: Received 30401 bytes	33% complete	5187198 bytes/sec avg
+[2020-03-27 18:08:55.921] [info] Upload test: Received 86094 bytes	34% complete	5186413 bytes/sec avg
+[2020-03-27 18:08:55.939] [info] Upload test: Received 122573 bytes	34% complete	5195263 bytes/sec avg
+[2020-03-27 18:08:55.956] [info] Upload test: Received 66858 bytes	34% complete	5189398 bytes/sec avg
+[2020-03-27 18:08:55.991] [info] Upload test: Received 92178 bytes	34% complete	5167254 bytes/sec avg
+[2020-03-27 18:08:56.008] [info] Upload test: Received 241447 bytes	34% complete	5207571 bytes/sec avg
+[2020-03-27 18:08:56.026] [info] Upload test: Received 122573 bytes	34% complete	5216027 bytes/sec avg
+[2020-03-27 18:08:56.043] [info] Upload test: Received 122592 bytes	34% complete	5224434 bytes/sec avg
+[2020-03-27 18:08:56.078] [info] Upload test: Received 138603 bytes	35% complete	5213928 bytes/sec avg
+[2020-03-27 18:08:56.095] [info] Upload test: Received 122573 bytes	35% complete	5222598 bytes/sec avg
+[2020-03-27 18:08:56.131] [info] Upload test: Received 30390 bytes	35% complete	5184117 bytes/sec avg
+[2020-03-27 18:08:56.148] [info] Upload test: Received 143685 bytes	35% complete	5198181 bytes/sec avg
+[2020-03-27 18:08:56.166] [info] Upload test: Received 55732 bytes	35% complete	5189510 bytes/sec avg
+[2020-03-27 18:08:56.183] [info] Upload test: Received 55715 bytes	35% complete	5181117 bytes/sec avg
+[2020-03-27 18:08:56.201] [info] Upload test: Received 66858 bytes	35% complete	5175166 bytes/sec avg
+[2020-03-27 18:08:56.218] [info] Upload test: Received 173218 bytes	36% complete	5196492 bytes/sec avg
+[2020-03-27 18:08:56.269] [info] Upload test: Received 214771 bytes	36% complete	5184868 bytes/sec avg
+[2020-03-27 18:08:56.287] [info] Upload test: Received 92183 bytes	36% complete	5185797 bytes/sec avg
+[2020-03-27 18:08:56.304] [info] Upload test: Received 113319 bytes	36% complete	5191920 bytes/sec avg
+[2020-03-27 18:08:56.321] [info] Upload test: Received 66858 bytes	36% complete	5186531 bytes/sec avg
+[2020-03-27 18:08:56.339] [info] Upload test: Received 97248 bytes	36% complete	5188514 bytes/sec avg
+[2020-03-27 18:08:56.356] [info] Upload test: Received 55728 bytes	36% complete	5180414 bytes/sec avg
+[2020-03-27 18:08:56.374] [info] Upload test: Received 30390 bytes	37% complete	5166209 bytes/sec avg
+[2020-03-27 18:08:56.391] [info] Upload test: Received 46420 bytes	37% complete	5156017 bytes/sec avg
+[2020-03-27 18:08:56.408] [info] Upload test: Received 325821 bytes	37% complete	5213590 bytes/sec avg
+[2020-03-27 18:08:56.426] [info] Upload test: Received 55726 bytes	37% complete	5205495 bytes/sec avg
+[2020-03-27 18:08:56.460] [info] Upload test: Received 55715 bytes	37% complete	5176824 bytes/sec avg
+[2020-03-27 18:08:56.477] [info] Upload test: Received 261215 bytes	37% complete	5218090 bytes/sec avg
+[2020-03-27 18:08:56.495] [info] Upload test: Received 66858 bytes	37% complete	5212753 bytes/sec avg
+[2020-03-27 18:08:56.512] [info] Upload test: Received 55726 bytes	38% complete	5204957 bytes/sec avg
+[2020-03-27 18:08:56.546] [info] Upload test: Received 113278 bytes	38% complete	5190347 bytes/sec avg
+[2020-03-27 18:08:56.580] [info] Upload test: Received 147909 bytes	38% complete	5184052 bytes/sec avg
+[2020-03-27 18:08:56.598] [info] Upload test: Received 92183 bytes	38% complete	5184910 bytes/sec avg
+[2020-03-27 18:08:56.615] [info] Upload test: Received 143662 bytes	38% complete	5197683 bytes/sec avg
+[2020-03-27 18:08:56.650] [info] Upload test: Received 66858 bytes	38% complete	5172641 bytes/sec avg
+[2020-03-27 18:08:56.667] [info] Upload test: Received 153011 bytes	39% complete	5187456 bytes/sec avg
+[2020-03-27 18:08:56.685] [info] Upload test: Received 295424 bytes	39% complete	5234766 bytes/sec avg
+[2020-03-27 18:08:56.702] [info] Upload test: Received 30390 bytes	39% complete	5221045 bytes/sec avg
+[2020-03-27 18:08:56.736] [info] Upload test: Received 76804 bytes	39% complete	5198586 bytes/sec avg
+[2020-03-27 18:08:56.754] [info] Upload test: Received 147909 bytes	39% complete	5212004 bytes/sec avg
+[2020-03-27 18:08:56.771] [info] Upload test: Received 92183 bytes	39% complete	5212724 bytes/sec avg
+[2020-03-27 18:08:56.788] [info] Upload test: Received 92178 bytes	39% complete	5213426 bytes/sec avg
+[2020-03-27 18:08:56.806] [info] Upload test: Received 55715 bytes	39% complete	5205797 bytes/sec avg
+[2020-03-27 18:08:56.841] [info] Upload test: Received 169004 bytes	40% complete	5204084 bytes/sec avg
+[2020-03-27 18:08:56.858] [info] Upload test: Received 110677 bytes	40% complete	5208805 bytes/sec avg
+[2020-03-27 18:08:56.875] [info] Upload test: Received 86105 bytes	40% complete	5208137 bytes/sec avg
+[2020-03-27 18:08:56.893] [info] Upload test: Received 46420 bytes	40% complete	5198671 bytes/sec avg
+[2020-03-27 18:08:56.927] [info] Upload test: Received 122584 bytes	40% complete	5187175 bytes/sec avg
+[2020-03-27 18:08:56.944] [info] Upload test: Received 143662 bytes	40% complete	5199211 bytes/sec avg
+[2020-03-27 18:08:56.962] [info] Upload test: Received 92183 bytes	41% complete	5199781 bytes/sec avg
+[2020-03-27 18:08:56.979] [info] Upload test: Received 25320 bytes	41% complete	5185979 bytes/sec avg
+[2020-03-27 18:08:56.997] [info] Upload test: Received 270102 bytes	41% complete	5225266 bytes/sec avg
+[2020-03-27 18:08:57.014] [info] Upload test: Received 92183 bytes	41% complete	5225849 bytes/sec avg
+[2020-03-27 18:08:57.032] [info] Upload test: Received 132536 bytes	41% complete	5235003 bytes/sec avg
+[2020-03-27 18:08:57.049] [info] Upload test: Received 36486 bytes	41% complete	5223628 bytes/sec avg
+[2020-03-27 18:08:57.067] [info] Upload test: Received 122573 bytes	41% complete	5230681 bytes/sec avg
+[2020-03-27 18:08:57.084] [info] Upload test: Received 76804 bytes	41% complete	5228014 bytes/sec avg
+[2020-03-27 18:08:57.135] [info] Upload test: Received 234003 bytes	42% complete	5221691 bytes/sec avg
+[2020-03-27 18:08:57.153] [info] Upload test: Received 92183 bytes	42% complete	5222356 bytes/sec avg
+[2020-03-27 18:08:57.188] [info] Upload test: Received 25320 bytes	42% complete	5190000 bytes/sec avg
+[2020-03-27 18:08:57.206] [info] Upload test: Received 189464 bytes	42% complete	5210608 bytes/sec avg
+[2020-03-27 18:08:57.224] [info] Upload test: Received 107194 bytes	42% complete	5213613 bytes/sec avg
+[2020-03-27 18:08:57.241] [info] Upload test: Received 122584 bytes	42% complete	5220441 bytes/sec avg
+[2020-03-27 18:08:57.276] [info] Upload test: Received 92178 bytes	43% complete	5202441 bytes/sec avg
+[2020-03-27 18:08:57.311] [info] Upload test: Received 92183 bytes	43% complete	5185016 bytes/sec avg
+[2020-03-27 18:08:57.329] [info] Upload test: Received 86116 bytes	43% complete	5184120 bytes/sec avg
+[2020-03-27 18:08:57.346] [info] Upload test: Received 55715 bytes	43% complete	5177452 bytes/sec avg
+[2020-03-27 18:08:57.364] [info] Upload test: Received 383374 bytes	43% complete	5236685 bytes/sec avg
+[2020-03-27 18:08:57.399] [info] Upload test: Received 66858 bytes	43% complete	5214161 bytes/sec avg
+[2020-03-27 18:08:57.416] [info] Upload test: Received 214800 bytes	44% complete	5239575 bytes/sec avg
+[2020-03-27 18:08:57.434] [info] Upload test: Received 66858 bytes	44% complete	5234884 bytes/sec avg
+[2020-03-27 18:08:57.451] [info] Upload test: Received 55715 bytes	44% complete	5227895 bytes/sec avg
+[2020-03-27 18:08:57.469] [info] Upload test: Received 55710 bytes	44% complete	5221101 bytes/sec avg
+[2020-03-27 18:08:57.504] [info] Upload test: Received 97248 bytes	44% complete	5204931 bytes/sec avg
+[2020-03-27 18:08:57.538] [info] Upload test: Received 147909 bytes	44% complete	5199056 bytes/sec avg
+[2020-03-27 18:08:57.573] [info] Upload test: Received 138603 bytes	45% complete	5191675 bytes/sec avg
+[2020-03-27 18:08:57.591] [info] Upload test: Received 292790 bytes	45% complete	5231396 bytes/sec avg
+[2020-03-27 18:08:57.608] [info] Upload test: Received 55726 bytes	45% complete	5224706 bytes/sec avg
+[2020-03-27 18:08:57.660] [info] Upload test: Received 60780 bytes	45% complete	5185339 bytes/sec avg
+[2020-03-27 18:08:57.678] [info] Upload test: Received 30390 bytes	45% complete	5173517 bytes/sec avg
+[2020-03-27 18:08:57.695] [info] Upload test: Received 509892 bytes	45% complete	5254727 bytes/sec avg
+[2020-03-27 18:08:57.712] [info] Upload test: Received 159074 bytes	46% complete	5268135 bytes/sec avg
+[2020-03-27 18:08:57.730] [info] Upload test: Received 111441 bytes	46% complete	5272319 bytes/sec avg
+[2020-03-27 18:08:57.781] [info] Upload test: Received 178288 bytes	46% complete	5255903 bytes/sec avg
+[2020-03-27 18:08:57.798] [info] Upload test: Received 46420 bytes	46% complete	5247744 bytes/sec avg
+[2020-03-27 18:08:57.816] [info] Upload test: Received 97281 bytes	46% complete	5249214 bytes/sec avg
+[2020-03-27 18:08:57.850] [info] Upload test: Received 159041 bytes	46% complete	5245760 bytes/sec avg
+[2020-03-27 18:08:57.884] [info] Upload test: Received 138603 bytes	47% complete	5238666 bytes/sec avg
+[2020-03-27 18:08:57.902] [info] Upload test: Received 116506 bytes	47% complete	5243769 bytes/sec avg
+[2020-03-27 18:08:57.920] [info] Upload test: Received 92183 bytes	47% complete	5243575 bytes/sec avg
+[2020-03-27 18:08:57.937] [info] Upload test: Received 66891 bytes	47% complete	5239376 bytes/sec avg
+[2020-03-27 18:08:57.955] [info] Upload test: Received 76804 bytes	47% complete	5236925 bytes/sec avg
+[2020-03-27 18:08:57.972] [info] Upload test: Received 147898 bytes	47% complete	5247808 bytes/sec avg
+[2020-03-27 18:08:57.989] [info] Upload test: Received 30390 bytes	47% complete	5236904 bytes/sec avg
+[2020-03-27 18:08:58.024] [info] Upload test: Received 66858 bytes	48% complete	5216659 bytes/sec avg
+[2020-03-27 18:08:58.041] [info] Upload test: Received 178327 bytes	48% complete	5232849 bytes/sec avg
+[2020-03-27 18:08:58.059] [info] Upload test: Received 92183 bytes	48% complete	5233233 bytes/sec avg
+[2020-03-27 18:08:58.094] [info] Upload test: Received 130751 bytes	48% complete	5224842 bytes/sec avg
+[2020-03-27 18:08:58.111] [info] Upload test: Received 174052 bytes	48% complete	5240195 bytes/sec avg
+[2020-03-27 18:08:58.128] [info] Upload test: Received 184366 bytes	48% complete	5257369 bytes/sec avg
+[2020-03-27 18:08:58.146] [info] Upload test: Received 55726 bytes	48% complete	5251267 bytes/sec avg
+[2020-03-27 18:08:58.197] [info] Upload test: Received 178277 bytes	49% complete	5236070 bytes/sec avg
+[2020-03-27 18:08:58.214] [info] Upload test: Received 127671 bytes	49% complete	5242924 bytes/sec avg
+[2020-03-27 18:08:58.249] [info] Upload test: Received 55726 bytes	49% complete	5221374 bytes/sec avg
+[2020-03-27 18:08:58.266] [info] Upload test: Received 86094 bytes	49% complete	5220673 bytes/sec avg
+[2020-03-27 18:08:58.284] [info] Upload test: Received 55715 bytes	49% complete	5214785 bytes/sec avg
+[2020-03-27 18:08:58.318] [info] Upload test: Received 92183 bytes	50% complete	5199963 bytes/sec avg
+[2020-03-27 18:08:58.335] [info] Upload test: Received 173229 bytes	50% complete	5214464 bytes/sec avg
+[2020-03-27 18:08:58.353] [info] Upload test: Received 159074 bytes	50% complete	5226404 bytes/sec avg
+[2020-03-27 18:08:58.370] [info] Upload test: Received 55715 bytes	50% complete	5220067 bytes/sec avg
+[2020-03-27 18:08:58.405] [info] Upload test: Received 122584 bytes	50% complete	5210331 bytes/sec avg
+[2020-03-27 18:08:58.423] [info] Upload test: Received 46420 bytes	50% complete	5201467 bytes/sec avg
+[2020-03-27 18:08:58.441] [info] Upload test: Received 159041 bytes	50% complete	5212773 bytes/sec avg
+[2020-03-27 18:08:58.459] [info] Upload test: Received 66858 bytes	51% complete	5208318 bytes/sec avg
+[2020-03-27 18:08:58.477] [info] Upload test: Received 362293 bytes	51% complete	5254300 bytes/sec avg
+[2020-03-27 18:08:58.495] [info] Upload test: Received 30390 bytes	51% complete	5243685 bytes/sec avg
+[2020-03-27 18:08:58.512] [info] Upload test: Received 143695 bytes	51% complete	5252535 bytes/sec avg
+[2020-03-27 18:08:58.530] [info] Upload test: Received 55726 bytes	51% complete	5246425 bytes/sec avg
+[2020-03-27 18:08:58.547] [info] Upload test: Received 122573 bytes	51% complete	5251560 bytes/sec avg
+[2020-03-27 18:08:58.582] [info] Upload test: Received 117521 bytes	51% complete	5240780 bytes/sec avg
+[2020-03-27 18:08:58.599] [info] Upload test: Received 66858 bytes	51% complete	5236563 bytes/sec avg
+[2020-03-27 18:08:58.617] [info] Upload test: Received 66858 bytes	52% complete	5232231 bytes/sec avg
+[2020-03-27 18:08:58.634] [info] Upload test: Received 164144 bytes	52% complete	5244349 bytes/sec avg
+[2020-03-27 18:08:58.652] [info] Upload test: Received 138603 bytes	52% complete	5252196 bytes/sec avg
+[2020-03-27 18:08:58.686] [info] Upload test: Received 122581 bytes	52% complete	5242540 bytes/sec avg
+[2020-03-27 18:08:58.738] [info] Upload test: Received 86111 bytes	52% complete	5212785 bytes/sec avg
+[2020-03-27 18:08:58.755] [info] Upload test: Received 240910 bytes	52% complete	5237049 bytes/sec avg
+[2020-03-27 18:08:58.773] [info] Upload test: Received 122610 bytes	53% complete	5242059 bytes/sec avg
+[2020-03-27 18:08:58.824] [info] Upload test: Received 55717 bytes	53% complete	5207832 bytes/sec avg
+[2020-03-27 18:08:58.841] [info] Upload test: Received 147893 bytes	53% complete	5217051 bytes/sec avg
+[2020-03-27 18:08:58.876] [info] Upload test: Received 122573 bytes	53% complete	5207875 bytes/sec avg
+[2020-03-27 18:08:58.893] [info] Upload test: Received 55715 bytes	53% complete	5202325 bytes/sec avg
+[2020-03-27 18:08:58.911] [info] Upload test: Received 239707 bytes	54% complete	5226044 bytes/sec avg
+[2020-03-27 18:08:58.928] [info] Upload test: Received 229800 bytes	54% complete	5248053 bytes/sec avg
+[2020-03-27 18:08:58.945] [info] Upload test: Received 92183 bytes	54% complete	5248083 bytes/sec avg
+[2020-03-27 18:08:58.963] [info] Upload test: Received 55715 bytes	54% complete	5242513 bytes/sec avg
+[2020-03-27 18:08:58.980] [info] Upload test: Received 30390 bytes	54% complete	5232817 bytes/sec avg
+[2020-03-27 18:08:59.015] [info] Upload test: Received 173218 bytes	54% complete	5231676 bytes/sec avg
+[2020-03-27 18:08:59.032] [info] Upload test: Received 30390 bytes	54% complete	5222272 bytes/sec avg
+[2020-03-27 18:08:59.050] [info] Upload test: Received 92183 bytes	54% complete	5222349 bytes/sec avg
+[2020-03-27 18:08:59.085] [info] Upload test: Received 261209 bytes	55% complete	5234528 bytes/sec avg
+[2020-03-27 18:08:59.119] [info] Upload test: Received 122573 bytes	55% complete	5225452 bytes/sec avg
+[2020-03-27 18:08:59.137] [info] Upload test: Received 92183 bytes	55% complete	5225671 bytes/sec avg
+[2020-03-27 18:08:59.171] [info] Upload test: Received 30390 bytes	55% complete	5209953 bytes/sec avg
+[2020-03-27 18:08:59.188] [info] Upload test: Received 46420 bytes	55% complete	5207014 bytes/sec avg
+[2020-03-27 18:08:59.206] [info] Upload test: Received 256322 bytes	55% complete	5221454 bytes/sec avg
+[2020-03-27 18:08:59.224] [info] Upload test: Received 396602 bytes	56% complete	5267465 bytes/sec avg
+[2020-03-27 18:08:59.241] [info] Upload test: Received 30390 bytes	56% complete	5258220 bytes/sec avg
+[2020-03-27 18:08:59.258] [info] Upload test: Received 147898 bytes	56% complete	5266579 bytes/sec avg
+[2020-03-27 18:08:59.276] [info] Upload test: Received 30390 bytes	56% complete	5257356 bytes/sec avg
+[2020-03-27 18:08:59.311] [info] Upload test: Received 152996 bytes	56% complete	5253017 bytes/sec avg
+[2020-03-27 18:08:59.345] [info] Upload test: Received 55715 bytes	56% complete	5234563 bytes/sec avg
+[2020-03-27 18:08:59.362] [info] Upload test: Received 66858 bytes	57% complete	5230964 bytes/sec avg
+[2020-03-27 18:08:59.380] [info] Upload test: Received 138603 bytes	57% complete	5238050 bytes/sec avg
+[2020-03-27 18:08:59.397] [info] Upload test: Received 147898 bytes	57% complete	5246307 bytes/sec avg
+[2020-03-27 18:08:59.415] [info] Upload test: Received 92183 bytes	57% complete	5246369 bytes/sec avg
+[2020-03-27 18:08:59.432] [info] Upload test: Received 66891 bytes	57% complete	5242814 bytes/sec avg
+[2020-03-27 18:08:59.449] [info] Upload test: Received 66858 bytes	57% complete	5239271 bytes/sec avg
+[2020-03-27 18:08:59.467] [info] Upload test: Received 122573 bytes	57% complete	5243845 bytes/sec avg
+[2020-03-27 18:08:59.484] [info] Upload test: Received 66858 bytes	57% complete	5240339 bytes/sec avg
+[2020-03-27 18:08:59.518] [info] Upload test: Received 97248 bytes	58% complete	5228337 bytes/sec avg
+[2020-03-27 18:08:59.537] [info] Upload test: Received 122573 bytes	58% complete	5232267 bytes/sec avg
+[2020-03-27 18:08:59.554] [info] Upload test: Received 113311 bytes	58% complete	5235477 bytes/sec avg
+[2020-03-27 18:08:59.572] [info] Upload test: Received 66858 bytes	58% complete	5231869 bytes/sec avg
+[2020-03-27 18:08:59.589] [info] Upload test: Received 66858 bytes	58% complete	5228388 bytes/sec avg
+[2020-03-27 18:08:59.606] [info] Upload test: Received 55715 bytes	58% complete	5223353 bytes/sec avg
+[2020-03-27 18:08:59.624] [info] Upload test: Received 30390 bytes	58% complete	5215123 bytes/sec avg
+[2020-03-27 18:08:59.641] [info] Upload test: Received 66858 bytes	58% complete	5213741 bytes/sec avg
+[2020-03-27 18:08:59.660] [info] Upload test: Received 366592 bytes	59% complete	5249682 bytes/sec avg
+[2020-03-27 18:08:59.677] [info] Upload test: Received 92183 bytes	59% complete	5249795 bytes/sec avg
+[2020-03-27 18:08:59.695] [info] Upload test: Received 66891 bytes	59% complete	5246343 bytes/sec avg
+[2020-03-27 18:08:59.712] [info] Upload test: Received 97248 bytes	59% complete	5247191 bytes/sec avg
+[2020-03-27 18:08:59.746] [info] Upload test: Received 117503 bytes	59% complete	5238359 bytes/sec avg
+[2020-03-27 18:08:59.764] [info] Upload test: Received 30390 bytes	59% complete	5229881 bytes/sec avg
+[2020-03-27 18:08:59.782] [info] Upload test: Received 189431 bytes	59% complete	5243230 bytes/sec avg
+[2020-03-27 18:08:59.816] [info] Upload test: Received 46420 bytes	60% complete	5230640 bytes/sec avg
+[2020-03-27 18:08:59.850] [info] Upload test: Received 200607 bytes	60% complete	5231826 bytes/sec avg
+[2020-03-27 18:08:59.868] [info] Upload test: Received 235845 bytes	60% complete	5247488 bytes/sec avg
+[2020-03-27 18:08:59.885] [info] Upload test: Received 55715 bytes	60% complete	5242474 bytes/sec avg
+[2020-03-27 18:08:59.920] [info] Upload test: Received 60780 bytes	60% complete	5231336 bytes/sec avg
+[2020-03-27 18:08:59.937] [info] Upload test: Received 25320 bytes	60% complete	5227791 bytes/sec avg
+[2020-03-27 18:08:59.955] [info] Upload test: Received 30390 bytes	60% complete	5224601 bytes/sec avg
+[2020-03-27 18:08:59.972] [info] Upload test: Received 55715 bytes	61% complete	5222797 bytes/sec avg
+[2020-03-27 18:08:59.989] [info] Upload test: Received 235845 bytes	61% complete	5230487 bytes/sec avg
+[2020-03-27 18:09:00.007] [info] Upload test: Received 92183 bytes	61% complete	5230502 bytes/sec avg
+[2020-03-27 18:09:00.025] [info] Upload test: Received 122606 bytes	61% complete	5232142 bytes/sec avg
+[2020-03-27 18:09:00.059] [info] Upload test: Received 147893 bytes	61% complete	5230538 bytes/sec avg
+[2020-03-27 18:09:00.093] [info] Upload test: Received 66858 bytes	61% complete	5224832 bytes/sec avg
+[2020-03-27 18:09:00.111] [info] Upload test: Received 138603 bytes	62% complete	5227301 bytes/sec avg
+[2020-03-27 18:09:00.128] [info] Upload test: Received 86105 bytes	62% complete	5227062 bytes/sec avg
+[2020-03-27 18:09:00.145] [info] Upload test: Received 30390 bytes	62% complete	5224070 bytes/sec avg
+[2020-03-27 18:09:00.163] [info] Upload test: Received 143695 bytes	62% complete	5226753 bytes/sec avg
+[2020-03-27 18:09:00.180] [info] Upload test: Received 270091 bytes	62% complete	5237293 bytes/sec avg
+[2020-03-27 18:09:00.198] [info] Upload test: Received 92183 bytes	62% complete	5237383 bytes/sec avg
+[2020-03-27 18:09:00.215] [info] Upload test: Received 167134 bytes	62% complete	5247207 bytes/sec avg
+[2020-03-27 18:09:00.233] [info] Upload test: Received 30390 bytes	62% complete	5239231 bytes/sec avg
+[2020-03-27 18:09:00.267] [info] Upload test: Received 117503 bytes	63% complete	5233369 bytes/sec avg
+[2020-03-27 18:09:00.285] [info] Upload test: Received 122573 bytes	63% complete	5235127 bytes/sec avg
+[2020-03-27 18:09:00.319] [info] Upload test: Received 113311 bytes	63% complete	5231660 bytes/sec avg
+[2020-03-27 18:09:00.337] [info] Upload test: Received 159041 bytes	63% complete	5235086 bytes/sec avg
+[2020-03-27 18:09:00.354] [info] Upload test: Received 147898 bytes	63% complete	5242409 bytes/sec avg
+[2020-03-27 18:09:00.371] [info] Upload test: Received 143662 bytes	63% complete	5249199 bytes/sec avg
+[2020-03-27 18:09:00.406] [info] Upload test: Received 92178 bytes	63% complete	5237679 bytes/sec avg
+[2020-03-27 18:09:00.424] [info] Upload test: Received 92183 bytes	64% complete	5237635 bytes/sec avg
+[2020-03-27 18:09:00.441] [info] Upload test: Received 66891 bytes	64% complete	5234599 bytes/sec avg
+[2020-03-27 18:09:00.459] [info] Upload test: Received 66858 bytes	64% complete	5233487 bytes/sec avg
+[2020-03-27 18:09:00.476] [info] Upload test: Received 174058 bytes	64% complete	5241896 bytes/sec avg
+[2020-03-27 18:09:00.511] [info] Upload test: Received 30390 bytes	64% complete	5230524 bytes/sec avg
+[2020-03-27 18:09:00.545] [info] Upload test: Received 122573 bytes	64% complete	5228045 bytes/sec avg
+[2020-03-27 18:09:00.563] [info] Upload test: Received 143695 bytes	65% complete	5230402 bytes/sec avg
+[2020-03-27 18:09:00.580] [info] Upload test: Received 122573 bytes	65% complete	5231596 bytes/sec avg
+[2020-03-27 18:09:00.598] [info] Upload test: Received 66858 bytes	65% complete	5230563 bytes/sec avg
+[2020-03-27 18:09:00.615] [info] Upload test: Received 55715 bytes	65% complete	5229060 bytes/sec avg
+[2020-03-27 18:09:00.650] [info] Upload test: Received 55704 bytes	65% complete	5223800 bytes/sec avg
+[2020-03-27 18:09:00.667] [info] Upload test: Received 208711 bytes	65% complete	5228866 bytes/sec avg
+[2020-03-27 18:09:00.684] [info] Upload test: Received 92183 bytes	65% complete	5228940 bytes/sec avg
+[2020-03-27 18:09:00.702] [info] Upload test: Received 66858 bytes	65% complete	5227955 bytes/sec avg
+[2020-03-27 18:09:00.720] [info] Upload test: Received 295416 bytes	66% complete	5240018 bytes/sec avg
+[2020-03-27 18:09:00.737] [info] Upload test: Received 92183 bytes	66% complete	5240128 bytes/sec avg
+[2020-03-27 18:09:00.755] [info] Upload test: Received 92211 bytes	66% complete	5239792 bytes/sec avg
+[2020-03-27 18:09:00.773] [info] Upload test: Received 55715 bytes	66% complete	5235406 bytes/sec avg
+[2020-03-27 18:09:00.790] [info] Upload test: Received 122573 bytes	66% complete	5239250 bytes/sec avg
+[2020-03-27 18:09:00.808] [info] Upload test: Received 66858 bytes	66% complete	5236154 bytes/sec avg
+[2020-03-27 18:09:00.825] [info] Upload test: Received 55715 bytes	66% complete	5233750 bytes/sec avg
+[2020-03-27 18:09:00.842] [info] Upload test: Received 76804 bytes	66% complete	5233189 bytes/sec avg
+[2020-03-27 18:09:00.877] [info] Upload test: Received 122606 bytes	67% complete	5230911 bytes/sec avg
+[2020-03-27 18:09:00.894] [info] Upload test: Received 219821 bytes	67% complete	5238777 bytes/sec avg
+[2020-03-27 18:09:00.929] [info] Upload test: Received 81035 bytes	67% complete	5232135 bytes/sec avg
+[2020-03-27 18:09:00.963] [info] Upload test: Received 55715 bytes	67% complete	5227347 bytes/sec avg
+[2020-03-27 18:09:00.982] [info] Upload test: Received 189464 bytes	67% complete	5230820 bytes/sec avg
+[2020-03-27 18:09:01.000] [info] Upload test: Received 55715 bytes	67% complete	5229473 bytes/sec avg
+[2020-03-27 18:09:01.017] [info] Upload test: Received 102135 bytes	68% complete	5229879 bytes/sec avg
+[2020-03-27 18:09:01.069] [info] Upload test: Received 189431 bytes	68% complete	5226916 bytes/sec avg
+[2020-03-27 18:09:01.087] [info] Upload test: Received 55715 bytes	68% complete	5225537 bytes/sec avg
+[2020-03-27 18:09:01.105] [info] Upload test: Received 166389 bytes	68% complete	5228154 bytes/sec avg
+[2020-03-27 18:09:01.124] [info] Upload test: Received 286121 bytes	68% complete	5236535 bytes/sec avg
+[2020-03-27 18:09:01.141] [info] Upload test: Received 55715 bytes	68% complete	5233846 bytes/sec avg
+[2020-03-27 18:09:01.159] [info] Upload test: Received 30390 bytes	69% complete	5231603 bytes/sec avg
+[2020-03-27 18:09:01.179] [info] Upload test: Received 122573 bytes	69% complete	5232348 bytes/sec avg
+[2020-03-27 18:09:01.197] [info] Upload test: Received 138620 bytes	69% complete	5233922 bytes/sec avg
+[2020-03-27 18:09:01.231] [info] Upload test: Received 92183 bytes	69% complete	5230756 bytes/sec avg
+[2020-03-27 18:09:01.249] [info] Upload test: Received 86105 bytes	69% complete	5230568 bytes/sec avg
+[2020-03-27 18:09:01.266] [info] Upload test: Received 92183 bytes	69% complete	5230626 bytes/sec avg
+[2020-03-27 18:09:01.284] [info] Upload test: Received 113308 bytes	69% complete	5231406 bytes/sec avg
+[2020-03-27 18:09:01.301] [info] Upload test: Received 147898 bytes	69% complete	5233394 bytes/sec avg
+[2020-03-27 18:09:01.353] [info] Upload test: Received 358446 bytes	70% complete	5240206 bytes/sec avg
+[2020-03-27 18:09:01.388] [info] Upload test: Received 66858 bytes	70% complete	5232454 bytes/sec avg
+[2020-03-27 18:09:01.406] [info] Upload test: Received 30390 bytes	70% complete	5230378 bytes/sec avg
+[2020-03-27 18:09:01.423] [info] Upload test: Received 55710 bytes	70% complete	5229204 bytes/sec avg
+[2020-03-27 18:09:01.441] [info] Upload test: Received 214782 bytes	70% complete	5233320 bytes/sec avg
+[2020-03-27 18:09:01.458] [info] Upload test: Received 66858 bytes	71% complete	5232504 bytes/sec avg
+[2020-03-27 18:09:01.493] [info] Upload test: Received 55715 bytes	71% complete	5228524 bytes/sec avg
+[2020-03-27 18:09:01.510] [info] Upload test: Received 102135 bytes	71% complete	5228923 bytes/sec avg
+[2020-03-27 18:09:01.527] [info] Upload test: Received 133740 bytes	71% complete	5230334 bytes/sec avg
+[2020-03-27 18:09:01.545] [info] Upload test: Received 66858 bytes	71% complete	5229557 bytes/sec avg
+[2020-03-27 18:09:01.562] [info] Upload test: Received 86105 bytes	71% complete	5229437 bytes/sec avg
+[2020-03-27 18:09:01.580] [info] Upload test: Received 76804 bytes	71% complete	5229026 bytes/sec avg
+[2020-03-27 18:09:01.597] [info] Upload test: Received 92183 bytes	71% complete	5229067 bytes/sec avg
+[2020-03-27 18:09:01.615] [info] Upload test: Received 159063 bytes	72% complete	5231219 bytes/sec avg
+[2020-03-27 18:09:01.649] [info] Upload test: Received 159041 bytes	72% complete	5230617 bytes/sec avg
+[2020-03-27 18:09:01.666] [info] Upload test: Received 122562 bytes	72% complete	5231609 bytes/sec avg
+[2020-03-27 18:09:01.684] [info] Upload test: Received 97248 bytes	72% complete	5231790 bytes/sec avg
+[2020-03-27 18:09:01.701] [info] Upload test: Received 66880 bytes	72% complete	5231083 bytes/sec avg
+[2020-03-27 18:09:01.736] [info] Upload test: Received 97248 bytes	72% complete	5228670 bytes/sec avg
+[2020-03-27 18:09:01.753] [info] Upload test: Received 245135 bytes	72% complete	5233263 bytes/sec avg
+[2020-03-27 18:09:01.788] [info] Upload test: Received 55715 bytes	73% complete	5229648 bytes/sec avg
+[2020-03-27 18:09:01.805] [info] Upload test: Received 66880 bytes	73% complete	5228956 bytes/sec avg
+[2020-03-27 18:09:01.823] [info] Upload test: Received 55710 bytes	73% complete	5227947 bytes/sec avg
+[2020-03-27 18:09:01.841] [info] Upload test: Received 122573 bytes	73% complete	5228821 bytes/sec avg
+[2020-03-27 18:09:01.858] [info] Upload test: Received 55715 bytes	73% complete	5227826 bytes/sec avg
+[2020-03-27 18:09:01.875] [info] Upload test: Received 66858 bytes	73% complete	5227183 bytes/sec avg
+[2020-03-27 18:09:01.893] [info] Upload test: Received 46420 bytes	73% complete	5225971 bytes/sec avg
+[2020-03-27 18:09:01.910] [info] Upload test: Received 122573 bytes	74% complete	5226915 bytes/sec avg
+[2020-03-27 18:09:01.927] [info] Upload test: Received 214778 bytes	74% complete	5230402 bytes/sec avg
+[2020-03-27 18:09:01.945] [info] Upload test: Received 396596 bytes	74% complete	5250951 bytes/sec avg
+[2020-03-27 18:09:01.963] [info] Upload test: Received 66858 bytes	74% complete	5248314 bytes/sec avg
+[2020-03-27 18:09:01.980] [info] Upload test: Received 76804 bytes	74% complete	5246426 bytes/sec avg
+[2020-03-27 18:09:01.998] [info] Upload test: Received 189431 bytes	74% complete	5256858 bytes/sec avg
+[2020-03-27 18:09:02.032] [info] Upload test: Received 117503 bytes	74% complete	5250217 bytes/sec avg
+[2020-03-27 18:09:02.049] [info] Upload test: Received 110656 bytes	74% complete	5252281 bytes/sec avg
+[2020-03-27 18:09:02.067] [info] Upload test: Received 116495 bytes	75% complete	5256642 bytes/sec avg
+[2020-03-27 18:09:02.101] [info] Upload test: Received 76810 bytes	75% complete	5253955 bytes/sec avg
+[2020-03-27 18:09:02.135] [info] Upload test: Received 178288 bytes	75% complete	5253926 bytes/sec avg
+[2020-03-27 18:09:02.172] [info] Upload test: Received 175083 bytes	75% complete	5253582 bytes/sec avg
+[2020-03-27 18:09:02.206] [info] Upload test: Received 122573 bytes	75% complete	5252152 bytes/sec avg
+[2020-03-27 18:09:02.224] [info] Upload test: Received 111430 bytes	76% complete	5252657 bytes/sec avg
+[2020-03-27 18:09:02.258] [info] Upload test: Received 199399 bytes	76% complete	5253136 bytes/sec avg
+[2020-03-27 18:09:02.293] [info] Upload test: Received 55715 bytes	76% complete	5250127 bytes/sec avg
+[2020-03-27 18:09:02.311] [info] Upload test: Received 152963 bytes	76% complete	5251643 bytes/sec avg
+[2020-03-27 18:09:02.345] [info] Upload test: Received 92183 bytes	76% complete	5249622 bytes/sec avg
+[2020-03-27 18:09:02.362] [info] Upload test: Received 55704 bytes	77% complete	5248828 bytes/sec avg
+[2020-03-27 18:09:02.380] [info] Upload test: Received 214778 bytes	77% complete	5251715 bytes/sec avg
+[2020-03-27 18:09:02.398] [info] Upload test: Received 30390 bytes	77% complete	5250328 bytes/sec avg
+[2020-03-27 18:09:02.415] [info] Upload test: Received 130745 bytes	77% complete	5251280 bytes/sec avg
+[2020-03-27 18:09:02.432] [info] Upload test: Received 147887 bytes	77% complete	5252616 bytes/sec avg
+[2020-03-27 18:09:02.450] [info] Upload test: Received 66858 bytes	77% complete	5252065 bytes/sec avg
+[2020-03-27 18:09:02.486] [info] Upload test: Received 281636 bytes	77% complete	5254258 bytes/sec avg
+[2020-03-27 18:09:02.520] [info] Upload test: Received 55710 bytes	78% complete	5251544 bytes/sec avg
+[2020-03-27 18:09:02.554] [info] Upload test: Received 122573 bytes	78% complete	5250362 bytes/sec avg
+[2020-03-27 18:09:02.572] [info] Upload test: Received 97248 bytes	78% complete	5250541 bytes/sec avg
+[2020-03-27 18:09:02.589] [info] Upload test: Received 46420 bytes	78% complete	5249566 bytes/sec avg
+[2020-03-27 18:09:02.607] [info] Upload test: Received 66880 bytes	78% complete	5249094 bytes/sec avg
+[2020-03-27 18:09:02.624] [info] Upload test: Received 92183 bytes	78% complete	5249149 bytes/sec avg
+[2020-03-27 18:09:02.642] [info] Upload test: Received 66858 bytes	78% complete	5248684 bytes/sec avg
+[2020-03-27 18:09:02.659] [info] Upload test: Received 76804 bytes	79% complete	5248438 bytes/sec avg
+[2020-03-27 18:09:02.694] [info] Upload test: Received 275536 bytes	79% complete	5250523 bytes/sec avg
+[2020-03-27 18:09:02.711] [info] Upload test: Received 92200 bytes	79% complete	5250593 bytes/sec avg
+[2020-03-27 18:09:02.762] [info] Upload test: Received 341833 bytes	79% complete	5252193 bytes/sec avg
+[2020-03-27 18:09:02.780] [info] Upload test: Received 55715 bytes	79% complete	5251511 bytes/sec avg
+[2020-03-27 18:09:02.814] [info] Upload test: Received 174052 bytes	80% complete	5251457 bytes/sec avg
+[2020-03-27 18:09:02.832] [info] Upload test: Received 178310 bytes	80% complete	5253179 bytes/sec avg
+[2020-03-27 18:09:02.883] [info] Upload test: Received 81035 bytes	80% complete	5249685 bytes/sec avg
+[2020-03-27 18:09:02.917] [info] Upload test: Received 122573 bytes	80% complete	5248704 bytes/sec avg
+[2020-03-27 18:09:02.935] [info] Upload test: Received 55715 bytes	80% complete	5248103 bytes/sec avg
+[2020-03-27 18:09:02.952] [info] Upload test: Received 235867 bytes	80% complete	5250826 bytes/sec avg
+[2020-03-27 18:09:02.970] [info] Upload test: Received 92183 bytes	81% complete	5250888 bytes/sec avg
+[2020-03-27 18:09:02.987] [info] Upload test: Received 92183 bytes	81% complete	5250952 bytes/sec avg
+[2020-03-27 18:09:03.004] [info] Upload test: Received 25320 bytes	81% complete	5249814 bytes/sec avg
+[2020-03-27 18:09:03.022] [info] Upload test: Received 55715 bytes	81% complete	5249231 bytes/sec avg
+[2020-03-27 18:09:03.039] [info] Upload test: Received 60780 bytes	81% complete	5248746 bytes/sec avg
+[2020-03-27 18:09:03.057] [info] Upload test: Received 306576 bytes	81% complete	5252588 bytes/sec avg
+[2020-03-27 18:09:03.075] [info] Upload test: Received 76810 bytes	81% complete	5252353 bytes/sec avg
+[2020-03-27 18:09:03.092] [info] Upload test: Received 55715 bytes	81% complete	5251719 bytes/sec avg
+[2020-03-27 18:09:03.110] [info] Upload test: Received 86105 bytes	82% complete	5251656 bytes/sec avg
+[2020-03-27 18:09:03.144] [info] Upload test: Received 132519 bytes	82% complete	5250922 bytes/sec avg
+[2020-03-27 18:09:03.162] [info] Upload test: Received 66880 bytes	82% complete	5250548 bytes/sec avg
+[2020-03-27 18:09:03.179] [info] Upload test: Received 147898 bytes	82% complete	5251542 bytes/sec avg
+[2020-03-27 18:09:03.197] [info] Upload test: Received 55715 bytes	82% complete	5250990 bytes/sec avg
+[2020-03-27 18:09:03.214] [info] Upload test: Received 55704 bytes	82% complete	5250449 bytes/sec avg
+[2020-03-27 18:09:03.249] [info] Upload test: Received 66880 bytes	82% complete	5248742 bytes/sec avg
+[2020-03-27 18:09:03.266] [info] Upload test: Received 178288 bytes	83% complete	5250191 bytes/sec avg
+[2020-03-27 18:09:03.283] [info] Upload test: Received 117503 bytes	83% complete	5250667 bytes/sec avg
+[2020-03-27 18:09:03.301] [info] Upload test: Received 92183 bytes	83% complete	5250727 bytes/sec avg
+[2020-03-27 18:09:03.335] [info] Upload test: Received 159063 bytes	83% complete	5250515 bytes/sec avg
+[2020-03-27 18:09:03.352] [info] Upload test: Received 102135 bytes	83% complete	5250729 bytes/sec avg
+[2020-03-27 18:09:03.387] [info] Upload test: Received 306552 bytes	83% complete	5252705 bytes/sec avg
+[2020-03-27 18:09:03.405] [info] Upload test: Received 133716 bytes	83% complete	5253375 bytes/sec avg
+[2020-03-27 18:09:03.422] [info] Upload test: Received 113278 bytes	84% complete	5253719 bytes/sec avg
+[2020-03-27 18:09:03.440] [info] Upload test: Received 66880 bytes	84% complete	5253370 bytes/sec avg
+[2020-03-27 18:09:03.474] [info] Upload test: Received 107194 bytes	84% complete	5252389 bytes/sec avg
+[2020-03-27 18:09:03.491] [info] Upload test: Received 86105 bytes	84% complete	5252358 bytes/sec avg
+[2020-03-27 18:09:03.526] [info] Upload test: Received 92200 bytes	84% complete	5251196 bytes/sec avg
+[2020-03-27 18:09:03.544] [info] Upload test: Received 189431 bytes	84% complete	5252593 bytes/sec avg
+[2020-03-27 18:09:03.580] [info] Upload test: Received 76804 bytes	85% complete	5251132 bytes/sec avg
+[2020-03-27 18:09:03.615] [info] Upload test: Received 184361 bytes	85% complete	5251254 bytes/sec avg
+[2020-03-27 18:09:03.632] [info] Upload test: Received 122595 bytes	85% complete	5251721 bytes/sec avg
+[2020-03-27 18:09:03.667] [info] Upload test: Received 159041 bytes	85% complete	5251539 bytes/sec avg
+[2020-03-27 18:09:03.684] [info] Upload test: Received 76810 bytes	85% complete	5251410 bytes/sec avg
+[2020-03-27 18:09:03.702] [info] Upload test: Received 396581 bytes	85% complete	5255331 bytes/sec avg
+[2020-03-27 18:09:03.719] [info] Upload test: Received 122595 bytes	86% complete	5255701 bytes/sec avg
+[2020-03-27 18:09:03.737] [info] Upload test: Received 143668 bytes	86% complete	5256368 bytes/sec avg
+[2020-03-27 18:09:03.771] [info] Upload test: Received 30390 bytes	86% complete	5254555 bytes/sec avg
+[2020-03-27 18:09:03.789] [info] Upload test: Received 107194 bytes	86% complete	5254773 bytes/sec avg
+[2020-03-27 18:09:03.823] [info] Upload test: Received 214778 bytes	86% complete	5255233 bytes/sec avg
+[2020-03-27 18:09:03.841] [info] Upload test: Received 25320 bytes	86% complete	5254470 bytes/sec avg
+[2020-03-27 18:09:03.858] [info] Upload test: Received 92183 bytes	87% complete	5254497 bytes/sec avg
+[2020-03-27 18:09:03.892] [info] Upload test: Received 316913 bytes	87% complete	5256090 bytes/sec avg
+[2020-03-27 18:09:03.944] [info] Upload test: Received 143668 bytes	87% complete	5254745 bytes/sec avg
+[2020-03-27 18:09:03.978] [info] Upload test: Received 122595 bytes	87% complete	5254180 bytes/sec avg
+[2020-03-27 18:09:03.995] [info] Upload test: Received 46420 bytes	87% complete	5253737 bytes/sec avg
+[2020-03-27 18:09:04.013] [info] Upload test: Received 122573 bytes	88% complete	5254094 bytes/sec avg
+[2020-03-27 18:09:04.047] [info] Upload test: Received 205461 bytes	88% complete	5254416 bytes/sec avg
+[2020-03-27 18:09:04.065] [info] Upload test: Received 122595 bytes	88% complete	5254757 bytes/sec avg
+[2020-03-27 18:09:04.099] [info] Upload test: Received 76804 bytes	88% complete	5253775 bytes/sec avg
+[2020-03-27 18:09:04.117] [info] Upload test: Received 30390 bytes	88% complete	5253215 bytes/sec avg
+[2020-03-27 18:09:04.134] [info] Upload test: Received 122595 bytes	88% complete	5253554 bytes/sec avg
+[2020-03-27 18:09:04.152] [info] Upload test: Received 133716 bytes	88% complete	5254004 bytes/sec avg
+[2020-03-27 18:09:04.169] [info] Upload test: Received 117503 bytes	89% complete	5254287 bytes/sec avg
+[2020-03-27 18:09:04.204] [info] Upload test: Received 159063 bytes	89% complete	5254147 bytes/sec avg
+[2020-03-27 18:09:04.238] [info] Upload test: Received 168987 bytes	89% complete	5254120 bytes/sec avg
+[2020-03-27 18:09:04.255] [info] Upload test: Received 197598 bytes	89% complete	5255095 bytes/sec avg
+[2020-03-27 18:09:04.273] [info] Upload test: Received 60780 bytes	89% complete	5254853 bytes/sec avg
+[2020-03-27 18:09:04.290] [info] Upload test: Received 133738 bytes	89% complete	5255249 bytes/sec avg
+[2020-03-27 18:09:04.324] [info] Upload test: Received 122562 bytes	90% complete	5254813 bytes/sec avg
+[2020-03-27 18:09:04.342] [info] Upload test: Received 30390 bytes	90% complete	5254337 bytes/sec avg
+[2020-03-27 18:09:04.360] [info] Upload test: Received 122595 bytes	90% complete	5254620 bytes/sec avg
+[2020-03-27 18:09:04.377] [info] Upload test: Received 55715 bytes	90% complete	5254364 bytes/sec avg
+[2020-03-27 18:09:04.411] [info] Upload test: Received 86094 bytes	90% complete	5253698 bytes/sec avg
+[2020-03-27 18:09:04.429] [info] Upload test: Received 122573 bytes	90% complete	5253988 bytes/sec avg
+[2020-03-27 18:09:04.446] [info] Upload test: Received 66880 bytes	90% complete	5253842 bytes/sec avg
+[2020-03-27 18:09:04.464] [info] Upload test: Received 55715 bytes	91% complete	5253616 bytes/sec avg
+[2020-03-27 18:09:04.481] [info] Upload test: Received 55715 bytes	91% complete	5253402 bytes/sec avg
+[2020-03-27 18:09:04.498] [info] Upload test: Received 178277 bytes	91% complete	5254094 bytes/sec avg
+[2020-03-27 18:09:04.533] [info] Upload test: Received 251246 bytes	91% complete	5254693 bytes/sec avg
+[2020-03-27 18:09:04.584] [info] Upload test: Received 173218 bytes	91% complete	5254150 bytes/sec avg
+[2020-03-27 18:09:04.601] [info] Upload test: Received 66858 bytes	91% complete	5254032 bytes/sec avg
+[2020-03-27 18:09:04.619] [info] Upload test: Received 133738 bytes	92% complete	5254362 bytes/sec avg
+[2020-03-27 18:09:04.653] [info] Upload test: Received 113278 bytes	92% complete	5254024 bytes/sec avg
+[2020-03-27 18:09:04.670] [info] Upload test: Received 30390 bytes	92% complete	5253688 bytes/sec avg
+[2020-03-27 18:09:04.688] [info] Upload test: Received 92183 bytes	92% complete	5253746 bytes/sec avg
+[2020-03-27 18:09:04.705] [info] Upload test: Received 403818 bytes	92% complete	5255704 bytes/sec avg
+[2020-03-27 18:09:04.740] [info] Upload test: Received 55715 bytes	92% complete	5255017 bytes/sec avg
+[2020-03-27 18:09:04.757] [info] Upload test: Received 76810 bytes	92% complete	5254970 bytes/sec avg
+[2020-03-27 18:09:04.775] [info] Upload test: Received 164128 bytes	93% complete	5255414 bytes/sec avg
+[2020-03-27 18:09:04.810] [info] Upload test: Received 55715 bytes	93% complete	5254793 bytes/sec avg
+[2020-03-27 18:09:04.827] [info] Upload test: Received 46420 bytes	93% complete	5254594 bytes/sec avg
+[2020-03-27 18:09:04.844] [info] Upload test: Received 214756 bytes	93% complete	5255291 bytes/sec avg
+[2020-03-27 18:09:04.879] [info] Upload test: Received 55715 bytes	93% complete	5254724 bytes/sec avg
+[2020-03-27 18:09:04.897] [info] Upload test: Received 214778 bytes	93% complete	5255381 bytes/sec avg
+[2020-03-27 18:09:04.915] [info] Upload test: Received 46420 bytes	94% complete	5255192 bytes/sec avg
+[2020-03-27 18:09:04.932] [info] Upload test: Received 30390 bytes	94% complete	5254934 bytes/sec avg
+[2020-03-27 18:09:04.950] [info] Upload test: Received 55715 bytes	94% complete	5254817 bytes/sec avg
+[2020-03-27 18:09:04.967] [info] Upload test: Received 122573 bytes	94% complete	5255005 bytes/sec avg
+[2020-03-27 18:09:04.985] [info] Upload test: Received 66880 bytes	94% complete	5254945 bytes/sec avg
+[2020-03-27 18:09:05.002] [info] Upload test: Received 168987 bytes	94% complete	5255328 bytes/sec avg
+[2020-03-27 18:09:05.020] [info] Upload test: Received 92183 bytes	94% complete	5255375 bytes/sec avg
+[2020-03-27 18:09:05.037] [info] Upload test: Received 30390 bytes	94% complete	5255165 bytes/sec avg
+[2020-03-27 18:09:05.055] [info] Upload test: Received 55715 bytes	94% complete	5255068 bytes/sec avg
+[2020-03-27 18:09:05.072] [info] Upload test: Received 177514 bytes	95% complete	5255460 bytes/sec avg
+[2020-03-27 18:09:05.089] [info] Upload test: Received 86100 bytes	95% complete	5255483 bytes/sec avg
+[2020-03-27 18:09:05.140] [info] Upload test: Received 184378 bytes	95% complete	5255312 bytes/sec avg
+[2020-03-27 18:09:05.158] [info] Upload test: Received 66858 bytes	95% complete	5255278 bytes/sec avg
+[2020-03-27 18:09:05.175] [info] Upload test: Received 46420 bytes	95% complete	5255180 bytes/sec avg
+[2020-03-27 18:09:05.193] [info] Upload test: Received 424056 bytes	95% complete	5256323 bytes/sec avg
+[2020-03-27 18:09:05.210] [info] Upload test: Received 122595 bytes	96% complete	5256446 bytes/sec avg
+[2020-03-27 18:09:05.245] [info] Upload test: Received 66858 bytes	96% complete	5256154 bytes/sec avg
+[2020-03-27 18:09:05.262] [info] Upload test: Received 46420 bytes	96% complete	5256051 bytes/sec avg
+[2020-03-27 18:09:05.280] [info] Upload test: Received 189431 bytes	96% complete	5256363 bytes/sec avg
+[2020-03-27 18:09:05.297] [info] Upload test: Received 97270 bytes	96% complete	5256408 bytes/sec avg
+[2020-03-27 18:09:05.332] [info] Upload test: Received 168993 bytes	96% complete	5256434 bytes/sec avg
+[2020-03-27 18:09:05.349] [info] Upload test: Received 30390 bytes	96% complete	5256316 bytes/sec avg
+[2020-03-27 18:09:05.367] [info] Upload test: Received 30390 bytes	97% complete	5256209 bytes/sec avg
+[2020-03-27 18:09:05.384] [info] Upload test: Received 66880 bytes	97% complete	5256195 bytes/sec avg
+[2020-03-27 18:09:05.418] [info] Upload test: Received 194318 bytes	97% complete	5256307 bytes/sec avg
+[2020-03-27 18:09:05.436] [info] Upload test: Received 122573 bytes	97% complete	5256408 bytes/sec avg
+[2020-03-27 18:09:05.453] [info] Upload test: Received 92183 bytes	97% complete	5256448 bytes/sec avg
+[2020-03-27 18:09:05.487] [info] Upload test: Received 199399 bytes	97% complete	5256555 bytes/sec avg
+[2020-03-27 18:09:05.505] [info] Upload test: Received 66858 bytes	97% complete	5256552 bytes/sec avg
+[2020-03-27 18:09:05.522] [info] Upload test: Received 122573 bytes	98% complete	5256637 bytes/sec avg
+[2020-03-27 18:09:05.556] [info] Upload test: Received 55715 bytes	98% complete	5256545 bytes/sec avg
+[2020-03-27 18:09:05.574] [info] Upload test: Received 189448 bytes	98% complete	5256709 bytes/sec avg
+[2020-03-27 18:09:05.608] [info] Upload test: Received 55715 bytes	98% complete	5256656 bytes/sec avg
+[2020-03-27 18:09:05.625] [info] Upload test: Received 30390 bytes	98% complete	5256647 bytes/sec avg
+[2020-03-27 18:09:05.643] [info] Upload test: Received 55715 bytes	98% complete	5256671 bytes/sec avg
+[2020-03-27 18:09:05.661] [info] Upload test: Received 159063 bytes	99% complete	5256778 bytes/sec avg
+[2020-03-27 18:09:05.678] [info] Upload test: Received 76804 bytes	99% complete	5256819 bytes/sec avg
+[2020-03-27 18:09:05.695] [info] Upload test: Received 86105 bytes	99% complete	5256868 bytes/sec avg
+[2020-03-27 18:09:05.713] [info] Upload test: Received 178288 bytes	99% complete	5256963 bytes/sec avg
+[2020-03-27 18:09:05.731] [info] Upload test: Received 66880 bytes	99% complete	5256998 bytes/sec avg
+[2020-03-27 18:09:05.765] [info] Upload test: Received 92183 bytes	99% complete	5257071 bytes/sec avg
+[2020-03-27 18:09:05.782] [info] Upload test: Received 184366 bytes	99% complete	5257137 bytes/sec avg
+[2020-03-27 18:09:05.800] [info] Upload test: Received 55715 bytes	99% complete	5257183 bytes/sec avg
+[2020-03-27 18:09:05.818] [info] Stage 2 completed
+[2020-03-27 18:09:05.818] [info] Upload test: Received 159058 bytes	100% complete	5257205 bytes/sec avg
+upload: 42057
+[2020-03-27 18:09:05.834] [info] Starting stage 3 of type 3
+[2020-03-27 18:09:05.905] [info] Download test: Received 117993 bytes	0% complete	5279328 bytes/sec avg
+[2020-03-27 18:09:05.923] [info] Download test: Received 306552 bytes	0% complete	10646095 bytes/sec avg
+[2020-03-27 18:09:05.944] [info] Download test: Received 796362 bytes	0% complete	19817345 bytes/sec avg
+[2020-03-27 18:09:05.969] [info] Download test: Received 789616 bytes	0% complete	23235787 bytes/sec avg
+[2020-03-27 18:09:05.987] [info] Download test: Received 1489846 bytes	0% complete	33540646 bytes/sec avg
+[2020-03-27 18:09:06.010] [info] Download test: Received 1343500 bytes	0% complete	38151214 bytes/sec avg
+[2020-03-27 18:09:06.029] [info] Download test: Received 1324745 bytes	0% complete	42175673 bytes/sec avg
+[2020-03-27 18:09:06.047] [info] Download test: Received 916063 bytes	1% complete	43245923 bytes/sec avg
+[2020-03-27 18:09:06.074] [info] Download test: Received 320970 bytes	1% complete	38704932 bytes/sec avg
+[2020-03-27 18:09:06.100] [info] Download test: Received 588536 bytes	1% complete	36743883 bytes/sec avg
+[2020-03-27 18:09:06.118] [info] Download test: Received 963568 bytes	1% complete	38101389 bytes/sec avg
+[2020-03-27 18:09:06.141] [info] Download test: Received 1114103 bytes	1% complete	39089555 bytes/sec avg
+[2020-03-27 18:09:06.160] [info] Download test: Received 1396795 bytes	1% complete	41422205 bytes/sec avg
+[2020-03-27 18:09:06.202] [info] Download test: Received 1447364 bytes	2% complete	40495035 bytes/sec avg
+[2020-03-27 18:09:06.220] [info] Download test: Received 1407309 bytes	2% complete	42510764 bytes/sec avg
+[2020-03-27 18:09:06.240] [info] Download test: Received 1758282 bytes	2% complete	45034525 bytes/sec avg
+[2020-03-27 18:09:06.263] [info] Download test: Received 1572252 bytes	2% complete	46444682 bytes/sec avg
+[2020-03-27 18:09:06.280] [info] Download test: Received 941287 bytes	2% complete	46749655 bytes/sec avg
+[2020-03-27 18:09:06.298] [info] Download test: Received 838471 bytes	2% complete	46791116 bytes/sec avg
+[2020-03-27 18:09:06.337] [info] Download test: Received 4052942 bytes	3% complete	51653656 bytes/sec avg
+[2020-03-27 18:09:06.355] [info] Download test: Received 4337504 bytes	3% complete	58894502 bytes/sec avg
+[2020-03-27 18:09:06.375] [info] Download test: Received 3026574 bytes	3% complete	62644951 bytes/sec avg
+[2020-03-27 18:09:06.393] [info] Download test: Received 1074334 bytes	3% complete	62593312 bytes/sec avg
+[2020-03-27 18:09:06.410] [info] Download test: Received 1428417 bytes	3% complete	63226648 bytes/sec avg
+[2020-03-27 18:09:06.432] [info] Download test: Received 930728 bytes	3% complete	62471962 bytes/sec avg
+[2020-03-27 18:09:06.450] [info] Download test: Received 846906 bytes	3% complete	61963075 bytes/sec avg
+[2020-03-27 18:09:06.473] [info] Download test: Received 3043684 bytes	3% complete	64775786 bytes/sec avg
+[2020-03-27 18:09:06.490] [info] Download test: Received 1422313 bytes	4% complete	65162360 bytes/sec avg
+[2020-03-27 18:09:06.512] [info] Download test: Received 372135 bytes	4% complete	63547395 bytes/sec avg
+[2020-03-27 18:09:06.550] [info] Download test: Received 549085 bytes	4% complete	60702295 bytes/sec avg
+[2020-03-27 18:09:06.575] [info] Download test: Received 273066 bytes	4% complete	58951994 bytes/sec avg
+[2020-03-27 18:09:06.594] [info] Download test: Received 948440 bytes	4% complete	58691074 bytes/sec avg
+[2020-03-27 18:09:06.612] [info] Download test: Received 4088116 bytes	4% complete	62815232 bytes/sec avg
+[2020-03-27 18:09:06.656] [info] Download test: Received 1011849 bytes	5% complete	60549977 bytes/sec avg
+[2020-03-27 18:09:06.718] [info] Download test: Received 5482255 bytes	5% complete	62638752 bytes/sec avg
+[2020-03-27 18:09:06.745] [info] Download test: Received 1468317 bytes	5% complete	62463672 bytes/sec avg
+[2020-03-27 18:09:06.763] [info] Download test: Received 817092 bytes	5% complete	62029935 bytes/sec avg
+[2020-03-27 18:09:06.781] [info] Download test: Received 1768747 bytes	5% complete	62780829 bytes/sec avg
+[2020-03-27 18:09:06.804] [info] Download test: Received 2140123 bytes	6% complete	63492049 bytes/sec avg
+[2020-03-27 18:09:06.822] [info] Download test: Received 1207200 bytes	6% complete	63589694 bytes/sec avg
+[2020-03-27 18:09:06.840] [info] Download test: Received 842305 bytes	6% complete	63299327 bytes/sec avg
+[2020-03-27 18:09:06.860] [info] Download test: Received 3075207 bytes	6% complete	65090185 bytes/sec avg
+[2020-03-27 18:09:06.878] [info] Download test: Received 494610 bytes	6% complete	64433374 bytes/sec avg
+[2020-03-27 18:09:06.896] [info] Download test: Received 583544 bytes	6% complete	63873044 bytes/sec avg
+[2020-03-27 18:09:06.918] [info] Download test: Received 2261421 bytes	6% complete	64678366 bytes/sec avg
+[2020-03-27 18:09:06.936] [info] Download test: Received 1693559 bytes	7% complete	65190935 bytes/sec avg
+[2020-03-27 18:09:06.954] [info] Download test: Received 2903302 bytes	7% complete	66828489 bytes/sec avg
+[2020-03-27 18:09:06.974] [info] Download test: Received 957103 bytes	7% complete	66452250 bytes/sec avg
+[2020-03-27 18:09:06.995] [info] Download test: Received 2480760 bytes	7% complete	67463763 bytes/sec avg
+[2020-03-27 18:09:07.012] [info] Download test: Received 904336 bytes	7% complete	67222359 bytes/sec avg
+[2020-03-27 18:09:07.041] [info] Download test: Received 1879244 bytes	7% complete	67165580 bytes/sec avg
+[2020-03-27 18:09:07.079] [info] Download test: Received 1016792 bytes	7% complete	65969678 bytes/sec avg
+[2020-03-27 18:09:07.099] [info] Download test: Received 4038972 bytes	8% complete	68142551 bytes/sec avg
+[2020-03-27 18:09:07.125] [info] Download test: Received 2582751 bytes	8% complete	68748342 bytes/sec avg
+[2020-03-27 18:09:07.175] [info] Download test: Received 2138017 bytes	8% complete	67767421 bytes/sec avg
+[2020-03-27 18:09:07.206] [info] Download test: Received 3573200 bytes	8% complete	68901976 bytes/sec avg
+[2020-03-27 18:09:07.226] [info] Download test: Received 2404036 bytes	8% complete	69625254 bytes/sec avg
+[2020-03-27 18:09:07.244] [info] Download test: Received 1060798 bytes	9% complete	69512349 bytes/sec avg
+[2020-03-27 18:09:07.272] [info] Download test: Received 2213698 bytes	9% complete	69679331 bytes/sec avg
+[2020-03-27 18:09:07.290] [info] Download test: Received 1780905 bytes	9% complete	70055934 bytes/sec avg
+[2020-03-27 18:09:07.337] [info] Download test: Received 3102489 bytes	9% complete	69916274 bytes/sec avg
+[2020-03-27 18:09:07.369] [info] Download test: Received 1361149 bytes	9% complete	69339545 bytes/sec avg
+[2020-03-27 18:09:07.424] [info] Download test: Received 1780787 bytes	10% complete	68046091 bytes/sec avg
+[2020-03-27 18:09:07.459] [info] Download test: Received 2139015 bytes	10% complete	67890425 bytes/sec avg
+[2020-03-27 18:09:07.479] [info] Download test: Received 273066 bytes	10% complete	67191497 bytes/sec avg
+[2020-03-27 18:09:07.522] [info] Download test: Received 2173901 bytes	10% complete	66906243 bytes/sec avg
+[2020-03-27 18:09:07.551] [info] Download test: Received 1420940 bytes	11% complete	66437942 bytes/sec avg
+[2020-03-27 18:09:07.573] [info] Download test: Received 2363841 bytes	11% complete	66981622 bytes/sec avg
+[2020-03-27 18:09:07.596] [info] Download test: Received 2949357 bytes	11% complete	67819567 bytes/sec avg
+[2020-03-27 18:09:07.633] [info] Download test: Received 2939778 bytes	11% complete	68075582 bytes/sec avg
+[2020-03-27 18:09:07.650] [info] Download test: Received 2115930 bytes	11% complete	68587685 bytes/sec avg
+[2020-03-27 18:09:07.668] [info] Download test: Received 2858093 bytes	11% complete	69492218 bytes/sec avg
+[2020-03-27 18:09:07.693] [info] Download test: Received 2246039 bytes	12% complete	69783057 bytes/sec avg
+[2020-03-27 18:09:07.716] [info] Download test: Received 1260842 bytes	12% complete	69608012 bytes/sec avg
+[2020-03-27 18:09:07.733] [info] Download test: Received 600745 bytes	12% complete	69274380 bytes/sec avg
+[2020-03-27 18:09:07.803] [info] Download test: Received 3372994 bytes	12% complete	68522820 bytes/sec avg
+[2020-03-27 18:09:07.825] [info] Download test: Received 2407716 bytes	12% complete	68971798 bytes/sec avg
+[2020-03-27 18:09:07.899] [info] Download test: Received 5282266 bytes	13% complete	69060075 bytes/sec avg
+[2020-03-27 18:09:07.918] [info] Download test: Received 6001478 bytes	13% complete	71368033 bytes/sec avg
+[2020-03-27 18:09:07.955] [info] Download test: Received 1605579 bytes	13% complete	70882056 bytes/sec avg
+[2020-03-27 18:09:07.976] [info] Download test: Received 1249809 bytes	13% complete	70768777 bytes/sec avg
+[2020-03-27 18:09:08.005] [info] Download test: Received 2365178 bytes	14% complete	70917767 bytes/sec avg
+[2020-03-27 18:09:08.023] [info] Download test: Received 819197 bytes	14% complete	70695562 bytes/sec avg
+[2020-03-27 18:09:08.080] [info] Download test: Received 3281104 bytes	14% complete	70335441 bytes/sec avg
+[2020-03-27 18:09:08.133] [info] Download test: Received 3613574 bytes	14% complete	70323381 bytes/sec avg
+[2020-03-27 18:09:08.162] [info] Download test: Received 1709655 bytes	15% complete	70164905 bytes/sec avg
+[2020-03-27 18:09:08.180] [info] Download test: Received 2593839 bytes	15% complete	70737876 bytes/sec avg
+[2020-03-27 18:09:08.205] [info] Download test: Received 1237432 bytes	15% complete	70602208 bytes/sec avg
+[2020-03-27 18:09:08.227] [info] Download test: Received 2311944 bytes	15% complete	70831977 bytes/sec avg
+[2020-03-27 18:09:08.245] [info] Download test: Received 1319775 bytes	15% complete	70849292 bytes/sec avg
+[2020-03-27 18:09:08.263] [info] Download test: Received 2705803 bytes	15% complete	71437765 bytes/sec avg
+[2020-03-27 18:09:08.284] [info] Download test: Received 3400832 bytes	16% complete	72259347 bytes/sec avg
+[2020-03-27 18:09:08.312] [info] Download test: Received 873809 bytes	16% complete	73651196 bytes/sec avg
+[2020-03-27 18:09:08.330] [info] Download test: Received 828300 bytes	16% complete	73260227 bytes/sec avg
+[2020-03-27 18:09:08.348] [info] Download test: Received 834364 bytes	16% complete	72839518 bytes/sec avg
+[2020-03-27 18:09:08.373] [info] Download test: Received 2566818 bytes	16% complete	73387161 bytes/sec avg
+[2020-03-27 18:09:08.393] [info] Download test: Received 1966455 bytes	16% complete	73774215 bytes/sec avg
+[2020-03-27 18:09:08.411] [info] Download test: Received 1577731 bytes	16% complete	73963921 bytes/sec avg
+[2020-03-27 18:09:08.429] [info] Download test: Received 1066094 bytes	16% complete	73756553 bytes/sec avg
+[2020-03-27 18:09:08.449] [info] Download test: Received 988114 bytes	17% complete	73532400 bytes/sec avg
+[2020-03-27 18:09:08.467] [info] Download test: Received 699414 bytes	17% complete	72946198 bytes/sec avg
+[2020-03-27 18:09:08.485] [info] Download test: Received 1022699 bytes	17% complete	72760282 bytes/sec avg
+[2020-03-27 18:09:08.507] [info] Download test: Received 1936480 bytes	17% complete	72947881 bytes/sec avg
+[2020-03-27 18:09:08.529] [info] Download test: Received 2073643 bytes	17% complete	73367006 bytes/sec avg
+[2020-03-27 18:09:08.549] [info] Download test: Received 3357195 bytes	17% complete	74507591 bytes/sec avg
+[2020-03-27 18:09:08.569] [info] Download test: Received 1116232 bytes	17% complete	74252149 bytes/sec avg
+[2020-03-27 18:09:08.592] [info] Download test: Received 2909918 bytes	18% complete	75034355 bytes/sec avg
+[2020-03-27 18:09:08.628] [info] Download test: Received 2352241 bytes	18% complete	74813823 bytes/sec avg
+[2020-03-27 18:09:08.677] [info] Download test: Received 5868059 bytes	18% complete	76128474 bytes/sec avg
+[2020-03-27 18:09:08.734] [info] Download test: Received 3956518 bytes	19% complete	75905076 bytes/sec avg
+[2020-03-27 18:09:08.754] [info] Download test: Received 923437 bytes	19% complete	75553123 bytes/sec avg
+[2020-03-27 18:09:08.798] [info] Download test: Received 1748300 bytes	19% complete	74658543 bytes/sec avg
+[2020-03-27 18:09:08.818] [info] Download test: Received 2581284 bytes	19% complete	75268373 bytes/sec avg
+[2020-03-27 18:09:08.836] [info] Download test: Received 1341690 bytes	19% complete	75270677 bytes/sec avg
+[2020-03-27 18:09:08.856] [info] Download test: Received 1177222 bytes	19% complete	75105317 bytes/sec avg
+[2020-03-27 18:09:08.899] [info] Download test: Received 1429039 bytes	20% complete	74151143 bytes/sec avg
+[2020-03-27 18:09:08.916] [info] Download test: Received 1724569 bytes	20% complete	74375000 bytes/sec avg
+[2020-03-27 18:09:08.934] [info] Download test: Received 3609366 bytes	20% complete	75574761 bytes/sec avg
+[2020-03-27 18:09:08.982] [info] Download test: Received 1959872 bytes	20% complete	74716692 bytes/sec avg
+[2020-03-27 18:09:09.007] [info] Download test: Received 2661659 bytes	20% complete	75118624 bytes/sec avg
+[2020-03-27 18:09:09.030] [info] Download test: Received 286098 bytes	20% complete	74430404 bytes/sec avg
+[2020-03-27 18:09:09.052] [info] Download test: Received 2754735 bytes	21% complete	74976060 bytes/sec avg
+[2020-03-27 18:09:09.070] [info] Download test: Received 273066 bytes	21% complete	74450472 bytes/sec avg
+[2020-03-27 18:09:09.095] [info] Download test: Received 2450123 bytes	21% complete	74720069 bytes/sec avg
+[2020-03-27 18:09:09.121] [info] Download test: Received 2411168 bytes	21% complete	74967744 bytes/sec avg
+[2020-03-27 18:09:09.151] [info] Download test: Received 273060 bytes	21% complete	74027677 bytes/sec avg
+[2020-03-27 18:09:09.175] [info] Download test: Received 696815 bytes	21% complete	73524922 bytes/sec avg
+[2020-03-27 18:09:09.225] [info] Download test: Received 3364750 bytes	22% complete	73403761 bytes/sec avg
+[2020-03-27 18:09:09.242] [info] Download test: Received 2530399 bytes	22% complete	73969381 bytes/sec avg
+[2020-03-27 18:09:09.270] [info] Download test: Received 976134 bytes	22% complete	73475702 bytes/sec avg
+[2020-03-27 18:09:09.297] [info] Download test: Received 2916198 bytes	22% complete	73894801 bytes/sec avg
+[2020-03-27 18:09:09.349] [info] Download test: Received 1745926 bytes	23% complete	73000956 bytes/sec avg
+[2020-03-27 18:09:09.370] [info] Download test: Received 1449232 bytes	23% complete	72983476 bytes/sec avg
+[2020-03-27 18:09:09.389] [info] Download test: Received 124528 bytes	23% complete	72423273 bytes/sec avg
+[2020-03-27 18:09:09.408] [info] Download test: Received 1692509 bytes	23% complete	72556227 bytes/sec avg
+[2020-03-27 18:09:09.459] [info] Download test: Received 1175933 bytes	23% complete	71548222 bytes/sec avg
+[2020-03-27 18:09:09.477] [info] Download test: Received 4191124 bytes	23% complete	72725070 bytes/sec avg
+[2020-03-27 18:09:09.514] [info] Download test: Received 273066 bytes	24% complete	71738767 bytes/sec avg
+[2020-03-27 18:09:09.546] [info] Download test: Received 2262621 bytes	24% complete	71739458 bytes/sec avg
+[2020-03-27 18:09:09.567] [info] Download test: Received 745113 bytes	24% complete	71423782 bytes/sec avg
+[2020-03-27 18:09:09.635] [info] Download test: Received 1170223 bytes	25% complete	70024725 bytes/sec avg
+[2020-03-27 18:09:09.656] [info] Download test: Received 6292643 bytes	25% complete	71860620 bytes/sec avg
+[2020-03-27 18:09:09.676] [info] Download test: Received 3995849 bytes	25% complete	72852901 bytes/sec avg
+[2020-03-27 18:09:09.694] [info] Download test: Received 1482108 bytes	25% complete	72922130 bytes/sec avg
+[2020-03-27 18:09:09.726] [info] Download test: Received 5419779 bytes	25% complete	74107068 bytes/sec avg
+[2020-03-27 18:09:09.755] [info] Download test: Received 1756724 bytes	25% complete	73966048 bytes/sec avg
+[2020-03-27 18:09:09.776] [info] Download test: Received 1831066 bytes	25% complete	74051849 bytes/sec avg
+[2020-03-27 18:09:09.794] [info] Download test: Received 2173900 bytes	26% complete	74379398 bytes/sec avg
+[2020-03-27 18:09:09.813] [info] Download test: Received 690248 bytes	26% complete	74107675 bytes/sec avg
+[2020-03-27 18:09:09.832] [info] Download test: Received 660506 bytes	26% complete	73877322 bytes/sec avg
+[2020-03-27 18:09:09.855] [info] Download test: Received 3329877 bytes	26% complete	74435666 bytes/sec avg
+[2020-03-27 18:09:09.885] [info] Download test: Received 798866 bytes	26% complete	73924460 bytes/sec avg
+[2020-03-27 18:09:09.919] [info] Download test: Received 3017386 bytes	26% complete	74127828 bytes/sec avg
+[2020-03-27 18:09:09.950] [info] Download test: Received 682354 bytes	27% complete	73549610 bytes/sec avg
+[2020-03-27 18:09:09.969] [info] Download test: Received 2175374 bytes	27% complete	73838904 bytes/sec avg
+[2020-03-27 18:09:09.987] [info] Download test: Received 398199 bytes	27% complete	73529110 bytes/sec avg
+[2020-03-27 18:09:10.009] [info] Download test: Received 1275479 bytes	27% complete	73389512 bytes/sec avg
+[2020-03-27 18:09:10.027] [info] Download test: Received 1405987 bytes	27% complete	73433100 bytes/sec avg
+[2020-03-27 18:09:10.045] [info] Download test: Received 1155980 bytes	27% complete	73384512 bytes/sec avg
+[2020-03-27 18:09:10.071] [info] Download test: Received 724841 bytes	27% complete	72963126 bytes/sec avg
+[2020-03-27 18:09:10.089] [info] Download test: Received 2512196 bytes	28% complete	73378940 bytes/sec avg
+[2020-03-27 18:09:10.107] [info] Download test: Received 2596039 bytes	28% complete	73818268 bytes/sec avg
+[2020-03-27 18:09:10.125] [info] Download test: Received 1008038 bytes	28% complete	73722892 bytes/sec avg
+[2020-03-27 18:09:10.143] [info] Download test: Received 1715334 bytes	28% complete	73844305 bytes/sec avg
+[2020-03-27 18:09:10.161] [info] Download test: Received 1618652 bytes	28% complete	73948629 bytes/sec avg
+[2020-03-27 18:09:10.185] [info] Download test: Received 1875039 bytes	28% complete	73983889 bytes/sec avg
+[2020-03-27 18:09:10.203] [info] Download test: Received 1953431 bytes	28% complete	74195778 bytes/sec avg
+[2020-03-27 18:09:10.223] [info] Download test: Received 3260939 bytes	28% complete	74771028 bytes/sec avg
+[2020-03-27 18:09:10.241] [info] Download test: Received 600743 bytes	29% complete	74540609 bytes/sec avg
+[2020-03-27 18:09:10.259] [info] Download test: Received 3460724 bytes	29% complete	75212701 bytes/sec avg
+[2020-03-27 18:09:10.277] [info] Download test: Received 2093221 bytes	29% complete	75463288 bytes/sec avg
+[2020-03-27 18:09:10.303] [info] Download test: Received 3122425 bytes	29% complete	75837377 bytes/sec avg
+[2020-03-27 18:09:10.321] [info] Download test: Received 749872 bytes	29% complete	75658088 bytes/sec avg
+[2020-03-27 18:09:10.340] [info] Download test: Received 987536 bytes	29% complete	75504302 bytes/sec avg
+[2020-03-27 18:09:10.358] [info] Download test: Received 600745 bytes	29% complete	75279911 bytes/sec avg
+[2020-03-27 18:09:10.379] [info] Download test: Received 1997220 bytes	29% complete	75425808 bytes/sec avg
+[2020-03-27 18:09:10.413] [info] Download test: Received 1836732 bytes	30% complete	75246423 bytes/sec avg
+[2020-03-27 18:09:10.433] [info] Download test: Received 2965459 bytes	30% complete	75652006 bytes/sec avg
+[2020-03-27 18:09:10.451] [info] Download test: Received 1832373 bytes	30% complete	75808758 bytes/sec avg
+[2020-03-27 18:09:10.515] [info] Download test: Received 6322546 bytes	30% complete	76273617 bytes/sec avg
+[2020-03-27 18:09:10.537] [info] Download test: Received 466688 bytes	31% complete	75906728 bytes/sec avg
+[2020-03-27 18:09:10.563] [info] Download test: Received 920498 bytes	31% complete	75599275 bytes/sec avg
+[2020-03-27 18:09:10.581] [info] Download test: Received 3052208 bytes	31% complete	76105309 bytes/sec avg
+[2020-03-27 18:09:10.629] [info] Download test: Received 3486953 bytes	31% complete	76083337 bytes/sec avg
+[2020-03-27 18:09:10.651] [info] Download test: Received 810447 bytes	31% complete	75826737 bytes/sec avg
+[2020-03-27 18:09:10.670] [info] Download test: Received 666081 bytes	31% complete	75604338 bytes/sec avg
+[2020-03-27 18:09:10.695] [info] Download test: Received 708504 bytes	32% complete	75281325 bytes/sec avg
+[2020-03-27 18:09:10.713] [info] Download test: Received 2297589 bytes	32% complete	75562525 bytes/sec avg
+[2020-03-27 18:09:10.734] [info] Download test: Received 1356116 bytes	32% complete	75491763 bytes/sec avg
+[2020-03-27 18:09:10.754] [info] Download test: Received 328265 bytes	32% complete	75157857 bytes/sec avg
+[2020-03-27 18:09:10.772] [info] Download test: Received 1907057 bytes	32% complete	75328827 bytes/sec avg
+[2020-03-27 18:09:10.790] [info] Download test: Received 1008821 bytes	32% complete	75232565 bytes/sec avg
+[2020-03-27 18:09:10.809] [info] Download test: Received 1984274 bytes	32% complete	75383617 bytes/sec avg
+[2020-03-27 18:09:10.828] [info] Download test: Received 892161 bytes	32% complete	75234731 bytes/sec avg
+[2020-03-27 18:09:10.846] [info] Download test: Received 327680 bytes	33% complete	74959468 bytes/sec avg
+[2020-03-27 18:09:10.865] [info] Download test: Received 1518529 bytes	33% complete	74986587 bytes/sec avg
+[2020-03-27 18:09:10.895] [info] Download test: Received 1456295 bytes	33% complete	74774453 bytes/sec avg
+[2020-03-27 18:09:10.913] [info] Download test: Received 2123182 bytes	33% complete	74998365 bytes/sec avg
+[2020-03-27 18:09:10.932] [info] Download test: Received 3163878 bytes	33% complete	75467347 bytes/sec avg
+[2020-03-27 18:09:10.959] [info] Download test: Received 2036375 bytes	33% complete	75481304 bytes/sec avg
+[2020-03-27 18:09:10.978] [info] Download test: Received 2164618 bytes	33% complete	75682539 bytes/sec avg
+[2020-03-27 18:09:10.996] [info] Download test: Received 585834 bytes	34% complete	75485796 bytes/sec avg
+[2020-03-27 18:09:11.024] [info] Download test: Received 1725000 bytes	34% complete	75382363 bytes/sec avg
+[2020-03-27 18:09:11.047] [info] Download test: Received 1753552 bytes	34% complete	75455972 bytes/sec avg
+[2020-03-27 18:09:11.064] [info] Download test: Received 2738262 bytes	34% complete	75777534 bytes/sec avg
+[2020-03-27 18:09:11.083] [info] Download test: Received 1166260 bytes	34% complete	75719018 bytes/sec avg
+[2020-03-27 18:09:11.101] [info] Download test: Received 1031834 bytes	34% complete	75632742 bytes/sec avg
+[2020-03-27 18:09:11.158] [info] Download test: Received 3955150 bytes	35% complete	75558528 bytes/sec avg
+[2020-03-27 18:09:11.176] [info] Download test: Received 1095041 bytes	35% complete	75486317 bytes/sec avg
+[2020-03-27 18:09:11.226] [info] Download test: Received 1174993 bytes	35% complete	74842927 bytes/sec avg
+[2020-03-27 18:09:11.248] [info] Download test: Received 316041 bytes	35% complete	74497907 bytes/sec avg
+[2020-03-27 18:09:11.273] [info] Download test: Received 828299 bytes	35% complete	74380285 bytes/sec avg
+[2020-03-27 18:09:11.296] [info] Download test: Received 1711215 bytes	36% complete	74252222 bytes/sec avg
+[2020-03-27 18:09:11.315] [info] Download test: Received 5642305 bytes	36% complete	75321043 bytes/sec avg
+[2020-03-27 18:09:11.336] [info] Download test: Received 1074996 bytes	36% complete	75191473 bytes/sec avg
+[2020-03-27 18:09:11.354] [info] Download test: Received 3156918 bytes	36% complete	75652379 bytes/sec avg
+[2020-03-27 18:09:11.372] [info] Download test: Received 2505365 bytes	36% complete	75946193 bytes/sec avg
+[2020-03-27 18:09:11.390] [info] Download test: Received 2042621 bytes	36% complete	76112508 bytes/sec avg
+[2020-03-27 18:09:11.408] [info] Download test: Received 1043832 bytes	36% complete	76031783 bytes/sec avg
+[2020-03-27 18:09:11.433] [info] Download test: Received 2762330 bytes	37% complete	76247728 bytes/sec avg
+[2020-03-27 18:09:11.459] [info] Download test: Received 2435240 bytes	37% complete	76369991 bytes/sec avg
+[2020-03-27 18:09:11.479] [info] Download test: Received 2470124 bytes	37% complete	76610888 bytes/sec avg
+[2020-03-27 18:09:11.515] [info] Download test: Received 558867 bytes	37% complete	76117075 bytes/sec avg
+[2020-03-27 18:09:11.607] [info] Download test: Received 406888 bytes	38% complete	74551669 bytes/sec avg
+[2020-03-27 18:09:11.645] [info] Download test: Received 1225438 bytes	38% complete	74173691 bytes/sec avg
+[2020-03-27 18:09:11.688] [info] Download test: Received 2519984 bytes	38% complete	74037111 bytes/sec avg
+[2020-03-27 18:09:11.761] [info] Download test: Received 4059581 bytes	39% complete	73731342 bytes/sec avg
+[2020-03-27 18:09:11.783] [info] Download test: Received 3657550 bytes	39% complete	74197794 bytes/sec avg
+[2020-03-27 18:09:11.819] [info] Download test: Received 459363 bytes	39% complete	73941705 bytes/sec avg
+[2020-03-27 18:09:11.839] [info] Download test: Received 3437812 bytes	39% complete	74159701 bytes/sec avg
+[2020-03-27 18:09:11.857] [info] Download test: Received 518259 bytes	39% complete	73971754 bytes/sec avg
+[2020-03-27 18:09:11.876] [info] Download test: Received 2879727 bytes	39% complete	74306682 bytes/sec avg
+[2020-03-27 18:09:11.901] [info] Download test: Received 5631634 bytes	40% complete	75161775 bytes/sec avg
+[2020-03-27 18:09:11.918] [info] Download test: Received 273066 bytes	40% complete	74934140 bytes/sec avg
+[2020-03-27 18:09:11.959] [info] Download test: Received 3964837 bytes	40% complete	75138861 bytes/sec avg
+[2020-03-27 18:09:12.000] [info] Download test: Received 2398144 bytes	40% complete	75006440 bytes/sec avg
+[2020-03-27 18:09:12.021] [info] Download test: Received 2690448 bytes	40% complete	75247602 bytes/sec avg
+[2020-03-27 18:09:12.039] [info] Download test: Received 738480 bytes	41% complete	75122774 bytes/sec avg
+[2020-03-27 18:09:12.057] [info] Download test: Received 642305 bytes	41% complete	74966832 bytes/sec avg
+[2020-03-27 18:09:12.077] [info] Download test: Received 1239101 bytes	41% complete	74916955 bytes/sec avg
+[2020-03-27 18:09:12.110] [info] Download test: Received 2805871 bytes	41% complete	74997465 bytes/sec avg
+[2020-03-27 18:09:12.127] [info] Download test: Received 316680 bytes	41% complete	74785705 bytes/sec avg
+[2020-03-27 18:09:12.147] [info] Download test: Received 273066 bytes	41% complete	74536704 bytes/sec avg
+[2020-03-27 18:09:12.171] [info] Download test: Received 1970376 bytes	41% complete	74579502 bytes/sec avg
+[2020-03-27 18:09:12.226] [info] Download test: Received 903771 bytes	42% complete	73907201 bytes/sec avg
+[2020-03-27 18:09:12.244] [info] Download test: Received 2353650 bytes	42% complete	74129991 bytes/sec avg
+[2020-03-27 18:09:12.272] [info] Download test: Received 3565357 bytes	42% complete	74445217 bytes/sec avg
+[2020-03-27 18:09:12.291] [info] Download test: Received 1401230 bytes	42% complete	74454289 bytes/sec avg
+[2020-03-27 18:09:12.310] [info] Download test: Received 867075 bytes	42% complete	74337117 bytes/sec avg
+[2020-03-27 18:09:12.342] [info] Download test: Received 2055935 bytes	43% complete	74276121 bytes/sec avg
+[2020-03-27 18:09:12.361] [info] Download test: Received 1773412 bytes	43% complete	74354811 bytes/sec avg
+[2020-03-27 18:09:12.402] [info] Download test: Received 273065 bytes	43% complete	73783088 bytes/sec avg
+[2020-03-27 18:09:12.420] [info] Download test: Received 1911458 bytes	43% complete	73909218 bytes/sec avg
+[2020-03-27 18:09:12.464] [info] Download test: Received 3804127 bytes	43% complete	74026776 bytes/sec avg
+[2020-03-27 18:09:12.492] [info] Download test: Received 2887156 bytes	44% complete	74197961 bytes/sec avg
+[2020-03-27 18:09:12.516] [info] Download test: Received 273066 bytes	44% complete	73904089 bytes/sec avg
+[2020-03-27 18:09:12.537] [info] Download test: Received 1975174 bytes	44% complete	73985944 bytes/sec avg
+[2020-03-27 18:09:12.557] [info] Download test: Received 3105270 bytes	44% complete	74316116 bytes/sec avg
+[2020-03-27 18:09:12.581] [info] Download test: Received 327680 bytes	44% complete	74062494 bytes/sec avg
+[2020-03-27 18:09:12.611] [info] Download test: Received 3846696 bytes	44% complete	74357941 bytes/sec avg
+[2020-03-27 18:09:12.647] [info] Download test: Received 2274903 bytes	45% complete	74278097 bytes/sec avg
+[2020-03-27 18:09:12.670] [info] Download test: Received 1256105 bytes	45% complete	74194490 bytes/sec avg
+[2020-03-27 18:09:12.700] [info] Download test: Received 1114841 bytes	45% complete	73978186 bytes/sec avg
+[2020-03-27 18:09:12.721] [info] Download test: Received 594522 bytes	45% complete	73806936 bytes/sec avg
+[2020-03-27 18:09:12.746] [info] Download test: Received 1637757 bytes	45% complete	73759062 bytes/sec avg
+[2020-03-27 18:09:12.768] [info] Download test: Received 690247 bytes	45% complete	73593217 bytes/sec avg
+[2020-03-27 18:09:12.786] [info] Download test: Received 2512206 bytes	46% complete	73815737 bytes/sec avg
+[2020-03-27 18:09:12.912] [info] Download test: Received 5226316 bytes	46% complete	73063450 bytes/sec avg
+[2020-03-27 18:09:12.930] [info] Download test: Received 1529162 bytes	46% complete	73105911 bytes/sec avg
+[2020-03-27 18:09:12.948] [info] Download test: Received 3950357 bytes	47% complete	73601488 bytes/sec avg
+[2020-03-27 18:09:12.967] [info] Download test: Received 983039 bytes	47% complete	73538424 bytes/sec avg
+[2020-03-27 18:09:12.984] [info] Download test: Received 1146874 bytes	47% complete	73512893 bytes/sec avg
+[2020-03-27 18:09:13.002] [info] Download test: Received 922189 bytes	47% complete	73447048 bytes/sec avg
+[2020-03-27 18:09:13.059] [info] Download test: Received 4414825 bytes	47% complete	73493827 bytes/sec avg
+[2020-03-27 18:09:13.078] [info] Download test: Received 2040836 bytes	47% complete	73612563 bytes/sec avg
+[2020-03-27 18:09:13.096] [info] Download test: Received 928426 bytes	48% complete	73544004 bytes/sec avg
+[2020-03-27 18:09:13.114] [info] Download test: Received 3367422 bytes	48% complete	73921628 bytes/sec avg
+[2020-03-27 18:09:13.132] [info] Download test: Received 3563295 bytes	48% complete	74332486 bytes/sec avg
+[2020-03-27 18:09:13.163] [info] Download test: Received 2201198 bytes	48% complete	74315340 bytes/sec avg
+[2020-03-27 18:09:13.207] [info] Download test: Received 1101366 bytes	48% complete	73933959 bytes/sec avg
+[2020-03-27 18:09:13.226] [info] Download test: Received 1900833 bytes	48% complete	74018046 bytes/sec avg
+[2020-03-27 18:09:13.245] [info] Download test: Received 1334439 bytes	49% complete	74020527 bytes/sec avg
+[2020-03-27 18:09:13.263] [info] Download test: Received 500621 bytes	49% complete	73862919 bytes/sec avg
+[2020-03-27 18:09:13.281] [info] Download test: Received 366343 bytes	49% complete	73697837 bytes/sec avg
+[2020-03-27 18:09:13.301] [info] Download test: Received 1982862 bytes	49% complete	73785097 bytes/sec avg
+[2020-03-27 18:09:13.327] [info] Download test: Received 45494 bytes	49% complete	73465566 bytes/sec avg
+[2020-03-27 18:09:13.349] [info] Download test: Received 1518112 bytes	49% complete	73463708 bytes/sec avg
+[2020-03-27 18:09:13.387] [info] Download test: Received 1856850 bytes	50% complete	73279888 bytes/sec avg
+[2020-03-27 18:09:13.412] [info] Download test: Received 1921295 bytes	50% complete	73304025 bytes/sec avg
+[2020-03-27 18:09:13.430] [info] Download test: Received 500617 bytes	50% complete	73155977 bytes/sec avg
+[2020-03-27 18:09:13.454] [info] Download test: Received 273066 bytes	50% complete	72899891 bytes/sec avg
+[2020-03-27 18:09:13.497] [info] Download test: Received 4932028 bytes	50% complete	73206036 bytes/sec avg
+[2020-03-27 18:09:13.532] [info] Download test: Received 1673285 bytes	50% complete	73061246 bytes/sec avg
+[2020-03-27 18:09:13.550] [info] Download test: Received 655360 bytes	51% complete	72949181 bytes/sec avg
+[2020-03-27 18:09:13.567] [info] Download test: Received 189628 bytes	51% complete	72761457 bytes/sec avg
+[2020-03-27 18:09:13.588] [info] Download test: Received 1155971 bytes	51% complete	72700424 bytes/sec avg
+[2020-03-27 18:09:13.623] [info] Download test: Received 2501296 bytes	51% complete	72694117 bytes/sec avg
+[2020-03-27 18:09:13.654] [info] Download test: Received 3686927 bytes	51% complete	72932171 bytes/sec avg
+[2020-03-27 18:09:13.673] [info] Download test: Received 3058340 bytes	51% complete	73222566 bytes/sec avg
+[2020-03-27 18:09:13.691] [info] Download test: Received 501834 bytes	52% complete	73080750 bytes/sec avg
+[2020-03-27 18:09:13.710] [info] Download test: Received 1201491 bytes	52% complete	73045390 bytes/sec avg
+[2020-03-27 18:09:13.728] [info] Download test: Received 802747 bytes	52% complete	72959502 bytes/sec avg
+[2020-03-27 18:09:13.747] [info] Download test: Received 1374431 bytes	52% complete	72957638 bytes/sec avg
+[2020-03-27 18:09:13.773] [info] Download test: Received 3479926 bytes	52% complete	73223714 bytes/sec avg
+[2020-03-27 18:09:13.797] [info] Download test: Received 1259821 bytes	52% complete	73145651 bytes/sec avg
+[2020-03-27 18:09:13.816] [info] Download test: Received 1919720 bytes	52% complete	73231922 bytes/sec avg
+[2020-03-27 18:09:13.856] [info] Download test: Received 3171010 bytes	53% complete	73392364 bytes/sec avg
+[2020-03-27 18:09:13.876] [info] Download test: Received 500621 bytes	53% complete	73114196 bytes/sec avg
+[2020-03-27 18:09:13.898] [info] Download test: Received 820598 bytes	53% complete	72980961 bytes/sec avg
+[2020-03-27 18:09:13.919] [info] Download test: Received 2240544 bytes	53% complete	73096099 bytes/sec avg
+[2020-03-27 18:09:13.954] [info] Download test: Received 1728121 bytes	53% complete	73065384 bytes/sec avg
+[2020-03-27 18:09:13.972] [info] Download test: Received 3763387 bytes	53% complete	73360351 bytes/sec avg
+[2020-03-27 18:09:14.006] [info] Download test: Received 690216 bytes	54% complete	73064315 bytes/sec avg
+[2020-03-27 18:09:14.024] [info] Download test: Received 327680 bytes	54% complete	72908716 bytes/sec avg
+[2020-03-27 18:09:14.042] [info] Download test: Received 828255 bytes	54% complete	72836428 bytes/sec avg
+[2020-03-27 18:09:14.061] [info] Download test: Received 546116 bytes	54% complete	72710678 bytes/sec avg
+[2020-03-27 18:09:14.078] [info] Download test: Received 1966074 bytes	54% complete	72816281 bytes/sec avg
+[2020-03-27 18:09:14.098] [info] Download test: Received 2123956 bytes	54% complete	72926093 bytes/sec avg
+[2020-03-27 18:09:14.116] [info] Download test: Received 82104 bytes	54% complete	72729140 bytes/sec avg
+[2020-03-27 18:09:14.138] [info] Download test: Received 786089 bytes	55% complete	72679952 bytes/sec avg
+[2020-03-27 18:09:14.158] [info] Download test: Received 353311 bytes	55% complete	72592136 bytes/sec avg
+[2020-03-27 18:09:14.183] [info] Download test: Received 2102728 bytes	55% complete	72610639 bytes/sec avg
+[2020-03-27 18:09:14.202] [info] Download test: Received 1902324 bytes	55% complete	72645290 bytes/sec avg
+[2020-03-27 18:09:14.220] [info] Download test: Received 934217 bytes	55% complete	72621746 bytes/sec avg
+[2020-03-27 18:09:14.238] [info] Download test: Received 514040 bytes	55% complete	72569059 bytes/sec avg
+[2020-03-27 18:09:14.257] [info] Download test: Received 4185016 bytes	55% complete	72816279 bytes/sec avg
+[2020-03-27 18:09:14.276] [info] Download test: Received 2005959 bytes	55% complete	72902479 bytes/sec avg
+[2020-03-27 18:09:14.298] [info] Download test: Received 1851274 bytes	56% complete	72983538 bytes/sec avg
+[2020-03-27 18:09:14.327] [info] Download test: Received 519226 bytes	56% complete	72760472 bytes/sec avg
+[2020-03-27 18:09:14.348] [info] Download test: Received 902710 bytes	56% complete	72671455 bytes/sec avg
+[2020-03-27 18:09:14.368] [info] Download test: Received 1809646 bytes	56% complete	72694895 bytes/sec avg
+[2020-03-27 18:09:14.387] [info] Download test: Received 572391 bytes	56% complete	72641511 bytes/sec avg
+[2020-03-27 18:09:14.416] [info] Download test: Received 4309503 bytes	56% complete	72870630 bytes/sec avg
+[2020-03-27 18:09:14.441] [info] Download test: Received 589768 bytes	57% complete	72704401 bytes/sec avg
+[2020-03-27 18:09:14.484] [info] Download test: Received 2700295 bytes	57% complete	72689592 bytes/sec avg
+[2020-03-27 18:09:14.518] [info] Download test: Received 2862584 bytes	57% complete	72703500 bytes/sec avg
+[2020-03-27 18:09:14.550] [info] Download test: Received 3773625 bytes	57% complete	72891446 bytes/sec avg
+[2020-03-27 18:09:14.571] [info] Download test: Received 961472 bytes	57% complete	72814252 bytes/sec avg
+[2020-03-27 18:09:14.590] [info] Download test: Received 851856 bytes	58% complete	72734511 bytes/sec avg
+[2020-03-27 18:09:14.608] [info] Download test: Received 1358983 bytes	58% complete	72746915 bytes/sec avg
+[2020-03-27 18:09:14.626] [info] Download test: Received 3017403 bytes	58% complete	72986320 bytes/sec avg
+[2020-03-27 18:09:14.655] [info] Download test: Received 1796410 bytes	58% complete	72938160 bytes/sec avg
+[2020-03-27 18:09:14.677] [info] Download test: Received 365732 bytes	58% complete	72770526 bytes/sec avg
+[2020-03-27 18:09:14.696] [info] Download test: Received 1983201 bytes	58% complete	72850133 bytes/sec avg
+[2020-03-27 18:09:14.721] [info] Download test: Received 1254804 bytes	58% complete	72766644 bytes/sec avg
+[2020-03-27 18:09:14.751] [info] Download test: Received 2410669 bytes	59% complete	72804986 bytes/sec avg
+[2020-03-27 18:09:14.772] [info] Download test: Received 905856 bytes	59% complete	72714253 bytes/sec avg
+[2020-03-27 18:09:14.790] [info] Download test: Received 1507587 bytes	59% complete	72743067 bytes/sec avg
+[2020-03-27 18:09:14.809] [info] Download test: Received 1044791 bytes	59% complete	72708167 bytes/sec avg
+[2020-03-27 18:09:14.854] [info] Download test: Received 760806 bytes	59% complete	72628652 bytes/sec avg
+[2020-03-27 18:09:14.880] [info] Download test: Received 782788 bytes	59% complete	72504659 bytes/sec avg
+[2020-03-27 18:09:14.903] [info] Download test: Received 739943 bytes	60% complete	72454834 bytes/sec avg
+[2020-03-27 18:09:14.942] [info] Download test: Received 2747450 bytes	60% complete	72453046 bytes/sec avg
+[2020-03-27 18:09:14.960] [info] Download test: Received 1741808 bytes	60% complete	72478460 bytes/sec avg
+[2020-03-27 18:09:14.993] [info] Download test: Received 827015 bytes	60% complete	72398677 bytes/sec avg
+[2020-03-27 18:09:15.015] [info] Download test: Received 227550 bytes	60% complete	72325960 bytes/sec avg
+[2020-03-27 18:09:15.039] [info] Download test: Received 575199 bytes	61% complete	72268333 bytes/sec avg
+[2020-03-27 18:09:15.070] [info] Download test: Received 5571555 bytes	61% complete	72446137 bytes/sec avg
+[2020-03-27 18:09:15.101] [info] Download test: Received 2104807 bytes	61% complete	72441066 bytes/sec avg
+[2020-03-27 18:09:15.119] [info] Download test: Received 917785 bytes	61% complete	72420232 bytes/sec avg
+[2020-03-27 18:09:15.137] [info] Download test: Received 3224410 bytes	61% complete	72521752 bytes/sec avg
+[2020-03-27 18:09:15.183] [info] Download test: Received 567553 bytes	62% complete	72382572 bytes/sec avg
+[2020-03-27 18:09:15.203] [info] Download test: Received 3921860 bytes	62% complete	72509538 bytes/sec avg
+[2020-03-27 18:09:15.233] [info] Download test: Received 320850 bytes	62% complete	72419662 bytes/sec avg
+[2020-03-27 18:09:15.252] [info] Download test: Received 2927633 bytes	62% complete	72497493 bytes/sec avg
+[2020-03-27 18:09:15.283] [info] Download test: Received 3330902 bytes	62% complete	72551744 bytes/sec avg
+[2020-03-27 18:09:15.328] [info] Download test: Received 2342792 bytes	62% complete	72510947 bytes/sec avg
+[2020-03-27 18:09:15.345] [info] Download test: Received 1454554 bytes	63% complete	72520035 bytes/sec avg
+[2020-03-27 18:09:15.363] [info] Download test: Received 189628 bytes	63% complete	72468646 bytes/sec avg
+[2020-03-27 18:09:15.381] [info] Download test: Received 1543548 bytes	63% complete	72481309 bytes/sec avg
+[2020-03-27 18:09:15.404] [info] Download test: Received 3250260 bytes	63% complete	72558669 bytes/sec avg
+[2020-03-27 18:09:15.433] [info] Download test: Received 2234904 bytes	63% complete	72565656 bytes/sec avg
+[2020-03-27 18:09:15.452] [info] Download test: Received 1076700 bytes	63% complete	72555123 bytes/sec avg
+[2020-03-27 18:09:15.485] [info] Download test: Received 2977788 bytes	64% complete	72578786 bytes/sec avg
+[2020-03-27 18:09:15.516] [info] Download test: Received 1971412 bytes	64% complete	72569453 bytes/sec avg
+[2020-03-27 18:09:15.534] [info] Download test: Received 1155968 bytes	64% complete	72564192 bytes/sec avg
+[2020-03-27 18:09:15.553] [info] Download test: Received 901252 bytes	64% complete	72542978 bytes/sec avg
+[2020-03-27 18:09:15.573] [info] Download test: Received 858057 bytes	64% complete	72517822 bytes/sec avg
+[2020-03-27 18:09:15.590] [info] Download test: Received 888449 bytes	64% complete	72501051 bytes/sec avg
+[2020-03-27 18:09:15.618] [info] Download test: Received 1522123 bytes	64% complete	72480569 bytes/sec avg
+[2020-03-27 18:09:15.646] [info] Download test: Received 1988125 bytes	65% complete	72480221 bytes/sec avg
+[2020-03-27 18:09:15.666] [info] Download test: Received 227555 bytes	65% complete	72429756 bytes/sec avg
+[2020-03-27 18:09:15.686] [info] Download test: Received 805185 bytes	65% complete	72404027 bytes/sec avg
+[2020-03-27 18:09:15.703] [info] Download test: Received 2288186 bytes	65% complete	72449048 bytes/sec avg
+[2020-03-27 18:09:15.721] [info] Download test: Received 1702102 bytes	65% complete	72468417 bytes/sec avg
+[2020-03-27 18:09:15.741] [info] Download test: Received 1311186 bytes	65% complete	72463516 bytes/sec avg
+[2020-03-27 18:09:15.761] [info] Download test: Received 856140 bytes	65% complete	72439977 bytes/sec avg
+[2020-03-27 18:09:15.779] [info] Download test: Received 1583785 bytes	65% complete	72452592 bytes/sec avg
+[2020-03-27 18:09:15.799] [info] Download test: Received 1582305 bytes	66% complete	72459908 bytes/sec avg
+[2020-03-27 18:09:15.823] [info] Download test: Received 1776679 bytes	66% complete	72469010 bytes/sec avg
+[2020-03-27 18:09:15.843] [info] Download test: Received 894677 bytes	66% complete	72440708 bytes/sec avg
+[2020-03-27 18:09:15.896] [info] Download test: Received 1817749 bytes	66% complete	72365101 bytes/sec avg
+[2020-03-27 18:09:15.924] [info] Download test: Received 227555 bytes	66% complete	72295696 bytes/sec avg
+[2020-03-27 18:09:15.942] [info] Download test: Received 455110 bytes	67% complete	72261794 bytes/sec avg
+[2020-03-27 18:09:15.975] [info] Download test: Received 2470460 bytes	67% complete	72270215 bytes/sec avg
+[2020-03-27 18:09:15.994] [info] Download test: Received 2399271 bytes	67% complete	72312260 bytes/sec avg
+[2020-03-27 18:09:16.015] [info] Download test: Received 3713329 bytes	67% complete	72409080 bytes/sec avg
+[2020-03-27 18:09:16.034] [info] Download test: Received 2129913 bytes	67% complete	72431463 bytes/sec avg
+[2020-03-27 18:09:16.053] [info] Download test: Received 354137 bytes	67% complete	72395026 bytes/sec avg
+[2020-03-27 18:09:16.071] [info] Download test: Received 925104 bytes	67% complete	72382073 bytes/sec avg
+[2020-03-27 18:09:16.090] [info] Download test: Received 1941895 bytes	68% complete	72404116 bytes/sec avg
+[2020-03-27 18:09:16.108] [info] Download test: Received 498954 bytes	68% complete	72376633 bytes/sec avg
+[2020-03-27 18:09:16.126] [info] Download test: Received 3899349 bytes	68% complete	72475242 bytes/sec avg
+[2020-03-27 18:09:16.144] [info] Download test: Received 301183 bytes	68% complete	72440226 bytes/sec avg
+[2020-03-27 18:09:16.164] [info] Download test: Received 2173043 bytes	68% complete	72466980 bytes/sec avg
+[2020-03-27 18:09:16.187] [info] Download test: Received 4192802 bytes	68% complete	72562856 bytes/sec avg
+[2020-03-27 18:09:16.207] [info] Download test: Received 857235 bytes	68% complete	72541193 bytes/sec avg
+[2020-03-27 18:09:16.225] [info] Download test: Received 1665197 bytes	68% complete	72555375 bytes/sec avg
+[2020-03-27 18:09:16.262] [info] Download test: Received 869769 bytes	69% complete	72492105 bytes/sec avg
+[2020-03-27 18:09:16.280] [info] Download test: Received 1924765 bytes	69% complete	72516545 bytes/sec avg
+[2020-03-27 18:09:16.297] [info] Download test: Received 1110454 bytes	69% complete	72511058 bytes/sec avg
+[2020-03-27 18:09:16.412] [info] Download test: Received 8612616 bytes	70% complete	72529470 bytes/sec avg
+[2020-03-27 18:09:16.429] [info] Download test: Received 2434700 bytes	70% complete	72569677 bytes/sec avg
+[2020-03-27 18:09:16.533] [info] Download test: Received 4879772 bytes	70% complete	72488692 bytes/sec avg
+[2020-03-27 18:09:16.551] [info] Download test: Received 2266422 bytes	71% complete	72519481 bytes/sec avg
+[2020-03-27 18:09:16.579] [info] Download test: Received 828300 bytes	71% complete	72483014 bytes/sec avg
+[2020-03-27 18:09:16.623] [info] Download test: Received 1578018 bytes	71% complete	72435731 bytes/sec avg
+[2020-03-27 18:09:16.683] [info] Download test: Received 5390228 bytes	72% complete	72472606 bytes/sec avg
+[2020-03-27 18:09:16.718] [info] Download test: Received 2619274 bytes	72% complete	72478829 bytes/sec avg
+[2020-03-27 18:09:16.755] [info] Download test: Received 1774275 bytes	72% complete	72477177 bytes/sec avg
+[2020-03-27 18:09:16.787] [info] Download test: Received 3516090 bytes	72% complete	72491101 bytes/sec avg
+[2020-03-27 18:09:16.805] [info] Download test: Received 527913 bytes	72% complete	72470388 bytes/sec avg
+[2020-03-27 18:09:16.823] [info] Download test: Received 2158034 bytes	72% complete	72497183 bytes/sec avg
+[2020-03-27 18:09:16.842] [info] Download test: Received 564333 bytes	73% complete	72476228 bytes/sec avg
+[2020-03-27 18:09:16.860] [info] Download test: Received 946543 bytes	73% complete	72465326 bytes/sec avg
+[2020-03-27 18:09:16.878] [info] Download test: Received 1552731 bytes	73% complete	72473422 bytes/sec avg
+[2020-03-27 18:09:16.897] [info] Download test: Received 828282 bytes	73% complete	72459705 bytes/sec avg
+[2020-03-27 18:09:16.915] [info] Download test: Received 1060437 bytes	73% complete	72454636 bytes/sec avg
+[2020-03-27 18:09:16.940] [info] Download test: Received 4082062 bytes	73% complete	72522396 bytes/sec avg
+[2020-03-27 18:09:16.964] [info] Download test: Received 2254019 bytes	73% complete	72537336 bytes/sec avg
+[2020-03-27 18:09:16.986] [info] Download test: Received 2158980 bytes	74% complete	72557803 bytes/sec avg
+[2020-03-27 18:09:17.012] [info] Download test: Received 1495179 bytes	74% complete	72544482 bytes/sec avg
+[2020-03-27 18:09:17.034] [info] Download test: Received 1270762 bytes	74% complete	72536720 bytes/sec avg
+[2020-03-27 18:09:17.055] [info] Download test: Received 1549010 bytes	74% complete	72539614 bytes/sec avg
+[2020-03-27 18:09:17.075] [info] Download test: Received 273066 bytes	74% complete	72508161 bytes/sec avg
+[2020-03-27 18:09:17.106] [info] Download test: Received 4300001 bytes	74% complete	72566859 bytes/sec avg
+[2020-03-27 18:09:17.130] [info] Download test: Received 711985 bytes	74% complete	72538524 bytes/sec avg
+[2020-03-27 18:09:17.148] [info] Download test: Received 984017 bytes	75% complete	72532022 bytes/sec avg
+[2020-03-27 18:09:17.175] [info] Download test: Received 886335 bytes	75% complete	72506610 bytes/sec avg
+[2020-03-27 18:09:17.193] [info] Download test: Received 1904144 bytes	75% complete	72523119 bytes/sec avg
+[2020-03-27 18:09:17.211] [info] Download test: Received 1298464 bytes	75% complete	72523032 bytes/sec avg
+[2020-03-27 18:09:17.233] [info] Download test: Received 751296 bytes	75% complete	72503552 bytes/sec avg
+[2020-03-27 18:09:17.252] [info] Download test: Received 600743 bytes	75% complete	72486045 bytes/sec avg
+[2020-03-27 18:09:17.269] [info] Download test: Received 1201488 bytes	75% complete	72485553 bytes/sec avg
+[2020-03-27 18:09:17.290] [info] Download test: Received 1467947 bytes	76% complete	72486165 bytes/sec avg
+[2020-03-27 18:09:17.323] [info] Download test: Received 1377224 bytes	76% complete	72463538 bytes/sec avg
+[2020-03-27 18:09:17.344] [info] Download test: Received 600746 bytes	76% complete	72443096 bytes/sec avg
+[2020-03-27 18:09:17.362] [info] Download test: Received 462692 bytes	76% complete	72425329 bytes/sec avg
+[2020-03-27 18:09:17.380] [info] Download test: Received 3369576 bytes	76% complete	72475941 bytes/sec avg
+[2020-03-27 18:09:17.440] [info] Download test: Received 4704864 bytes	77% complete	72490473 bytes/sec avg
+[2020-03-27 18:09:17.473] [info] Download test: Received 828298 bytes	77% complete	72457433 bytes/sec avg
+[2020-03-27 18:09:17.491] [info] Download test: Received 1248800 bytes	77% complete	72457689 bytes/sec avg
+[2020-03-27 18:09:17.508] [info] Download test: Received 3019425 bytes	77% complete	72499437 bytes/sec avg
+[2020-03-27 18:09:17.526] [info] Download test: Received 2318247 bytes	77% complete	72523837 bytes/sec avg
+[2020-03-27 18:09:17.547] [info] Download test: Received 983039 bytes	77% complete	72514229 bytes/sec avg
+[2020-03-27 18:09:17.566] [info] Download test: Received 1911465 bytes	77% complete	72527596 bytes/sec avg
+[2020-03-27 18:09:17.589] [info] Download test: Received 2728622 bytes	78% complete	72552887 bytes/sec avg
+[2020-03-27 18:09:17.618] [info] Download test: Received 873808 bytes	78% complete	72540549 bytes/sec avg
+[2020-03-27 18:09:17.638] [info] Download test: Received 2683304 bytes	78% complete	72554984 bytes/sec avg
+[2020-03-27 18:09:17.684] [info] Download test: Received 2630529 bytes	78% complete	72544101 bytes/sec avg
+[2020-03-27 18:09:17.707] [info] Download test: Received 327679 bytes	78% complete	72520419 bytes/sec avg
+[2020-03-27 18:09:17.737] [info] Download test: Received 2003588 bytes	79% complete	72514925 bytes/sec avg
+[2020-03-27 18:09:17.755] [info] Download test: Received 873809 bytes	79% complete	72508037 bytes/sec avg
+[2020-03-27 18:09:17.781] [info] Download test: Received 2024282 bytes	79% complete	72516523 bytes/sec avg
+[2020-03-27 18:09:17.802] [info] Download test: Received 500621 bytes	79% complete	72494234 bytes/sec avg
+[2020-03-27 18:09:17.823] [info] Download test: Received 1776082 bytes	79% complete	72500392 bytes/sec avg
+[2020-03-27 18:09:17.845] [info] Download test: Received 462694 bytes	79% complete	72479692 bytes/sec avg
+[2020-03-27 18:09:17.867] [info] Download test: Received 2442512 bytes	79% complete	72499178 bytes/sec avg
+[2020-03-27 18:09:17.921] [info] Download test: Received 1618666 bytes	80% complete	72463480 bytes/sec avg
+[2020-03-27 18:09:17.944] [info] Download test: Received 2896235 bytes	80% complete	72485671 bytes/sec avg
+[2020-03-27 18:09:17.964] [info] Download test: Received 273066 bytes	80% complete	72464931 bytes/sec avg
+[2020-03-27 18:09:18.002] [info] Download test: Received 3737197 bytes	80% complete	72489243 bytes/sec avg
+[2020-03-27 18:09:18.022] [info] Download test: Received 3488058 bytes	80% complete	72528042 bytes/sec avg
+[2020-03-27 18:09:18.041] [info] Download test: Received 327680 bytes	81% complete	72508711 bytes/sec avg
+[2020-03-27 18:09:18.090] [info] Download test: Received 1316641 bytes	81% complete	72473346 bytes/sec avg
+[2020-03-27 18:09:18.114] [info] Download test: Received 1702112 bytes	81% complete	72475569 bytes/sec avg
+[2020-03-27 18:09:18.146] [info] Download test: Received 2837168 bytes	81% complete	72487721 bytes/sec avg
+[2020-03-27 18:09:18.168] [info] Download test: Received 882913 bytes	81% complete	72482468 bytes/sec avg
+[2020-03-27 18:09:18.186] [info] Download test: Received 1891734 bytes	82% complete	72489274 bytes/sec avg
+[2020-03-27 18:09:18.208] [info] Download test: Received 2669414 bytes	82% complete	72510104 bytes/sec avg
+[2020-03-27 18:09:18.227] [info] Download test: Received 1736758 bytes	82% complete	72517781 bytes/sec avg
+[2020-03-27 18:09:18.246] [info] Download test: Received 1012970 bytes	82% complete	72514322 bytes/sec avg
+[2020-03-27 18:09:18.271] [info] Download test: Received 3168421 bytes	82% complete	72538473 bytes/sec avg
+[2020-03-27 18:09:18.290] [info] Download test: Received 600746 bytes	82% complete	72528072 bytes/sec avg
+[2020-03-27 18:09:18.310] [info] Download test: Received 1040937 bytes	82% complete	72521894 bytes/sec avg
+[2020-03-27 18:09:18.331] [info] Download test: Received 1556857 bytes	82% complete	72524768 bytes/sec avg
+[2020-03-27 18:09:18.353] [info] Download test: Received 4075265 bytes	83% complete	72565573 bytes/sec avg
+[2020-03-27 18:09:18.373] [info] Download test: Received 2647812 bytes	83% complete	72588163 bytes/sec avg
+[2020-03-27 18:09:18.391] [info] Download test: Received 2620435 bytes	83% complete	72608044 bytes/sec avg
+[2020-03-27 18:09:18.411] [info] Download test: Received 804600 bytes	83% complete	72599243 bytes/sec avg
+[2020-03-27 18:09:18.433] [info] Download test: Received 931927 bytes	83% complete	72590466 bytes/sec avg
+[2020-03-27 18:09:18.451] [info] Download test: Received 396752 bytes	83% complete	72577775 bytes/sec avg
+[2020-03-27 18:09:18.493] [info] Download test: Received 2538259 bytes	84% complete	72572698 bytes/sec avg
+[2020-03-27 18:09:18.632] [info] Download test: Received 7424453 bytes	84% complete	72545913 bytes/sec avg
+[2020-03-27 18:09:18.697] [info] Download test: Received 5734152 bytes	85% complete	72565235 bytes/sec avg
+[2020-03-27 18:09:18.716] [info] Download test: Received 2547503 bytes	85% complete	72582100 bytes/sec avg
+[2020-03-27 18:09:18.735] [info] Download test: Received 2239145 bytes	85% complete	72595123 bytes/sec avg
+[2020-03-27 18:09:18.765] [info] Download test: Received 958577 bytes	85% complete	72589864 bytes/sec avg
+[2020-03-27 18:09:18.786] [info] Download test: Received 1287309 bytes	86% complete	72579620 bytes/sec avg
+[2020-03-27 18:09:18.809] [info] Download test: Received 1791046 bytes	86% complete	72582885 bytes/sec avg
+[2020-03-27 18:09:18.856] [info] Download test: Received 3477403 bytes	86% complete	72600195 bytes/sec avg
+[2020-03-27 18:09:18.888] [info] Download test: Received 2038382 bytes	86% complete	72586626 bytes/sec avg
+[2020-03-27 18:09:18.905] [info] Download test: Received 2720255 bytes	86% complete	72604763 bytes/sec avg
+[2020-03-27 18:09:18.933] [info] Download test: Received 2677646 bytes	86% complete	72614627 bytes/sec avg
+[2020-03-27 18:09:18.952] [info] Download test: Received 1487573 bytes	87% complete	72616776 bytes/sec avg
+[2020-03-27 18:09:19.023] [info] Download test: Received 6071928 bytes	87% complete	72631077 bytes/sec avg
+[2020-03-27 18:09:19.042] [info] Download test: Received 2814341 bytes	87% complete	72648360 bytes/sec avg
+[2020-03-27 18:09:19.061] [info] Download test: Received 1167497 bytes	87% complete	72645961 bytes/sec avg
+[2020-03-27 18:09:19.091] [info] Download test: Received 1642681 bytes	88% complete	72642011 bytes/sec avg
+[2020-03-27 18:09:19.108] [info] Download test: Received 417183 bytes	88% complete	72633833 bytes/sec avg
+[2020-03-27 18:09:19.138] [info] Download test: Received 1435416 bytes	88% complete	72628466 bytes/sec avg
+[2020-03-27 18:09:19.178] [info] Download test: Received 782785 bytes	88% complete	72609863 bytes/sec avg
+[2020-03-27 18:09:19.196] [info] Download test: Received 1103754 bytes	88% complete	72608848 bytes/sec avg
+[2020-03-27 18:09:19.216] [info] Download test: Received 1583762 bytes	88% complete	72611698 bytes/sec avg
+[2020-03-27 18:09:19.264] [info] Download test: Received 2351618 bytes	89% complete	72604241 bytes/sec avg
+[2020-03-27 18:09:19.285] [info] Download test: Received 3921685 bytes	89% complete	72627835 bytes/sec avg
+[2020-03-27 18:09:19.303] [info] Download test: Received 1454618 bytes	89% complete	72630422 bytes/sec avg
+[2020-03-27 18:09:19.323] [info] Download test: Received 655360 bytes	89% complete	72624485 bytes/sec avg
+[2020-03-27 18:09:19.341] [info] Download test: Received 273066 bytes	89% complete	72616665 bytes/sec avg
+[2020-03-27 18:09:19.361] [info] Download test: Received 1951354 bytes	89% complete	72622579 bytes/sec avg
+[2020-03-27 18:09:19.379] [info] Download test: Received 500611 bytes	89% complete	72616500 bytes/sec avg
+[2020-03-27 18:09:19.427] [info] Download test: Received 690241 bytes	90% complete	72597640 bytes/sec avg
+[2020-03-27 18:09:19.459] [info] Download test: Received 2224271 bytes	90% complete	72602143 bytes/sec avg
+[2020-03-27 18:09:19.478] [info] Download test: Received 1529171 bytes	90% complete	72602112 bytes/sec avg
+[2020-03-27 18:09:19.506] [info] Download test: Received 1263086 bytes	90% complete	72598964 bytes/sec avg
+[2020-03-27 18:09:19.530] [info] Download test: Received 455110 bytes	90% complete	72591636 bytes/sec avg
+[2020-03-27 18:09:19.554] [info] Download test: Received 2575913 bytes	91% complete	72600852 bytes/sec avg
+[2020-03-27 18:09:19.573] [info] Download test: Received 2040222 bytes	91% complete	72607369 bytes/sec avg
+[2020-03-27 18:09:19.592] [info] Download test: Received 4032927 bytes	91% complete	72627429 bytes/sec avg
+[2020-03-27 18:09:19.613] [info] Download test: Received 898818 bytes	91% complete	72624876 bytes/sec avg
+[2020-03-27 18:09:19.633] [info] Download test: Received 928425 bytes	91% complete	72623046 bytes/sec avg
+[2020-03-27 18:09:19.651] [info] Download test: Received 393855 bytes	91% complete	72617975 bytes/sec avg
+[2020-03-27 18:09:19.672] [info] Download test: Received 1812756 bytes	91% complete	72621855 bytes/sec avg
+[2020-03-27 18:09:19.699] [info] Download test: Received 546127 bytes	92% complete	72614868 bytes/sec avg
+[2020-03-27 18:09:19.716] [info] Download test: Received 500618 bytes	92% complete	72611534 bytes/sec avg
+[2020-03-27 18:09:19.734] [info] Download test: Received 4143186 bytes	92% complete	72631262 bytes/sec avg
+[2020-03-27 18:09:19.752] [info] Download test: Received 2183890 bytes	92% complete	72638312 bytes/sec avg
+[2020-03-27 18:09:19.833] [info] Download test: Received 4926506 bytes	92% complete	72639082 bytes/sec avg
+[2020-03-27 18:09:19.852] [info] Download test: Received 1547361 bytes	93% complete	72641551 bytes/sec avg
+[2020-03-27 18:09:19.891] [info] Download test: Received 3398442 bytes	93% complete	72647844 bytes/sec avg
+[2020-03-27 18:09:19.910] [info] Download test: Received 600744 bytes	93% complete	72644928 bytes/sec avg
+[2020-03-27 18:09:20.006] [info] Download test: Received 1574684 bytes	94% complete	72626752 bytes/sec avg
+[2020-03-27 18:09:20.037] [info] Download test: Received 1111204 bytes	94% complete	72626124 bytes/sec avg
+[2020-03-27 18:09:20.111] [info] Download test: Received 4657165 bytes	94% complete	72632274 bytes/sec avg
+[2020-03-27 18:09:20.163] [info] Download test: Received 6071155 bytes	95% complete	72645566 bytes/sec avg
+[2020-03-27 18:09:20.194] [info] Download test: Received 2828184 bytes	95% complete	72651049 bytes/sec avg
+[2020-03-27 18:09:20.221] [info] Download test: Received 3997838 bytes	95% complete	72662509 bytes/sec avg
+[2020-03-27 18:09:20.243] [info] Download test: Received 1107793 bytes	95% complete	72661688 bytes/sec avg
+[2020-03-27 18:09:20.260] [info] Download test: Received 2019609 bytes	95% complete	72665258 bytes/sec avg
+[2020-03-27 18:09:20.281] [info] Download test: Received 2024786 bytes	95% complete	72668862 bytes/sec avg
+[2020-03-27 18:09:20.313] [info] Download test: Received 2902645 bytes	96% complete	72673183 bytes/sec avg
+[2020-03-27 18:09:20.335] [info] Download test: Received 804457 bytes	96% complete	72672631 bytes/sec avg
+[2020-03-27 18:09:20.358] [info] Download test: Received 599886 bytes	96% complete	72671683 bytes/sec avg
+[2020-03-27 18:09:20.382] [info] Download test: Received 1831606 bytes	96% complete	72674012 bytes/sec avg
+[2020-03-27 18:09:20.402] [info] Download test: Received 1781219 bytes	96% complete	72676618 bytes/sec avg
+[2020-03-27 18:09:20.429] [info] Download test: Received 745549 bytes	96% complete	72676119 bytes/sec avg
+[2020-03-27 18:09:20.447] [info] Download test: Received 546130 bytes	97% complete	72676068 bytes/sec avg
+[2020-03-27 18:09:20.468] [info] Download test: Received 1055854 bytes	97% complete	72677134 bytes/sec avg
+[2020-03-27 18:09:20.508] [info] Download test: Received 3458423 bytes	97% complete	72682159 bytes/sec avg
+[2020-03-27 18:09:20.526] [info] Download test: Received 368614 bytes	97% complete	72682163 bytes/sec avg
+[2020-03-27 18:09:20.574] [info] Download test: Received 1146874 bytes	97% complete	72683260 bytes/sec avg
+[2020-03-27 18:09:20.601] [info] Download test: Received 6515984 bytes	98% complete	72692922 bytes/sec avg
+[2020-03-27 18:09:20.626] [info] Download test: Received 928423 bytes	98% complete	72693952 bytes/sec avg
+[2020-03-27 18:09:20.658] [info] Download test: Received 1256105 bytes	98% complete	72695674 bytes/sec avg
+[2020-03-27 18:09:20.697] [info] Download test: Received 2225656 bytes	98% complete	72698886 bytes/sec avg
+[2020-03-27 18:09:20.715] [info] Download test: Received 2038888 bytes	98% complete	72701310 bytes/sec avg
+[2020-03-27 18:09:20.742] [info] Download test: Received 2189481 bytes	99% complete	72704063 bytes/sec avg
+[2020-03-27 18:09:20.761] [info] Download test: Received 986952 bytes	99% complete	72705620 bytes/sec avg
+[2020-03-27 18:09:20.795] [info] Download test: Received 2977069 bytes	99% complete	72709154 bytes/sec avg
+[2020-03-27 18:09:20.815] [info] Download test: Received 882915 bytes	99% complete	72710802 bytes/sec avg
+[2020-03-27 18:09:20.869] [info] Download test: Received 1432923 bytes	99% complete	72715776 bytes/sec avg
+[2020-03-27 18:09:20.890] [info] Stage 3 completed
+[2020-03-27 18:09:20.890] [info] Download test: Received 0 bytes	100% complete	72717282 bytes/sec avg
+download: 581738
+[2020-03-27 18:09:20.891] [info] final result - serverid: 5754 ping: 11 download: 581738 upload: 42057
+[2020-03-27 18:09:20.894] [info] latency 11ms jitter 0.41ms packet loss N/A
+[2020-03-27 18:09:20.895] [info] total bytes downloaded: 1063139712
+[2020-03-27 18:09:20.897] [info] total download stage duration: 15004.051000 ms
+[2020-03-27 18:09:20.898] [info] total bytes uploaded: 77390743
+[2020-03-27 18:09:20.899] [info] total upload stage duration: 15009.595000 ms
+[2020-03-27 18:09:21.073] [info] HTTP request (effective url: http://www.speedtest.net/api/embed/api.php) completed with response code 200

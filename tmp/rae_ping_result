@@ -1,0 +1,9 @@
+PING www.netgear.com (13.35.126.60): 56 data bytes
+64 bytes from 13.35.126.60: seq=0 ttl=244 time=11.984 ms
+64 bytes from 13.35.126.60: seq=1 ttl=244 time=11.605 ms
+64 bytes from 13.35.126.60: seq=2 ttl=244 time=11.335 ms
+64 bytes from 13.35.126.60: seq=3 ttl=244 time=12.416 ms
+
+--- www.netgear.com ping statistics ---
+4 packets transmitted, 4 packets received, 0% packet loss
+round-trip min/avg/max = 11.335/11.835/12.416 ms

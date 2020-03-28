@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [ -x ./bin/bd ]; then
+    ./bin/bd stop
+
+    cp -a ./etc/storage.data ./var/tmp/storage.data.backup 2> /dev/null
+    ret=$?
+
+    if [ $ret -ne 0 ]; then
+        ./bin/bd start
+        exit $ret
+    fi
+fi
+

@@ -1,0 +1,10 @@
+/usr/lib/libpsService.so
+/usr/lib/libmcfwdtblwlan2g.so
+/usr/lib/libmcfwdtbleswitch.so
+/usr/lib/libpluginManager.so
+/usr/sbin/hyd
+/usr/sbin/hyt
+/etc/config/hyd
+/usr/lib/libmcfwdtblwlan5g.so
+/etc/init.d/hyd
+/etc/hotplug.d/net/30-hyd

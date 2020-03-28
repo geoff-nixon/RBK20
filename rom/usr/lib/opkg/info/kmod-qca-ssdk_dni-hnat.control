@@ -1,0 +1,9 @@
+Package: kmod-qca-ssdk_dni-hnat
+Version: 3.14.77-1
+Depends: kernel (=3.14.77-1-f42378b3f0fe1f8d209ccc333cd46d53), kmod-ipt-extra, kmod-ipt-filter, kmod-ipv6, kmod-qca-rfs_dni, kmod-ppp
+Provides: qca-ssdk_dni
+Source: package/qca/qca-ssdk_dni
+Section: kernel
+Architecture: ipq806x
+Installed-Size: 363413
+Description:  Kernel driver for QCA SSDK (hnat)

@@ -1,0 +1,57 @@
+#!/bin/sh
+
+DIR="/opt/bitdefender"
+BIN_DIR="$DIR/bin"
+LIB_DIR="$DIR/lib"
+ETC_DIR="$DIR/etc"
+VAR_DIR="$DIR/var"
+SCRIPTS_DIR="$DIR/share/scripts"
+
+export PATH="$BIN_DIR:$PATH"
+
+SERVICES="bdcrashd bdsetter bdexchanged bdcloudd bdboxsettings bddevicediscovery bdbrokerd bdvad bdgusterupdd bdgusterd bdheartbeatd"
+
+reverse() {
+    local r=
+    local f
+    for f in $@; do
+        r="$f $r"
+    done
+    echo "$r"
+}
+
+run() {
+    LD_LIBRARY_PATH="$LIB_DIR:$LD_LIBRARY_PATH" $@
+}
+
+start_services() {
+    sh $SCRIPTS_DIR/bd_init_fw.sh start
+
+    for svc in $SERVICES; do
+        $ETC_DIR/init.d/bbox-${svc} start
+    done
+}
+
+stop_services() {
+    sh $SCRIPTS_DIR/bd_init_fw.sh stop
+
+    for svc in $(reverse $SERVICES); do
+        $ETC_DIR/init.d/bbox-${svc} stop
+    done
+}
+
+case "$1" in
+    start)
+        start_services
+    ;;
+    stop)
+        stop_services
+    ;;
+    *)
+        echo "Usage: $0 <start|stop>"
+        exit 1
+    ;;
+esac
+
+exit 0
+

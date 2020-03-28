@@ -1,0 +1,8 @@
+Package: net-scan-ext
+Version: 1
+Depends: libc, datalib
+Source: package/dni/net-scan-ext
+Section: utils
+Architecture: ipq806x
+Installed-Size: 12711
+Description:  Scanning the attached devices according to NETGEAR's spec.

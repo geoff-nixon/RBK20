@@ -1,0 +1,13 @@
+#Accept Rules Begin:
+ACCEPT		net	  fw		udp	520,5050
+ACCEPT		fw	  net		udp	520,5050,53,123,6060,67,68
+ACCEPT		fw	  net		tcp	119,25,80,2345,3495,7070,20,21,5050,6060
+ACCEPT         net       fw            udp     161,162
+#Drop Rules Begin:
+DROP		net	  fw		tcp	7,19,135
+DROP		net	  loc		tcp	135
+DROP		net	  fw		udp	7,9,19,137,138,139,445
+DROP		net	  loc		udp	137,138,139,445
+DROP           loc       fw            udp     161,162
+#Remote Management Rules Begin:
+REDIRECT	net 	443	tcp	8443

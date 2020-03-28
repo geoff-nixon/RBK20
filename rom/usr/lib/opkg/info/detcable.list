@@ -1,0 +1,4 @@
+/etc/init.d/detcable
+/usr/sbin/port_detect.sh
+/usr/bin/detcable
+/usr/bin/flushRoute

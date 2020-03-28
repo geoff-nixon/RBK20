@@ -1,0 +1,8 @@
+Package: soapclient
+Version: 1.0.0-1
+Depends: libc, datalib
+Source: package/dni/soapclient
+Section: net
+Architecture: ipq806x
+Installed-Size: 81120
+Description:  soapclient

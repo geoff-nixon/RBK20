@@ -1,0 +1,9 @@
+[2020-03-27 15:52:01]:DEBUG:TimeStamp : 1585349521
+[2020-03-27 15:52:01]:DEBUG:JSON CMD is {"token":"b6e574ff0a68eca78885841c888c804fc1b4e14ad0081f662e1c6fd753b82367","ePOCHTimeStamp":"1585349521","modelNumber":"RBR20","serialNumber":"5EH68C5806F6F","regionCode":"1","reasonToCall":"3","betaAcceptance":0,"currentFWVersion":"V2.3.5.30"}
+[2020-03-27 15:52:01]:DEBUG:CheckFwURL is https://devcom.up.netgear.com/UpBackend/checkFirmware/
+[2020-03-27 15:52:01]:DEBUG:Loading fwlib on PROD
+[2020-03-27 15:52:02]:DEBUG: URL is https://devcom.up.netgear.com/UpBackend/checkFirmware/
+[2020-03-27 15:52:02]:INFO:API respbuff : {"status":1,"errorCode":null,"message":null,"url":"https://http.fw.updates1.netgear.com/rbr20/default"}
+[2020-03-27 15:52:02]:DEBUG:
+Status 1 received
+[2020-03-27 15:52:02]:DEBUG:URL revc is : https://http.fw.updates1.netgear.com/rbr20/default

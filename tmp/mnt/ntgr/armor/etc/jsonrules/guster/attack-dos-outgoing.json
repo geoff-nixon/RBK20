@@ -1,0 +1,100 @@
+{
+    "name": "attack-dos-outgoing",
+    "match_rules": [
+        {
+            "key": "type",
+            "val": "attack"
+        },
+        {
+            "key": "name",
+            "val": "Dos.*"
+        },
+        {
+            "key": "extra.src_netif",
+            "val": "lan()"
+        }
+    ],
+    "output": {
+        "data": {
+            "object_type": "behaviour",
+            "object": {
+                "ip": null,
+                "src_mac": null,
+                "src_ip": null,
+                "dst_mac": null,
+                "dst_ip": null,
+                "detection": null,
+                "lan_initiated": true
+            },
+            "threat_type": "attack",
+            "threat_subtype": "dos",
+            "threat": null,
+            "blocked": 1
+        },
+        "metadata": {
+            "target_mac": null,
+            "target_ip": null,
+            "device_id": null,
+            "service": "connect/seccenter",
+            "method": "report_malware",
+            "data_name": "threats",
+            "app_id": null			
+        }
+    },
+    "action_rules": [
+        {
+            "key": "data.object.dst_ip",
+            "val": "$extra.dst_ip",
+            "mandatory": false
+        },
+        {
+            "key": "data.object.src_mac",
+            "val": "$extra.src_mac",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.src_ip",
+            "val": "$extra.src_ip",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.dst_mac",
+            "val": "$extra.dst_mac",
+            "mandatory": false
+        },
+        {
+            "key": "data.object.detection",
+            "val": "concatenate()",
+            "params": ["$type", ".", "$name"],
+            "mandatory": true
+        },
+        {
+            "key": "data.threat",
+            "val": "$name",
+            "mandatory": true
+        },
+        {
+            "key": "metadata.target_mac",
+            "val": "$extra.src_mac",
+            "mandatory": true
+        },
+        {
+            "key": "metadata.target_ip",
+            "val": "$extra.src_ip",
+            "mandatory": true
+        },
+        {
+            "key": "metadata.device_id",
+            "val": "device_id()",
+            "params": ["$extra.src_mac"],
+            "mandatory": true
+        },
+        {
+            "key": "metadata.app_id",
+            "val": "app_id()",
+            "params": [],
+            "mandatory": true
+        }
+    ]
+}
+

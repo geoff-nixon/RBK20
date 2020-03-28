@@ -1,0 +1,2 @@
+/etc/modules.d/30-qca-ssdk_dni-hnat
+/lib/modules/3.14.77/qca-ssdk.ko

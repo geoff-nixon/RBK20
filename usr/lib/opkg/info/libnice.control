@@ -1,0 +1,9 @@
+Package: libnice
+Version: 0.1.10
+Depends: libc, glib2, librt
+Source: package/dni/arlo/libnice
+License: LGPLv2.1 & MPLv1.1
+Section: utils
+Architecture: ipq806x
+Installed-Size: 724267
+Description:  Libnice is an implementation of the IETF's Interactive Connectivity Establishment (ICE) standard (RFC 5245).

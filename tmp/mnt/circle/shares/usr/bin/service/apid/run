@@ -1,0 +1,7 @@
+#!/bin/sh
+CIRCLE_ROOT=`cat /tmp/CIRCLE_ROOT`
+if [ -s $CIRCLE_ROOT/apid.pem ]; then
+	exec $CIRCLE_ROOT/apid -p 4444 -u root -E $CIRCLE_ROOT/apid.pem  -D
+else
+	exec $CIRCLE_ROOT/apid -p 4444 -u root -E $CIRCLE_ROOT/mini_httpd.pem  -D
+fi

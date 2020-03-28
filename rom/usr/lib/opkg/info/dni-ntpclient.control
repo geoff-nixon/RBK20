@@ -1,0 +1,8 @@
+Package: dni-ntpclient
+Version: 4
+Depends: libc, datalib, librt
+Source: package/dni/dni-ntpclient
+Section: utils
+Architecture: ipq806x
+Installed-Size: 11184
+Description:  The CGI interface

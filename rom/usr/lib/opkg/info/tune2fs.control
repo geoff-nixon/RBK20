@@ -1,0 +1,8 @@
+Package: tune2fs
+Version: 1.42.12-1
+Depends: libc, e2fsprogs
+Source: package/utils/e2fsprogs
+Section: utils
+Architecture: ipq806x
+Installed-Size: 38408
+Description:  Ext2 Filesystem tune utility

@@ -1,0 +1,8 @@
+Package: trafficmeter
+Version: 1
+Depends: libc, datalib
+Source: package/dni/trafficmeter
+Section: utils
+Architecture: ipq806x
+Installed-Size: 18230
+Description:  Update utility for trx firmware images

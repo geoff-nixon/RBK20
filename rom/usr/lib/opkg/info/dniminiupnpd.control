@@ -1,0 +1,8 @@
+Package: dniminiupnpd
+Version: 20070127-3
+Depends: libc, datalib
+Source: package/dni/dniminiupnpd
+Section: net
+Architecture: ipq806x
+Installed-Size: 28890
+Description:  Miniupnpd Daemon

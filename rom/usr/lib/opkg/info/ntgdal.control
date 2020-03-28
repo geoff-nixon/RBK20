@@ -1,0 +1,8 @@
+Package: ntgdal
+Version: 1
+Depends: libc, libsbdaemon, hiredis, bluetopia, datalib
+Source: package/dni/ntgdal
+Section: utils
+Architecture: ipq806x
+Installed-Size: 10382
+Description:  ntgdal lib and utils for bluetooth.

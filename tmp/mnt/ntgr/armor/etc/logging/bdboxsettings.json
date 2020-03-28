@@ -1,0 +1,171 @@
+{
+    "action": "update",
+    "channels": {
+        "default": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY"
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY"
+            }
+        ],
+        "libdevice-ignore": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libdhcp-conflict": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "dhcp-discovery": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "dummy": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libguster-settings": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libip-alloc": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libparental": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libport-fwd": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libremote-access": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libtraffic-block": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libtraffic-stats": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libupdate": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ],
+        "libupnp-enable": [
+            {
+                "level": "error",
+                "file": "var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            },
+            {
+                "level": "debug",
+                "file": "/tmp/bdlogs/$INSTALL_PATH/var/log/$IDENTITY.$CHANNEL_NAME",
+                "num": 1
+            }
+        ]
+    }
+}

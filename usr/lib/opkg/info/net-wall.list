@@ -1,0 +1,4 @@
+/etc/l7_patten.dat
+/usr/sbin/net-wall
+/etc/scripts/firewall/orange_isp_iptv_firewall.rule
+/etc/scripts/firewall.sh

@@ -1,0 +1,2 @@
+59 04 * * * /TM/QoSControl auto_update
+59 01 * * * /usr/share/armor/bdupd_start_schedule.sh

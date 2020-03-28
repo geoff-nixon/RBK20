@@ -1,0 +1,13 @@
+/etc/router_analytics/rootCA.crt
+/etc/rc.d/S99zzaws
+/sbin/ping-gateway
+/etc/router_analytics/beta/certificate.pem.crt
+/etc/router_analytics/beta/rootCA.crt
+/etc/init.d/aws
+/usr/sbin/get_wireddevice_linkspeed.sh
+/sbin/collect_log.sh
+/etc/router_analytics/debug/rootCA.crt
+/etc/router_analytics/debug/certificate.pem.crt
+/usr/sbin/ra_daemon_monitor.sh
+/etc/router_analytics/certificate.pem.crt
+/usr/sbin/ra_check

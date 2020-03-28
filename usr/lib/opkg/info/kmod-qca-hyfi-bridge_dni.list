@@ -1,0 +1,3 @@
+/etc/modules.d/40-qca-hyfi-bridge_dni
+/etc/init.d/hyfi-bridging
+/lib/modules/3.14.77/hyfi-bridging.ko

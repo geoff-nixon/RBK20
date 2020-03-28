@@ -1,0 +1,8 @@
+Package: dnippp-mod-pppoe
+Version: 2.4.7-8
+Depends: libc, dnippp, kmod-pppoe
+Source: package/dni/dnippp
+Section: net
+Architecture: ipq806x
+Installed-Size: 11318
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.

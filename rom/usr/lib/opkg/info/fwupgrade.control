@@ -1,0 +1,8 @@
+Package: fwupgrade
+Version: 1.0.0-1
+Depends: libc, libpthread, librt, libcrypto, libcurl, libssl, libstdc, libz, libstdc, libstdcpp
+Source: package/dni/arlo/fwupgrade
+Section: fwupgrade
+Architecture: ipq806x
+Installed-Size: 23732
+Description:  Netgear camera upgrade

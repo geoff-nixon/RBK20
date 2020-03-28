@@ -1,0 +1,127 @@
+{
+    "name": "urlstatus",
+    "match_rules": [
+        {
+            "key": "type",
+            "val": "urlstatus"
+        }
+    ],
+    "output": {
+        "data": {
+            "object_type": "url",
+            "object": {
+                "clean_url": "",
+                "blocked_url": null,
+                "domain": null,
+                "user_agent": "",
+                "src_mac": null,
+                "src_ip": null,
+                "src_port": null,
+                "dst_mac": "",
+                "dst_ip": null,
+                "dst_port": null,
+                "detection": "urlstatus.*",
+                "lan_initiated": true
+            },
+            "threat_type": null,
+            "threat": "",
+            "blocked": null
+        },
+        "metadata": {
+            "target_mac": null,
+            "target_ip": null,
+            "device_id": null,
+            "service": "connect/seccenter",
+            "method": "report_malware",
+            "data_name": "threats",
+            "app_id": null
+        }
+    },
+    "action_rules": [
+        {
+            "key": "data.object.clean_url",
+            "val": "$extra.http_header_referer",
+            "mandatory": false
+        },
+        {
+            "key": "data.object.blocked_url",
+            "val": "$extra.url",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.domain",
+            "val": "$extra.http_host",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.user_agent",
+            "val": "$extra.user_agent",
+            "mandatory": false
+        },
+        {
+            "key": "data.object.src_mac",
+            "val": "$extra.src_mac",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.src_ip",
+            "val": "$extra.src_ip",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.src_port",
+            "val": "$extra.src_port",
+            "mandatory": false
+        },
+        {
+            "key": "data.object.dst_mac",
+            "val": "$extra.dst_mac",
+            "mandatory": false
+        },
+        {
+            "key": "data.object.dst_ip",
+            "val": "$extra.dst_ip",
+            "mandatory": true
+        },
+        {
+            "key": "data.object.dst_port",
+            "val": "$extra.dst_port",
+            "mandatory": false
+        },
+        {
+            "key": "data.threat_type",
+            "val": "first_known_status_message()",
+            "params": ["$extra.status_message", ["malware", "phishing", "fraud", "untrusted", "spam", ["spam-img", "spam"]]],
+            "mandatory": true
+        },
+        {
+            "key": "data.blocked",
+            "val": "was_blocked()",
+            "params": ["$was_blocked"],
+            "mandatory": true
+        },
+        {
+            "key": "metadata.device_id",
+            "val": "device_id()",
+            "params": ["$extra.src_mac"],
+            "mandatory": true
+        },
+        {
+            "key": "metadata.target_mac",
+            "val": "$extra.src_mac",
+            "mandatory": true
+        },
+        {
+            "key": "metadata.target_ip",
+            "val": "$extra.src_ip",
+            "mandatory": true
+        },
+        {
+            "key": "metadata.app_id",
+            "val": "app_id()",
+            "params": [],
+            "mandatory": true
+        }
+    ]
+}
+

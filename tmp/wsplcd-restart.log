@@ -1,0 +1,247 @@
+
+
+[wsplcd restart 1 times]
+=====  Thu Mar 12 05:52:45 UTC 2020
+ath02     IEEE 802.11b  ESSID:"NETGEAR-Guest"  
+          Mode:Master  Frequency:2.447 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:25 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath12     IEEE 802.11ac  ESSID:"NETGEAR-Guest"  
+          Mode:Master  Frequency:5.785 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:27 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath0      IEEE 802.11ng  ESSID:"xfinishittywifi"  
+          Mode:Master  Frequency:2.447 GHz  Access Point: 2E:80:88:D7:95:DF   
+          Bit Rate:192 Mb/s   Tx-Power:25 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:8A7C-746D-1CCB-6BA0-2C43-F945-65D9-ECA7 [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:26  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath1      IEEE 802.11ac  ESSID:"xfinishittywifi"  
+          Mode:Master  Frequency:5.785 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:27 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:6352-29E2-C751-41DC-F6CF-C36F-0A12-08DD [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:15  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath2      IEEE 802.11ac  ESSID:"xfinishittywifi"  
+          Mode:Master  Frequency:5.24 GHz  Access Point: 28:80:88:D7:95:E2   
+          Bit Rate:866.7 Mb/s   Tx-Power:23 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:C87E-F82F-5DF7-6517-2144-BD37-1431-16AD [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:2  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath01     IEEE 802.11ng  ESSID:"NETGEAR_ORBI_hidden90"  
+          Mode:Master  Frequency:2.447 GHz  Access Point: 32:80:88:D7:95:DF   
+          Bit Rate:192 Mb/s   Tx-Power:25 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:EE25-CAAF-8B27-6F62-F68E-3B4F-5053-FB1D [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:34  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath11     IEEE 802.11ac  ESSID:"NETGEAR_ORBI_hidden90"  
+          Mode:Master  Frequency:5.785 GHz  Access Point: 2E:80:88:D7:95:E1   
+          Bit Rate:866.7 Mb/s   Tx-Power:27 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:2611-0469-A3D5-79A2-77B3-F898-5627-2753 [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:42  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath21     IEEE 802.11ac  ESSID:"NETGEAR-Guest"  
+          Mode:Master  Frequency:5.24 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:23 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+[wsplcd restart 1 times]
+=====  Fri Mar 27 17:59:40 UTC 2020
+ath02     IEEE 802.11b  ESSID:"NETGEAR-Guest"  
+          Mode:Master  Frequency:2.447 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:25 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath12     IEEE 802.11ac  ESSID:"NETGEAR-Guest"  
+          Mode:Master  Frequency:5.785 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:27 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath0      IEEE 802.11ng  ESSID:"xfinishittywifi"  
+          Mode:Master  Frequency:2.447 GHz  Access Point: 2E:80:88:D7:95:DF   
+          Bit Rate:192 Mb/s   Tx-Power:25 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:7E2D-59AD-081F-C8A9-E04F-40BD-B3E6-0C07 [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:26  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath1      IEEE 802.11ac  ESSID:"xfinishittywifi"  
+          Mode:Master  Frequency:5.785 GHz  Access Point: 28:80:88:D7:95:E1   
+          Bit Rate:866.7 Mb/s   Tx-Power:27 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:25D4-3AB7-4C9E-6092-336B-9555-D308-2C1A [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:35  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath2      IEEE 802.11ac  ESSID:"xfinishittywifi"  
+          Mode:Master  Frequency:5.24 GHz  Access Point: 28:80:88:D7:95:E2   
+          Bit Rate:866.7 Mb/s   Tx-Power:23 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:F99A-27F2-AF5B-D711-736C-F7F2-27B7-A37C [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:15  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath01     IEEE 802.11ng  ESSID:"NETGEAR_ORBI_hidden90"  
+          Mode:Master  Frequency:2.447 GHz  Access Point: 32:80:88:D7:95:DF   
+          Bit Rate:192 Mb/s   Tx-Power:25 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:B401-979D-3DB2-7AC9-46E5-161E-A744-84E7 [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:28  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath11     IEEE 802.11ac  ESSID:"NETGEAR_ORBI_hidden90"  
+          Mode:Master  Frequency:5.785 GHz  Access Point: 2E:80:88:D7:95:E1   
+          Bit Rate:866.7 Mb/s   Tx-Power:27 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:6545-2343-93E3-4CAC-CAAA-D111-B345-95C0 [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:38  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath21     IEEE 802.11ac  ESSID:"NETGEAR-Guest"  
+          Mode:Master  Frequency:5.24 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:23 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+[wsplcd restart 1 times]
+=====  Fri Mar 27 22:39:45 UTC 2020
+ath02     IEEE 802.11b  ESSID:"NETGEAR-Guest"  
+          Mode:Master  Frequency:2.447 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:25 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath12     IEEE 802.11ac  ESSID:"NETGEAR-Guest"  
+          Mode:Master  Frequency:5.785 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:27 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath0      IEEE 802.11ng  ESSID:"xfinishittywifi"  
+          Mode:Master  Frequency:2.447 GHz  Access Point: 2E:80:88:D7:95:DF   
+          Bit Rate:192 Mb/s   Tx-Power:25 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:092C-1560-728A-1B0D-6919-2C49-3999-9A9A [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:6  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath1      IEEE 802.11ac  ESSID:"xfinishittywifi"  
+          Mode:Master  Frequency:5.785 GHz  Access Point: 28:80:88:D7:95:E1   
+          Bit Rate:866.7 Mb/s   Tx-Power:27 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:BDD7-5E3D-8B79-6435-5BCE-AFBF-7B37-D34C [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:17  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath2      IEEE 802.11ac  ESSID:"xfinishittywifi"  
+          Mode:Master  Frequency:5.24 GHz  Access Point: 28:80:88:D7:95:E2   
+          Bit Rate:866.7 Mb/s   Tx-Power:23 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:A350-758B-5F50-EC6D-1FF3-6B9E-488C-CF4B [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:4  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath01     IEEE 802.11ng  ESSID:"NETGEAR_ORBI_hidden90"  
+          Mode:Master  Frequency:2.447 GHz  Access Point: 32:80:88:D7:95:DF   
+          Bit Rate:192 Mb/s   Tx-Power:25 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:FF09-2A18-4AD1-D7A9-9506-BCDD-3933-4B52 [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:12  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath11     IEEE 802.11ac  ESSID:"NETGEAR_ORBI_hidden90"  
+          Mode:Master  Frequency:5.785 GHz  Access Point: 2E:80:88:D7:95:E1   
+          Bit Rate:866.7 Mb/s   Tx-Power:27 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:EFE4-F6B1-1E2F-2A4D-8FB5-A956-AAEF-AC14 [2]   Security mode:restricted
+          Power Management:off
+          Link Quality=94/94  Signal level=-97 dBm  Noise level=-95 dBm
+          Rx invalid nwid:27  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+ath21     IEEE 802.11ac  ESSID:"NETGEAR-Guest"  
+          Mode:Master  Frequency:5.24 GHz  Access Point: Not-Associated   
+          Bit Rate:0 kb/s   Tx-Power:23 dBm   
+          RTS thr:off   Fragment thr:off
+          Encryption key:off
+          Power Management:off
+          Link Quality=0/94  Signal level=-95 dBm  Noise level=-95 dBm
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0

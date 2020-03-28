@@ -1,0 +1,9 @@
+Package: libieee1905_dni
+Version: 3.0.1500.042-1
+Depends: libc, libhyficommon_dni
+Source: package/qca/ieee1905_security/libieee1905_dni
+Section: QCA
+Maintainer: Qualcomm Atheros, Inc.
+Architecture: ipq806x
+Installed-Size: 6548
+Description:  This Package contains the IEEE1905.1 library

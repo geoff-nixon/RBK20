@@ -1,0 +1,7 @@
+/sbin/disable_dhcp
+/sbin/led-extender
+/usr/sbin/kick_backhaul
+/sbin/led-extender-5G
+/sbin/scan_result_process
+/usr/sbin/bring_fronthaul_down
+/usr/sbin/get_satellite_hop_number.sh

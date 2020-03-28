@@ -1,0 +1,8 @@
+Package: auto-detection-tz
+Version: 1.0-1.0
+Depends: libc, datalib
+Source: package/dni/auto-detection-tz
+Section: utils
+Architecture: ipq806x
+Installed-Size: 5102
+Description:  Auto Detection TimeZone
